@@ -29005,7 +29005,9 @@ countries = {
 	}
 
 	ANU = {
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			fukushima kamiiso kameda hiyama_hokkaido kayabe nishi
 			yamakoshi futoro setana shimamaki suttsu isoya iwanai furubira yoichi
 			abuta shiraoi chitose yuufutsu
@@ -29643,7 +29645,6 @@ countries = {
 			bafan
 			qingjiang_liping taigong
 			ganzhou hongshui sanjiaocheng shandan yongchang_ganzhou
-			anding_suzhou dangcheng kuyu_shazhou guazhou jinta shazhou suzhou_gansu chijin yangguan
 			anyuan datong_xining gulang gushan jinchang xiliang haomen nianbo xining baiting zhuanglang zhenfan
 			baoji fengxiang fufeng linyou longzhou_fengxiang meixian qianyang qishan longan
 			chengzhou dingxi fuqiang longxi_gongchang xihe_huizhou huizhou_gongchang huizhou jiezhou liangdang ningyuan_gongchang baimaguan tongwei qinan chengji sancha qingshui zhangxian
@@ -34853,7 +34854,7 @@ countries = {
 		country_rank = rank_county
 	}
 
-	TRN = {	#Turn
+	TPN = {	#Turn
 		own_control_core = {
 			frutigen
 		}
@@ -47693,17 +47694,6 @@ countries = {
 	CHG = { #Chagatai
 		type = army
 		own_control_core = {
-			akto kizilsu
-			kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
-			khotan karakax keriya lop qira
-			yarkand guma kargilik poskam
-			karasahr bosten
-			kurla bugur kuerchu
-			charchan charklik niya qietai tatrang waxxari
-			urumqi
-			manas
-			mazar_tagh tikenliq
-			
 			fayzabad
 			jurm
 			 shiveh
@@ -47727,11 +47717,19 @@ countries = {
 			turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
 			gharm daroot_korgon karakol muksu sangvor
 			kurchum kandysu kokpekty shar zyryan
+
+			# Qocho
+			qocho turpan lukchun pichan toksun
+			beshbalik dunla guchung mori
+			dashahai 
+			kumux
+			yuanhu
+			urumqi
 		}
 
 		own_control_integrated = {
 			almaliq gulja narat nilka tokkuztara sarikol yulduz bortala jing 
-			kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik 
+			kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik manas
 			hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin 
 			ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh 
 			burqin jeminay qila_panjeh ishkashim roshtqala sarhad sar_sang zebak 
@@ -47784,6 +47782,30 @@ countries = {
 		}
 
 		capital = almaliq
+	}
+
+	YRK = { # Yarkand
+		own_control_core = {
+			akto kizilsu
+			kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
+			khotan karakax keriya lop qira
+			yarkand guma kargilik poskam
+			karasahr bosten
+			kurla bugur kuerchu
+			charchan charklik niya qietai tatrang waxxari
+			mazar_tagh tikenliq
+
+			# Mangalai
+			aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
+		}
+		starting_technology_level = 3
+		country_rank = rank_duchy
+		court_language = karluk_language
+		tolerated_cultures = {
+			khorezmian_culture
+		}
+
+		capital = yarkand
 	}
 
 	TIM = {	#The Timurid tag
@@ -48000,16 +48022,15 @@ countries = {
 	}
 
 	QCH = { #Qocho
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			qocho turpan lukchun pichan toksun
 			beshbalik dunla guchung mori
-			dashahai bailongdui miran loulan
+			dashahai 
 			kumux
 			yuanhu
-		}
-
-		our_cores_conquered_by_others = {
+			urumqi
 			nazhi hami geziyandun
+			bailongdui miran loulan
 		}
 
 		starting_technology_level = 3
@@ -48056,8 +48077,25 @@ countries = {
 		capital = liyuan
 	}
 
-	MNL = { #Mangalai
+	TUO = { # Turmot
 		own_control_core = {
+			anding_suzhou dangcheng kuyu_shazhou guazhou jinta shazhou suzhou_gansu chijin yangguan
+			bailongdui miran loulan
+		}
+		our_cores_conquered_by_others = { }
+		starting_technology_level = 3
+		include = "expl_mongols"
+		include = "asia_advanced_no_pagan_tribe"
+		government = {
+			heir_selection = tribal_oldest_male
+		}
+		country_rank = rank_county
+		court_language = mongolian_language
+		capital = yangguan
+	}
+
+	MNL = { #Mangalai
+		our_cores_conquered_by_others = {
 			aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
 		}
 
@@ -48637,7 +48675,9 @@ countries = {
 	}
 
 	DUR = { #Daur
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			boorj qorqonaq_yubur
 			bir_amur
 			tehcha
@@ -48659,7 +48699,9 @@ countries = {
 	}
 
 	EVK = { #Evenk
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			tujun urgal
 			amazar ollo urka
 			dep
@@ -48687,7 +48729,9 @@ countries = {
 	}
 
 	EVE = { #Even
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			chumikan avlayakan ayan enken ul_ya arka okam ushki tauisk aimchan
 		}
 
@@ -48702,7 +48746,9 @@ countries = {
 	}
 
 	YKG = { #(Kolyma) Ykaghir
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			magadan palatka madaun atka bakhapcha chalbukhan omchug omchak moi_urusta
 			kulu tokichan orotuk burkhaia iagodnoie neksikan kadykchan burkand_ya
 			delyankir artyk pobeda ust_nera debin myakit tala kupka orotukan
@@ -48720,7 +48766,9 @@ countries = {
 	}
 
 	KYK = { #Koryak
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			atargan yamsk brokhovo takhtoyamsk merenga omchikan buksunda kushka
 			evenksk chivitkino gizhiga paren manily kamenskoie oklan talovka
 			achaivayam apuka pakhachi khalino
@@ -48737,7 +48785,9 @@ countries = {
 	}
 
 	NAN = { #Nanai
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			achan boli nemptu
 			arkhara jiajin
 			ilan_hala
@@ -48756,7 +48806,9 @@ countries = {
 	}
 
 	NVK = { #Nivkh
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			usalgin amgun bitki bulava dzhuk nurgan nanghaer idy_sakhalin porokotan wuliehe
 		}
 
@@ -48768,7 +48820,9 @@ countries = {
 	}
 
 	ORC = { #Oroch
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			tumzhdin xungake
 			uschu
 			datta
@@ -48782,7 +48836,9 @@ countries = {
 	}
 
 	ORQ = { #Oroqen
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			humar kuanhe pangu tahe
 			menlu mergen non
 			aigun chenqing xunhe zhanhe
@@ -48797,7 +48853,9 @@ countries = {
 	}
 
 	SIB = { #Sibe
-		own_control_core = {
+		type = pop
+
+		add_pops_from_locations = {
 			bayan_ula hulun
 			gorlos
 			kailu xinkai zhengjiatun
@@ -48814,8 +48872,9 @@ countries = {
 	}
 
 	SOL = { #Solon
+		type = pop
 
-		own_control_core = {
+		add_pops_from_locations = {
 			boduna yushu
 			dalaiketun nemeri
 			hulan bayan_susu hailun hvlan ougen shangjing hulawen zhaozhou_jurchen talaha sart zhalong
@@ -48829,8 +48888,9 @@ countries = {
 	}
 
 	UDE = { #Udege
+		type = pop
 
-		own_control_core = {
+		add_pops_from_locations = {
 			alchan katen xunka
 			hulin
 			jixi mishan
@@ -48849,8 +48909,9 @@ countries = {
 	}
 
 	ULC = { #Ulch
+		type = pop
 
-		own_control_core = {
+		add_pops_from_locations = {
 			pilda
 			deren
 		}
@@ -48864,8 +48925,9 @@ countries = {
 	}
 
 	WRK = { #Warkha
+		type = pop
 
-		own_control_core = {
+		add_pops_from_locations = {
 			malong mudan_ula
 			juru_hoton mulun
 			hailang ningguta dongning kaiyuan_warka yongmingcheng huncun tulazi

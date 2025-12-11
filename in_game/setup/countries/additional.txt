@@ -36,7 +36,7 @@ HMI = { # Kara Del
 	color = rgb { 118  193  177 }
 
 	culture_definition = mongolian_culture
-	religion_definition = tibetan_buddhism
+	religion_definition = mahayana
 
 	description_category = military
 }
@@ -48,6 +48,25 @@ SRY = { # Sarig Yogir
 	religion_definition = mahayana
 
 	description_category = military
+}
+
+TUO = { # Turmot
+	color = rgb { 153 204 255 }
+
+	culture_definition = mongolian_culture
+	religion_definition = tengri
+
+	description_category = military
+}
+
+YRK = { # Yarkand
+	color = rgb { 255 245 220 }
+
+	culture_definition = uyghur_culture
+	religion_definition = sunni
+
+	description_category = military
+
 }
 
 # DRB = { # Dörbet

@@ -520,6 +520,7 @@ diplomacy_manager = {
 
     #-------------East Asia------------
     dependency = { first = OIR second = YUA subject_type = vassal }
+    dependency = { first = CHG second = YRK subject_type = vassal }
 
     #-------------China------------
     dependency = { first = MNG second = MMA subject_type = vassal }
@@ -542,6 +543,7 @@ diplomacy_manager = {
     dependency = { first = MNG second = KHA subject_type = tributary }
     dependency = { first = MNG second = HMI subject_type = tributary }
     dependency = { first = MNG second = SRY subject_type = tributary }
+    dependency = { first = MNG second = TUO subject_type = tributary }
     dependency = { first = MNG second = SNP subject_type = vassal }
     dependency = { first = MNG second = MNZ subject_type = vassal }
     dependency = { first = MNG second = TAZ subject_type = vassal }
