@@ -23933,7 +23933,8 @@ countries = {
 			ruler = jap_kou_no_moronao
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 
 		variables = {
@@ -23970,7 +23971,8 @@ countries = {
 			ruler = jap_hosokawa_kazuuji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 
 		variables = {
@@ -24002,7 +24004,8 @@ countries = {
 			ruler = jap_akamatsu_norimura
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24035,7 +24038,8 @@ countries = {
 			ruler = jap_nitsuki_yoriaki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24066,7 +24070,8 @@ countries = {
 			ruler = jap_kitabatake_chikafusa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24099,7 +24104,8 @@ countries = {
 			ruler = jap_chuujou_kagenaga
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24129,7 +24135,8 @@ countries = {
 			ruler = jap_imagawa_norikuni
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24158,7 +24165,8 @@ countries = {
 			ruler = jap_ishidou_yoshifusa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24192,7 +24200,8 @@ countries = {
 			ruler = jap_takeda_nobutake
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24266,7 +24275,8 @@ countries = {
 			ruler = jap_chiba_sadatane
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24301,7 +24311,8 @@ countries = {
 			ruler = jap_satake_sadayoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24333,7 +24344,8 @@ countries = {
 			ruler = jap_kyougoku_douyo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24364,7 +24376,8 @@ countries = {
 			ruler = jap_toki_yorisada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24398,7 +24411,8 @@ countries = {
 			ruler = jap_ogasawara_sadamune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24429,7 +24443,8 @@ countries = {
 			ruler = jap_uesugi_noriaki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24468,7 +24483,8 @@ countries = {
 			heir = jap_oyama_tomosato
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24505,7 +24521,8 @@ countries = {
 			ruler = jap_togashi_takaie
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24535,7 +24552,8 @@ countries = {
 			ruler = jap_yoshimi_yoritaka
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24567,7 +24585,8 @@ countries = {
 			ruler = jap_momonoi_tadatsune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24596,7 +24615,8 @@ countries = {
 			ruler = jap_kira_sadayoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24630,7 +24650,8 @@ countries = {
 			ruler = jap_yamana_masauji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24660,7 +24681,8 @@ countries = {
 			ruler = jap_enya_takasada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24690,7 +24712,8 @@ countries = {
 			ruler = jap_ueno_yorikane
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24722,7 +24745,8 @@ countries = {
 			ruler = jap_matsuda_moritomo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24752,7 +24776,8 @@ countries = {
 			ruler = jap_minami_munetsugu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24799,7 +24824,8 @@ countries = {
 			ruler = jap_asayama_kagetsura
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24830,7 +24856,8 @@ countries = {
 			ruler = jap_washizu_nagahiro
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24871,7 +24898,8 @@ countries = {
 			ruler = jap_kotou_takezane
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24902,7 +24930,8 @@ countries = {
 			ruler = jap_hatakeyama_takakuni
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24936,7 +24965,8 @@ countries = {
 			ruler = jap_kawano_michimori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -24969,7 +24999,8 @@ countries = {
 			ruler = jap_shouni_yorihisa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25003,7 +25034,8 @@ countries = {
 			ruler = jap_kii_fuyutsuna
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25037,7 +25069,8 @@ countries = {
 			ruler = jap_ootomo_ujiyasu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25069,7 +25102,8 @@ countries = {
 			ruler = jap_shimazu_sadahisa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25153,7 +25187,8 @@ countries = {
 			ruler = jap_kudou_sadayuki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25183,7 +25218,8 @@ countries = {
 
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25213,7 +25249,8 @@ countries = {
 			heir = jap_mogami_kaneyori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25244,7 +25281,8 @@ countries = {
 			ruler = jap_kasai_munekiyo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25277,7 +25315,8 @@ countries = {
 			ruler = jap_souma_chikatane
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25310,7 +25349,8 @@ countries = {
 			ruler = jap_date_yukitomo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25348,7 +25388,8 @@ countries = {
 			heir = jap_ashina_naomori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25385,7 +25426,8 @@ countries = {
 			heir = jap_yuuki_naotomo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25415,7 +25457,8 @@ countries = {
 			ruler = jap_ooida_tsunetaka
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25447,7 +25490,8 @@ countries = {
 			ruler = jap_oguni_masamitsu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25487,7 +25531,8 @@ countries = {
 			ruler = jap_utsunomiya_kintsuna
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25526,7 +25571,8 @@ countries = {
 			ruler = jap_ii_yukinao
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25564,7 +25610,8 @@ countries = {
 			ruler = jap_anenokouji_takamoto
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25593,7 +25640,8 @@ countries = {
 			ruler = jap_kusunoki_masatsura
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25622,7 +25670,8 @@ countries = {
 			ruler = jap_isshiki_noriuji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25652,7 +25701,8 @@ countries = {
 			ruler = jap_nawa_yoshitaka
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25687,7 +25737,8 @@ countries = {
 			ruler = jap_masuda_kanemi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25722,7 +25773,8 @@ countries = {
 			ruler = jap_oouchi_hiroyuki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25755,7 +25807,8 @@ countries = {
 			ruler = jap_tokuno_tadamasa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25785,7 +25838,8 @@ countries = {
 			ruler = jap_doi_michiyo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25818,7 +25872,8 @@ countries = {
 			ruler = jap_kutsuna_shigeyoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25852,7 +25907,8 @@ countries = {
 			ruler = jap_shijou_takamune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25886,7 +25942,8 @@ countries = {
 			ruler = jap_yamashiro_hiroshi_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25926,7 +25983,8 @@ countries = {
 			ruler = jap_kikuchi_takeshige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25961,7 +26019,8 @@ countries = {
 			ruler = jap_aso_koretoki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -25993,7 +26052,8 @@ countries = {
 			ruler = jap_sagara_yorihiro_later
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26023,7 +26083,8 @@ countries = {
 			ruler = jap_ijuuin_hisachika
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26058,7 +26119,8 @@ countries = {
 			ruler = jap_kimotsuki_kaneshige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26089,7 +26151,8 @@ countries = {
 			ruler = jap_sou_morikuni
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26121,7 +26184,8 @@ countries = {
 			ruler = jap_nagai_takafuyu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26154,7 +26218,8 @@ countries = {
 			ruler = jap_hei_chikamitsu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26188,7 +26253,8 @@ countries = {
 			ruler = jap_asonuma_tomotsuna_ii
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26256,7 +26322,8 @@ countries = {
 			ruler = jap_waga_nagayoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26288,7 +26355,8 @@ countries = {
 			ruler = jap_hienuki_ieshige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26320,7 +26388,8 @@ countries = {
 			ruler = jap_sagae_motomasa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26352,7 +26421,8 @@ countries = {
 			ruler = jap_daihouji_nagamori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26383,7 +26453,8 @@ countries = {
 			ruler = jap_naganuma_munehide
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26427,7 +26498,8 @@ countries = {
 			ruler = jap_nikaidou_yukitomo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26456,7 +26528,8 @@ countries = {
 			ruler = jap_tamura_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26487,7 +26560,8 @@ countries = {
 			ruler = jap_inawashiro_muneyasu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26528,7 +26602,8 @@ countries = {
 			ruler = jap_ishikawa_sadamitsu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26567,7 +26642,8 @@ countries = {
 			ruler = jap_miura_takatsugu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26601,7 +26677,8 @@ countries = {
 			heir = jap_suwa_yoritsugu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26631,7 +26708,8 @@ countries = {
 			ruler = jap_rokkaku_tokinobu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26660,7 +26738,8 @@ countries = {
 			ruler = jap_miya_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26694,7 +26773,8 @@ countries = {
 			ruler = jap_kikkawa_tsunemori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26775,7 +26855,8 @@ countries = {
 			ruler = jap_munakata_ujitoshi_younger
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26803,7 +26884,8 @@ countries = {
 			ruler = jap_asakura_hirokage
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26841,7 +26923,8 @@ countries = {
 			ruler = jap_chousokabe_nobuyoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26871,7 +26954,8 @@ countries = {
 			ruler = jap_ise_sadatsugu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26911,7 +26995,8 @@ countries = {
 			ruler = jap_ikeda_norimasa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26942,7 +27027,8 @@ countries = {
 			ruler = jap_itou_sukemune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -26976,7 +27062,8 @@ countries = {
 			heir = jap_mori_motoharu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27007,7 +27094,8 @@ countries = {
 			ruler = jap_oda_yukihiro
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27074,7 +27162,8 @@ countries = {
 			ruler = jap_isa_tokikata
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27109,7 +27198,8 @@ countries = {
 			ruler = jap_daijou_takamoto
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27137,7 +27227,8 @@ countries = {
 			ruler = jap_kawanobe_sukeshige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27171,7 +27262,8 @@ countries = {
 			ruler = jap_hatta_haruhisa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27209,7 +27301,8 @@ countries = {
 			ruler = jap_mashiko_sadamasa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27239,7 +27332,8 @@ countries = {
 			ruler = jap_takou_tomotsune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27275,7 +27369,8 @@ countries = {
 			ruler = jap_nasu_sukefuji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27309,7 +27404,8 @@ countries = {
 			ruler = jap_oogo_mitsuyuki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27344,7 +27440,8 @@ countries = {
 			ruler = jap_nitta_yoshisada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27372,7 +27469,8 @@ countries = {
 			ruler = jap_yamaguchi_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27407,7 +27505,8 @@ countries = {
 			ruler = jap_toshima_tomoyasu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27442,7 +27541,8 @@ countries = {
 			ruler = jap_honma_yasunori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27478,7 +27578,8 @@ countries = {
 			ruler = jap_unnou_yoriyuki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27512,7 +27613,8 @@ countries = {
 			ruler = jap_kousaka_shinkaku
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27543,7 +27645,8 @@ countries = {
 			ruler = jap_tooyama_tomokado
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27577,7 +27680,8 @@ countries = {
 			ruler = jap_tou_ujimura
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27606,7 +27710,8 @@ countries = {
 			ruler = jap_ema_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27635,7 +27740,8 @@ countries = {
 			ruler = jap_nakajima_takaie
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27664,7 +27770,8 @@ countries = {
 			ruler = jap_ooba_ruler
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27694,7 +27801,8 @@ countries = {
 			ruler = jap_nagano_sukefusa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27724,7 +27832,8 @@ countries = {
 			ruler = jap_takashima_noritsuna
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27763,7 +27872,8 @@ countries = {
 			ruler = jap_aisu_noritoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27796,7 +27906,8 @@ countries = {
 			ruler = jap_yuasa_munefuji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27824,7 +27935,8 @@ countries = {
 			ruler = jap_yabe_tomotsuna
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27852,7 +27964,8 @@ countries = {
 			ruler = jap_ogamo_ujimoto
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27882,7 +27995,8 @@ countries = {
 			ruler = jap_suetsugu_takamune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27914,7 +28028,8 @@ countries = {
 			ruler = jap_mizawa_tametada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27947,7 +28062,8 @@ countries = {
 			ruler = jap_mitoya_sukeshige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -27975,7 +28091,8 @@ countries = {
 			ruler = jap_akana_tsunetsura
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28012,7 +28129,8 @@ countries = {
 			ruler = jap_gotou_motoaki
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28047,7 +28165,8 @@ countries = {
 			ruler = jap_shou_sukeuji
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28079,7 +28198,8 @@ countries = {
 			ruler = jap_hiraga_naomune
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28110,7 +28230,8 @@ countries = {
 			ruler = jap_kobayakawa_tomohira
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28139,7 +28260,8 @@ countries = {
 			ruler = jap_wachi_sukesane
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28176,7 +28298,8 @@ countries = {
 			ruler = jap_miyoshi_hirohide
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28205,7 +28328,8 @@ countries = {
 			ruler = jap_sue_hiromasa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28238,7 +28362,8 @@ countries = {
 			ruler = jap_migita_shigesada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28266,7 +28391,8 @@ countries = {
 			ruler = jap_kagawa_kagefusa
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28297,7 +28423,8 @@ countries = {
 			ruler = jap_kouzai_sukeyasu
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28332,7 +28459,8 @@ countries = {
 			ruler = jap_kaneko_iehiro_later
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28362,7 +28490,8 @@ countries = {
 			ruler = jap_aki_tomochika
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28393,7 +28522,8 @@ countries = {
 			ruler = jap_oohira_toshikuni
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28428,7 +28558,8 @@ countries = {
 			ruler = jap_nagano_motomori
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28465,7 +28596,8 @@ countries = {
 			ruler = jap_akizuki_tanetada
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28498,7 +28630,8 @@ countries = {
 			ruler = jap_taku_munekiyo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28534,7 +28667,8 @@ countries = {
 			ruler = jap_hata_nao
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28567,7 +28701,8 @@ countries = {
 			ruler = jap_arima_sumiyo
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28605,7 +28740,8 @@ countries = {
 			ruler = jap_ookura_nagatoshi
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28638,7 +28774,8 @@ countries = {
 			ruler = jap_tsuchimochi_nobue
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28679,7 +28816,8 @@ countries = {
 			ruler = jap_kajiki_masahira
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
@@ -28711,7 +28849,8 @@ countries = {
 			ruler = jap_hishikari_atsushige
 
 			reforms = {
-				daimyo			}
+				daimyo
+			}
 		}
 		variables = {
 			data = {
