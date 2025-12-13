@@ -55772,7 +55772,6 @@ countries = {
 			izeh andika dehdez lordegan naghan
 			somaleh bagh_malek
 			dezful  andimeshk masjed_soleyman shush shushtar
-			behbahan  dehdasht dishmok dogonbadan suq
 			ramhormoz yasuj samiram sisakht vanak borujen deh_kord
 		}
 
@@ -55806,7 +55805,6 @@ countries = {
 		own_control_conquered = {
 			julfar al_dhaid
 			khor_fakkan shinas
-			machul
 			abu_dhabi al_ayn dubai sharjah
 			masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
 			suhar al_khaburah nakhal rustaq saham
@@ -56607,6 +56605,7 @@ countries = {
 			khalafabad quban
 			ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
 			samawa suq_al_shuyukh kazimah
+			hendijan behbahan  dehdasht dishmok dogonbadan suq machul
 		}
 
 		include = "expl_middle_east"

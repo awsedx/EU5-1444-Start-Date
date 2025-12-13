@@ -2715,29 +2715,29 @@ INC_f = {
 	}
 }
 
-#TIM_f = {
-#	level = 3
-#	required_locations_fraction = 0.8
-#
-#	rule = historical
-#	
-#	potential = {
-#		culture = culture:uzbek_culture
-#	}
-#
-#
-#	name = TIM
-#	flag = TIM
-#	adjective = TIM_ADJ
-#	tag = TIM
-#	color = map_TIM
-#	regions = {
-#		persia_region
-#	}
-#
-#	form_effect = {
-#	}
-#}
+TIM_f = {
+	level = 3
+	required_locations_fraction = 0.8
+
+	rule = historical
+	
+	potential = {
+		culture = culture:khorezmian_culture
+	}
+
+
+	name = TIM
+	flag = TIM
+	adjective = TIM_ADJ
+	tag = TIM
+	color = map_TIM
+	regions = {
+		persia_region
+	}
+
+	form_effect = {
+	}
+}
 
 SER_f = {
 	level = 2
@@ -4109,22 +4109,4 @@ AZT_f = {
 			set_country_rank_effect = { rank = country_rank:rank_empire }
 		}
 	}
-}
-TIM_f = {
-	level = 3
-	rule = historical
-	
-	potential = {
-		tag = TIH
-	}
-	
-	allow = {
-		owns = location:herat
-	}
-	
-	name = TIM
-	flag = TIM
-	adjective = TIM_ADJ
-	tag = TIM
-	color = map_TIM
 }
