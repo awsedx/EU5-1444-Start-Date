@@ -30133,7 +30133,9 @@ countries = {
                 qiantun
             }
             our_cores_conquered_by_others = { }
-            include = "chinese_monarchy"
+            include = "far_east_asia_monarchy"
+            include = "expl_mongols"
+            include = "expl_china"
             include = "expl_silk_road_west"
             include = "expl_silk_road_center"
             include = "expl_silk_road_east"
@@ -48782,6 +48784,8 @@ countries = {
                 khorezmian_culture
             }
 
+            include = "expl_mongols"
+            include = "eurasian_horde_no_muslim"
             government = {
                 type = monarchy
             }
