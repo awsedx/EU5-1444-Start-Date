@@ -60552,13 +60552,26 @@ countries = {
 	}
 	TIH = {
 		own_control_core = {
-			herat isfahan
-
+			herat firozkoh chishti_sarif tulak awbeh karokh pushang
+			firuzkuh_afghanistan azab khaysar shindand adraskan
+			kusk kush_kohneh qala_naw jawand qala_kohistan marv_al_rudh ghormach qasr_ahnaf
+			pandjih isfahan	doroh sarbisheh
+			mashhad_rizeh torbat_e_jam bakharz salehabad fariman
+			farhadgerd mazdaran mashhad radkan tus
+			sarakhs tejend kalat_nader abiward
+			dargaz anew konjikala durun
+			pivehzan kadkan fadisheh nishapur
+			salameh roshtkhar zaveh azghand mahvelat gonabad
+			tabas_al_unnab yazduye shahrakht zohan qaen abiz zozan khargerd
+			qala_zari mazhan birjand khusf khvor deyhuk nayband
+			turaythith kashmar bajestan tun sarayan boshruyeh
+			korit tabas_al_tamr dastgerdan ribat_ushturan jondaq saghand
 			faraveh ganlygala jargalan
 			quchan khabushan shirvan_iran bojnord raz samalqan
-			meshkan_khorasan agh_qala azadvar bam_esfarayen shoqan jajarm
-			haresabad kharturan sabzevar farmad beyarjomand meyanu
+			meshkan_khorasan agh_qala azadvar bam_esfarayen bam_esfarayen shoqan jajarm
+			haresabad kharturan sabzevar farumad beyarjomand meyani
 			bastam damghan qumis semnan
+
 		}
     
 		starting_technology_level = 6
@@ -60698,8 +60711,8 @@ countries = {
 		our_cores_conquered_by_others = {
 			faraveh ganlygala jargalan
 			quchan khabushan shirvan_iran bojnord raz samalqan
-			meshkan_khorasan agh_qala azadvar bam_esfarayen shoqan jajarm
-			haresabad kharturan sabzevar farmad beyarjomand meyanu
+			meshkan_khorasan agh_qala azadvar bam_esfarayen bam_esfarayen shoqan jajarm
+			haresabad kharturan sabzevar farumad beyarjomand meyani
 			bastam damghan qumis semnan
 		}
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
@@ -60726,11 +60739,11 @@ countries = {
 			lasjerd firuzkuh
 			natanz ardestan zavareh nain aqda anarak
 			tudeshk komshecheh murcheh_khvort dowlatabad dehagh
-			yazdukhwast ramsheh qumisha yangabad sohrfiruzan karkevand fereydunshahr
+			yazdikhwast ramsheh qumisha yangabad sohrfiruzan karkevand fereydunshahr
 			nimvar khwansar golpayegan khomeyn mahallat delijan
 			sibak aligurdaz borborud gerit dorud borujerd
 			karaj_abi_dulaf saruk tafresh khondab qorveh_darjazin hamadan kurijan
-			malayer nahvand bisotun asadabad sonqor
+			malayer nahavand bisotun asadabad sonqor
 			ghorveh dehgolan bashqurtaran sohrevard yasukand bijar divandarreh
 			sagzabad savojbolagh avaj qazvin takestan abhar qeydar
 			shahrestan_sofla sirdan rudbar shamiram
@@ -60758,7 +60771,7 @@ countries = {
 		own_control_core = {
 			kabul andarab kahmard bamyan charikar bagram istalif kohi_safi
 			gandamak jalalabad alishang panjshir asadabad_kunar parun hajiabad
-			gardez logar chak ghazni zarghun_shahr muqur nawah wazakwa maruf
+			gardez logar chak ghazni zarghun_shahr muqur nawah wazakwa maruf yakawland
 			chaman arghestan khandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
 		}
     
