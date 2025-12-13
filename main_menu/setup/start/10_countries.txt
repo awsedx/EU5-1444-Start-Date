@@ -60633,7 +60633,7 @@ countries = {
 			chaman arghestan kandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
 		}
 
-		starting_technology_level = 6
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		country_rank = rank_empire
     
@@ -60679,6 +60679,7 @@ countries = {
 			artyk_ata kyr_uzkand asnas jand barchkend karmakshi jubara yangikent buzikkala
 		}
 
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		country_rank = rank_kingdom
 		government = {
@@ -60707,7 +60708,8 @@ countries = {
 			khamyab zadian boyena_qara mazar_i_sharif khulm samangan kunduz baghlan
 			ashkamesh
 		}
-    
+
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		country_rank = rank_duchy
     
@@ -60745,6 +60747,7 @@ countries = {
 			kish
 		}
 
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		country_rank = rank_kingdom
     
@@ -60774,6 +60777,8 @@ countries = {
 			haresabad kharturan sabzevar farumad beyarjomand meyani
 			bastam damghan qumis semnan
 		}
+
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		country_rank = rank_duchy
     
@@ -60813,6 +60818,7 @@ countries = {
 			isfahan
 		}
     
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		country_rank = rank_duchy
     
@@ -60834,6 +60840,7 @@ countries = {
 			chaman arghestan kandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
 		}
     
+		starting_technology_level = 3
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
 		country_rank = rank_duchy
     
