@@ -1,16 +1,15 @@
-﻿
-MOL = {
-	color = rgb { 136 157 23 }
-   culture_definition = moldovan
-   religion_definition = orthodox
+﻿MOL = {
+    color = rgb { 136 157 23 }
+    culture_definition = moldovan
+    religion_definition = orthodox
 }
 
 SAX = {
-	color = hsv360 { 255 18 71 }
+    color = hsv360 { 255 18 71 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+    culture_definition = saxon
+    religion_definition = catholic
 
-	description_category = diplomatic
-	difficulty = 2
+    description_category = diplomatic
+    difficulty = 2
 }
