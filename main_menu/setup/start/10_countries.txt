@@ -49706,16 +49706,16 @@ countries = {
                 fanakat chach sutkent zemukh zhaushikumtobe
                 nuket almalik_chach
 
-                ayni panjakent samarkand dimishk primkent ishtixon nurita yangirabod karmana
+                ayni panjakent samarkand dimishk primkent ishtixon yangirabod karmana
                 tim_samarkand bukhara vardanzi alat paykend daya_kathyn darganata hazarasp
                 khiva kyat_kala kath nyzvar shimbay khurgancha xojeli pulzhai urgench vezir
                 orta_kuyu talaikhan_ata uzboy gazanjyk
 
                 amol_turkmenabad merv barkdiz khoja_idat_kala firabr navidakh akhsisek nasaf
                 paikend muborak koson chiroqchi guzor kish_shahrisabz
-                nurota dakhat khujand konibodom isfara kokand
+                nurota dakhkat khujand konibodom isfara kokand
                 rishton marghinan fergana quva osh
-                artyk_ata kyr_uzkand asnas jand barchkend karmakshi jubara yangikent buzikkala
+                artyk_ata kyr_uzkand asanas jand barchkend karmakshi jubara yangikent buzikkala
 
                 kerki andkhoy dawlat_abad maymana qaisar sheberghan
                 sar_pol sangcharak chiras boyena_qara balkh aqca
@@ -49798,18 +49798,18 @@ countries = {
                 fanakat chach sutkent zemukh zhaushikumtobe
                 nuket almalik_chach
 
-                ayni panjakent samarkand dimishk primkent ishtixon nurita yangirabod karmana
+                ayni panjakent samarkand dimishk primkent ishtixon yangirabod karmana
                 tim_samarkand bukhara vardanzi alat paykend daya_kathyn darganata hazarasp
                 khiva kyat_kala kath nyzvar shimbay khurgancha xojeli pulzhai urgench vezir qonirat
                 orta_kuyu talaikhan_ata uzboy gazanjyk
 
                 amol_turkmenabad merv barkdiz khoja_idat_kala firabr navidakh akhsisek nasaf
                 paikend muborak koson chiroqchi guzor kish_shahrisabz
-                nurota dakhat khujand konibodom isfara kokand
+                nurota dakhkat khujand konibodom isfara kokand
                 rishton marghinan fergana quva osh
             }
             our_cores_conquered_by_others = {
-                artyk_ata kyr_uzkand asnas jand barchkend karmakshi jubara yangikent buzikkala
+                artyk_ata kyr_uzkand asanas jand barchkend karmakshi jubara yangikent buzikkala
             }
 
             starting_technology_level = 3
@@ -60110,8 +60110,6 @@ countries = {
             }
 
             own_control_integrated = {
-                khiva kyat_kala nyzvar
-                kath
             }
 
             include = "expl_middle_east"
