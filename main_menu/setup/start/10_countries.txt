@@ -24933,7 +24933,7 @@ countries = {
         # 	variables = {
         # 		data = {
         # 			{
-        # 				flag = "supports_southern_court"
+        # 				flag = "supports_northern_court"
         # 				data = {
         # 					type = boolean
         # 					identity = 1
@@ -25118,7 +25118,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -25235,10 +25235,10 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                makuda ichihara isumi
-                yamanashi yatsushiro koma_kai
-                tsuruga onyuu
-                saeki yamagata takata aki
+                # makuda ichihara isumi
+                # yamanashi yatsushiro koma_kai
+                # tsuruga onyuu
+                # saeki yamagata takata aki
             }
 
             government = {
@@ -25252,6 +25252,127 @@ countries = {
 
                 ruler = jap_takeda_nobutake
 
+                reforms = {
+                    daimyo
+                }
+            }
+            variables = {
+                data = {
+                    {
+                        flag = "supports_northern_court"
+                        data = {
+                            type = boolean
+                            identity = 1
+                        }
+                    }
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        TK1 = {
+
+            # Takeda — Kai branch
+            capital = koma_kai
+            include = "japanese_clan"
+
+            own_control_core = {
+                yamanashi yatsushiro koma_kai
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+            variables = {
+                data = {
+                    {
+                        flag = "supports_northern_court"
+                        data = {
+                            type = boolean
+                            identity = 1
+                        }
+                    }
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        TK2 = {
+
+            # Takeda — Aki branch
+            capital = aki
+            include = "japanese_clan"
+
+            own_control_core = {
+                saeki yamagata takata aki
+                tsuruga onyuu
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+            variables = {
+                data = {
+                    {
+                        flag = "supports_northern_court"
+                        data = {
+                            type = boolean
+                            identity = 1
+                        }
+                    }
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        TK3 = {
+
+            # Takeda — Wakasa branch
+            capital = tsuruga
+            include = "japanese_clan"
+
+            our_cores_conquered_by_others = {
+                tsuruga onyuu
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+            variables = {
+                data = {
+                    {
+                        flag = "supports_northern_court"
+                        data = {
+                            type = boolean
+                            identity = 1
+                        }
+                    }
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        TK4 = {
+
+            # Takeda — Kazusa branch
+            capital = makuda
+            include = "japanese_clan"
+
+            own_control_core = {
+                makuda ichihara isumi
+            }
+
+            government = {
                 reforms = {
                     daimyo
                 }
@@ -25575,7 +25696,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -25945,7 +26066,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26092,7 +26213,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26288,7 +26409,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26329,7 +26450,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26432,7 +26553,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26508,7 +26629,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26625,7 +26746,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26658,7 +26779,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26749,7 +26870,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26792,7 +26913,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26822,7 +26943,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -26888,7 +27009,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27006,7 +27127,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27037,7 +27158,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27071,7 +27192,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27106,7 +27227,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27186,7 +27307,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27226,7 +27347,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27294,7 +27415,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27334,7 +27455,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27403,7 +27524,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27438,7 +27559,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27477,7 +27598,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27514,7 +27635,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27587,7 +27708,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27620,7 +27741,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27772,7 +27893,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -27933,7 +28054,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28396,7 +28517,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28430,7 +28551,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28495,7 +28616,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28530,7 +28651,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28712,7 +28833,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28741,7 +28862,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28777,7 +28898,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28858,7 +28979,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -28897,7 +29018,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -29422,7 +29543,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -29458,7 +29579,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -29596,7 +29717,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -29907,7 +30028,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
@@ -30139,7 +30260,7 @@ countries = {
             variables = {
                 data = {
                     {
-                        flag = "supports_southern_court"
+                        flag = "supports_northern_court"
                         data = {
                             type = boolean
                             identity = 1
