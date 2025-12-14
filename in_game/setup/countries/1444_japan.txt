@@ -1,4 +1,5 @@
 KAK = {
+	# Kakisaki
 	color = rgb { 221 193 172 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -6,6 +7,7 @@ KAK = {
 }
 
 NMI = {
+	# Namioka
 	color = rgb { 219 177 118 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -13,6 +15,7 @@ NMI = {
 }
 
 SHI = {
+	# Shizuzu
 	color = rgb { 145 58 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -20,6 +23,7 @@ SHI = {
 }
 
 NIK = {
+	# Nikaho
 	color = rgb { 224 187 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -27,6 +31,7 @@ NIK = {
 }
 
 SGO = {
+	# Sagoshi
 	color = rgb { 135 0 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -34,6 +39,7 @@ SGO = {
 }
 
 ODE = {
+	# Onodera
 	color = rgb { 128 128 128 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -41,6 +47,7 @@ ODE = {
 }
 
 OSA = {
+	# Osaki
 	color = rgb { 86 111 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -48,6 +55,7 @@ OSA = {
 }
 
 RSU = {
+	# Rusu
 	color = rgb { 161 127 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -55,6 +63,7 @@ RSU = {
 }
 
 NIH = {
+	# Nihonmatsu
 	color = rgb { 198 165 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -62,6 +71,7 @@ NIH = {
 }
 
 IWA = {
+	# Iwaki
 	color = rgb { 0 0 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -69,6 +79,7 @@ IWA = {
 }
 
 SNO = {
+	# Sano
 	color = rgb { 191 216 153 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -76,6 +87,7 @@ SNO = {
 }
 
 HJO = {
+	# Honjō
 	color = rgb { 255 205 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -83,6 +95,7 @@ HJO = {
 }
 
 NAK = {
+	# Nakajo
 	color = rgb { 255 106 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = touhoku_culture
@@ -90,6 +103,7 @@ NAK = {
 }
 
 JNB = {
+	# Jinbō
 	color = rgb { 255 0 82 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -97,6 +111,7 @@ JNB = {
 }
 
 TKA = {
+	# Takanashi
 	color = rgb { 255 78 33 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -104,6 +119,7 @@ TKA = {
 }
 
 SAT = {
+	# Satomi
 	color = rgb { 72 0 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -111,6 +127,7 @@ SAT = {
 }
 
 OMO = {
+	# Omori
 	color = rgb { 122 195 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -118,6 +135,7 @@ OMO = {
 }
 
 OYA = {
+	# Oyamada
 	color = rgb { 82 183 92 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -125,6 +143,7 @@ OYA = {
 }
 
 YMO = {
+	# Yamamoto
 	color = rgb { 250 201 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -132,6 +151,7 @@ YMO = {
 }
 
 ASI = {
+	# Asahina
 	color = rgb { 255 132 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -139,6 +159,7 @@ ASI = {
 }
 
 MTU = {
+	# Matsudaira
 	color = rgb { 45 105 137 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -146,6 +167,7 @@ MTU = {
 }
 
 KUW = {
+	# Kuwayama
 	color = rgb { 255 147 205 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = tougoku_culture
@@ -153,6 +175,7 @@ KUW = {
 }
 
 OCH = {
+	# Ochi
 	color = rgb { 165 102 168 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -160,6 +183,7 @@ OCH = {
 }
 
 TSU = {
+	# Tsutsui
 	color = rgb { 74 0 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -167,6 +191,7 @@ TSU = {
 }
 
 KKI = {
+	# Kuki
 	color = rgb { 124 137 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -174,6 +199,7 @@ KKI = {
 }
 
 EDA = {
+	# Eda
 	color = rgb { 114 168 107 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -181,6 +207,7 @@ EDA = {
 }
 
 AKA = {
+	# Akai
 	color = rgb { 198 215 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -188,6 +215,7 @@ AKA = {
 }
 
 AMO = {
+	# Amago
 	color = rgb { 255 218 186 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -195,6 +223,7 @@ AMO = {
 }
 
 KOO = {
+	# Kōno
 	color = rgb { 49 60 119 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -202,6 +231,7 @@ KOO = {
 }
 
 SAI = {
+	# Saionji
 	color = rgb { 215 191 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -209,6 +239,7 @@ SAI = {
 }
 
 ICH = {
+	# Ichijō
 	color = rgb { 232 255 235 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = saigoku_culture
@@ -216,6 +247,7 @@ ICH = {
 }
 
 MSU = {
+	# Matsuura
 	color = rgb { 255 0 0 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
@@ -223,6 +255,7 @@ MSU = {
 }
 
 UKU = {
+	# Uku
 	color = rgb { 226 283 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
@@ -230,6 +263,7 @@ UKU = {
 }
 
 KMC = {
+	# Kamachi
 	color = rgb { 139 104 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
@@ -237,6 +271,7 @@ KMC = {
 }
 
 ANA = {
+	# Anan
 	color = rgb { 224 227 255 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
@@ -244,6 +279,7 @@ ANA = {
 }
 
 NES = {
+	# Neshin
 	color = rgb { 255 244 183 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
@@ -251,6 +287,7 @@ NES = {
 }
 
 TNE = {
+	# Tanegashima
 	color = rgb { 85 87 153 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = kyushu_culture
