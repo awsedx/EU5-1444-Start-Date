@@ -4140,48 +4140,48 @@ AFG_f = {
     }
 }
 
-TIX_f = {
-	level = 3
-	required_locations_fraction = 1.0
-	rule = historical
-	
-	potential = {
-		OR = {
-			tag = c:TIS
-			tag = c:TIG
-			tag = c:TTK
-			tag = c:TIK
-			tag = c:TIF
-			tag = c:TII
-		}
-	}
-	
-	allow = {
-		NOT = { country_exists = c:TIM }
-        owns = location:herat
-        owns = location:samarkand
-        owns = location:gorgan
-        owns = location:balkh
-        owns = location:kabul
-        owns = location:shiraz
-        owns = location:isfahan
-        owns = location:qom
-	}
-	
-	name = TIM
-	flag = TIM
-	adjective = TIM_ADJ
-	tag = TIX
-	color = map_TIM
-	
-	 provinces = {
-		herat_province
-	}
-	
-	form_effect = {
-		if = {
-			limit = { country_rank_level < 4 }
-			set_country_rank_effect = { rank = country_rank:rank_empire }
-		}
-	}
-}
+#TIX_f = {
+#	level = 3
+#	required_locations_fraction = 1.0
+#	rule = historical
+#	
+#	potential = {
+#		OR = {
+#			tag = c:TIS
+#			tag = c:TIG
+#			tag = c:TTK
+#			tag = c:TIK
+#			tag = c:TIF
+#			tag = c:TII
+#		}
+#	}
+#	
+#	allow = {
+#		NOT = { country_exists = c:TIM }
+#        owns = location:herat
+#        owns = location:samarkand
+#        owns = location:gorgan
+#        owns = location:balkh
+#        owns = location:kabul
+#        owns = location:shiraz
+#        owns = location:isfahan
+#        owns = location:qom
+#	}
+#	
+#	name = TIM
+#	flag = TIM
+#	adjective = TIM_ADJ
+#	tag = TIX
+#	color = map_TIM
+#	
+#	 provinces = {
+#		herat_province
+#	}
+#	
+#	form_effect = {
+#		if = {
+#			limit = { country_rank_level < 4 }
+#			set_country_rank_effect = { rank = country_rank:rank_empire }
+#		}
+#	}
+#}
