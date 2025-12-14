@@ -4141,12 +4141,17 @@ AFG_f = {
 }
 
 TIX_f = {
-	level = 4
+	level = 3
 	required_locations_fraction = 1.0
 	rule = historical
 	
 	potential = {
-		tag = c:TIS
+		tetag = c:TIS
+		tag = c:TIG
+		tag = c:TTK
+		tag = c:TIK
+		tag = c:TIF
+		tag = c:TII
 	}
 	
 	allow = {
@@ -4165,7 +4170,7 @@ TIX_f = {
 	flag = TIM
 	adjective = TIM_ADJ
 	tag = TIX
-	color = map_TIM
+	color = dark_burgundy
 	
 	 provinces = {
 		herat_province
