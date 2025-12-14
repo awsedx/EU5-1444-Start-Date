@@ -1,4 +1,4 @@
-﻿# Timurid Prince
+﻿ Timurid Prince
 text = {
     localization_key = rank_kingdom_timurid_prince
     trigger = {

@@ -2722,7 +2722,7 @@ TIM_f = {
 	rule = historical
 	
 	potential = {
-		culture = culture:khorezmian_culture
+		religion = religion:sunni
 	}
 
 
@@ -2731,11 +2731,15 @@ TIM_f = {
 	adjective = TIM_ADJ
 	tag = TIM
 	color = map_TIM
-	regions = {
-		persia_region
+	provinces = {
+		herat_province
 	}
 
 	form_effect = {
+		if = {
+			limit = { country_rank_level < 4 }
+			set_country_rank_effect = { rank = country_rank:rank_empire }
+		}
 	}
 }
 
@@ -4134,6 +4138,7 @@ AFG_f = {
     provinces = {
         kabul_province
         kandahar_province
+		ghazni_province
     }
     form_effect = {
     }
