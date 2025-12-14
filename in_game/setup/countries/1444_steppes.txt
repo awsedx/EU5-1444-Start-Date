@@ -1,0 +1,31 @@
+KAZ = {
+    #Kazakh Khanate
+    color = { 202 217 170 }
+
+    culture_definition = uzbek_culture
+    religion_definition = sunni
+}
+
+KZN = {
+    #Kazan Khanate
+    color = map_KAZ
+
+    culture_definition = kazani
+    religion_definition = sunni
+}
+
+SBR = {
+    #Sibir Khanate
+    color = rgb { 139 138 160 }
+
+    culture_definition = uzbek_culture
+    religion_definition = sunni
+}
+
+UZB = {
+    #Uzbek Khanate
+    color = map_uzbek
+
+    culture_definition = uzbek_culture
+    religion_definition = sunni
+}

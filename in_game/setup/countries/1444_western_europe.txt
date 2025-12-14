@@ -1,0 +1,50 @@
+SAX = {
+    #Saxony
+    color = hsv360 { 255 18 71 }
+
+    culture_definition = saxon
+    religion_definition = catholic
+
+    description_category = diplomatic
+    difficulty = 2
+}
+
+ALR = {
+    #Albret
+    color = rgb { 218 39 57 }
+
+    culture_definition = gascon
+    religion_definition = catholic
+}
+
+DUO = {
+    #Dunois
+    color = rgb { 204 255 255 }
+
+    culture_definition = french
+    religion_definition = catholic
+}
+
+NEM = {
+    #Nemours
+    color = rgb { 178 102 255 }
+
+    culture_definition = french
+    religion_definition = catholic
+}
+
+ING = {
+    #Ingolstadt
+    color = rgb { 67 163 215 }
+
+    culture_definition = danube_bavarian
+    religion_definition = catholic
+}
+
+SOP = {
+    #Stolp
+    color = rgb { 146 203 103 }
+
+    culture_definition = eastern_pomeranian
+    religion_definition = catholic
+}

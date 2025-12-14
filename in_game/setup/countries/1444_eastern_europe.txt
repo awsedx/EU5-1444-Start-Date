@@ -1,0 +1,22 @@
+MOL = {
+    #Moldavia
+    color = rgb { 136 157 23 }
+    culture_definition = moldovan
+    religion_definition = orthodox
+}
+
+SNI = {
+    #Slavonia
+    color = rgb { 66 61 215 }
+
+    culture_definition = croatian
+    religion_definition = catholic
+}
+
+JAG = {
+    #Jagoldai
+    color = rgb { 116  107  140 }
+
+    culture_definition = turkoman_culture
+    religion_definition = sunni
+}

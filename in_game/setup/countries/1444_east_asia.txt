@@ -1,0 +1,119 @@
+JOE = {
+    # Joseon
+    color = rgb { 26  53  177 }
+    culture_definition = korean_culture
+    religion_definition = sanjiao
+
+    description_category = diplomatic
+    difficulty = 2
+}
+
+KHA = {
+    # Kharchin (Not Khorchin??)
+    color = rgb { 221  93  170 }
+    culture_definition = kharchin_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+HMI = {
+    # Kara Del
+    color = rgb { 118  193  177 }
+
+    culture_definition = mongolian_culture
+    religion_definition = mahayana
+
+    description_category = military
+}
+
+SRY = {
+    # Sarig Yogir (Yughur)
+    color = rgb { 219  206  94 }
+
+    culture_definition = yugur_culture
+    religion_definition = mahayana
+
+    description_category = military
+}
+
+TUO = {
+    # Turmot
+    color = rgb { 153 204 255 }
+
+    culture_definition = mongolian_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+YRK = {
+    # Yarkent
+    color = rgb { 255 245 220 }
+
+    culture_definition = uyghur_culture
+    religion_definition = sunni
+
+    description_category = military
+}
+
+MNG = {
+    #Míng
+    color = rgb { 179 128 104 }
+    culture_definition = jianghuai_culture
+    religion_definition = sanjiao
+
+    description_category = diplomatic
+    difficulty = 3
+}
+
+YUA = {
+    # Northern Yuan
+    color = rgb { 108  153  65 }
+
+    culture_definition = mongolian_culture
+    religion_definition = tibetan_buddhism
+    description_category = military
+}
+
+OIR = {
+    # Oirat
+    color = rgb { 204  184  177 }
+
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+HUI = {
+    # Hui
+    color = map_hui_muslim
+
+    culture_definition = hui_muslim_culture
+    religion_definition = sunni
+    description_category = diplomatic
+}
+
+# DRB = { # Dörbet
+# 	color = { 170  93  221 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# CRS = { # Choros
+# 	color = { 93  170  221 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# KHO = { # Khotgoid
+# 	color = { 93  221  170 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# THG = { # Torguud
+# 	color = { 221  170  93 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }

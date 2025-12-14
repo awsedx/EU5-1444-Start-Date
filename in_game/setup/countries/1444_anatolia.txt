@@ -1,0 +1,7 @@
+RAM = {
+    #Ramazan
+    color = rgb { 130  0  0 }
+
+    culture_definition = turkish_culture
+    religion_definition = sunni
+}

@@ -1,0 +1,42 @@
+AYU = {
+    # Ayutthaya
+    color = rgb { 60  152  70 }
+
+    culture_definition = thai_culture
+    religion_definition = theravada
+
+    description_category = diplomatic
+    difficulty = 2
+}
+
+MUA = {
+    # Lan Xang (Originally Muang Sua)
+    color = rgb { 210  46  28 }
+
+    culture_definition = lao_culture
+    religion_definition = mahayana
+}
+
+SUK = {
+    #Sukhothai
+    color = rgb { 159  127  255 }
+
+    culture_definition = thai_culture
+    religion_definition = theravada
+}
+
+AVV = {
+    # Ava
+    color = rgb { 98  138  99 }
+
+    culture_definition = burmese_culture
+    religion_definition = theravada
+}
+
+MLC = {
+    # Malacca
+    color = rgb { 100 96 197 }
+
+    culture_definition = malay_culture
+    religion_definition = sunni
+}

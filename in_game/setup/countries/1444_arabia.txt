@@ -1,0 +1,15 @@
+AQQ = {
+    #Aq Qoyunlu
+    color = rgb { 31 49 138 }
+
+    culture_definition = turkoman_culture
+    religion_definition = sunni
+}
+
+QAR = {
+    #Qara Qoyunlu
+    color = rgb { 54 117 136  }
+
+    culture_definition = turkoman_culture
+    religion_definition = sunni
+}

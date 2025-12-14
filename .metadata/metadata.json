@@ -1,12 +1,14 @@
 ﻿{
-	"name":	"1444start",
-	"id":	"1444start",
-	"version":	"1",
-	"supported_game_version":	"1.0.8",
-	"short_description":	"1444 start date",
-	"tags":	["Gameplay"],
-	"picture": "thumbnail.png",
-	"relationships":	[],
-	"game_custom_data":	{
-}
+  "name": "1444start",
+  "id": "1444start",
+  "version": "1",
+  "game_id": "eu5",
+  "picture": "thumbnail.png",
+  "supported_game_version": "1.0.8",
+  "short_description": "1444 start date",
+  "tags": [
+    "Gameplay"
+  ],
+  "relationships": [],
+  "game_custom_data": {}
 }
