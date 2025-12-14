@@ -60635,10 +60635,10 @@ countries = {
 			heir_selection = cognatic_primogeniture
 			ruler_term = { character = tim_shahrukh_mirza start_date = 1409.1.1 } 
 			ruler = tim_shahrukh_mirza
-		}
-
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 
 		accepted_cultures = {
@@ -60690,11 +60690,10 @@ countries = {
 			ruler_term = { character = tis_ulugh_beg start_date = 1409.12.1 }
 
 			ruler = tis_ulugh_beg
-
-		}
-
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 
 		tolerated_cultures = {
@@ -60724,10 +60723,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = ttk_abd_al_latif
-		}
-		
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 
 		accepted_cultures = {
@@ -60768,10 +60767,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = tif_abdullah_mirza
-		}
-
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 
 		tolerated_cultures = {
@@ -60805,10 +60804,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = tig_babur_mirza
-		}
-
-		reforms = {    		
-			timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 	
 		accepted_cultures = {
@@ -60851,10 +60850,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = tii_sultan_muhammad
-		}
-
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 
 		religious_school = maturidi_school 
@@ -60879,9 +60878,10 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 			ruler = tik_sultan_masud
-		}
-		reforms = {
-    		timurid_prince
+			
+			reforms = {
+    			timurid_prince
+			}
 		}
 		accepted_cultures = {
 			afghan_culture
