@@ -201,7 +201,6 @@ diplomacy_manager = {
     dependency = { first = SAV second = VUD subject_type = appanage }
     dependency = { first = SAV second = CNV subject_type = vassal }
     dependency = { first = SAV second = LSA subject_type = vassal }
-    dependency = { first = SAV second = GRY subject_type = vassal }
 
     dependency = { first = FLO second = PIS subject_type = vassal }
 
@@ -251,16 +250,21 @@ diplomacy_manager = {
 
     #-------Germany-------
     dependency = { first = PAL second = MSB subject_type = vassal }
-    dependency = { first = PAL second = ERB subject_type = vassal }
     dependency = { first = AUG second = AGC subject_type = vassal }
-    dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = BRA second = BLB subject_type = vassal }
     dependency = { first = SLZ second = GRK subject_type = vassal }
+    dependency = { first = PLN second = QUB subject_type = vassal }
+    dependency = { first = SYE second = SPY subject_type = vassal }
+    dependency = { first = SYE second = LDA subject_type = vassal }
+    dependency = { first = WUR second = HLF subject_type = vassal }
+    dependency = { first = TIR second = KYB subject_type = vassal }
     dependency = { first = SWZ second = SHS subject_type = fiefdom }
     dependency = { first = CLI second = ORT subject_type = fiefdom }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
     dependency = { first = BOH second = SOR subject_type = fiefdom }
+    dependency = { first = SOR second = BSK subject_type = fiefdom }
+    scripted_mutual = { first = PAL second = HBR type = alliance }
     scripted_mutual = { first = MEI second = HES type = alliance }
     scripted_oneway = { first = FLA second = HOL type = trade_access }
 
@@ -308,7 +312,7 @@ diplomacy_manager = {
     dependency = { first = BOH second = ZIE subject_type = vassal start_date = 1336.8.29 }
     dependency = { first = WRC second = NYS subject_type = vassal start_date = 1290.1.1 }
     dependency = { first = BOH second = JAW subject_type = vassal }
-    dependency = { first = BOH second = SWD subject_type = vassal }
+    dependency = { first = JAW second = SWD subject_type = fiefdom }
     scripted_mutual = { first = BOH second = LBV type = alliance }
 
     #-------Poland-------
@@ -365,6 +369,8 @@ diplomacy_manager = {
     dependency = { first = SUT second = SOH subject_type = vassal }
     dependency = { first = SUT second = ZRQ subject_type = vassal }
     dependency = { first = SUT second = ZZR subject_type = vassal }
+
+    dependency = { first = CND second = BFR subject_type = vassal }
 
     scripted_mutual = { first = BYZ second = TRE type = alliance }
     #scripted_mutual = { first = MAM second = CND type = alliance }

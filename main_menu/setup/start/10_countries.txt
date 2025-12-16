@@ -1533,7 +1533,8 @@ countries = {
             #Thuringia - PU under Meissen
             own_control_core = {
                 eisenach gotha langensalza freyburg eisenberg apolda
-                coburg gera saalfeld weimar ohrdruf
+                coburg saalfeld weimar ohrdruf
+                hildburghausen #Lordship of Coburg
             }
 
             starting_technology_level = 3
@@ -4241,6 +4242,10 @@ countries = {
                 kamenskaya yundin belaya_glina peschanokopskoye
                 kichkas rozdory pavlohrad
                 luhansk
+                oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka
+                balikley aqmecit_prybuzhzhya vithold_hammami dashev argamakli_sarai
+                khadjibey teligol kuyanlik ananiv iagorlic
+                sofiivka kryvyi_rih tomakivka mykytyn_rih kodak 
             }
 
             starting_technology_level = 3
@@ -13563,9 +13568,8 @@ countries = {
 
         GOR = {
             own_control_core = {
-                gorizia pazin
+                gorizia
                 lienz bruneck hermagor winklern
-                buzet
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
@@ -14148,6 +14152,10 @@ countries = {
                 lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
                 porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
                 braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
+            }
+
+            own_control_conquered = {
+                ceuta
             }
 
             starting_technology_level = 3
@@ -15846,7 +15854,7 @@ countries = {
                 neufchateau_des_vosges #France
                 #HRE
                 mirecourt nancy saint_die
-                wallerfangen merzig
+                wallerfangen
                 darney arches
                 luneville morhange sarreguemines
             }
@@ -18806,7 +18814,7 @@ countries = {
         MOR = {
             #Morocco
             own_control_core = {
-                tangier ceuta tetouan asilah basra_al_hamra larache taunat
+                tangier tetouan asilah basra_al_hamra larache taunat
                 badis tizgane amergo al_mazamma
                 melilla ras_kebdana ghassasa temsamane tabarida
                 ksar_el_kebir tazroute ouezzane
@@ -18823,10 +18831,6 @@ countries = {
                 jerada taourirt debdou echemmaia sidi_bennour
                 nedroma tegeget kalaat_sraghna midelt
                 aouint_yghomane afso ifrane
-            }
-
-            control = {
-                arshgul madinat_alawiyyin saida ras_al_ain
             }
 
             include = "expl_muslim_mediterranean"
@@ -32999,7 +33003,7 @@ countries = {
 
         #Bafra - BFR #https://en.wikipedia.org/wiki/Beylik_of_Bafra
         BFR = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 bafra
             }
 
@@ -33535,7 +33539,7 @@ countries = {
                 konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda
                 bekarlar bor_tur ermenek
                 beysehir aksehir bolvadin sarkikaraagac seydisehir
-                ilgin turgut suluklu kulu_turkey obruk altinekin cumra yalvac
+                ilgin turgut suluklu kulu_turkey obruk altinekin cumra
                 urgup molevon
             }
 
@@ -34336,7 +34340,7 @@ countries = {
                 balikesir balya edremit manyas mihalic susurluk
                 ayvacik bandirma bayramic can canakkale gonen lapseki
                 dursunbey harmancik
-                cankiri bayat cerkes kursunlu tosya iskilip sabanozu bafra
+                cankiri bayat cerkes kursunlu tosya iskilip sabanozu
                 gadegara ladik_pontus merzifon
                 gumus
                 samsun
@@ -34365,6 +34369,7 @@ countries = {
                 hacibektas
                 bogazliyan
                 hafik sarkisla zara sivas gemerek
+                yalvac
             }
 
             own_control_integrated = {
@@ -35224,6 +35229,7 @@ countries = {
             }
 
             own_control_integrated = {
+                pazin buzet
             }
 
             starting_technology_level = 3
@@ -35477,7 +35483,6 @@ countries = {
             own_control_core = {
                 meiningen schleusingen schmalkalden
                 aschach
-                hildburghausen #Lordship of Coburg
             }
 
             starting_technology_level = 3
@@ -35647,6 +35652,8 @@ countries = {
                 schaffhausen
                 krumbach gunzburg #Margraviate of Burgau
                 belfort ferrette
+                hohenberg horb
+                freiburg
             }
 
             starting_technology_level = 3
@@ -35832,6 +35839,7 @@ countries = {
             own_control_core = {
                 bamberg wolfsberg villach kronach
                 forchheim lichtenfels pegnitz
+                schesslitz
             }
 
             starting_technology_level = 3
@@ -36241,7 +36249,7 @@ countries = {
             country_rank = rank_county
         }
 
-        TPN = {
+        TRN = {
             #Turn
             own_control_core = {
                 frutigen
@@ -36349,8 +36357,9 @@ countries = {
         PAL = {
             #The Palatinate
             own_control_core = {
-                heidelberg sinsheim germersheim neustadt_an_der_haardt oppenheim kaiserslautern
+                heidelberg germersheim neustadt_an_der_haardt oppenheim kaiserslautern
                 amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+                kreuznach
             }
 
             starting_technology_level = 3
@@ -37021,7 +37030,7 @@ countries = {
 
         VEL = {
             # Veldenz (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 lichtenberg_veldenz
                 meisenheim
             }
@@ -37114,6 +37123,9 @@ countries = {
             # Simmern (South Germany)
             own_control_core = {
                 simmern
+            }
+            own_control_integrated = {
+                birkenfeld castellaun
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -37335,7 +37347,7 @@ countries = {
 
         HAC = {
             # Hachberg (Baden) (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 hachberg
             }
             starting_technology_level = 3
@@ -37403,7 +37415,7 @@ countries = {
 
         THD = {
             # Truhendingen (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 schesslitz
             }
             starting_technology_level = 3
@@ -37451,7 +37463,7 @@ countries = {
 
         HEH = {
             # Heidenheim (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 heidenheim
             }
             starting_technology_level = 3
@@ -37467,7 +37479,7 @@ countries = {
         HLF = {
             # Helfenstein (South Germany)
             own_control_core = {
-                helfenstein
+                helfenstein heidenheim
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -37483,7 +37495,7 @@ countries = {
 
         HOH = {
             # Hohenzollern (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 balingen
             }
             starting_technology_level = 3
@@ -37557,7 +37569,7 @@ countries = {
 
         TUB = {
             # Tübingen (South Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 tubingen
             }
             starting_technology_level = 3
@@ -37685,6 +37697,7 @@ countries = {
             #Mosbach
             own_control_core = {
                 mosbach
+                sinsheim
             }
 
             starting_technology_level = 3
@@ -37819,6 +37832,7 @@ countries = {
             #Württemberg
             own_control_core = {
                 stuttgart goppingen sigmaringen welzheim backnang urach nagold riedlingen oberndorf calw
+                vaihingen tubingen balingen
             }
 
             starting_technology_level = 3
@@ -37846,7 +37860,7 @@ countries = {
         OET = {
             #Oettingen
             own_control_core = {
-                oettingen vaihingen
+                oettingen
             }
 
             starting_technology_level = 3
@@ -37935,6 +37949,7 @@ countries = {
             #Baden
             own_control_core = {
                 baden durlach
+                hachberg
             }
 
             starting_technology_level = 3
@@ -38052,7 +38067,7 @@ countries = {
 
         HHB = {
             #Hohenberg
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 hohenberg horb
             }
 
@@ -38087,7 +38102,7 @@ countries = {
 
         FBG = {
             #Freiburg
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 freiburg
             }
 
@@ -39325,8 +39340,11 @@ countries = {
 
         QUB = {
             #Gera / sold by Quedlinburg
+            own_control_core = {
+                gera
+            }
             our_cores_conquered_by_others = {
-                gera schleiz
+                schleiz
             }
 
             starting_technology_level = 3
@@ -39706,6 +39724,8 @@ countries = {
             own_control_core = {
                 trier wittlich
                 mayen coblenz saarburg
+                merzig
+                daun cochem
             }
 
             starting_technology_level = 3
@@ -39841,6 +39861,8 @@ countries = {
             #Zweibrucken
             own_control_core = {
                 zweibrucken bitche pirmasens
+                lichtenberg_veldenz
+                meisenheim
             }
 
             starting_technology_level = 3
@@ -39894,8 +39916,8 @@ countries = {
 
         SPO = {
             #Sponheim
-            own_control_core = {
-                kreuznach birkenfeld castellaun
+            our_cores_conquered_by_others = {
+                birkenfeld castellaun kreuznach
             }
 
             starting_technology_level = 3
@@ -39959,8 +39981,9 @@ countries = {
         KOL = {
             #Cologne
             own_control_core = {
-                cologne ahrweiler neuss attendorn brilon soest recklinghausen
+                cologne ahrweiler neuss attendorn brilon recklinghausen
                 bonn
+                arnsberg meschede
             }
 
             starting_technology_level = 3
@@ -39982,7 +40005,7 @@ countries = {
 
         DUN = {
             #Daun
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 daun cochem
             }
 
@@ -40158,6 +40181,7 @@ countries = {
             #(Grafschaft) Mark
             own_control_core = {
                 hamm altena bochum
+                soest
             }
 
             starting_technology_level = 3
@@ -40322,7 +40346,7 @@ countries = {
 
         ANB = {
             #Arnsberg
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 arnsberg meschede
             }
 
@@ -42798,7 +42822,7 @@ countries = {
                 sloviansk vovchansk izium adalaga barvinkove
                 samarchyk oril ternivka berestyn
                 usivka petrove mala_vyska umanske ingul yelanets
-                sofiivka kryvyi_rih tomakivka mykytyn_rih kodak myshuryn_rih
+                myshuryn_rih
                 karlivka
                 streshyn
                 novogrudok lyubcha turets
@@ -42816,11 +42840,9 @@ countries = {
                 bratslav balta bershad drahushiv karabul savran
                 torhovytsia teplyk tsybuliv uman zavallia
                 vinnytsia buzhskyi pohrebyshche sokilets
-                oleshia bereznehuvate bashtanka tavan velyka_oleksandrivka
-                balikley aqmecit_prybuzhzhya vithold_hammami harbuzynka dashev argamakli_sarai
-                khadjibey teligol kuyanlik ananiv iagorlic
                 kupiansk
                 kolomak okhtyrka kotelva khotmyzh donets_kharkiv zmiiv chuhuiv
+                harbuzynka
             }
 
             include = "expl_eastern_europe"

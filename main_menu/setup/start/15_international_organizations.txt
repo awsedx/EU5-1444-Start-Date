@@ -538,7 +538,7 @@ international_organization_manager = {
     add_international_organization = {
         type = swiss_confederation
         creation_date = 1307.9.15
-        members = { BRN LCU SYZ URI OBW ZUR SLT GLR TGG }
+        members = { BRN LCU SYZ URI OBW ZUR SLT GLR TGG TRN GRY }
         areas = {
             central_switzerland_area
             eastern_switzerland_area
