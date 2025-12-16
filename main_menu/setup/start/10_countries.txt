@@ -24885,17 +24885,6 @@ countries = {
 
             }
 
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             accepted_cultures = {
                 tougoku_culture
@@ -25617,17 +25606,6 @@ countries = {
                 }
             }
 
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
             flag = "JAP_monarchy"
 
             country_rank = rank_empire
@@ -25652,18 +25630,6 @@ countries = {
         # 		}
         # 	}
 
-        # 	variables = {
-        # 		data = {
-        # 			{
-        # 				flag = "supports_northern_court"
-        # 				data = {
-        # 					type = boolean
-        # 					identity = 1
-        # 				}
-        # 			}
-        # 		}
-        # 	}
-
         # 	country_rank = rank_empire
         # }
 
@@ -25685,31 +25651,20 @@ countries = {
                 }
             }
 
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         HSK = {
-
+            # Hososkawa Formable
             capital = awa_shikoku
             include = "japanese_clan"
 
             own_control_core = {
-                izumi osaka kawabe muko
-                awaji nakata awa_shikoku naka_shikoku kaifu
-                kami_shikoku nagaoka tosa agawa
-                nii
+                # izumi osaka kawabe muko
+                # awaji nakata awa_shikoku naka_shikoku kaifu
+                # kami_shikoku nagaoka tosa agawa
+                # nii
             }
 
             government = {
@@ -25730,15 +25685,77 @@ countries = {
                 }
             }
 
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
+
+            country_rank = rank_county
+        }
+
+        HS1 = {
+            # Hosokawa (Kanrei Branch)
+            capital = osaka
+            include = "japanese_clan"
+
+            own_control_core = {
+                izumi osaka kawabe muko
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HS2 = {
+            # Hosokawa (Awa Branch)
+            capital = awa_shikoku
+            include = "japanese_clan"
+
+            own_control_core = {
+                nakata awa_shikoku naka_shikoku kaifu
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HS3 = {
+            # Hosokawa (Awaji Branch)
+            capital = awaji
+            include = "japanese_clan"
+
+            own_control_core = {
+                awaji
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HS4 = {
+            # Hosokawa (Tosa Branch)
+            capital = tosa
+            include = "japanese_clan"
+
+            own_control_core = {
+                kami_shikoku nagaoka tosa agawa
+                nii
+            }
+
+            government = {
+                reforms = {
+                    daimyo
                 }
             }
 
@@ -25760,17 +25777,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -25800,17 +25806,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -25837,17 +25832,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -25869,17 +25853,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -25906,17 +25879,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -25936,23 +25898,12 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         TKD = {
-
+            # Takeda Formable
             capital = koma_kai
             include = "japanese_clan"
 
@@ -25978,23 +25929,11 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         TK1 = {
-
             # Takeda — Kai branch
             capital = koma_kai
             include = "japanese_clan"
@@ -26008,46 +25947,22 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         TK2 = {
-
             # Takeda — Aki branch
             capital = aki
             include = "japanese_clan"
 
             own_control_core = {
                 saeki yamagata takata aki
-                tsuruga onyuu
             }
 
             government = {
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26055,12 +25970,11 @@ countries = {
         }
 
         TK3 = {
-
             # Takeda — Wakasa branch
             capital = tsuruga
             include = "japanese_clan"
 
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 tsuruga onyuu
             }
 
@@ -26069,23 +25983,11 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         TK4 = {
-
             # Takeda — Kazusa branch
             capital = makuda
             include = "japanese_clan"
@@ -26097,17 +25999,6 @@ countries = {
             government = {
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26135,17 +26026,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26180,17 +26060,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26220,17 +26089,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26258,17 +26116,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26292,17 +26139,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26333,31 +26169,19 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         UES = {
-
-            capital = ikaruga
+            # Uesugi Formable
+            capital = higashikubiki
             include = "japanese_clan"
 
             own_control_core = {
-                katsushika
-                saitama adachi_kanto toshima_kanto tachibana tama chichibu hiki hanzawa
-                tone seta nitta gunma agatsuma
-                nishikanbara higashikanbara koshi kariwa minamiuonuma kitauonuma higashikubiki nishikubiki
+                # nishikanbara higashikanbara koshi kariwa minamiuonuma kitauonuma higashikubiki nishikubiki
+                # tone seta nitta gunma agatsuma chichibu hiki hanzawa
+                # tama tachibana toshima_kanto adachi_kanto saitama katsushika
             }
 
             government = {
@@ -26367,23 +26191,64 @@ countries = {
                 ruler_term = { character = jap_uesugi_noriaki start_date = 1336.3.10 regnal_number = 1 }
 
                 ruler = jap_uesugi_noriaki
-
                 reforms = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
+
+            country_rank = rank_county
+        }
+
+        UE1 = {
+            # Uesugi - Ōgigayatsu branch
+            capital = koshi
+            include = "japanese_clan"
+
+            own_control_core = {
+                nishikanbara higashikanbara koshi kariwa minamiuonuma kitauonuma
             }
 
+            government = { reforms = { daimyo } }
+            country_rank = rank_county
+        }
+
+        UE2 = {
+            # Uesugi - Yamauchi branch
+            capital = gunma
+            include = "japanese_clan"
+
+            own_control_core = {
+                tone seta nitta gunma agatsuma chichibu hiki hanzawa
+            }
+
+            government = { reforms = { daimyo } }
+            country_rank = rank_county
+        }
+
+        UE3 = {
+            # Uesugi - Inukake branch
+            capital = toshima_kanto
+            include = "japanese_clan"
+
+            own_control_core = {
+                tama tachibana toshima_kanto adachi_kanto saitama katsushika
+            }
+
+            government = { reforms = { daimyo } }
+            country_rank = rank_county
+        }
+
+        NAO = {
+            # Nagao clan — de facto ruler over Uesugi clan
+            capital = higashikubiki
+            include = "japanese_clan"
+
+            own_control_core = {
+                # Only the main base of operations; does not legally own all Echigo
+                higashikubiki nishikubiki
+            }
+
+            government = { reforms = { daimyo } }
             country_rank = rank_county
         }
 
@@ -26414,17 +26279,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26458,17 +26312,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26493,17 +26336,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26524,17 +26356,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26560,17 +26381,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26581,16 +26391,16 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                taka shikama akou
-                wake tsudaka
-                kume mashima tomata aita
-                houmi takakusa
-                keta_tajima futakata
-                aimi kume_houki
-                katou_bicchuu kaya aka
-                ashida sera miyoshi eso nuka kameshi
-                nima oochi
-                toyota
+                # taka shikama akou
+                # wake tsudaka
+                # kume mashima tomata aita
+                # houmi takakusa
+                # keta_tajima futakata
+                # aimi kume_houki
+                # katou_bicchuu kaya aka
+                # ashida sera miyoshi eso nuka kameshi
+                # nima oochi
+                # toyota
             }
 
             government = {
@@ -26608,15 +26418,65 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
+
+            country_rank = rank_county
+        }
+
+        YM1 = {
+
+            capital = keta_tajima
+            include = "japanese_clan"
+
+            own_control_core = {
+                taka shikama akou
+                wake tsudaka
+                kume mashima tomata aita
+                houmi takakusa
+                keta_tajima futakata
+                katou_bicchuu kaya aka
+                ashida sera miyoshi eso nuka kameshi
+                toyota
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        YM2 = {
+
+            capital = nima
+            include = "japanese_clan"
+
+            own_control_core = {
+                nima oochi
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        YM3 = {
+
+            capital = kume_houki
+            include = "japanese_clan"
+
+            own_control_core = {
+                aimi kume_houki
+            }
+
+            government = {
+                reforms = {
+                    daimyo
                 }
             }
 
@@ -26639,17 +26499,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26668,17 +26517,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26707,17 +26545,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26736,17 +26563,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26786,17 +26602,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -26816,17 +26621,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26860,30 +26654,19 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         HTK = {
-
+            # Hatakeyama Formable
             capital = hiki
             include = "japanese_clan"
 
             own_control_core = {
-                tonami imizu nei
-                noto_jap fugeshi suzu
-                higashimuro minamimuro nishimuro hidaka kaisou naga
+                # tonami imizu nei
+                # noto_jap fugeshi suzu
+                # higashimuro minamimuro nishimuro hidaka kaisou naga
             }
 
             government = {
@@ -26898,15 +26681,41 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
+
+            country_rank = rank_county
+        }
+
+        HT1 = {
+            # Kishu Hatakeyama
+            capital = kaisou
+            include = "japanese_clan"
+
+            own_control_core = {
+                higashimuro minamimuro nishimuro hidaka kaisou naga
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HT2 = {
+            # Noto Hatakeyama
+            capital = noto_jap
+            include = "japanese_clan"
+
+            own_control_core = {
+                tonami imizu nei
+                noto_jap fugeshi suzu
+            }
+
+            government = {
+                reforms = {
+                    daimyo
                 }
             }
 
@@ -26931,17 +26740,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -26972,17 +26770,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27005,17 +26792,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27047,17 +26823,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27085,29 +26850,18 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
 
         NBU = {
-
+            # Nanbu Formable
             capital = nukanobu
             include = "japanese_clan"
 
             own_control_core = {
-                shimokita hanawa hiraka_aomori kamikita nukanobu
-                kuji iwate kitahei
+                # shimokita hanawa hiraka_aomori kamikita nukanobu
+                # kuji iwate kitahei
             }
 
             government = {
@@ -27129,15 +26883,40 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
+
+            country_rank = rank_county
+        }
+
+        NB1 = {
+            # Nanbu (Sannohe)
+            capital = nukanobu
+            include = "japanese_clan"
+
+            own_control_core = {
+                kuji iwate kitahei nukanobu
+            }
+
+            government = {
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NB2 = {
+            # Nanbu (Hachinohe)
+            capital = hanawa
+            include = "japanese_clan"
+
+            own_control_core = {
+                shimokita hanawa hiraka_aomori kamikita 
+            }
+
+            government = {
+                reforms = {
+                    daimyo
                 }
             }
 
@@ -27170,17 +26949,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27199,17 +26967,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27236,17 +26993,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27271,17 +27017,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27311,17 +27046,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27347,17 +27071,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27392,17 +27105,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27435,17 +27137,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27464,17 +27155,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27497,17 +27177,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27546,17 +27215,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27588,17 +27246,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27633,17 +27280,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27661,17 +27297,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27698,17 +27323,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27727,17 +27341,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27768,17 +27371,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27813,17 +27405,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27847,17 +27428,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27876,17 +27446,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27910,17 +27469,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -27947,17 +27495,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -27980,17 +27517,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28027,17 +27553,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28067,17 +27582,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28104,17 +27608,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28133,17 +27626,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28175,17 +27657,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28211,17 +27682,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28242,17 +27702,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28277,17 +27726,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28318,17 +27756,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28355,17 +27782,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28389,17 +27805,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28428,17 +27833,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28459,17 +27853,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28498,17 +27881,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28532,17 +27904,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28579,17 +27940,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28613,17 +27963,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28643,17 +27982,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28691,17 +28019,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28735,17 +28052,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28774,17 +28080,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28809,17 +28104,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28837,17 +28121,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = miya_dynasty
@@ -28872,17 +28145,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -28958,17 +28220,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -28985,17 +28236,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29026,17 +28266,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29055,17 +28284,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29098,17 +28316,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
             dynasty = ikeda_dynasty
 
             country_rank = rank_county
@@ -29134,17 +28341,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29167,17 +28363,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29205,17 +28390,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29239,17 +28413,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29271,17 +28434,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29309,17 +28461,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29336,17 +28477,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = kawanobe_dynasty
@@ -29371,17 +28501,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29412,17 +28531,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29441,17 +28549,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29484,17 +28581,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29517,17 +28603,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = oogo_dynasty
@@ -29555,17 +28630,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29582,17 +28646,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = yamaguchi_dynasty
@@ -29618,17 +28671,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29658,17 +28700,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29701,17 +28732,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29740,17 +28760,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29774,17 +28783,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -29812,17 +28810,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29840,17 +28827,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = ema_dynasty
@@ -29872,17 +28848,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
             dynasty = nakajima_dynasty
             country_rank = rank_county
         }
@@ -29900,17 +28865,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
             dynasty = ooba_dynasty
@@ -29937,17 +28891,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -29966,17 +28909,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30008,17 +28940,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30042,17 +28963,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30071,17 +28981,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30098,17 +28997,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30131,17 +29019,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30162,17 +29039,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30198,17 +29064,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30225,17 +29080,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30265,17 +29109,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30301,17 +29134,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30332,17 +29154,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30366,17 +29177,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30394,17 +29194,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30439,17 +29228,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30467,17 +29245,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30503,17 +29270,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30535,17 +29291,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30573,17 +29318,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30607,17 +29341,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30644,17 +29367,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
             dynasty = aki_dynasty
             country_rank = rank_county
         }
@@ -30674,17 +29386,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30710,17 +29411,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30750,17 +29440,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30782,17 +29461,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30825,17 +29493,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30861,17 +29518,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30902,17 +29548,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -30938,17 +29573,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
@@ -30982,17 +29606,6 @@ countries = {
                     daimyo
                 }
             }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
-                }
-            }
 
             country_rank = rank_county
         }
@@ -31013,17 +29626,6 @@ countries = {
 
                 reforms = {
                     daimyo
-                }
-            }
-            variables = {
-                data = {
-                    {
-                        flag = "supports_northern_court"
-                        data = {
-                            type = boolean
-                            identity = 1
-                        }
-                    }
                 }
             }
 
