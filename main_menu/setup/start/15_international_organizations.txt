@@ -375,11 +375,18 @@ international_organization_manager = {
             #Emperors
             NTC
             #Clans
-            HSK NKI KTB IMG TKD SBA CBA STK KGK TKI OGS UES OYM TGS YSM KRA YMN MTD HTK
-            SHN OTM SMZ NBU MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
+            NKI KTB IMG SBA CBA STK KGK TKI OGS OYM TGS YSM KRA MTD
+            SHN OTM SMZ MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
             SGR KMT SOU ANM TZW WAG HIE DHJ NGM TMR ISW MIU SUW RKK ITO ODA AKT
             NAS HNM UNN KOK TOY NGN
             MYH KAG KOZ AKI AHT ARI TMD
+            # Branch Clans
+            NAO UE1 UE2 UE3 
+            TK1 TK2 TK3 TK4
+            YM1 YM2 YM3
+            HS1 HS2 HS3 HS4
+            NB1 NB2
+            HT1 HT2
             # New Countries
             KAK NMI SHI NIK SGO ODE OSA RSU NIH IWA SNO HJO NAK KYO JNB TKA SAT OMO OYA YMO ASI MTU KUW
             OCH TSU KKI EDA AKA AMO KOO SAI ICH MUK MSU UKU KMC ANA NES TNE
@@ -390,7 +397,7 @@ international_organization_manager = {
         }
 
         shugo_daimyo = {
-            HSK NKI KTB IMG TKD SBA CBA STK KGK TKI OGS UES OYM TGS YSM KRA YMN MTD HTK
+            HS1 NKI KTB IMG TK1 SBA CBA STK KGK TKI OGS OYM TGS YSM KRA YM1 MTD HT1
             SHN OTM SMZ
         }
 
@@ -417,15 +424,75 @@ international_organization_manager = {
         members = {
             JAP
             NTC
-            HSK NKI KTB IMG TKD SBA CBA STK KGK TKI OGS UES OYM TGS YSM KRA YMN MTD HTK
-            SHN OTM SMZ NBU MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
+            NKI KTB IMG SBA CBA STK KGK TKI OGS OYM TGS YSM KRA MTD
+            SHN OTM SMZ MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
             SGR KMT SOU ANM TZW WAG HIE DHJ NGM TMR ISW MIU SUW RKK ITO ODA AKT
             NAS HNM UNN KOK TOY NGN
             MYH KAG KOZ AKI AHT ARI TMD
             # New Countries
             KAK NMI SHI NIK SGO ODE OSA RSU NIH IWA SNO HJO NAK KYO JNB TKA SAT OMO OYA YMO ASI MTU KUW
             OCH TSU KKI EDA AKA AMO KOO SAI ICH MUK MSU UKU KMC ANA NES TNE
+
+            # Branch Countries
+            NAO UE1 UE2 UE3 
+            TK1 TK2 TK3 TK4
+            YM1 YM2 YM3
+            HS1 HS2 HS3 HS4
+            NB1 NB2
+            HT1 HT2
         }
+    }
+
+    #################################################################
+    # 				Japanese Clans With Cadet Branches              #
+    #################################################################
+    # Uesugi
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1250.1.1 # Late 13th Century
+        members = { NAO UE1 UE2 UE3 }
+        # Nagao clan holds the real power over the Uesugi
+        leader = NAO
+    }
+
+    # Takeda
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1100.1.1 # Minamoto no Yoshikiyo
+        members = { TK1 TK2 TK3 TK4 }
+        leader = TK1
+    }
+
+    # Yamana
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1336.1.1 # Nanboku-cho period
+        members = { YM1 YM2 YM3 }
+        leader = YM1
+    }
+
+    # Nanbu
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1180.1.1 # Kamakura period
+        members = { NB1 NB2 }
+        leader = NB1
+    }
+
+    # Hosokawa
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1180.1.1 # Kamakura period
+        members = { HS1 HS2 HS3 HS4 }
+        leader = HS1
+    }
+
+    # Hatakeyama
+    add_international_organization = {
+        type = japanese_clan
+        creation_date = 1180.1.1 # Kamakura period
+        members = { HT1 HT2 }
+        leader = HT1
     }
 
     #################################################################
