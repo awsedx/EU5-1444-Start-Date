@@ -189,26 +189,19 @@ diplomacy_manager = {
     dependency = { first = VEN second = NAX subject_type = vassal }
     dependency = { first = VEN second = CEP subject_type = vassal start_date = 1332.1.1 } #John of Gravina, Prince of Achaea, exchanges his Principality with Robert, Prince of Taranto
 
-    dependency = { first = VEN second = TTE subject_type = vassal start_date = 1202.10.9 } #Trieste and Muggia swear loyalty to Dux Enrico Dandolo
+    dependency = { first = STY second = TTE subject_type = vassal } #Trieste conquered by the Habsburgs
     dependency = { first = VEN second = CRT subject_type = vassal }
     dependency = { first = VEN second = RAG subject_type = vassal }
 
-    scripted_mutual = { first = RAV second = CES type = alliance }
-    scripted_mutual = { first = RIM second = CES type = alliance }
-
     dependency = { first = PAP second = FAE subject_type = vassal }
 
-    dependency = { first = SAV second = CEV subject_type = vassal }
     dependency = { first = SAV second = AOS subject_type = fiefdom }
     dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = SAV second = PIE subject_type = appanage }
     dependency = { first = SAV second = VUD subject_type = appanage }
-    dependency = { first = SAV second = ABA subject_type = vassal }
     dependency = { first = SAV second = CNV subject_type = vassal }
     dependency = { first = SAV second = LSA subject_type = vassal }
     dependency = { first = SAV second = GRY subject_type = vassal }
-    dependency = { first = SAV second = CHX subject_type = fiefdom }
-    dependency = { first = SAV second = MND subject_type = fiefdom }
 
     dependency = { first = FLO second = PIS subject_type = vassal }
 
@@ -220,18 +213,14 @@ diplomacy_manager = {
 
     dependency = { first = FER second = MOD subject_type = fiefdom }
 
-    dependency = { first = PAP second = PEA subject_type = vassal }
     dependency = { first = PAP second = IMO subject_type = vassal }
     dependency = { first = PAP second = CES subject_type = vassal }
-
-    dependency = { first = URB second = CMR subject_type = vassal }
-    dependency = { first = URB second = FRM subject_type = vassal }
-    dependency = { first = URB second = MTA subject_type = vassal }
-    dependency = { first = URB second = ASC subject_type = vassal }
-    dependency = { first = URB second = PES subject_type = vassal }
-
-    scripted_oneway = { first = PAP second = SIC type = guarantee }
-    scripted_oneway = { first = ARA second = SIC type = guarantee }
+    dependency = { first = PAP second = CMR subject_type = vassal }
+    dependency = { first = PAP second = FRM subject_type = vassal }
+    dependency = { first = PAP second = MTA subject_type = vassal }
+    dependency = { first = PAP second = ASC subject_type = vassal }
+    dependency = { first = PAP second = PES subject_type = vassal }
+    dependency = { first = PAP second = FAB subject_type = vassal }
 
     #-------Iberia-------
 
@@ -267,6 +256,9 @@ diplomacy_manager = {
     dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = BRA second = BLB subject_type = vassal }
+    dependency = { first = SLZ second = GRK subject_type = vassal }
+    dependency = { first = SWZ second = SHS subject_type = fiefdom }
+    dependency = { first = CLI second = ORT subject_type = fiefdom }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
     dependency = { first = BOH second = SOR subject_type = fiefdom }
     scripted_mutual = { first = MEI second = HES type = alliance }

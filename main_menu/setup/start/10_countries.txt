@@ -1414,6 +1414,8 @@ countries = {
                 weissenfels zwickau rochlitz grimma delitzsch
                 leipzig chemnitz altenburg
                 wittenberg belzig schweinitz bitterfeld torgau liebenwerda
+                schleiz
+                glauchau
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -1531,7 +1533,7 @@ countries = {
             #Thuringia - PU under Meissen
             own_control_core = {
                 eisenach gotha langensalza freyburg eisenberg apolda
-                coburg
+                coburg gera saalfeld weimar ohrdruf
             }
 
             starting_technology_level = 3
@@ -9146,7 +9148,7 @@ countries = {
         }
 
         ABA = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 alba
             }
 
@@ -9764,7 +9766,7 @@ countries = {
         }
 
         CHX = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 chieri
             }
 
@@ -9984,7 +9986,7 @@ countries = {
 
         FAB = {
             #Annexed by Urbino on 1327, Alberghetto II restored independence in 1344
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 fabriano
             }
 
@@ -10837,7 +10839,7 @@ countries = {
         }
 
         MND = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 mondovi
             }
 
@@ -11745,6 +11747,8 @@ countries = {
                 cuneo barcelonnette puget_theniers nice
                 faucigny sallanches villars
                 biella vercelli
+                mondovi
+                alba
             }
 
             starting_technology_level = 3
@@ -11796,7 +11800,7 @@ countries = {
         #Principality of Piedmont - PIE
         PIE = {
             own_control_core = {
-                pinerolo susa turin lanzo
+                pinerolo susa turin lanzo chieri
             }
 
             starting_technology_level = 3
@@ -12278,7 +12282,7 @@ countries = {
             }
 
             own_control_conquered = {
-                fabriano gubbio
+                gubbio
             }
 
             starting_technology_level = 3
@@ -13028,6 +13032,7 @@ countries = {
             own_control_core = {
                 lemnos imbros
                 kiyikoy ahtopol constantinople silivri catalca
+                vize
                 sporades
             }
             own_control_conquered = {
@@ -13078,7 +13083,7 @@ countries = {
                 beden haskovo perperek smolyan stanimaka
                 chios molyvos mitilene enez thasos
                 alasehir
-                corlu vize
+                corlu
                 gallipoli kesan rodoscuk malgara hayrabolu
                 edirne kirklareli luleburgaz
                 servia ostrovo kastoria hatera veria edessa kassandreia polygyros thessaloniki
@@ -34364,7 +34369,7 @@ countries = {
 
             own_control_integrated = {
                 bayramlu unye mesudiye
-                corlu vize
+                corlu
                 gallipoli kesan rodoscuk malgara hayrabolu
                 edirne kirklareli luleburgaz
                 kastoria hatera veria edessa kassandreia polygyros thessaloniki
@@ -36592,7 +36597,7 @@ countries = {
 
         GLN = {
             # Gleichen (North Germany)
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 ohrdruf
             }
             starting_technology_level = 3
@@ -38595,7 +38600,7 @@ countries = {
 
         GLA = {
             #Glauchau
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 glauchau
             }
 
@@ -39194,7 +39199,7 @@ countries = {
         ANH = {
             #Anhalt
             own_control_core = {
-                zerbst
+                zerbst bernburg ballenstedt
             }
 
             starting_technology_level = 3
@@ -39224,7 +39229,7 @@ countries = {
 
         BNB = {
             #Bernburg
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 bernburg ballenstedt
             }
 
@@ -39320,7 +39325,7 @@ countries = {
 
         QUB = {
             #Gera / sold by Quedlinburg
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 gera schleiz
             }
 
@@ -39343,7 +39348,7 @@ countries = {
 
         WMA = {
             #Weimar
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 weimar
             }
 
@@ -39373,7 +39378,11 @@ countries = {
         SWZ = {
             #Schwarzburg
             own_control_core = {
-                arnstadt saalfeld
+                arnstadt
+            }
+
+            our_cores_conquered_by_others = {
+                saalfeld
             }
 
             starting_technology_level = 3
