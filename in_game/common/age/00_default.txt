@@ -54,7 +54,7 @@ age_2_renaissance = {
 
         antagonism_religion_influence = 0.1
 
-        research_speed_modifier = 12
+        research_speed_modifier = 14 # 14*8 = 112 -> compensates roughly for the ~107 years + some research events & bonuses
     }
     mercenaries = 0.25
     efficiency = 0.8
