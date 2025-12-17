@@ -6393,14 +6393,11 @@ countries = {
                 sirhind sadhaura samana_india thanesar kaithal karnal #Puadh
                 hisar dadri hansi #Bhattiana
                 hajner sunam raikot faridkot bathinda firozpur muktsar #Punjabi Malwa
-                tulamba #Bari Doab Province
                 gugera kasur virkgarh sialkot eminabad pasrur #Mahja
                 jalandhar rahon bajwara milwat kapurthala #Doaba
                 pindi_bhattian shorkot dijkot #Rechna Doab
                 gujrat busal bhera lalian shahpur sillanwali #Jech Doab
-                harrand mithankot omerkot #Derajat
-                dinkot isakhel #Karman
-                chakwal dina khewra khushab pindi_gheb rawalpindi sangni #Pothwar
+                chakwal dina khewra pindi_gheb rawalpindi sangni #Pothwar
                 attock #Peshawar
                 shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh
             }
@@ -6434,13 +6431,10 @@ countries = {
                 gagraun aklera guna khaniadhana
                 bhind konch kalpi lalitpur deogarh bhilsa
                 damoh singorgarh ujargarh sugaur
-                nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila dunga_bunga chishtian khairpur aror #Cholistan
-                multan mailsi chichawatni dipalpur pakpattan karur_punjab jalalpur_pirwala
+                chishtian #Cholistan
+                chichawatni dipalpur pakpattan
                 lahore sultanwind fatehabad batala kalanaur
                 chiniot kamalia talwandi jaranwala jhang
-                dajal dera_ghazi_khan dera_ismail_khan kot_addu
-                sitpur karor karor_2 bhakkar mankera
-                daraban
                 manikpur bhadohi mungra raebareli unnao
                 awadh akbarpur kishi sultanpur_uttar_pradesh
                 varanasi chunar ghazipur jaunpur mau_jaunpur kantit
@@ -6459,12 +6453,6 @@ countries = {
                 hazaribagh chai gobindpur katrasgarh shergarh urda
                 dumka deoghar jangipur mandar_parvat rajmahal teliagarhi
                 manyakheta chitapur bhalki
-                peshawar kohat bannu
-                akora hangu khost tank thal_daman
-
-                #Koh e-Sulayman
-                #Questionable if this shoudl actually be under Delhi. Likely better off independent.
-                zhob duki rakni lorelai kahan wana urgun
             }
 
             court_language = persian_language
