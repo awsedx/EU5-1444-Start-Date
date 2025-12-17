@@ -7517,7 +7517,7 @@ countries = {
                 marwari
             }
         }
-        
+
         #JJK - Jejakabhukti
         JJK = {
             #What remains of the Chandella dynasty. Would linger on until the 1600s but had already lost most real power except for these last disconnected strongholds.
@@ -63874,8 +63874,8 @@ countries = {
 
             government = {
                 type = tribe
-                heir_selection = cognatic_primogeniture
-                ruler = ttk_abd_al_latif
+                heir_selection = tribal_oldest_male
+                ruler = random
 
             }
 
