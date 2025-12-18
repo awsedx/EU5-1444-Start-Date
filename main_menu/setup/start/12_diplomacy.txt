@@ -483,6 +483,8 @@ diplomacy_manager = {
     dependency = { first = CHI second = MUA subject_type = tributary }
 
     # Jurchen Tributes
+    dependency = { first = CHI second = SSH subject_type = tusi }
+    dependency = { first = CHI second = JEC subject_type = tusi }
     dependency = { first = CHI second = HDA subject_type = tributary }
     dependency = { first = CHI second = HOI subject_type = tributary }
     dependency = { first = CHI second = ULA subject_type = tributary }

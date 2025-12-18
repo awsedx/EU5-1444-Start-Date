@@ -29594,7 +29594,7 @@ countries = {
                 liaoyang dingliao dandong
                 gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
                 jinzhou_liaoyang dalinghe haizhou_liaoyang ningyuan_jinzhou
-                qiantun shenyang fushun_liaoyang qinhe kuandian
+                qiantun shenyang kuandian
                 guangning wangping kaicheng
 
                 ningpu lingfang xuanhua_nanning
@@ -50096,13 +50096,25 @@ countries = {
 
         WRK = {
             #Warkha
-            type = pop
-
-            add_pops_from_locations = {
+            own_control_core = {
                 malong mudan_ula
                 juru_hoton mulun
-                hailang ningguta dongning kaiyuan_warka yongmingcheng huncun tulazi
+                hailang ningguta dongning kaiyuan_warka
                 kahari
+            }
+
+            include = "expl_manchurian_tribe"
+            include = "yeren_tribe"
+            government = {
+                ruler = random
+                heir_selection = ritual_selection
+            }
+        }
+
+        SFN = {
+            # Suifun
+            own_control_core = {
+                yongmingcheng
             }
 
             include = "expl_manchurian_tribe"
@@ -50153,6 +50165,7 @@ countries = {
             #Ula
             own_control_core = {
                 girin_ula gongjiang_jurchen lefu odoli shulan
+                yushu
             }
 
             include = "expl_manchurian_tribe"
@@ -50209,6 +50222,10 @@ countries = {
 
         HJN = {
             #Holjaon
+            own_control_core = {
+                huncun tulazi
+            }
+
             our_cores_conquered_by_others = {
                 onseong heoryeong
             }
@@ -50351,7 +50368,7 @@ countries = {
 
         SSH = {
             #Suksuhu
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 fushun_liaoyang qinhe
             }
 
