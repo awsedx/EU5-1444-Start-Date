@@ -64122,5 +64122,52 @@ countries = {
             religious_school = hanafi_school
             capital = kalpi
         }
+        JNP = { #Jaunpur
+            own_control_core = {
+                jaunpur
+            }
+            
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+            country_rank = rank_kingdom
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = jaunpur
+        }
+
+        BAH = { #Bahmanis
+            own_control_core = {
+                bidar
+            }
+            
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+            country_rank = rank_kingdom
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            capital = bidar
+            accepted_cultures = {
+                marathi_culture
+            }
+        }
     }
 }
