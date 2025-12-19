@@ -1,0 +1,12 @@
+UYG = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 84 159 227 }
+    colored_emblem = {
+        texture = "ce_uyghuristan.dds"
+        color1 = white
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 1.000 1.000 }
+        }
+    }
+}

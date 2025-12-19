@@ -112,6 +112,14 @@ SFN = {
 	religion_definition = tungusic_shamanism
 }
 
+UYG = {
+	# Uyghuristan
+	color = map_UYG
+
+	culture_definition = uyghur_culture
+	religion_definition = sunni
+}
+
 # DRB = { # Dörbet
 # 	color = { 170  93  221 }
 # 	culture_definition = oirat_culture
