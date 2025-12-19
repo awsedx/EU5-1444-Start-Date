@@ -6415,6 +6415,7 @@ countries = {
         DLH = {
             own_control_core = {
                 delhi rohtak panipat dadri mirat hapur jansath baran saharanpur piran_i_kaliyar
+                hisar hansi jind kaithal karnal thanesar sadhaura
             }
 
             court_language = persian_language
@@ -64161,11 +64162,12 @@ countries = {
         BAH = { #Bahmanis
             own_control_core = {
                 bidar bijapur mudgal raichur devadurga
-                khanapur belgaum gokak mudhol badami bagalkot basavana_bagewadi talikota sindagi kembhav chitapur manyakheta gulbarga
+                khanapur belgaum gokak mudhol badami bagalkot basavana_bagewadi talikota sindagi kembhavi chitapur manyakheta gulbarga
                 bhalki kalyani sholhapur naldrug parenda ausa kaulas udgir dahrur qandhar nander mahagaon bir pathri jalna sindkedh
                 mehkar basim mahagaon kalam kelapur panar amravati akola illichpur gawilgarh katol bandhugara dongartal wairagarh
                 raybag ajara kolhapur athani jath miraj karad aundh satara pratapgarh singarh pune chambargonda chakan junnar ahmednagar
-                sinnar nasik daulatabad
+                sinnar nasik daulatabad koilkonda tandur golconda kohir medak tupran bhongir warangal parkal mangapet molangur
+                vemulawada korutla balkonda nirmal adlur 
             }
             
             starting_technology_level = 3
