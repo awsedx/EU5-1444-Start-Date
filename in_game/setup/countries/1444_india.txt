@@ -109,10 +109,6 @@ SIR = { #Sirhind
     religion_definition = sunni
 }
 
-Here are the 1444 states grouped with unique color combinations and assigned to their respective provinces. I have maintained the order from our previous list and followed your formatting style.
-1444 Nepal State Definitions
-JavaScript
-
 JUM = { # Jumla 
     color = rgb { 86 184 108 }
     color2 = rgb { 128 0 32 }
