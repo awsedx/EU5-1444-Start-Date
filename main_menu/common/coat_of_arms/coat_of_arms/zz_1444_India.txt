@@ -208,3 +208,8 @@ THN = { # Tanahun
     color1 = "dark_green"
     color2 = "white"
 }
+BKH = { # Badakhshan
+    pattern = "pattern_vertical_split.dds"
+    color1 = "dark_green"
+    color2 = "white"
+}

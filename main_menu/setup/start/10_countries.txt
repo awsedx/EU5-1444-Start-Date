@@ -6636,7 +6636,7 @@ countries = {
 
         #RJR - Rajouri
         RJR = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 rajouri rasyal
             }
 
@@ -6674,7 +6674,7 @@ countries = {
 
         #PNC - Poonch
         PNC = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 poonch
             }
 
@@ -6699,7 +6699,7 @@ countries = {
         KGR = {
             #https://en.wikipedia.org/wiki/Kangra_State
             own_control_core = {
-                nagarkot palampur
+                nagarkot palampur kutlehar suket mandi sarahan naggar bajaura nurpur pathankot
             }
 
             capital = nagarkot
@@ -6724,7 +6724,7 @@ countries = {
         #CBH - Bhimber
         CBH = {
             #Taken over by the Chibhal/Jibhal dynasty around 1400
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 bhimber
             }
 
@@ -6750,7 +6750,7 @@ countries = {
         #SKT - Suket
         SKT = {
             #https://en.wikipedia.org/wiki/Suket_State
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 suket mandi sarahan
             }
 
@@ -6819,7 +6819,7 @@ countries = {
         #NRP - Nurpur
         NRP = {
             #https://en.wikipedia.org/wiki/Nurpur_kingdom
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 pathankot nurpur
             }
 
@@ -6842,7 +6842,7 @@ countries = {
         #KTL - Kutlehar
         KTL = {
             #https://en.wikipedia.org/wiki/Kutlehar_State
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 kutlehar
             }
 
@@ -6946,7 +6946,7 @@ countries = {
 
         #KLU - Kullu
         KLU = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 naggar bajaura
             }
 
@@ -6997,22 +6997,14 @@ countries = {
         #SWT - Swat kingdom of Bajaur
         SWT = {
             #https://en.wikipedia.org/wiki/Sultanate_of_Swat
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 baligram
-                agror behali
+                agror behali mardan lalpur
+                timergara bajaur kalam_swat malakand
 
                 #Indus Kohistan:
                 #Autonomous and perhaps better shown as independent, with one state per location/valley
                 jijial kandia dasu
-            }
-
-            own_control_integrated = {
-                tangir sherwan udabhanda
-            }
-
-            our_cores_conquered_by_others = {
-                mardan lalpur
-                timergara bajaur kalam_swat malakand
             }
 
             capital = baligram
@@ -7039,7 +7031,7 @@ countries = {
 
         #CRL - Urtsun
         CRL = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 urtsun
             }
 
@@ -7191,6 +7183,10 @@ countries = {
                 srinagar pulawama baramulla ganderbal kupwara banihal sharda
                 rawalakot kohtali
                 attock rawalpindi sangni pindi_gheb chakwal khewra dina
+                bhimber rajouri rasyal poonch
+                baligram
+                agror behali mardan lalpur
+                timergara bajaur kalam_swat malakand
             }
 
             capital = srinagar
@@ -49330,7 +49326,10 @@ countries = {
                 gilgit ishkoman bunji
                 astore chilas
                 altit passu misgar
-                chitral mulkhow yarkhun mastuj
+                chitral mulkhow yarkhun mastuj urtsun
+            }
+            own_control_integrated = {
+                jijial kandia dasu tangir sherwan udabhanda
             }
 
             include = "east_asia_monarchy_no_coast"
@@ -49608,11 +49607,6 @@ countries = {
             #Chagatai
             type = army
             own_control_core = {
-                fayzabad
-                jurm
-                shiveh
-                kham_bahar ragh
-                qalai_khumb vanch
                 tamdy akkesene baba_ata nurlykent saudakent shavgar sholakkorgan
                 almaty boyauli karakastek karamergen kargaly kurty shengeldy talkhir
                 balasagun dzhul harandzuvan kysmyci nuzket sargau soltobe
@@ -49626,7 +49620,7 @@ countries = {
                 koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
                 otrar artyk_ata kyr_uzkand mardankuyik sutkent zemukh zhaushikumtobe
                 turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
-                gharm daroot_korgon karakol muksu sangvor
+                karakol
                 kurchum kandysu kokpekty shar zyryan
 
                 # Qocho
@@ -49637,13 +49631,12 @@ countries = {
                 yuanhu
             }
             own_control_integrated = {
-                almaliq gulja narat nilka tokkuztara sarikol yulduz bortala jing
+                almaliq gulja narat nilka tokkuztara yulduz bortala jing
                 kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik
                 hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin
                 ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh
-                burqin jeminay qila_panjeh ishkashim roshtqala sarhad sar_sang zebak
-                shighnan vamar ilibalyk koktal kayalyk ayagoz tansyk
-                zarafshan gunt murghab oksu
+                burqin jeminay
+                ilibalyk koktal kayalyk ayagoz tansyk
             }
             our_cores_conquered_by_others = {
                 akhsikath asht karasuu kasan kerben pop_fargana
@@ -49651,7 +49644,7 @@ countries = {
                 chach almalik_chach nuket
                 sutkent zemukh zhaushikumtobe
                 fergana marghinan osh quva rishton
-                fanakat
+                fanakat samarkand
             }
             starting_technology_level = 3
             include = "expl_mongols"
@@ -49711,6 +49704,7 @@ countries = {
                 kurla bugur kuerchu
                 charchan charklik niya qietai tatrang waxxari
                 mazar_tagh tikenliq
+                zarafshan sarikol
 
                 # Mangalai
                 aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
@@ -64767,5 +64761,20 @@ countries = {
 		
 		    capital = tanahun
 		}
+        BKH = {
+            # Badakhshan
+            own_control_core = {
+                vamar vanch muksu daroot_korgon karakol gharm sangvor qalai_khumb
+                kham_bahar ragh shiveh shighnan ishkashim zebak jurm fayzabad sar_sang
+                roshtqala qila_panjeh gunt sarhad oksu murghab
+            }
+
+            include = "east_asia_monarchy_no_coast"
+
+            capital = vamar
+            government = {
+                ruler = random
+            }
+        }
     }
 }

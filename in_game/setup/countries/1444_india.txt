@@ -178,3 +178,10 @@ THN = { # Tanahun
     culture_definition = khas_culture
     religion_definition = hindu
 }
+
+BKH = { # Badakhshan
+    color = rgb { 96 39 187 }
+    color2 = rgb { 255 235 205 }
+    culture_definition = pamiri_culture
+    religion_definition = shia
+}

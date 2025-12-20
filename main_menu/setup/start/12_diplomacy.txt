@@ -135,8 +135,10 @@ diplomacy_manager = {
 
     #Kashmiri Subjects:
     #Rajouri
-    dependency = { first = KSH second = RJR subject_type = samanta }
-    dependency = { first = KSH second = PNC subject_type = samanta }
+    dependency = { first = KSH second = DOG subject_type = samanta }
+    dependency = { first = KSH second = KSW subject_type = samanta }
+    dependency = { first = KSH second = LHL subject_type = samanta }
+    dependency = { first = KSH second = KSW subject_type = samanta }
 
     #Haihaya Subjects:
     dependency = { first = RTP second = SRG subject_type = samanta }
@@ -733,6 +735,7 @@ diplomacy_manager = {
     dependency = { first = TIM second = TII subject_type = appanage }
     dependency = { first = TIM second = MIH subject_type = vassal }
     dependency = { first = TIF second = HZP subject_type = vassal }
+    dependency = { first = TTK second = BKH subject_type = tributary }
 
     		    # ------ Sindh -------
     dependency = { first = SMA second = SKU subject_type = samanta}
