@@ -21,7 +21,7 @@ grand_duchy_lit = {
 	country_modifier = {
 		#conditional country modifiers. Can add multiple of these
 		#optional trigger = {}
-		diplomatic_capacity = 5
+		diplomatic_capacity = 2
 		monthly_towards_decentralization = 0.05
 		monthly_towards_traditionalist = 0.05
 		global_nobles_estate_power = 0.1
