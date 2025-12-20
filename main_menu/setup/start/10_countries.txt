@@ -1314,7 +1314,7 @@ countries = {
             }
 
             country_rank = rank_county
-            capital = brandenburg
+            capital = berlin
             dynasty = hohenzollern_dynasty
         }
 
@@ -1898,8 +1898,6 @@ countries = {
                 budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
                 bechyne jicin podebrady caslav nachod nemecky_brod
                 chrudim hradec_kralove klodzko litomysl trebon
-                bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
-                zittau
             }
 
             starting_technology_level = 3
@@ -35769,7 +35767,7 @@ countries = {
             }
 
             country_rank = rank_county
-            capital = merano
+            capital = innsbruck
         }
 
         WER = {
@@ -38654,6 +38652,7 @@ countries = {
             #Lusatia
             own_control_core = {
                 cottbus guben lubben luckau calau zossen spremberg
+                bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern zittau
             }
             starting_technology_level = 3
             include = "expl_western_europe"
