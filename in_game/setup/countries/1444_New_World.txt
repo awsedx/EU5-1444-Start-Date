@@ -71,7 +71,7 @@ WAM = {
 
 # Tungus
 TUG = {
-    color = rgb { 237 205 76 }
+    color = rgb { 48 25 52 }
     color2 = rgb { 101 67 33 }
     culture_definition = evenk_culture
     religion_definition = tungusic_shamanism
