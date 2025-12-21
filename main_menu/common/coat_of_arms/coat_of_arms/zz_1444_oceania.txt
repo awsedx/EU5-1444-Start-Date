@@ -160,24 +160,8 @@ TIW = {
 
 EOA = {
     pattern = "pattern_horizontal_split_01.dds"
-    color1 = rgb { 170 0 0 }
-    color2 = rgb { 0 0 0 }
-    colored_emblem = {
-        texture = "ce_aboriginal_meeting_place_02.dds"
-        color1 = rgb { 255 255 255 }
-        instance = {
-            position = { 0.292 0.746 }
-            scale = { 0.500 0.500 }
-        }
-    }
-    colored_emblem = {
-        texture = "ce_aboriginal_moon.dds"
-        color1 = rgb { 0 0 0 }
-        instance = {
-            position = { 0.776 0.254 }
-            scale = { 0.500 0.500 }
-        }
-    }
+    color1 = rgb { 70 90 10 }
+    color2 = rgb { 255 255 255 }
 }
 
 WUW = {
@@ -266,15 +250,6 @@ WAM = { #Waima
     pattern = "pattern_fly_25.dds"
     color1 = rgb { 126 160 255 }
     color2 = rgb { 79 55 39 }
-    colored_emblem = {
-        texture = "ce_african_crossed_spears_shield.dds"
-        color1 = rgb { 47 33 23 }
-        color2 = rgb { 198 198 198 }
-        instance = {
-            position = { 0.872 0.715 }
-            scale = { 0.250 0.250 }
-        }
-    }
 }
 
 TUG = { #Tungus
