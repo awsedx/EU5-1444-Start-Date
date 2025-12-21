@@ -84,10 +84,3 @@ CKC = {
     culture_definition = chukchi_culture
     religion_definition = chukchi_shamanism
 }
-SAK = { #Sakha
-	color = map_sakha
-	color2 = rgb { 48 25 52 }
-
-	culture_definition = sakha_culture
-	religion_definition = tengri
-}

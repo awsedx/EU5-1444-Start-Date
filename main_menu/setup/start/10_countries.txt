@@ -65073,7 +65073,7 @@ countries = {
         }
         WUW = { #Wurundjeri 
             own_control_core = {
-                wathaurong woi_wurrung boon_wurrung gadubanud marin_balluk yarra
+                wathaurong woi_wurrung boon_wurrung gadubanud marin_balluk yarra geelong
             }
 
             discovered_regions = {
