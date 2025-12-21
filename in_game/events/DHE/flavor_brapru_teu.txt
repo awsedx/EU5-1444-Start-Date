@@ -228,10 +228,10 @@ flavor_brapru_teu.3 = {
 			}
 		}
 
-		change_local_variable = {
-			name = TEU_price_for_neumark
-			multiply = 4
-		}
+		# change_local_variable = {
+		# 	name = TEU_price_for_neumark
+		# 	multiply = 4
+		# }
 		save_scope_as = teu_from
 	}
 
