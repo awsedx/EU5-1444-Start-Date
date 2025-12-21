@@ -1250,7 +1250,6 @@ country_flavor = {
         trigger = {
             country_rank_is_kingdom = yes
             has_reform = government_reform:timurid_prince
-            NOT = { tag = TIM }
         }
     }
 
