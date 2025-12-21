@@ -4314,7 +4314,7 @@ POF_f = { #Tahiti
 	areas = {
 		totaiete_ma_area
 		palliser_area
-		raffsky_area
+		raeffsky_area
 		tuamotu_area
 	}
 	form_effect = {
