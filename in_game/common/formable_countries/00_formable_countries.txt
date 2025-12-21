@@ -4262,7 +4262,10 @@ SOI_f = { #Solomon Islands
 	rule = plausible
 	
 	potential = {
-		culture = { has_culture_group = culture_group:micronesian_group }
+		or = {
+			culture = { has_culture_group = culture_group:micronesian_group }
+			culture = culture:naasioi
+		}
 	}
 
 	allow = {

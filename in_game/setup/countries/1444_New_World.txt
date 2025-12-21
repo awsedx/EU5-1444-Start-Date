@@ -57,7 +57,7 @@ NIV = {
 NII = {
     color = rgb { 101 67 33 }
     color2 = rgb { 255 193 7 }
-    culture_definition = naasioie_culture
+    culture_definition = naasioi_culture
     religion_definition = imunu_religion
 }
 
