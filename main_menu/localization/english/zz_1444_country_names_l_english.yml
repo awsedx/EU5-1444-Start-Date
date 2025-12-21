@@ -41,6 +41,8 @@
  ACH_ADJ: "Morean"
  NSL: "Odoyev"
  NSL_ADJ: "Odoyevian"
+ CZK: "Masovia"
+ CZK_ADJ: "Masovian"
  UBV: "Munich"
  UBV_ADJ: "Municher"
  LBV: "Landshut"
@@ -116,7 +118,7 @@
  BKH: "Badakhshan"
  BKH_ADJ: "Badakhshani"
 
- CZE: "Masovia"
- CZE_ADJ: "Masovian"
  DHF: "Mahra"
  DHR_ADJ: "Mahran"
+ ZAB: "Biskra"
+ ZAB_ADJ: "Biskran"
