@@ -1190,6 +1190,7 @@ countries = {
                 stendal osterburg salzwedel gardelegen
                 wittenberge pritzwalk treuenbrietzen
                 angermunde prenzlau
+                lebus
             }
 
             own_control_integrated = {
@@ -1314,7 +1315,7 @@ countries = {
             }
 
             country_rank = rank_county
-            capital = brandenburg
+            capital = berlin
             dynasty = hohenzollern_dynasty
         }
 
@@ -1898,8 +1899,6 @@ countries = {
                 budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
                 bechyne jicin podebrady caslav nachod nemecky_brod
                 chrudim hradec_kralove klodzko litomysl trebon
-                bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
-                zittau
             }
 
             starting_technology_level = 3
@@ -4611,11 +4610,12 @@ countries = {
                 # Earldom of Chester
                 #chester macclesfield nantwich
 
+                lancaster blackburn liverpool preston manchester
+
                 # English towns on the Welsh March
                 shrewsbury hereford
             }
             own_control_integrated = {
-                # Earldom of Chester
                 # cornwall
                 launceston truro bodmin
                 # channel
@@ -4904,7 +4904,7 @@ countries = {
         DEN = {
             # Denbigh Marcher Lordship
             include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 denbigh
             }
             capital = denbigh
@@ -4941,13 +4941,8 @@ countries = {
 
         LAN = {
             #Palatinate of Lancaster
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 lancaster blackburn liverpool preston manchester
-            }
-
-            own_control_conquered = {
-                monmouth
-                kidwelly
             }
 
             include = "catholic_monarchy_english_lordship"
@@ -4977,10 +4972,6 @@ countries = {
                 chester macclesfield nantwich
             }
 
-            own_control_conquered = {
-                flint
-            }
-
             include = "catholic_monarchy_english_lordship"
             include = "expl_western_europe"
 
@@ -5004,12 +4995,15 @@ countries = {
             own_control_core = {
                 # Principality of Wales
                 aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
+                monmouth
+                kidwelly
+                flint denbigh
             }
             our_cores_conquered_by_others = {
                 # Earldom of Chester
 
                 # Marcher Lordships
-                brecknock cardiff caerphilly swansea monmouth montgomery builth denbigh llangollen ewyas kidwelly machynlleth radnor
+                brecknock cardiff caerphilly swansea montgomery builth llangollen ewyas machynlleth radnor
             }
 
             include = "catholic_monarchy_english_lordship"
@@ -12330,7 +12324,7 @@ countries = {
         VEN = {
             own_control_core = {
                 chioggia venice mestre
-                pola rovinj pag zadar split brac slano sibenik
+                pola rovinj pag zadar split brac sibenik
                 este monselice padova
                 legnago peschiera verona
                 # own_control_integrated, but culture accepted
@@ -13472,10 +13466,13 @@ countries = {
 
         BOS = {
             own_control_core = {
-                glamoc
-                vrhbosna konjic srebrenica doboj soli
-                jajce livno zenica kljuc srebrenik
-                glaz teocak olovo borac ustikolina
+                vrhbosna srebrenica doboj soli
+                jajce zenica kljuc srebrenik
+                glaz teocak olovo borac 
+            }
+
+            our_cores_conquered_by_others = {
+                livno ustikolina konjic glamoc
             }
 
             starting_technology_level = 3
@@ -13510,7 +13507,7 @@ countries = {
 
         RAG = {
             own_control_core = {
-                dubrovnik
+                dubrovnik slano
             }
 
             starting_technology_level = 3
@@ -13627,12 +13624,12 @@ countries = {
         CRO = {
             own_control_core = {
                 kaseg knin novigrad crikvenica senj
-                bihac krk makarska srb sinj otocac
+                bihac krk srb sinj otocac
                 slunj
                 rijeka
             }
             our_cores_conquered_by_others = {
-                zadar split sibenik
+                zadar split sibenik makarska
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
@@ -14034,7 +14031,7 @@ countries = {
                 lugo monforte_de_lemos navia_de_suarna sarria villalba
                 ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
                 santiago_compostela finisterre lalin mellid noya pontevedra tuy
-                oviedo aviles cangas castropol llanes mieres tineo villaviciosa
+                tineo
                 leon astorga castrocalbon mansilla ponferrada riano sahagun villablino villafranca_bierzo
                 salamanca alba_de_tormes bejar ciudad_rodrigo coria ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
                 zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
@@ -14310,6 +14307,49 @@ countries = {
             capital = leon
         }
 
+        #Asturias
+        ASU = {
+            own_control_core = {
+                oviedo aviles castropol villaviciosa cangas llanes mieres #Asturias
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+
+                ruler_term = { character = lon_pelagio_asturias start_date = 718.9.8 end_date = 737.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_favila_asturias start_date = 737.1.1 end_date = 739.1.1 regnal_number = 1 }
+
+                ruler_term = { character = lon_alfonso_i_asturias start_date = 739.1.1 end_date = 757.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_fruela_i_asturias start_date = 757.1.1 end_date = 768.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_aurelio_asturias start_date = 768.1.1 end_date = 774.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_silo_asturias start_date = 774.1.1 end_date = 783.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_ii_asturias start_date = 783.1.1 end_date = 783.6.1 regnal_number = 2 }
+                ruler_term = { character = lon_mauregato_asturias start_date = 783.6.1 end_date = 789.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_bermudo_i_asturias start_date = 789.1.1 end_date = 791.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_ii_asturias start_date = 791.1.1 end_date = 842.3.20 regnal_number = 2 }
+                ruler_term = { character = lon_ramiro_i_asturias start_date = 842.3.20 end_date = 850.2.1 regnal_number = 1 }
+                ruler_term = { character = lon_ordono_i_asturias start_date = 850.2.1 end_date = 866.5.27 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_iii_asturias start_date = 866.5.27 end_date = 910.1.1 regnal_number = 3 }
+                ruler_term = {
+                    character = lon_alfonso_iii_asturias start_date = 910.1.1 end_date = 910.12.20 regnal_number = 3
+                    character = lon_garcia_i_leon start_date = 910.1.1 end_date = 910.12.20 regnal_number = 1
+                }
+
+                regnal_numbers = {
+                }
+            }
+
+            country_rank = rank_duchy
+            capital = oviedo
+        }
+
         GLC = {
             our_cores_conquered_by_others = {
                 coruna betanzos ferrol mondonedo vivero #A Coruña
@@ -14567,6 +14607,7 @@ countries = {
                 mantes
                 etampes monfort_lamaury dreux
                 roucy chateau_porcien
+                alluyes evreux senonches
             }
             own_control_integrated = {
                 #Appanages
@@ -14606,8 +14647,7 @@ countries = {
                 lautrec #Vic. de Lautrec
                 castres #S. de Castres
 
-                charroux
-                bellac
+                laval
             }
 
             our_cores_conquered_by_others = {
@@ -14891,7 +14931,7 @@ countries = {
                 outward_vs_inward = -20
 
                 reforms = {
-                    french_appanage_reform
+                    burgundian_feudalism
                 }
             }
 
@@ -15011,7 +15051,7 @@ countries = {
                 # own_control_integrated, but culture accepted
             }
             own_control_integrated = {
-                argentan beaumont_au_maine mortagne senonches
+                argentan beaumont_au_maine laigle domfront
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -15262,6 +15302,7 @@ countries = {
                 # own_control_integrated, but culture accepted
                 clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
                 chambon #B. de Combraille
+                chateau_chinon #S. Chateau-Chinon
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -15302,6 +15343,8 @@ countries = {
             own_control_core = {
                 gueret aubusson #La Marche
                 bourganeuf
+                charroux
+                bellac
             }
 
             own_control_integrated = {
@@ -16757,11 +16800,11 @@ countries = {
         #Perche (In PU with Alençon)
         PRC = {
             own_control_core = {
-                belleme alluyes
+                belleme mortagne
             }
 
             our_cores_conquered_by_others = {
-                mortagne senonches
+                alluyes senonches
             }
 
             starting_technology_level = 3
@@ -16869,7 +16912,7 @@ countries = {
         #Artois
         ARS = {
             own_control_core = {
-                arras bapaume bethune hesdin lens saint_omer saint_pol boulogne_sur_mer
+                arras bapaume bethune hesdin lens saint_omer
             }
 
             starting_technology_level = 3
@@ -16902,7 +16945,7 @@ countries = {
 
         #Saint-Pol
         STP = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 saint_pol
             }
 
@@ -16938,7 +16981,7 @@ countries = {
 
         #Boulogne
         BGN = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 boulogne_sur_mer
             }
 
@@ -17065,10 +17108,6 @@ countries = {
                 beaupreau le_lude passavant loudun
             }
 
-            own_control_integrated = {
-                laval
-            }
-
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy_no_coast"
@@ -17170,7 +17209,6 @@ countries = {
             own_control_core = {
                 nevers donzy
                 st_pierre_de_moutier montreuillon cercy
-                chateau_chinon #S. Chateau-Chinon
             }
 
             starting_technology_level = 3
@@ -17334,12 +17372,12 @@ countries = {
         #Normandy
         NRM = {
             own_control_core = {
-                bernay laigle louviers pont_audemer
-                caen bayeux domfront falaise lisieux pont_douilly
+                bernay louviers pont_audemer
+                caen bayeux falaise lisieux pont_douilly
                 cherbourg coutances avranches st_sauveur vire
                 rouen arques fecamp gisors tancarville
                 longueville
-                evreux harcourt mortain
+                harcourt mortain
             }
 
             our_cores_conquered_by_others = {
@@ -17347,7 +17385,7 @@ countries = {
                 evreux harcourt mortain #Evreux
                 longueville #Longueville
                 alencon domfront argentan #Alencon
-                argentan
+                argentan laigle
             }
 
             starting_technology_level = 3
@@ -17464,7 +17502,7 @@ countries = {
                 amiens abbeville corbie montreuil peronne saint_quentin breteuil nesle
             }
             our_cores_conquered_by_others = {
-                calais boulogne_sur_mer guise hirson marle
+                calais guise hirson marle
                 ribemont noyon
             }
 
@@ -17476,7 +17514,7 @@ countries = {
                 heir_selection = cognatic_primogeniture
                 ruler = random
             }
-            capital = boulogne_sur_mer
+            capital = amiens
         }
 
         #Toulouse (Revolter)
@@ -17984,6 +18022,33 @@ countries = {
 
             country_rank = rank_duchy
             capital = liege
+        }
+
+        #Tournai
+        TOI = {
+            own_control_core = {
+                tournai
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_bishopric_no_coast"
+            government = {
+                reforms = {
+                    prince_bishopric_reform
+                }
+
+                spiritualist_vs_humanist = -70
+                aristocracy_vs_plutocracy = -20
+                land_vs_naval = -20
+            }
+
+            tolerated_cultures = {
+                lower_franconian
+            }
+
+            country_rank = rank_county
+            capital = tournai
         }
 
         #Bouillon
@@ -18769,6 +18834,7 @@ countries = {
             #Travunija
             own_control_core = {
                 trebinje gacko mostar nevesinje drijeva metkovic
+                livno ustikolina konjic glamoc makarska
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
@@ -33154,11 +33220,10 @@ countries = {
             own_control_core = {
                 bartin
                 kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-                ulus yenicepazari gerze
+                ulus gerze
             }
 
             own_control_integrated = {
-                safranbolu
             }
 
             include = "expl_eastern_europe"
@@ -34553,6 +34618,7 @@ countries = {
                 hafik sarkisla zara sivas gemerek
                 yalvac
                 kirsehir
+                yenicepazari safranbolu
             }
 
             own_control_integrated = {
@@ -35026,8 +35092,12 @@ countries = {
 
         #Kelali - KEL
         KEL = {
+            own_control_core = {
+                 kamyaran muchesh sonqor
+            }
+
             our_cores_conquered_by_others = {
-                asadabad kamyaran malayer muchesh nahavand sonqor
+                asadabad malayer nahavand
             }
 
             include = "expl_middle_east"
@@ -35048,7 +35118,7 @@ countries = {
                 lur_culture
             }
 
-            capital = nahavand
+            capital = kamyaran
             religious_school = hanafi_school
             government = { mysticism_vs_jurisprudence = -15 }
 
@@ -35108,7 +35178,7 @@ countries = {
 
         #Rankali - RKL
         RKL = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 bisotun holeylan kermanshah
             }
 
@@ -35852,7 +35922,7 @@ countries = {
             }
 
             country_rank = rank_county
-            capital = merano
+            capital = innsbruck
         }
 
         WER = {
@@ -36608,7 +36678,7 @@ countries = {
 
         BLB = {
             # Bishopric of Lebus
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 lebus
             }
             starting_technology_level = 3
@@ -38737,6 +38807,7 @@ countries = {
             #Lusatia
             own_control_core = {
                 cottbus guben lubben luckau calau zossen spremberg
+                bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern zittau
             }
             starting_technology_level = 3
             include = "expl_western_europe"
@@ -43035,6 +43106,7 @@ countries = {
 
                 reforms = {
                     patrimonialism
+                    grand_duchy_lit
                 }
             }
 
@@ -50396,7 +50468,7 @@ countries = {
                 nimvar khwansar golpayegan khomeyn mahallat delijan
                 sibak aligurdaz dorud borujerd
                 karaj_abi_dulaf saruk tafresh khondab qorveh_darjazin hamadan kurijan
-                malayer nahavand bisotun asadabad sonqor
+                malayer nahavand asadabad
                 bashqurtaran sohrevard yasukand
                 sagzabad savojbolagh avaj qazvin takestan abhar qeydar
                 shahrestan_sofla sirdan rudbar shamiram

@@ -1,0 +1,410 @@
+﻿namespace = flavor_brapru_teu
+
+scripted_effect TEU_reject = {
+	save_scope_as = teu_rejecting_tag
+	scope:teu_from = {
+		trigger_event_non_silently = flavor_brapru_teu.5 #rejection
+
+		show_as_tooltip = {
+			add_prestige = prestige_weak_penalty
+
+			add_opinion_mutual_effect = {
+				target = scope:teu_rejecting_tag
+				modifier = TEU_rejected_sale
+			}	
+		}
+	}
+}
+
+scripted_effect pru_list_of_neumark_provs = {
+	province_definition:neumark_province = {
+		every_location_in_province_definition = {
+			limit = {
+				NOR = {
+					this = location:lebus
+					this = location:torzym
+					this = location:freienwalde
+				} 
+			}
+			add_to_list = list_of_neumark_locations
+		}
+	}
+	province_definition:pyritz_province = {
+		every_location_in_province_definition = {
+			limit = {
+				NOT = { this = location:gryfow }
+			}
+			add_to_list = list_of_neumark_locations
+		}
+	}
+	province_definition:arnskrone_province = {
+		every_location_in_province_definition = {
+			add_to_list = list_of_neumark_locations
+		}
+	}
+	province_definition:koslin_province = {
+		every_location_in_province_definition = {
+			add_to_list = list_of_neumark_locations
+		}
+	}
+	province_definition:stolp_province = {
+		every_location_in_province_definition = {
+			add_to_list = list_of_neumark_locations
+		}
+	}
+}
+
+# Pawning of Neumark
+flavor_brapru_teu.1 = {
+	type = country_event
+	title = flavor_brapru_teu.1.title
+	desc = flavor_brapru_teu.1.desc
+    historical_info = flavor_brapru_teu.1.historical_info
+
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = BRA
+		from = 1390.1.1
+		to = 1410.1.1
+		monthly_chance = 5
+	}
+
+	illustration_tags = {
+		10 = regular
+		10 = interior
+	}
+	
+	trigger = {
+		country_exists = c:TEU
+		at_war = no
+		any_owned_non_rural_location = {
+			province_definition = province_definition:neumark_province
+		}
+	}
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+		set_local_variable = {
+			name = TEU_price_for_neumark
+			value = 0
+		}
+		pru_list_of_neumark_provs = yes
+		every_in_list = {
+			list = list_of_neumark_locations
+			limit = { owner ?= ROOT }
+			change_local_variable = {
+				name = TEU_price_for_neumark
+				add = this.population
+			}
+		}
+		change_local_variable = {
+			name = TEU_price_for_neumark
+			multiply = 4
+		}
+		save_scope_as = teu_from
+	}
+
+	option = {
+		name = flavor_brapru_teu.1.a
+		
+		historical_option = yes
+
+		custom_tooltip = TEU_pawn_neumark_to_teutons
+
+		show_as_tooltip = {
+			add_gold = local_var:TEU_price_for_neumark
+			
+			c:TEU = {
+				add_gold = {
+					value = local_var:TEU_price_for_neumark
+					multiply = -1
+				}
+			}
+			every_in_list = {
+				list = list_of_neumark_locations
+				limit = { owner = ROOT }
+				change_location_owner = c:TEU
+			}
+		}
+
+		c:TEU = { trigger_event_non_silently = flavor_brapru_teu.2 }
+	}
+
+	option = {
+		name = flavor_brapru_teu.1.b
+
+		every_in_list = {
+			list = list_of_neumark_locations
+			limit = { owner ?= ROOT }
+			add_location_modifier = {
+				modifier = PRU_crime_ridden
+				years = 30
+			}
+		}
+	}
+}
+
+# Pawning of Neumark
+flavor_brapru_teu.2 = {
+	type = country_event
+	title = flavor_brapru_teu.2.title
+	desc = flavor_brapru_teu.2.desc
+    historical_info = flavor_brapru_teu.2.historical_info
+
+	illustration_tags = {
+		10 = regular
+		10 = interior
+	}
+
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+	}
+
+	option = {
+		name = flavor_brapru_teu.2.a
+		
+		historical_option = yes
+
+		add_gold = {
+			value = local_var:TEU_price_for_neumark
+			multiply = -1
+		}	
+		scope:teu_from = {
+			add_gold = local_var:TEU_price_for_neumark	
+		}
+		every_in_list = {
+			list = list_of_neumark_locations
+			limit = { owner = scope:teu_from }
+			change_location_owner = ROOT
+		}
+		set_variable = bought_neumark
+	}
+	option = {
+		name = flavor_brapru_teu.2.b 
+
+		add_prestige = prestige_mild_bonus
+
+		TEU_reject = yes
+	}
+}
+
+# Pawning of Neumark
+flavor_brapru_teu.3 = {
+	type = country_event
+	title = flavor_brapru_teu.3.title
+	desc = flavor_brapru_teu.3.desc
+    historical_info = flavor_brapru_teu.3.historical_info
+
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = TEU
+		from = 1440.1.1
+		to = 1460.1.1
+		monthly_chance = 5
+	}
+
+	illustration_tags = {
+		10 = regular
+		10 = exterior
+	}
+	
+	trigger = {
+		country_exists = c:BRA
+		at_war = no
+		# has_variable = bought_neumark # Neumark never gets sold to TEU, therefore variable never gets set
+	}
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+		pru_list_of_neumark_provs = yes
+		set_local_variable = {
+			name = TEU_price_for_neumark
+			value = 0
+		}
+		every_in_list = {
+			list = list_of_neumark_locations
+			limit = { owner = ROOT }
+			change_local_variable = {
+				name = TEU_price_for_neumark
+				add = this.population
+			}
+		}
+
+		# change_local_variable = {
+		# 	name = TEU_price_for_neumark
+		# 	multiply = 4
+		# }
+		save_scope_as = teu_from
+	}
+
+	option = {
+		name = flavor_brapru_teu.3.a
+		
+		historical_option = yes
+
+		custom_tooltip = TEU_sell_neumark_back_to_brandenburg
+
+		show_as_tooltip = {
+			add_gold = local_var:TEU_price_for_neumark
+			
+			c:BRA = {
+				add_gold = {
+					value = local_var:TEU_price_for_neumark
+					multiply = -1
+				}
+			}
+			add_gold = {
+				value = local_var:TEU_price_for_neumark
+			}
+			every_in_list = {
+				list = list_of_neumark_locations
+				limit = { owner = ROOT }
+				change_location_owner = c:BRA
+			}
+		}
+		c:BRA = { trigger_event_non_silently = flavor_brapru_teu.4 }
+	}
+	option = {
+		name = flavor_brapru_teu.3.b
+
+		trigger = {
+			country_exists = c:POL
+			NOT = {
+				c:POL = {
+					is_at_war_with = ROOT
+				}
+			}
+		}
+		custom_tooltip = TEU_sell_neumark_back_to_poland
+
+		show_as_tooltip = {
+			add_gold = local_var:TEU_price_for_neumark
+			
+			c:POL = {
+				add_gold = {
+					value = local_var:TEU_price_for_neumark
+					multiply = -1
+				}
+			}
+			add_gold = {
+				value = local_var:TEU_price_for_neumark
+			}
+			every_in_list = {
+				list = list_of_neumark_locations
+				limit = { owner = ROOT }
+				change_location_owner = c:POL
+			}
+		}
+
+		c:POL = { trigger_event_non_silently = flavor_brapru_teu.4 }
+	}
+
+	option = {
+		name = flavor_brapru_teu.3.c
+
+		add_stability = stability_severe_penalty
+	}
+}
+
+# Pawning of Neumark
+flavor_brapru_teu.4 = {
+	type = country_event
+	title = flavor_brapru_teu.4.title
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					tag = BRA
+				}
+				desc = flavor_brapru_teu.4.desc
+			}
+			triggered_desc = {
+				desc = flavor_brapru_teu.4.desc_other
+			}
+		}
+	}
+    historical_info = flavor_brapru_teu.4.historical_info
+
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+		scope:teu_from = {
+			random_province = {
+				limit = {
+					OR = {
+						province_definition = province_definition:arnskrone_province
+						province_definition = province_definition:neumark_province
+						province_definition = province_definition:pyritz_province
+					}
+				}
+				save_scope_as = target_province
+			}
+		}
+	}
+
+	illustration_tags = {
+		10 = regular
+		10 = interior
+	}
+
+	option = {
+		name = flavor_brapru_teu.4.a
+		
+		historical_option = yes
+
+		add_gold = {
+			value = local_var:TEU_price_for_neumark
+			multiply = -1
+		}	
+		scope:teu_from = {
+			add_gold = local_var:TEU_price_for_neumark	
+		}
+		every_in_list = {
+			list = list_of_neumark_locations
+			limit = { owner = scope:teu_from }
+			change_location_owner = ROOT
+		}
+	}
+	option = {
+		name = flavor_brapru_teu.4.b 
+
+		add_casus_belli = { type = casus_belli:cb_conquer_province target = scope:target_province.owner province = scope:target_province }
+		add_country_modifier = {
+			modifier = PRU_fabrication
+			years = 5
+			mode = extend
+		}
+		TEU_reject = yes
+	}
+	option = {
+		name = flavor_brapru_teu.4.c
+		
+		add_prestige = prestige_severe_bonus
+		TEU_reject = yes
+	}
+}
+
+# Negative response
+flavor_brapru_teu.5 = {
+	type = country_event
+	title = flavor_brapru_teu.5.title
+	desc = flavor_brapru_teu.5.desc
+
+
+	illustration_tags = {
+		10 = angry
+		10 = interior
+	}
+
+	immediate = {
+		event_illustration_estate_effect = { foreground = estate_type:nobles_estate background = estate_type:nobles_estate }
+	}
+
+	option = {
+		name = flavor_brapru_teu.5.a
+
+		add_prestige = prestige_weak_penalty
+		
+		add_opinion_mutual_effect = {
+			target = scope:teu_rejecting_tag
+			modifier = TEU_rejected_sale
+		}
+	}
+}

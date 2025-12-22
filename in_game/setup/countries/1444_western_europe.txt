@@ -48,3 +48,19 @@ SOP = {
     culture_definition = eastern_pomeranian
     religion_definition = catholic
 }
+
+TOI = {
+    #Tournai
+    color = rgb { 201 24 36 }
+
+    culture_definition = picard
+    religion_definition = catholic
+}
+
+ASU = {
+    #Asturias
+    color = rgb { 104 173 230 }
+
+    culture_definition = leonese
+    religion_definition = catholic
+}

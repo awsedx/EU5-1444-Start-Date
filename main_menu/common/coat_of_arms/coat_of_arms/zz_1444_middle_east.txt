@@ -1,0 +1,123 @@
+AQQ = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 0 170 }
+    colored_emblem = {
+        texture = "ce_akkoyunlu.dds"
+        color1 = rgb { 255 255 255 }
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.0 1.0 }
+        }
+    }
+}
+
+QAR = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 151 196 }
+    colored_emblem = {
+        texture = "ce_karakoyunlu.dds"
+        color1 = rgb { 0 0 0 }
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.5 1.5 }
+        }
+    }
+}
+
+ADL = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 128 0 }
+    textured_emblem = {
+        texture = "te_ardabil.dds"
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.0 1.0 }
+        }
+    }
+}
+
+IME = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 206 255 }
+    textured_emblem = {
+        texture = "te_imereti.dds"
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.0 1.0 }
+        }
+    }
+}
+
+RAS = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 206 17 38 }
+    colored_emblem = {
+        texture = "ce_rassids.dds"
+        color1 = rgb { 255 255 255 }
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.0 1.0 }
+        }
+    }
+}
+
+BGH = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 0 0 }
+    textured_emblem = {
+        texture = "te_abbasid.dds"
+        instance = {
+            position = { 0.5 0.5 }
+            scale = { 1.0 1.0 }
+        }
+    }
+}
+
+BIT = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 246 234 202 }
+    colored_emblem = {
+        texture = "ce_star_24.dds"
+        color1 = rgb { 245 187 11 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.850 0.850 }
+        }
+    }
+}
+
+KAR = {
+    pattern = "pattern_vertical_split_01.dds"
+    color1 = rgb { 0 0 83 }
+    color2 = rgb { 255 255 255 }
+    colored_emblem = {
+        texture = "ce_star_solomon_seal.dds"
+        color1 = rgb { 0 0 83 }
+        instance = {
+            position = { 0.750 0.500 }
+            scale = { 0.750 0.750 }
+        }
+    }
+}
+
+RAM = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 0 133 66 }
+    colored_emblem = {
+        texture = "ce_ramazanids.dds"
+        color1 = rgb { 255 255 255 }
+        color2 = rgb { 245 1 0 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 1.000 1.000 }
+        }
+    }
+    colored_emblem = {
+        texture = "ce_rassids.dds"
+        color1 = rgb { 212 170 0 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.500 0.500 }
+        }
+    }
+}

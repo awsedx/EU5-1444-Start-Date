@@ -24,7 +24,7 @@ BGH = {
 
 ADL = {
     #Ardabil
-    color = rgb { 2 153 2 }
+    color = rgb { 68 110 35 }
 
     culture_definition = adhari_culture
     religion_definition = shia
