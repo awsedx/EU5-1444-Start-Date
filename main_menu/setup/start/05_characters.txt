@@ -1,5 +1,7 @@
 #Remember to write sons and daughters ALWAYS after their parents to avoid crashes
 
+# ONLY ADD CHARACTERS BELOW LINE 100964 !!!
+
 character_db = {
 
     #
@@ -8656,7 +8658,7 @@ character_db = {
         tag = FRA
         ruler_trait = righteous
         ruler_trait = just
-        ruler_trait = zealor
+        ruler_trait = zealot
         ruler_trait = expansionist
     }
 
@@ -10838,7 +10840,7 @@ character_db = {
         #mother = eng_beatrix_plantagenet
         dynasty = dreux_dynasty # Should be dynasty = dreux_bretagne_dynasty
         tag = BRI
-        ruler_trait = claim
+        ruler_trait = calm
     }
 
     # Duke of Brittany
@@ -12265,7 +12267,7 @@ character_db = {
         dynasty = ivree_dynasty
         tag = FCB
         ruler_trait = bold_fighter
-        ruler_trait = babbling_buffon
+        ruler_trait = babbling_buffoon
         ruler_trait = craven
     }
 
@@ -26340,7 +26342,7 @@ character_db = {
         #mother = Unknown
         dynasty = aleramici_dynasty
         tag = MFA
-        ruler_trait = zealous
+        ruler_trait = zealot
         ruler_trait = architectural_visionary
     }
 
@@ -34416,7 +34418,7 @@ character_db = {
         #mother = Unknown
         dynasty = morosini_dynasty
         tag = VEN
-        ruler_trait = bold_figther
+        ruler_trait = bold_fighter
     }
 
     ven_marino_morosini_sr = {
@@ -41984,7 +41986,7 @@ character_db = {
         culture = lombard
         religion = catholic
         estate = nobles_estate
-        adm = 29 dip = 41 dip = 69
+        adm = 29 dip = 41 mil = 69
         birth_date = 1337.1.1
         death_date = 1383.1.1
         birth = novara
@@ -49290,56 +49292,6 @@ character_db = {
         dynasty = hanyang_han_dynasty
         tag = KOR
     }
-
-	joe_taejo = { # https://en.wikipedia.org/wiki/Taejo_of_Joseon
-		first_name = { name = name_seong_gye }
-		culture = korean_culture
-		religion = sanjiao
-		adm = 80 dip = 70 mil = 90
-		birth_date = 1335.11.4
-		death_date = 1408.6.27
-		birth = hwaju
-		dynasty = yi_dynasty
-		tag = JOE
-	}
-
-	joe_jeongjong = { # https://en.wikipedia.org/wiki/Jeongjong_of_Joseon
-		first_name = { name = name_bang_gwa }
-		culture = korean_culture
-		religion = sanjiao
-		adm = 30 dip = 60 mil = 40
-		birth_date = 1357.7.1
-		death_date = 1419.9.26
-		father = joe_taejo
-		birth = hamheung
-		dynasty = yi_dynasty
-		tag = JOE
-	}
-
-	joe_taejong = { # https://en.wikipedia.org/wiki/Taejong_of_Joseon
-		first_name = { name = name_bang_won }
-		culture = korean_culture
-		religion = sanjiao
-		adm = 60 dip = 40 mil = 70
-		birth_date = 1367.5.13
-		death_date = 1422.5.10
-		father = joe_taejo
-		birth = hamheung
-		dynasty = yi_dynasty
-		tag = JOE
-	}
-
-	joe_sejong = { # https://en.wikipedia.org/wiki/Sejong_the_Great
-		first_name = { name = name_do }
-		culture = korean_culture
-		religion = sanjiao
-		adm = 80 dip = 90 mil = 70
-		birth_date = 1397.5.15
-		father = joe_taejong
-		birth = hanyang
-		dynasty = yi_dynasty
-		tag = JOE
-	}
 
     ssg_jo_hwi = {
         first_name = { name = name_hwi }
@@ -83779,7 +83731,7 @@ character_db = {
         culture = danube_bavarian
         religion = catholic
         estate = nobles_estate
-        adm = 43 dip = 41 adm = 31
+        adm = 43 dip = 41 mil = 31
         birth_date = 1381.10.4
         death_date = 1426.8.12
         birth = basel
@@ -94414,7 +94366,7 @@ character_db = {
         first_name = { name = Muhammad_Shah }
         culture = malay_culture
         religion = sunni
-        adm = 77 mil = 61 mil = 43
+        adm = 77 dip = 61 mil = 43
         birth_date = 1437.1.1 #Unknown
         birth = kedah
         father = ked_ibrahim_shah
@@ -101009,6 +100961,8 @@ character_db = {
         tag = KAM
     }
 
+    # === NEW CHARACTERS ===
+
     tim_timur = {
         first_name = { name = "Timur" }
         culture = khorezmian_culture
@@ -101016,7 +100970,7 @@ character_db = {
         adm = 75 dip = 85 mil = 99
         birth_date = 1336.4.8
         death_date = 1405.2.18
-        birth = kesh
+        birth = samarkand
         dynasty = timurid_dynasty
         tag = TIM
         ruler_trait = conqueror
@@ -101028,6 +100982,7 @@ character_db = {
         first_name = { name = "Tuman Aqa" }
         culture = khorezmian_culture
         religion = sunni
+        female = yes
         birth_date = 1350.1.1
         death_date = 1400.1.1
         birth = samarkand
@@ -101095,6 +101050,7 @@ character_db = {
         first_name = { name = "Gauhar Shad" }
         culture = khorezmian_culture
         religion = sunni
+        female = yes
         adm = 60 dip = 75 mil = 5
         birth_date = 1379.1.1
         birth = herat
@@ -101108,6 +101064,7 @@ character_db = {
         first_name = { name = "Ruqaiya Sultan" }
         culture = khorezmian_culture
         religion = sunni
+        female = yes
         birth_date = 1395.1.1
         dynasty = timurid_dynasty
         tag = TIS
@@ -101119,7 +101076,7 @@ character_db = {
         religion = sunni
         adm = 50 dip = 40 mil = 25
         birth_date = 1394.3.22
-        birth = sultaniyya
+        birth = samarkand
         father = tim_shahrukh_mirza
         mother = tim_gauhar_shad
         dynasty = timurid_dynasty
@@ -101255,4 +101212,54 @@ character_db = {
         ruler_trait = tactical_genius
         ruler_trait = ambitious
     }
+
+	joe_taejo = { # https://en.wikipedia.org/wiki/Taejo_of_Joseon
+		first_name = { name = name_seong_gye }
+		culture = korean_culture
+		religion = sanjiao
+		adm = 80 dip = 70 mil = 90
+		birth_date = 1335.11.4
+		death_date = 1408.6.27
+		birth = hwaju
+		dynasty = yi_dynasty
+		tag = JOE
+	}
+
+	joe_jeongjong = { # https://en.wikipedia.org/wiki/Jeongjong_of_Joseon
+		first_name = { name = name_bang_gwa }
+		culture = korean_culture
+		religion = sanjiao
+		adm = 30 dip = 60 mil = 40
+		birth_date = 1357.7.1
+		death_date = 1419.9.26
+		father = joe_taejo
+		birth = hamheung
+		dynasty = yi_dynasty
+		tag = JOE
+	}
+
+	joe_taejong = { # https://en.wikipedia.org/wiki/Taejong_of_Joseon
+		first_name = { name = name_bang_won }
+		culture = korean_culture
+		religion = sanjiao
+		adm = 60 dip = 40 mil = 70
+		birth_date = 1367.5.13
+		death_date = 1422.5.10
+		father = joe_taejo
+		birth = hamheung
+		dynasty = yi_dynasty
+		tag = JOE
+	}
+
+	joe_sejong = { # https://en.wikipedia.org/wiki/Sejong_the_Great
+		first_name = { name = name_do }
+		culture = korean_culture
+		religion = sanjiao
+		adm = 80 dip = 90 mil = 70
+		birth_date = 1397.5.15
+		father = joe_taejong
+		birth = hanyang
+		dynasty = yi_dynasty
+		tag = JOE
+	}
 }

@@ -11,5 +11,53 @@ QAR = {
     color = rgb { 54 117 136  }
 
     culture_definition = turkoman_culture
+    religion_definition = shia
+}
+
+BGH = {
+    #Baghdad/Iraq
+    color = rgb { 192 192 192  }
+
+    culture_definition = iraqi_culture
+    religion_definition = sunni
+}
+
+ADL = {
+    #Ardabil
+    color = rgb { 68 110 35 }
+
+    culture_definition = adhari_culture
+    religion_definition = shia
+}
+
+MSS = {
+    #Mushasha
+    color = rgb { 140 102 152 }
+
+    culture_definition = iraqi_culture
+    religion_definition = shia
+}
+
+RAS = {
+    #Rassids
+    color = rgb { 205 10 10 }
+
+    culture_definition = yemeni_culture
+    religion_definition = ibadi
+}
+
+TAH = {
+    #Tahirids
+    color = rgb { 208  119  102 }
+
+    culture_definition = yemeni_culture
+    religion_definition = sunni
+}
+
+KTH = {
+    #Kathiri
+    color = rgb { 140 102 152 }
+
+    culture_definition = yemeni_culture
     religion_definition = sunni
 }

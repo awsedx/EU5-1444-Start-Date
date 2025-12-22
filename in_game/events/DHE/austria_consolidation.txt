@@ -1,0 +1,326 @@
+namespace = 1444_austria_consolidation
+# Inner Austria (Styria) annexing lower Austria (Austria)
+1444_austria_consolidation.1 = {
+	type = country_event
+	title = 1444_austria_consolidation.1.title
+	desc = 1444_austria_consolidation.1.desc
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = HAB
+		from = 1453.11.23
+		to = 1460.1.1
+		monthly_chance = 100
+	}
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	# STY annexes HAB, also switches
+	option = {
+		name = 1444_austria_consolidation.1.a
+		hidden_effect = {
+			c:HAB = {
+				every_core_location = {
+					add_core = c:STY
+					change_integration_level = core
+				}
+			}
+		}
+		c:STY = {
+			annex_country = {
+				country = c:HAB
+			}
+		}
+		custom_tooltip = {
+			text = 1444_austria_consolidation.1.a.tt
+			change_player = c:STY
+		}
+		trigger = {
+			is_ai = no
+		}
+		c:STY = {
+			trigger_event_non_silently = 1444_austria_consolidation.4
+		}
+	}
+	# STY annexes HAB, no switch
+	option = {
+		name = 1444_austria_consolidation.1.b
+		historical_option = yes
+		c:STY = {
+			trigger_event_non_silently = 1444_austria_consolidation.2
+		}
+	}
+	# Defy Styria, giving them cores and a CB on you, and you a CB and cores on them
+	option = {
+		name = 1444_austria_consolidation.1.c
+		add_casus_belli = {
+			type = casus_belli:cb_subjugation
+			target = c:STY
+		}
+		hidden_effect = {
+			c:STY = {
+				every_core_location = {
+					add_core = c:HAB
+				}
+			}
+		}
+		c:STY = {
+			trigger_event_non_silently = 1444_austria_consolidation.3
+		}
+	}
+}
+
+# STY gets this if HAB accepts
+1444_austria_consolidation.2 = {
+	type = country_event
+	title = 1444_austria_consolidation.2.title
+	desc = 1444_austria_consolidation.2.desc
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	option = {
+		name = 1444_austria_consolidation.2.a
+		hidden_effect = {
+			c:HAB = {
+				every_core_location = {
+					add_core = root
+					change_integration_level = core
+				}
+			}
+		}
+		annex_country = {
+			country = c:HAB
+		}
+		trigger_event_non_silently = 1444_austria_consolidation.4
+	}
+}
+
+# STY gets this if HAB declines
+1444_austria_consolidation.3 = {
+	type = country_event
+	title = 1444_austria_consolidation.3.title
+	desc = 1444_austria_consolidation.3.desc
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	option = {
+		name = 1444_austria_consolidation.3.a
+		add_casus_belli = {
+			type = casus_belli:cb_subjugation
+			target = c:HAB
+		}
+		hidden_effect = {
+			c:HAB = {
+				every_core_location = {
+					add_core = root
+				}
+			}
+		}
+	}
+}
+
+# Move capital to Vienna event
+1444_austria_consolidation.4 = {
+	type = country_event
+	title = 1444_austria_consolidation.4.title
+	desc = 1444_austria_consolidation.4.desc
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	# Change to HAB and move capital to Vienna
+	option = {
+		historical_option = yes
+		name = 1444_austria_consolidation.4.a
+		form_country = formable_country:HAB_f
+		move_capital_event_effect = {
+			from = root.capital
+			to = location:vienna
+		}
+	}
+	# Stay as STY, nothing ever happens
+	option = {
+		name = 1444_austria_consolidation.4.b
+	}
+}
+
+# Tirol reintegration event
+1444_austria_consolidation.5 = {
+	type = country_event
+	title = 1444_austria_consolidation.5.title
+	desc = 1444_austria_consolidation.5.desc
+	fire_only_once = yes
+	dynamic_historical_event = {
+		tag = TIR
+		from = 1490.1.1
+		to = 1500.1.1
+		monthly_chance = 100
+	}
+	trigger = {
+		OR = {
+			country_exists = c:STY
+			country_exists = c:HAB
+		}
+	}
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+		if = {
+			limit = {
+				country_exists = c:STY
+			}
+			c:STY = {
+				save_scope_as = main_austrian_country
+			}
+		}
+		else = {
+			c:HAB = {
+				save_scope_as = main_austrian_country
+			}
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	option = {
+		# STY annexes TIR, also switches
+		name = 1444_austria_consolidation.5.a
+		hidden_effect = {
+			c:TIR = {
+				every_core_location = {
+					add_core = scope:main_austrian_country
+					change_integration_level = core
+				}
+			}
+		}
+		scope:main_austrian_country = {
+			annex_country = {
+				country = c:TIR
+			}
+		}
+		custom_tooltip = {
+			text = 1444_austria_consolidation.5.a.tt
+			change_player = scope:main_austrian_country
+		}
+		trigger = {
+			is_ai = no
+		}
+	}
+	# STY annexes TIR, no switch
+	option = {
+		name = 1444_austria_consolidation.5.b
+		historical_option = yes
+		scope:main_austrian_country = {
+			trigger_event_non_silently = 1444_austria_consolidation.6
+		}
+	}
+	# Defy Styria, giving them cores and a CB on you, and you a CB and cores on them
+	option = {
+		name = 1444_austria_consolidation.5.c
+		add_casus_belli = {
+			type = casus_belli:cb_subjugation
+			target = scope:main_austrian_country
+		}
+		hidden_effect = {
+			scope:main_austrian_country = {
+				every_core_location = {
+					add_core = c:TIR
+				}
+			}
+		}
+		scope:main_austrian_country = {
+			trigger_event_non_silently = 1444_austria_consolidation.7
+		}
+	}
+}
+
+# STY/HAB gets this if TIR accepts
+1444_austria_consolidation.6 = {
+	type = country_event
+	title = 1444_austria_consolidation.6.title
+	desc = 1444_austria_consolidation.6.desc
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	option = {
+		name = 1444_austria_consolidation.6.a
+		hidden_effect = {
+			c:TIR = {
+				every_core_location = {
+					add_core = root
+					change_integration_level = core
+				}
+			}
+		}
+		annex_country = {
+			country = c:TIR
+		}
+	}
+}
+
+# STY/HAB gets this if TIR declines
+1444_austria_consolidation.7 = {
+	type = country_event
+	title = 1444_austria_consolidation.7.title
+	desc = 1444_austria_consolidation.7.desc
+	immediate = {
+		event_illustration_estate_effect = {
+			foreground = estate_type:burghers_estate
+			background = estate_type:nobles_estate
+		}
+	}
+	illustration_tags = {
+		10 = happy
+		10 = interior
+	}
+	option = {
+		name = 1444_austria_consolidation.7.a
+		add_casus_belli = {
+			type = casus_belli:cb_subjugation
+			target = c:TIR
+		}
+		hidden_effect = {
+			c:TIR = {
+				every_core_location = {
+					add_core = root
+				}
+			}
+		}
+	}
+}

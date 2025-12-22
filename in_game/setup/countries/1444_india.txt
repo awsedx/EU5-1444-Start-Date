@@ -1,0 +1,201 @@
+SIW = { #Baloch tag
+    color = rgb { 100 84 3 }
+    color2 = rgb { 255 200 200 }
+    culture_definition = baloch_culture
+    religion_definition = sunni
+}
+SEH = { #Sindh decentralized tags
+    color = rgb { 107 142 35 }
+    color2 = rgb { 255 200 200 }
+    culture_definition = sindhi
+    religion_definition = sunni
+}
+SKU = { #Sindh decentralized tags
+    color = rgb { 85 107 47 }
+    color2 = rgb { 255 200 200 }
+    culture_definition = sindhi
+    religion_definition = sunni
+}
+MLA = { #Multan
+    color = rgb { 30 144 255 }
+    color2 = rgb { 0 50 255 }
+    culture_definition = punjabi
+    religion_definition = sunni
+}
+NAU = { #Nagaur
+    color = rgb { 237 127 44 }
+    color2 = rgb { 200 90 20 }
+    culture_definition = marwari
+    religion_definition = sunni
+}
+MEA = { #Mewat
+    color = rgb { 176 224 230 }
+    color2 = rgb { 135 206 235 }
+    culture_definition = mewati
+    religion_definition = sunni
+}
+DIU = { #Diu
+    color = rgb { 64 224 208 }
+    color2 = rgb { 32 178 170 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
+
+SMN = { #Somnath
+    color = rgb { 255 165 0 }
+    color2 = rgb { 218 165 32 }
+    culture_definition = gujarati
+    religion_definition = hindu
+}
+
+SUA = { #Surat
+    color = rgb { 70 130 180 }
+    color2 = rgb { 25 25 112 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
+KHD = {
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = marathi_culture
+    religion_definition = sunni
+}
+BAH = { #Bahmanis - Light Ocean Blue
+    color = rgb { 100 180 220 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = farsi_culture
+    religion_definition = shia
+}
+MLW = { #Malwa
+    color = rgb { 153 0 0 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = malvi
+    religion_definition = sunni
+}
+JNP = { #Jaunpur
+    color = rgb { 120 115 110 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = bhojpuri_culture
+    religion_definition = sunni
+}
+GJR = { #Gujarat
+    color = rgb { 235 210 120 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
+KAP = { #Kapi
+    color = rgb { 40 115 200 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = bundeli
+    religion_definition = sunni
+}
+KAY = { #Kandy
+    color = rgb { 40 50 100 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = sinhalese
+    religion_definition = theravada
+}
+MYS = { #Mysore
+    color = rgb { 0 0 1 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = kannadiga
+    religion_definition = hindu
+}
+SIR = { #Sirhind
+    color = rgb { 186 184 108 }
+    color2 = rgb { 128 0 32 }
+    culture_definition = punjabi
+    religion_definition = sunni
+}
+
+JUM = { # Jumla 
+    color = rgb { 86 184 108 }
+    color2 = rgb { 128 0 32 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+PLP = { # Palpa
+    color = rgb { 200 60 60 }
+    color2 = rgb { 255 215 0 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+PAB = { # Parbat
+    color = rgb { 75 110 175 }
+    color2 = rgb { 255 255 255 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+SLY = { # Salyan
+    color = rgb { 85 150 85 }
+    color2 = rgb { 210 180 140 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+JAJ = { # Jajarkot
+    color = rgb { 160 82 45 }
+    color2 = rgb { 255 222 173 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+DAG = { # Dang
+    color = rgb { 140 100 180 }
+    color2 = rgb { 50 50 50 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+MSI = { # Musikot
+    color = rgb { 220 120 40 }
+    color2 = rgb { 0 64 0 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+PUY = { # Pyuthan
+    color = rgb { 100 149 237 }
+    color2 = rgb { 139 0 0 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+KPI = { # Kaski
+    color = rgb { 255 165 0 }
+    color2 = rgb { 0 0 128 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+THN = { # Tanahun
+    color = rgb { 46 139 87 }
+    color2 = rgb { 255 235 205 }
+    culture_definition = khas_culture
+    religion_definition = hindu
+}
+
+BKH = { # Badakhshan
+    color = rgb { 96 39 187 }
+    color2 = rgb { 255 235 205 }
+    culture_definition = pamiri_culture
+    religion_definition = shia
+}
+
+KSH = {
+	color = map_kashmir
+	color2 = map_kashmir_2
+	culture_definition = kashmiri_culture
+	religion_definition = sunni
+}
+
+BNG = {
+    color = map_bengali
+
+    culture_definition = bengali
+    religion_definition = sunni
+}

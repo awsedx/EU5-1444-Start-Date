@@ -15,7 +15,7 @@ TIS = {
 
 # TIG: Khurasan
 TIG = {
-    color = rgb { 173 216 230 } // Pale Blue (LightBlue)
+    color = rgb { 173 216 230 }
     color2 = rgb { 240 240 240 }
     culture_definition = khorezmian_culture
     religion_definition = sunni
