@@ -216,7 +216,7 @@ PLC = {
 }
 PLC_ADJ = { parent = PLC suffix = "_ADJ" }
 
-CHG = {
+CHG = { #Moghulistan to Chagatai
     type = country
     text = {
         localization_key = unified_chagatai
@@ -224,6 +224,7 @@ CHG = {
             owns = location:yarkand
             owns = location:samarkand
             owns = location:turpan
+			owns = location:almaliq
         }
     }
     text = {

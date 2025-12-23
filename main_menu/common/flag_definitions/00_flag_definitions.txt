@@ -9411,4 +9411,21 @@ CSI = { # Li Siqi
 			coa_def_empire_trigger = yes
 		}
 	}
-}                                             
+}                                  
+CHG = { # Moghulistan to Chagatai
+    type = country
+        flag_definition = {
+        coa = CHG_reformed 
+        priority = 10
+        trigger = {
+            owns = location:yarkand
+            owns = location:samarkand
+            owns = location:turpan
+            owns = location:almaliq
+        }
+    }
+    flag_definition = {
+        coa = CHG
+        priority = 1
+    }
+}           

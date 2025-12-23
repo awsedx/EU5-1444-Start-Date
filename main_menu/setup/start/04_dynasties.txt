@@ -8935,6 +8935,10 @@ dynasty_manager = {
     }
     khasar_dynasty = {
         name = { name = khasar_dynasty }
-        home = khan_khentii
+        home = karakorum
+    }
+    chagataid_dynasty = {
+        name = { name = chagataid_dynasty }
+        home = almaliq
     }
 }
