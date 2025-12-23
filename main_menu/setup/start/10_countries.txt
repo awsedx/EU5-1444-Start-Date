@@ -24675,21 +24675,6 @@ countries = {
             country_rank = rank_county
         }
 
-        KYO = {
-            capital = kamioono
-            include = "japanese_clan"
-            own_control_core = {
-                kamioono yoshiki
-            }
-            government = {
-                ruler_term = { character = jap_nanbu_shigetoki start_date = 1315.1.1 end_date = 1333.7.4 regnal_number = 1 }
-                reforms = {
-                    daimyo
-                }
-            }
-            country_rank = rank_county
-        }
-
         JNB = {
             capital = niikawa
             include = "japanese_clan"
@@ -25668,6 +25653,7 @@ countries = {
 
             own_control_core = {
                 azai echi gamou takashima
+                kamioono yoshiki
             }
 
             government = {
