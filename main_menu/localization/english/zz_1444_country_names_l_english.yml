@@ -49,8 +49,6 @@
  LBV_ADJ: "Landshuter"
 
 #Indian Subcontinent
- SMA: "Sindh"
- SMA_ADJ: "Sindhi"
  SIW: "Siwistan"
  SIW_ADJ: "Siwistani"
  SEH: "Sehwan"
@@ -89,8 +87,6 @@
  RCH_ADJ: "Telingani"
  SIR: "Sirhind"
  SIR_ADJ: "Sirhindi"
- CUT: "Sadiya"
- CUT_ADJ: "Sadiyai"
  JUM: "Jumla"
  JUM_ADJ: "Jumlan"
  PLP: "Palpa"
@@ -120,3 +116,5 @@
  DHR_ADJ: "Mahran"
  ZAB: "Biskra"
  ZAB_ADJ: "Biskran"
+ AVA: "Ava Guaraní"
+ AVA_ADJ: "Ava Guaraní"

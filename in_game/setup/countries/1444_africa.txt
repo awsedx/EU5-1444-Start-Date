@@ -6,14 +6,6 @@ OUJ = {
     religion_definition = sunni
 }
 
-MAH = {
-    #Marrakesh
-    color = rgb { 120 93 89 }
-
-    culture_definition = moroccan
-    religion_definition = sunni    
-}
-
 MJE = {
     #Majeerteen
     color = rgb { 220 200 100 }

@@ -43,12 +43,9 @@ countries = {
                 abo poytis sauvo nystad
                 helsinge ekenas sjundea porvoo kymi_fi
 
-                vyborg villmanstrand veckelax vederlax beryozovskoye
                 ikalis raumo bjorneborg hvittis sastmola birkala sastamala
                 korsholm koppo
                 hollola lohja tavastehus janakkala forssa liljendal jamsa
-
-                valkeasaari kyyrola
             }
 
             our_cores_conquered_by_others = {
@@ -56,7 +53,7 @@ countries = {
             }
 
             own_control_colony = {
-                asele volgsjo bygdea skelleftea byske pitea ranea tornea kiemi simo kuivaniemi uleaborg brahestad karleby pedersore vora storkyro heinjoki jaskis
+                asele volgsjo bygdea skelleftea byske pitea ranea tornea kiemi simo kuivaniemi uleaborg brahestad karleby pedersore vora storkyro
             }
 
 
@@ -178,12 +175,11 @@ countries = {
                 ronneby bregne solvesborg
                 gladsax osby
                 helsingborg lund malmo
-
-                visby slite hoborg
             }
 
 
             our_cores_conquered_by_others = {
+                visby slite hoborg
             }
 
             capital = kobenhavn
@@ -286,13 +282,6 @@ countries = {
             tolerated_cultures = {
                 estonian
             }
-
-            # severly in debt, and a regency and such..
-            currency_data = {
-                gold = -500
-                government_power = 30
-            }
-
         }
 
         SKE = {
@@ -332,6 +321,50 @@ countries = {
             government = {
                 ruler = random
             }
+        }
+
+        VYB = {
+            own_control_core = {
+                vyborg villmanstrand veckelax vederlax beryozovskoye
+                valkeasaari kyyrola
+            }
+
+            own_control_colony = {
+                heinjoki jaskis elimaki
+            }
+
+
+            capital = vyborg
+
+            include = "catholic_monarchy"
+            include = "expl_scandinavia"
+
+            country_rank = rank_duchy
+
+
+            government = {
+                ruler = random
+            }
+        }
+
+        GOT = {
+            own_control_core = {
+                visby slite hoborg
+            }
+
+            capital = visby
+
+            include = "catholic_monarchy"
+            include = "expl_scandinavia"
+
+            country_rank = rank_duchy
+
+
+            government = {
+                ruler = random
+            }
+
+            dynasty = gryf_dynasty
         }
 
         NOR = {
@@ -4399,6 +4432,9 @@ countries = {
                 zhuban_ana kaip_ata karagau korgan maulimberdy tagatay dandybay karabay smai_samkai yegindybulak
                 zhamshy kashkanteniz kyzylsay moiynty mukur yangikent buzikkala jubara karmakshi
                 sighnaq asanas barchkend jand kamyskala sozak aksumbe gulshara kyzylkorgan ran tasty
+
+                ayagoz tansyk kokpekty shar zyryan
+                shimbay khurgancha qonirat pulzhai
             }
 
             capital = chimgi_tura
@@ -7424,15 +7460,11 @@ countries = {
 
         #SMA - Samma
         SMA = {
-            own_control_core = {
-                islamgarh
-                mansura
-
-                thatta sonda manora muhammad_tur laribandar
-                ahmad_khan kotri naserpur hala
-                vingur nagarparkar
-                chor umarkot wanga_bazar
-                agham_kot islamkot
+            our_cores_conquered_by_others = {
+			    sehwan
+			    kashmore shadodkot shikarpur jhatpat sukkur paat
+			    rohri dubbi ghotki kot_lalu kandiaro islamgarh
+			    rajabar moro_sindh mansura
             }
 
             religious_school = hanafi_school
@@ -7441,7 +7473,7 @@ countries = {
             
 
             include = "indian_muslim_monarchy_no_dharmic_dhimmi_no_coast_no_censor"
-            capital = thatta
+            capital = sehwan
 
             government = {
                 ruler = sma_jam_unar_samma
@@ -7461,6 +7493,44 @@ countries = {
                 marwari
             }
         }
+
+	#SND - Sindh
+	    SND = { #https://en.wikipedia.org/wiki/Sindh
+		    own_control_core = {
+			    thatta sonda manora muhammad_tur laribandar
+			    ahmad_khan kotri naserpur hala ranikot
+			    vingur nagarparkar
+			    chor umarkot wanga_bazar
+			    agham_kot islamkot
+			    kiradu
+                mansura islamgarh
+		    }
+
+		    religious_school = ismaili_school
+
+		    include = "indian_muslim_monarchy"
+		    capital = thatta
+
+		    government = {
+			    ruler = random
+
+			    reforms = {
+				    taluqdar_nobility
+				    indian_sultanate_reform
+			    }
+			    laws = {
+				    sharia_law = ismaili_policy
+			    }
+
+			    #Societal Values
+			    land_vs_naval = 50
+		    }
+
+            country_rank = rank_kingdom
+            dynasty = samma_dynasty
+
+		    tolerated_cultures = { marwari }
+	    }
 
         #JJK - Jejakabhukti
         JJK = {
@@ -12288,7 +12358,7 @@ countries = {
             }
 
             own_control_integrated = {
-                corfu modon kythira andros mykonos amorgos karpathos argos nafplio
+                corfu modon kythira mykonos karpathos argos nafplio
                 nafpaktos butrint
                 kotor shkoder bar_cg durres
             }
@@ -12788,6 +12858,7 @@ countries = {
             #https://en.wikipedia.org/wiki/Duchy_of_the_Archipelago
             own_control_core = {
                 naxos kythnos milos
+                andros amorgos
             }
 
             starting_technology_level = 3
@@ -14100,6 +14171,10 @@ countries = {
                 ceuta
             }
 
+            own_control_colony = {
+                funchal ponta_delgada horta
+            }
+
             starting_technology_level = 3
             include = "expl_mediterranean"
             include = "expl_silk_road_west"
@@ -14300,6 +14375,27 @@ countries = {
 
             country_rank = rank_duchy
             capital = oviedo
+        }
+
+        CNY = {
+            own_control_core = {
+                teguise maxorata hipalan #Islands conquered under Jean de Bethencourt
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+
+            }
+
+            country_rank = rank_kingdom
+            capital = teguise
         }
 
         GLC = {
@@ -24864,21 +24960,6 @@ countries = {
             country_rank = rank_county
         }
 
-        MUK = {
-            capital = onga
-            include = "japanese_clan"
-            own_control_core = {
-                onga
-            }
-            government = {
-                ruler_term = { character = jap_nanbu_shigetoki start_date = 1315.1.1 end_date = 1333.7.4 regnal_number = 1 }
-                reforms = {
-                    daimyo
-                }
-            }
-            country_rank = rank_county
-        }
-
         MSU = {
             capital = nishimatsuura
             include = "japanese_clan"
@@ -28234,7 +28315,9 @@ countries = {
         }
 
         MKT = {
-
+            own_control_core = {
+                onga
+            }
             capital = onga
             include = "japanese_clan"
 
@@ -34968,8 +35051,8 @@ countries = {
             religious_school = zaidi_school
         }
 
-        #Ardabil - ADL
-        ADL = {
+        #Ardabil - ABL
+        ABL = {
             own_control_core = {
                 ardabil nir
             }
@@ -50038,7 +50121,7 @@ countries = {
                 koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
                 otrar artyk_ata kyr_uzkand mardankuyik
                 turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
-                kurchum kandysu kokpekty shar zyryan
+                kurchum kandysu
 
                 # Qocho
                 qocho turpan lukchun pichan toksun
@@ -50055,7 +50138,7 @@ countries = {
                 hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin
                 ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh
                 burqin jeminay
-                ilibalyk koktal kayalyk ayagoz tansyk
+                ilibalyk koktal kayalyk 
             }
             our_cores_conquered_by_others = {
                 akhsikath asht karasuu kasan kerben pop_fargana
@@ -50364,7 +50447,7 @@ countries = {
 
                 ayni panjakent samarkand dimishk primkent ishtixon yangirabod karmana
                 tim_samarkand bukhara vardanzi alat paykend daya_kathyn darganata hazarasp
-                khiva kyat_kala kath nyzvar shimbay khurgancha xojeli pulzhai urgench vezir
+                khiva kyat_kala kath nyzvar xojeli pulzhai urgench vezir
                 orta_kuyu talaikhan_ata uzboy gazanjyk
 
                 amol_turkmenabad merv barkdiz khoja_idat_kala firabr navidakh akhsisek nasaf
@@ -50409,7 +50492,7 @@ countries = {
                 soltaniyeh sojas zanjan mahneshan sarcham
 
                 kabul andarab kahmard bamyan charikar bagram istalif kohi_safi
-                gandamak jalalabad alishang panjshir asadabad_kunar parun hajiabad qonirat
+                gandamak jalalabad alishang panjshir asadabad_kunar parun hajiabad
                 gardez logar chak ghazni zarghun_shahr muqur nawah wazakhwa maruf yakawlang
                 chaman arghestan kandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
             }
@@ -50456,7 +50539,7 @@ countries = {
 
                 ayni panjakent samarkand dimishk primkent ishtixon yangirabod karmana
                 tim_samarkand bukhara vardanzi alat paykend daya_kathyn darganata hazarasp
-                khiva kyat_kala kath nyzvar shimbay khurgancha xojeli pulzhai urgench vezir qonirat
+                khiva kyat_kala kath nyzvar xojeli urgench vezir
                 orta_kuyu talaikhan_ata uzboy gazanjyk
 
                 amol_turkmenabad merv barkdiz khoja_idat_kala firabr navidakh akhsisek nasaf
@@ -53821,7 +53904,7 @@ countries = {
             #Chutia
             our_cores_conquered_by_others = {
                 sadiya gomsi tengapani malinithan dibang
-                bengmara dibrugarh namrup noadihang
+                bengmara dibrugarh
             }
 
             include = "expl_india_hindu"

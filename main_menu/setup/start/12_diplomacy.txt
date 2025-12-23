@@ -40,6 +40,8 @@ diplomacy_manager = {
     dependency = { first = NOR second = GRL subject_type = dominion }
     dependency = { first = NOR second = ORK subject_type = vassal }
 
+    dependency = { first = SWE second = VYB subject_type = vassal }
+
     dependency = { first = TEU second = LIV subject_type = vassal }
     dependency = { first = LIV second = RIG subject_type = vassal }
     dependency = { first = LIV second = ARR subject_type = vassal }
@@ -238,6 +240,7 @@ diplomacy_manager = {
     #-------Iberia-------
 
     dependency = { first = CAS second = ASU subject_type = vassal }
+    dependency = { first = CAS second = CNY subject_type = vassal }
 
     scripted_oneway = { first = ARA second = ANR type = guarantee }
     scripted_oneway = { first = FRA second = ANR type = guarantee }
@@ -728,8 +731,8 @@ diplomacy_manager = {
     dependency = { first = TTK second = BKH subject_type = tributary }
 
     		    # ------ Sindh -------
-    dependency = { first = SMA second = SKU subject_type = samanta}
-    dependency = { first = SMA second = SEH subject_type = samanta}
+    dependency = { first = SND second = SKU subject_type = samanta}
+    dependency = { first = SND second = SEH subject_type = samanta}
 
 
     #------- Delhi -------------

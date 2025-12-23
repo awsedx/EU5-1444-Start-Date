@@ -64,3 +64,11 @@ ASU = {
     culture_definition = leonese
     religion_definition = catholic
 }
+
+CNY = {
+    #Canary Islands
+    color = rgb { 181 176 158 }
+
+    culture_definition = castilian
+    religion_definition = catholic
+}
