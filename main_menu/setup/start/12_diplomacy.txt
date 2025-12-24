@@ -34,6 +34,9 @@ diplomacy_manager = {
 
     scripted_mutual = { first = MYO second = UMH type = alliance }
 
+    # Anglo-Portuguese Alliance
+    scripted_mutual = { first = ENG second = POR type = alliance }
+
     # Scandinavia
 
     dependency = { first = NOR second = ICE subject_type = dominion }

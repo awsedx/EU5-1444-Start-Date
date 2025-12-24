@@ -75,7 +75,7 @@ CNY = {
 
 ### Military Orders ###
 
-CTV = {
+#CTV = {
 #   #Order of Calatrava
 #   color = map_CTV
 #

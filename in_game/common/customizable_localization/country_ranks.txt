@@ -810,6 +810,22 @@ country_flavor = {
         }
     }
 
+    text = {
+        localization_key = rank_kingdom_despotate
+        trigger = {
+            OR = {
+                tag = SER
+                tag = EPI
+                tag = ACH
+            }
+
+            OR = {
+                country_rank_is_kingdom = yes
+                country_rank_is_duchy = yes
+            }
+        }
+    }
+
     # Theocracy
 
     text = {
