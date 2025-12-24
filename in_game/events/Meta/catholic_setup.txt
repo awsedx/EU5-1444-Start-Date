@@ -27,6 +27,6 @@ catholic_setup.1 = {
 
 	option = {
 		name = add_reform_desire
-		religion:catholic = { add_reform_desire = 0.7 }
+		religion:catholic = { add_reform_desire = 0.66 }
 	}
 }
