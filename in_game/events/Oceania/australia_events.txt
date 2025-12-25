@@ -31,8 +31,10 @@ australia_pops.1 = {
 		ai_chance = { factor = 0 }
 		
 		capital = {
-			add_pop_size = {
-				value = 5000
+			every_pop = {
+				add_pop_size = {
+					value = 5000
+				}
 			}
 		}
 	}
