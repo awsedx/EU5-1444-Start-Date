@@ -26,18 +26,15 @@ australia_pops.1 = {
 	}
 	
 	option = {
-    	name = australia_pops.1.a
-    	ai_chance = { factor = 0 }
-    	capital = {
-    	    # Target only one specific pop group to avoid multiplying the 5k
-        	random_pop = {
-            	limit = {
-            	    is_pop_type = peasants
-            	    is_primary_culture = yes
-            	}
-            	add_pop_size = 5000
-        	}
-    	}
+		name = australia_pops.1.a
+		
+		ai_chance = { factor = 0 }
+		
+		capital = {
+			add_pop_size = {
+				value = 5000
+			}
+		}
 	}
 	
 	option = {
