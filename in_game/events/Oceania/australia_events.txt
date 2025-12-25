@@ -33,7 +33,7 @@ australia_pops.1 = {
 		capital = {
 			every_pop = {
 				add_pop_size = {
-					value = 5000
+					value = 5
 				}
 			}
 		}
