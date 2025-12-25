@@ -6,20 +6,16 @@ australia_pops.1 = {
 	desc = australia_pops.1.desc
 	
 	dynamic_historical_event = {
-        from = 1444.1.1
-        to = 1450.1.1
-        monthly_chance = 100 # Fires almost immediately if triggers are met
-    }
-
-	trigger = {
-
 		OR = {
 			tag = WUW
 			tag = EOA
 			tag = TIW
 			tag = CKC
 		}
-	}
+        from = 1444.1.1
+        to = 1450.1.1
+        monthly_chance = 100
+    }
 	
 	fire_only_once = yes
 	
