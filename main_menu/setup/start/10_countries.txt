@@ -4029,7 +4029,6 @@ countries = {
                 bulun uolba dakky cherkekh churapcha uorga us_kyuyol byanye byadi chiryapchi
                 tomtor mayya tabaga khatas maymaga kysyl_syr ulu_sysy magan zhatai nuochakha
                 tit_ebya tyokhtyur charang kenkeme ulakhan_an toyon_ary tit_ary yedey
-                topolinoe echiy sysy_meyite bala sartang barylas bestyakh bakhanay jigansk kystatyam
                 buotama talalakh sitte salban batamay
             }
 
@@ -64545,6 +64544,7 @@ countries = {
 
             include = "polynesian_monarchy"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64561,6 +64561,7 @@ countries = {
 
             include = "polynesian_monarchy"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64577,6 +64578,7 @@ countries = {
 
             include = "polynesian_monarchy"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64593,6 +64595,7 @@ countries = {
 
             include = "polynesian_tribe"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64606,6 +64609,7 @@ countries = {
 
             include = "polynesian_tribe"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64621,6 +64625,7 @@ countries = {
 
             include = "polynesian_tribe"
             include = "expl_polynesia"
+            starting_technology_level = 3
             government = {
                 ruler = random
             }
@@ -64881,6 +64886,7 @@ countries = {
                 mandu bijagarh alirajpur mandleshwar khandwa handia hoshangabad kherla
                 chauragarh tendukheda bhilsa sironj chanderi sarangpur maksi ujjain mandsaur
                 ratlam dhar raisin bhojpur bhopal sehore khategaon indore maheshwar devgarh
+                mahoba
             }
 
             starting_technology_level = 3
@@ -64903,7 +64909,6 @@ countries = {
         KAP = { #Kalpi
             own_control_core = {
                 kalpi konch irij jhansi orchha kundar tehri lalitpur rath
-                mahoba
             }
 
             starting_technology_level = 3
@@ -65263,7 +65268,7 @@ countries = {
                 australia_region
             }
 
-
+            include = "polynesian_monarchy"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65281,7 +65286,7 @@ countries = {
                 australia_region
             }
 
-
+            include = "polynesian_monarchy"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65299,7 +65304,7 @@ countries = {
                 australia_region
             }
 
-
+            include = "polynesian_monarchy"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65323,7 +65328,8 @@ countries = {
                 polynesia_region
             }
 
-
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65345,6 +65351,8 @@ countries = {
             }
 
 
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65359,6 +65367,8 @@ countries = {
                 paici cemuhi ajie yuanga nyelayu
             }
 
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             discovered_regions = {
                 polynesia_region
                 micronesia_region
@@ -65387,6 +65397,8 @@ countries = {
             }
 
 
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65408,6 +65420,8 @@ countries = {
             }
 
 
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             starting_technology_level = 3
             government = {
                 type = tribe
@@ -65430,6 +65444,8 @@ countries = {
             }
 
 
+            include = "polynesian_monarchy"
+            include = "expl_polynesia"
             starting_technology_level = 3
             government = {
                 type = tribe

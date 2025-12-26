@@ -159,6 +159,7 @@ market_manager = {
 	add_market = v_enyn
 	add_market = bratsk
 	add_market = zhatai
+	add_market = yap
 
 	# Indochina
 	add_market = berune
