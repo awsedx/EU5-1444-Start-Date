@@ -6,15 +6,16 @@ australia_pops.1 = {
 	desc = australia_pops.1.desc
 	
 	trigger = {
-		AND = {
-			current_year > 1400
-			OR = {
-				tag = WUW
-				tag = EOA
-				tag = TIW
-				tag = CKC
-			}
+		OR = {
+			tag = WUW
+			tag = EOA
+			tag = TIW
+			tag = CKC
 		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
 	}
 	
 	fire_only_once = yes
@@ -31,11 +32,10 @@ australia_pops.1 = {
 		ai_chance = { factor = 0 }
 		
 		capital = {
-			create_pop = {
-				culture = owner.culture
-				religion = owner.religion
-				type = pop_type:peasants
-				size = 5000
+			every_pop = {
+				add_pop_size = {
+					value = 2.5
+				}
 			}
 		}
 	}
