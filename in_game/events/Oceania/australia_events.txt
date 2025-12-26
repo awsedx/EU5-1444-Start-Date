@@ -1,23 +1,18 @@
-namespace = australia_pops
+namespace = custom_events
 
-australia_pops.1 = {
+custom_events.1 = {
 	type = country_event
-	title = australia_pops.1.title
-	desc = australia_pops.1.desc
-	
-	trigger = {
-		AND = {
-			current_year > 1400
-			OR = {
-				tag = WUW
-				tag = EOA
-				tag = TIW
-				tag = CKC
-			}
-		}
-	}
+	title = custom_events.1.title
+	desc = custom_events.1.desc
 	
 	fire_only_once = yes
+	
+	dynamic_historical_event = {
+		tag = WUW
+		from = 1444.11.11
+		to = 1444.12.11
+		monthly_chance = 100
+	}
 	
 	immediate = {
 		capital = {
@@ -26,24 +21,153 @@ australia_pops.1 = {
 	}
 	
 	option = {
-		name = australia_pops.1.a
+		name = custom_events.1.a
 		
 		ai_chance = { factor = 0 }
 		
 		capital = {
-			every_pop = {
-				add_pop_size = {
-					value = 5
-				}
+			create_pop = {
+				culture = owner.culture
+				religion = owner.religion
+				type = pop_type:peasants
+				size = 5000
 			}
 		}
 	}
 	
 	option = {
-		name = australia_pops.1.b
+		name = custom_events.1.b
 		
 		ai_chance = { factor = 100 }
 		
-		# Refuse - do nothing
+	}
+}
+
+custom_events.2 = {
+	type = country_event
+	title = custom_events.1.title
+	desc = custom_events.1.desc
+	
+	fire_only_once = yes
+	
+	dynamic_historical_event = {
+		tag = EOA
+		from = 1444.11.11
+		to = 1444.12.11
+		monthly_chance = 100
+	}
+	
+	immediate = {
+		capital = {
+			save_scope_as = target_capital
+		}
+	}
+	
+	option = {
+		name = custom_events.1.a
+		
+		ai_chance = { factor = 0 }
+		
+		capital = {
+			create_pop = {
+				culture = owner.culture
+				religion = owner.religion
+				type = pop_type:peasants
+				size = 5000
+			}
+		}
+	}
+	
+	option = {
+		name = custom_events.1.b
+		
+		ai_chance = { factor = 100 }
+		
+	}
+}
+
+custom_events.3 = {
+	type = country_event
+	title = custom_events.1.title
+	desc = custom_events.1.desc
+	
+	fire_only_once = yes
+	
+	dynamic_historical_event = {
+		tag = TIW
+		from = 1444.11.11
+		to = 1444.12.11
+		monthly_chance = 100
+	}
+	
+	immediate = {
+		capital = {
+			save_scope_as = target_capital
+		}
+	}
+	
+	option = {
+		name = custom_events.1.a
+		
+		ai_chance = { factor = 0 }
+		
+		capital = {
+			create_pop = {
+				culture = owner.culture
+				religion = owner.religion
+				type = pop_type:peasants
+				size = 5000
+			}
+		}
+	}
+	
+	option = {
+		name = custom_events.1.b
+		
+		ai_chance = { factor = 100 }
+		
+	}
+}
+
+custom_events.4 = {
+	type = country_event
+	title = custom_events.1.title
+	desc = custom_events.1.desc
+	
+	fire_only_once = yes
+	
+	dynamic_historical_event = {
+		tag = CKC
+		from = 1444.11.11
+		to = 1444.12.11
+		monthly_chance = 100
+	}
+	
+	immediate = {
+		capital = {
+			save_scope_as = target_capital
+		}
+	}
+	
+	option = {
+		name = custom_events.1.a
+		
+		ai_chance = { factor = 0 }
+		
+		capital = {
+			create_pop = {
+				culture = owner.culture
+				religion = owner.religion
+				type = pop_type:peasants
+				size = 5000
+			}
+		}
+	}
+	
+	option = {
+		name = custom_events.1.b
+		
+		ai_chance = { factor = 100 }
+		
 	}
 }
