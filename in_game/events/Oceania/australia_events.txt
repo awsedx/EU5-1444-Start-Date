@@ -6,7 +6,7 @@ australia_pops.1 = {
 	desc = australia_pops.1.desc
 	
 	trigger = {
-		current_date > 1444.11.10
+		current_date > 1444.11.20
 		OR = {
 			tag = WUW
 			tag = EOA
