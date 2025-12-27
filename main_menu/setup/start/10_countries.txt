@@ -48530,6 +48530,7 @@ countries = {
             #https://es.wikipedia.org/wiki/Chanca
             own_control_core = {
                 allpas tampu_machay churkampa llacsapallanca tayaccasa
+                wari_willka  willka_ulo
             }
 
             include = "andean_monarchy"
@@ -48576,11 +48577,61 @@ countries = {
             }
         }
 
+        #Inca - INC
+        INC = {
+            #https://en.wikipedia.org/wiki/Inca_Empire
+            own_control_core = {
+                qusqu quillarumiyoc
+                yanatile ullantaytampu urupampa pisaq picchu
+                pikillaqta
+                waqrapukara
+                sausaya kanamarca raqchi uyo_uyo pampa achachiwa
+                maukallaqta cotapampa chumbivilcas
+                yanahuara antabamba
+            }
+
+            include = "andean_monarchy"
+            include = "expl_andean"
+            government = {
+                ruler = csu_qhapaq_yupanki
+                ruler_term = { character = csu_manco_qhapaq start_date = 1197.1.1 end_date = 1230.1.1 regnal_number = 1 }
+                ruler_term = { character = csu_sinchi_ruqa start_date = 1230.1.1 end_date = 1260.1.1 regnal_number = 1 }
+                ruler_term = { character = csu_lluqi_yupanki start_date = 1260.1.1 end_date = 1290.1.1 regnal_number = 1 }
+                ruler_term = { character = csu_mayta_qhapaq start_date = 1290.1.1 end_date = 1320.1.1 regnal_number = 1 }
+                ruler_term = { character = csu_tarco_huaman start_date = 1320.1.1 end_date = 1320.6.1 regnal_number = 1 }
+                ruler_term = { character = csu_qhapaq_yupanki start_date = 1320.6.1 regnal_number = 1 }
+
+                regnal_numbers = {
+                    name_manco = 1
+                    name_sinchi = 1
+                    name_lluqi = 1
+                    name_mayta = 1
+                    name_tarco = 1
+                }
+
+                reforms = {
+                    tawantinsuyu_monarchy
+                }
+
+                laws = {
+                    cultural_traditions_law = martial_society
+                }
+            }
+            court_language = quechuan_language
+            tolerated_cultures = {
+                killke_culture
+            }
+
+            country_rank = rank_empire
+
+            capital = qusqu
+        }
+
         #Qusqu - CSU
         #Should ally Ayarmaca against the Charka
         CSU = {
             #https://es.wikipedia.org/wiki/Curacazgo_incaico
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 qusqu quillarumiyoc
             }
 
@@ -48618,7 +48669,7 @@ countries = {
         #Ayarmaca - AYA
         AYA = {
             #https://es.wikipedia.org/wiki/Ayarmaca
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 yanatile ullantaytampu urupampa pisaq
             }
 
@@ -48636,7 +48687,7 @@ countries = {
         #Pinagua - PIG
         PIG = {
             #https://es.wikipedia.org/wiki/Ayarmaca
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 pikillaqta
             }
 
@@ -48705,7 +48756,11 @@ countries = {
         KNA = {
             #https://es.wikipedia.org/wiki/Aimaras
             own_control_core = {
-                oruro ayaviri sausaya
+                oruro ayaviri
+            }
+
+            our_cores_conquered_by_others = {
+                sausaya
             }
 
             discovered_areas = {
@@ -48746,11 +48801,14 @@ countries = {
             #https://es.wikipedia.org/wiki/Reino_colla
             own_control_core = {
                 hatunqulla macaya wankani
+                ichuna pukara puncune
             }
 
             include = "andean_monarchy"
             include = "expl_andean"
 
+
+            country_rank = rank_kingdom
             court_language = aymara_language
             capital = hatunqulla
             government = {
@@ -49243,6 +49301,7 @@ countries = {
         PCR = {
             own_control_core = {
                 wari_peru pariahuanca
+                willkawaman tukri_apu_apu
             }
 
             include = "andean_monarchy"
@@ -49320,7 +49379,7 @@ countries = {
 
         #Canchi - CNC
         CNC = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 waqrapukara
             }
 
@@ -49499,7 +49558,7 @@ countries = {
         #Settled, NOTE transformed into normal tag for the sake of balance
         KKE = {
             own_control_core = {
-                willka_pampa auccapana yanahuara
+                willka_pampa auccapana
             }
             discovered_areas = {
                 puna_area suni_area rupa_rupa_area acamama_area chala_area
@@ -58899,6 +58958,8 @@ countries = {
 
             add_pops_from_locations = {
                 pisticoui waupecan
+                moingwena tamaroa
+                oahaha emasulia chariton wyaconda
             }
 
             discovered_regions = {
@@ -58923,6 +58984,7 @@ countries = {
 
             add_pops_from_locations = {
                 peoria theakeiki matsigame
+                sangamon cahokia peewareewa amonokoa macoupin
             }
 
             discovered_regions = {
@@ -62970,12 +63032,8 @@ countries = {
         #Cahokia Mississippian Site
         #https://en.wikipedia.org/wiki/Cahokia
         CHK = {
-            own_control_core = {
-                cahokia peewareewa sangamon amonokoa macoupin tamaroa wyaconda oahaha emasulia
-                chariton meramec pahatsi tanwakanwakaghe moingwena
-                kaskaskia kaskankaham chepoussa ochechiton st_francois_mts
-                nudarcha wimihsoorita nodaway
-                peoria
+            our_cores_conquered_by_others = {
+                cahokia
             }
             starting_technology_level = 1
 
@@ -63359,6 +63417,7 @@ countries = {
 
             add_pops_from_locations = {
                 satsukhdin unica nikhdhintanwan intapushe nanzewaspe headdhetanwan wakhakukdhin wahzhazhe
+                tanwakanwakaghe pahatsi meramec
             }
 
             discovered_regions = {
@@ -65293,6 +65352,7 @@ countries = {
                 mandu bijagarh alirajpur mandleshwar khandwa handia hoshangabad kherla
                 chauragarh tendukheda bhilsa sironj chanderi sarangpur maksi ujjain mandsaur
                 ratlam dhar raisin bhojpur bhopal sehore khategaon indore maheshwar devgarh
+                mahoba
             }
 
             starting_technology_level = 3
@@ -65315,7 +65375,6 @@ countries = {
         KAP = { #Kalpi
             own_control_core = {
                 kalpi konch irij jhansi orchha kundar tehri lalitpur rath
-                mahoba
             }
 
             starting_technology_level = 3
