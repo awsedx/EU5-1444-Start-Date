@@ -36,3 +36,12 @@ GOT = {
     culture_definition = gutnish
     religion_definition = catholic
 }
+
+DGJ = {
+    #Dukagjini Family
+
+    color = rgb { 28 34 38 }
+
+    culture_definition = albanian
+    religion_definition = catholic
+}

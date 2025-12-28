@@ -12311,9 +12311,9 @@ countries = {
                 ruler_term = { character = urb_bonconte_i_montefeltro start_date = 1234.1.1 end_date = 1242.1.1 regnal_number = 1 }
                 ruler_term = { character = urb_montefeltrano_ii_montefeltro start_date = 1242.1.1 end_date = 1254.1.1 regnal_number = 2 }
                 ruler_term = { character = urb_guido_i_montefeltro start_date = 1254.1.1 end_date = 1285.1.1 regnal_number = 1 }
-                # Annexed by Papal State 1285-1296)
+                # Annexed by Papal State 1285-1296
                 ruler_term = { character = urb_federico_i_montefeltro start_date = 1296.1.1 end_date = 1322.1.1 regnal_number = 1 }
-                # Annexed by Papal State 1322-1323)
+                # Annexed by Papal State 1322-1323
                 ruler_term = { character = urb_sighinolfo_montefeltro start_date = 1323.4.26 regnal_number = 1 }
                 #ruler_term = { character = urb_guido_novello_montefeltro start_date = 1323.4.26 regnal_number = 2 } # Junior Count
                 #ruler_term = { character = urb_galasso_montefeltro start_date = 1323.4.26 regnal_number = 1 } # Junior Count
@@ -12364,6 +12364,7 @@ countries = {
 
             own_control_conquered = {
                 bergamo cortenuova clusone zogno
+                lezha
             }
 
             include = "expl_mediterranean"
@@ -13250,11 +13251,11 @@ countries = {
 
         ALB = {
             own_control_core = {
-                koman dukagjini lezha tirana
+                tirana
             }
 
             our_cores_conquered_by_others = {
-                elbasan kavaje kruje durres
+                elbasan kavaje kruje durres lezha
             }
 
             starting_technology_level = 3
@@ -13415,6 +13416,30 @@ countries = {
             dynasty = mataranga_dynasty
         }
 
+        DGJ = {
+            own_control_core = {
+                koman dukagjini has
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+
+                ruler = random
+
+            }
+
+            capital = dukagjini
+            dynasty = dukagjini_dynasty
+        }
+
         SER = {
             own_control_core = {
                 peja prizren onogost gradina
@@ -13427,7 +13452,6 @@ countries = {
                 debrc sabac
             }
             own_control_integrated = {
-                has
             }
             our_cores_conquered_by_others = {
                 slano mostar konjic belgrad
@@ -33787,6 +33811,7 @@ countries = {
                 van bahcesaray catak hosap
                 surmali igdir bayazit khor_virap
                 hashatjin khalkhal
+                kars kagizman
             }
 
             own_control_conquered = {
@@ -44058,6 +44083,7 @@ countries = {
                 huandacareo
                 zacapu tlazazalca xacona zula_michoacan angamacutiro yuririapundaro
                 erongaricuaro patzcuaro aguacana
+                acambaro maravatio
             }
 
 
@@ -44190,6 +44216,7 @@ countries = {
 
             }
 
+            country_rank = rank_duchy
             court_language = nahuatl_language
             capital = tenochtitlan
         }
@@ -46793,10 +46820,8 @@ countries = {
 
         #Cocom - COC
         COC = {
-            own_control_core = {
-                mayapan sotuta hocabail hunucma maxcanu motul
-                chichen_itza zaci tases kalotmul
-                jootsuuk tho
+            our_cores_conquered_by_others = {
+                mayapan
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -46815,6 +46840,10 @@ countries = {
             own_control_core = {
                 mani dzibilnocac telantunich
             }
+
+            own_control_conquered = {
+                mayapan
+            }
             include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
             include = "expl_mesoamerica"
             government = {
@@ -46831,6 +46860,7 @@ countries = {
         CNL = {
             own_control_core = {
                 calkini
+                hunucma maxcanu
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -46847,7 +46877,7 @@ countries = {
         #Chakan Putum - CKP
         CKP = {
             own_control_core = {
-                chakan_putum kaan_peech edzna hochob tixchel
+                chakan_putum tixchel
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -46864,7 +46894,7 @@ countries = {
         #Chel - HEL
         HEL = {
             own_control_core = {
-                dzilam titsimin ekab labcah zama coba
+                titsimin
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -46874,14 +46904,14 @@ countries = {
                 ruler = random
             }
             court_language = maya_language
-            capital = dzilam
+            capital = titsimin
             dynasty = chel_dynasty
         }
 
         #Uaymil - UAY
         UAY = {
             own_control_core = {
-                chakan_yucatan tixmul chacchoben
+                tixmul chacchoben bakhalal
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -46892,6 +46922,183 @@ countries = {
             }
             court_language = maya_language
             capital = tixmul
+        }
+
+        #Can Pech - CPH
+        CPH = {
+            own_control_core = {
+                kaan_peech edzna hochob
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = kaan_peech
+        }
+
+        #Cupul - CUP
+        CUP = {
+            own_control_core = {
+                chichen_itza zaci
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = zaci
+        }
+
+        #Ekab - EKB
+        EKB = {
+            own_control_core = {
+                ekab labcah zama coba
+                chakan_yucatan
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = ekab
+        }
+
+        #Hocaba - HOC
+        HOC = {
+            own_control_core = {
+                hocabail
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = hocabail
+        }
+
+        #Chakan - CKN
+        CKN = {
+            own_control_core = {
+                tho
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = tho
+        }
+
+        #Ceh Pech - CEP
+        CEH = {
+            own_control_core = {
+                motul
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = motul
+        }
+
+        #Ah Kin Chel - AKC
+        AKC = {
+            own_control_core = {
+                dzilam
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = dzilam
+        }
+
+        #Sotuta - STA
+        STA = {
+            own_control_core = {
+                sotuta
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = sotuta
+        }
+
+        #Tazes - TSS
+        TSS = {
+            own_control_core = {
+                tases
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = tases
+        }
+
+        #Calotmul - CMU
+        CMU = {
+            own_control_core = {
+                kalotmul
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = kalotmul
+        }
+
+        #Cochuah - CUH
+        CUH = {
+            own_control_core = {
+                jootsuuk
+            }
+            include = "amerindian_advanced_monarchy_not_nahuatl"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            court_language = maya_language
+            capital = jootsuuk
         }
 
         #Mopan - MOP
@@ -46917,7 +47124,8 @@ countries = {
         #Cháak teʼ éemal - CTM
         CTM = {
             own_control_core = {
-                chactemal bakhalal
+                chactemal nohmul colha
+                tzunuun lamanai altun_ha
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -48427,11 +48635,18 @@ countries = {
             #https://es.wikipedia.org/wiki/Reino_Chim%C3%BA
             own_control_core = {
                 chan_chan chimu chao paramonga
+                huacatambo manchan huarmey
+            }
+
+            own_control_conquered = {
+                xllang apurlec pakatnamu farfan sana
+                nunura nariguala chira
             }
 
             include = "andean_monarchy"
             include = "expl_andean"
 
+            country_rank = rank_kingdom
             court_language = quingnam_language
             capital = chan_chan
             government = {
@@ -48442,7 +48657,7 @@ countries = {
         #Xllang - XLL
         XLL = {
             #https://es.wikipedia.org/wiki/Reino_Sic%C3%A1n
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 xllang apurlec pakatnamu farfan sana
             }
 
@@ -48590,7 +48805,11 @@ countries = {
                 yanahuara antabamba
             }
 
-            include = "andean_monarchy"
+            own_control_conquered = {
+                willka_pampa auccapana
+            }
+
+            include = "incan_empire"
             include = "expl_andean"
             government = {
                 ruler = csu_qhapaq_yupanki
@@ -48607,10 +48826,6 @@ countries = {
                     name_lluqi = 1
                     name_mayta = 1
                     name_tarco = 1
-                }
-
-                reforms = {
-                    tawantinsuyu_monarchy
                 }
 
                 laws = {
@@ -49557,7 +49772,7 @@ countries = {
         #Killke - KKE
         #Settled, NOTE transformed into normal tag for the sake of balance
         KKE = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 willka_pampa auccapana
             }
             discovered_areas = {
@@ -61539,9 +61754,13 @@ countries = {
                 akhaltsikhe ardahan
                 hasankale ispir
                 artanuji khikhani oltu parkhali savsat
-                kars kagizman tmogvi
+                tmogvi
                 panaskerti tortum
                 akhalkalaki kumayri
+            }
+
+            our_cores_conquered_by_others = {
+                kars kagizman
             }
 
             include = "expl_christian_caucasus"
