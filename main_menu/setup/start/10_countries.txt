@@ -13407,11 +13407,11 @@ countries = {
 
         KAT = {
             own_control_core = {   
-                kruje
+                kruje debar
             }
 
             our_cores_conquered_by_others = {
-                debar elbasan
+                elbasan
             }
 
             starting_technology_level = 3
@@ -34935,7 +34935,7 @@ countries = {
             own_control_conquered = {
                 velbuzd
                 skopje kumanovo veles prosek shtip kratovo kocani strumica
-                ohrid tetovo debar bitola prilep kicevo florina kleisoura_epirus
+                ohrid tetovo bitola prilep kicevo florina kleisoura_epirus
                 giurgiu
             }
 
@@ -58663,6 +58663,7 @@ countries = {
 
             own_control_core = {
                 canajoharie teionontatatie oneonta schenectady saratoga ticonderoga kawenote oronia tsiietsenhtha oskennonton itekiatonhniarikon
+                ahna_wate kanyengehaga adirondacks oneyotdehaga
             }
 
             starting_technology_level = 0
