@@ -1,0 +1,43 @@
+khorchin_culture = {
+	language = mongolian_language
+
+	color = map_khorchin
+
+	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
+
+	opinions = {
+
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+uriankhai_culture = {
+	language = mongolian_language
+
+	color = map_uriankhai
+	
+	tags = { mongol_gfx central_asian_gfx mongolian_coa_gfx east_asian_gfx }
+
+	opinions = {
+		
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+kazakh_culture = {
+	language = kipchak_language
+	
+	color = map_kazakh
+	
+	tags = { turkic_gfx persianate_gfx central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}	
+	culture_groups = {
+		turkic_group
+	}
+
+}

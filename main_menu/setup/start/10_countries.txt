@@ -50209,7 +50209,7 @@ countries = {
                 ruler_term = { character = chg_changsi start_date = 1335.1.1 regnal_number = 1 }
 
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 ruler = chg_changsi
 
                 reforms = {
@@ -50219,11 +50219,7 @@ countries = {
             country_rank = rank_kingdom
             court_language = karluk_language
             tolerated_cultures = {
-                khorezmian_culture
                 kyrgyz_culture
-                uzbek_culture
-                uyghur_culture
-                tajik_culture
             }
 
             capital = almaliq
@@ -50246,20 +50242,21 @@ countries = {
                 aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
             }
             starting_technology_level = 3
-            country_rank = rank_duchy
+            country_rank = rank_kingdom
             court_language = karluk_language
-            tolerated_cultures = {
-                khorezmian_culture
-            }
-
             include = "expl_mongols"
             include = "eurasian_horde_no_muslim"
+            capital = yarkand
+
+            religious_school = hanafi_school
+
             government = {
                 type = monarchy
             }
 
-            capital = yarkand
-            religious_school = hanafi_school
+            accepted_cultures = {
+                khorezmian_culture
+            }
         }
 
         MGE = {
@@ -50271,9 +50268,6 @@ countries = {
             include = "expl_mongols"
             include = "eurasian_horde_not_present"
             government = {
-                ruler_term = { character = genghis_khan start_date = 1206.1.1 end_date = 1227.8.25 regnal_number = 1 }
-                ruler_term = { character = tolui_borjigin start_date = 1227.8.25 end_date = 1229.9.13 regnal_number = 1 }
-                ruler_term = { character = chg_ogedei_borjigin start_date = 1229.9.13 end_date = 1241.12.11 regnal_number = 1 }
                 type = steppe_horde
                 heir_selection = tribal_oldest_male
             }
@@ -50282,8 +50276,24 @@ countries = {
             capital = karakorum
         }
 
-        OIR = {
-            own_control_core = {
+#        OIR = {
+#            own_control_core = {
+#            }
+#
+#            our_cores_conquered_by_others = { }
+#            starting_technology_level = 3
+#            include = "expl_mongols"
+#            government = {
+#                type = steppe_horde
+#                heir_selection = tribal_oldest_male
+#            }
+#            country_rank = rank_kingdom
+#            court_language = mongolian_language
+#            capital = khar_balgas
+#        }
+
+         CRS = {  # Choros
+         	own_control_core = {
                 choyrin_datsan bayan gazrin_chuluu takhilyn ulziit
 
                 khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot tsagaan_usun
@@ -50318,97 +50328,60 @@ countries = {
                 naran orog tuin
 
                 tost_uul gaxun_gobi shargyn_gobi shira_qulusun
-            }
-
-            our_cores_conquered_by_others = { }
-            starting_technology_level = 3
-            include = "expl_mongols"
-            government = {
-                type = steppe_horde
-                heir_selection = tribal_oldest_male
-            }
-            country_rank = rank_kingdom
-            court_language = mongolian_language
-            capital = karakorum
+         	}
+         	our_cores_conquered_by_others = { }
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+         	}
+         	country_rank = rank_duchy
+         	court_language = mongolian_language
+         	capital = khar_balgas
         }
-
-        # CRS = {  # Choros (dominant)
-        # 	own_control_core = {
-        # 		khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot tsagaan_usun
-        # 		ulaagchiin airag_nuur hunguy khyargas_nuur telmen
-        # 		ulaamgom dzaigil erzin tes turuum
-        # 	}
-        # 	our_cores_conquered_by_others = { }
-        # 	starting_technology_level = 3
-        # 	include = "expl_mongols"
-        # 	government = {
-        # 		type = steppe_horde
-        # 		heir_selection = tribal_oldest_male
-        # 	}
-        # 	country_rank = rank_kingdom
-        # 	court_language = mongolian_language
-        # 	capital = karakorum
-        # }
 
         # DRB = {  # Dörbet
         # 	own_control_core = {
         # 		uliastai ogomoor teel zavkhan
-        # 		del_khad galbyn_gobi khatanbulag oiyin_korken ooshiyn_gobi zhavklant_khairkhan
         # 	}
-        # 	our_cores_conquered_by_others = { }
+
         # 	starting_technology_level = 3
         # 	include = "expl_mongols"
         # 	government = {
         # 		type = steppe_horde
-        # 		heir_selection = tribal_oldest_male
+        # 		heir_selection = cognatic_primogeniture
         # 	}
         # 	country_rank = rank_kingdom
         # 	court_language = mongolian_language
         # 	capital = karakorum
         # }
 
-        # KHO = {  # Khotogoid
+        # KHO = {  # Khoshut
         # 	own_control_core = {
-        # 		bayankhot alxa bagh bayannurhong urad
-        # 		bayannur uraqai xinhure
-        # 		khara_khoto banzart_khairkhan naraan_chilaun noyon_uul zag_suujiyn_gobi
-        # 		ordos aerzhai otog tongwancheng
+
         # 	}
-        # 	our_cores_conquered_by_others = { }
+
         # 	starting_technology_level = 3
         # 	include = "expl_mongols"
         # 	government = {
         # 		type = steppe_horde
-        # 		heir_selection = tribal_oldest_male
+        # 		heir_selection = cognatic_primogeniture
         # 	}
         # 	country_rank = rank_kingdom
         # 	court_language = mongolian_language
         # 	capital = karakorum
         # }
 
-        # THG = {  # Torghut / peripheral Oirat
+        # THG = {  # Torghut
         # 	own_control_core = {
-        # 		bii choigan systyg
-        # 		kaa balyktyg buren_khem busiyn
-        # 		den_terek khemchik ulug usun
-        # 		karakorum khar_balgas orkhon tsetserleg
-        # 		baibalyk kharkhul mori_baridag tarvagatai
-        # 		urga kedun khar_bukhyn kharuukh manzushir tuul
-        # 		zagzuugiin_balgas altan_gadas chuluutyn delger_moron ider
-        # 		barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
-        # 		otegu_qulan bugat chikhan_agui tevsh_uul tsagaan_agui tsogt
-        # 		ongiin_khiid gimpil_darjaalan shaazan_khot shaazan_tolgoi suriig
-        # 		ulaan bogd khadat ukhaa_khudag
-        # 		khalzan_shireg baidrag biger boontsagaan khangal
-        # 		naran orog tuin
-        # 		tost_uul gaxun_gobi shargyn_gobi shira_qulusun
         # 	}
-        # 	our_cores_conquered_by_others = { }
+
         # 	starting_technology_level = 3
         # 	include = "expl_mongols"
         # 	government = {
         # 		type = steppe_horde
-        # 		heir_selection = tribal_oldest_male
+        # 		heir_selection = cognatic_primogeniture
         # 	}
         # 	country_rank = rank_kingdom
         # 	court_language = mongolian_language

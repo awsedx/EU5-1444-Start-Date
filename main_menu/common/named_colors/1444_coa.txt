@@ -19,4 +19,8 @@ colors = {
 	map_OCE = rgb { 65 105 225 }
 	map_GAN = rgb { 204 0 0 }
 	map_AFZ = rgb { 0 36 125 }
+	map_OIR = rgb { 204  184  177 }
+	map_khorchin = rgb { 235 155 175 }
+	map_uriankhai = rgb { 34 139 34 }
+	map_kazakh = rgb { 85 160 215 }
 }

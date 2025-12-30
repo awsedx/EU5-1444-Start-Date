@@ -9,13 +9,22 @@ JOE = {
 }
 
 KHA = {
-    # Kharchin (Not Khorchin??)
+    # Khorchin
     color = rgb { 221  93  170 }
     culture_definition = kharchin_culture
     religion_definition = tengri
 
     description_category = military
 }
+
+CRS = { #Choros Oirats
+    color = map_OIR
+    culture_definition = oirat_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
 
 HMI = {
     # Kara Del
@@ -83,15 +92,6 @@ YUA = {
 
     culture_definition = mongolian_culture
     religion_definition = tibetan_buddhism
-    description_category = military
-}
-
-OIR = {
-    # Oirat
-    color = rgb { 204  184  177 }
-
-    culture_definition = oirat_culture
-    religion_definition = tengri
     description_category = military
 }
 
