@@ -475,11 +475,7 @@ diplomacy_manager = {
     #-------------Mesoamerica------------
     dependency = { first = TEP second = TNC subject_type = vassal }
     dependency = { first = TEP second = TCP subject_type = vassal }
-
-
-    #-------------East Asia------------
-    dependency = { first = OIR second = YUA subject_type = vassal }
-
+    
     #-------------China------------
     dependency = { first = CHI second = JOE subject_type = tributary }
 

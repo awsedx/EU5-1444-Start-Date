@@ -8961,11 +8961,11 @@ dynasty_manager = {
     }
     ujeed_dynasty = {
         name = { name = ujeed_dynasty }
-        home = fuxin
+        home = tongliao
     }
     onggirat_dynasty = {
         name = { name = onggirat_dynasty }
-        home = fuxin
+        home = arun
     }
     asud_dynasty = {
         name = { name = asud_dynasty }
@@ -8973,11 +8973,11 @@ dynasty_manager = {
     }
     yenisei_dynasty = {
         name = { name = yenisei_dynasty }
-        home = khan_khentii
+        home = shushenskoye
     }
     soyot_dynasty = {
         name = { name = soyot_dynasty }
-        home = khan_khentii
+        home = choigan
     }
     dughlat_dynasty = {
         name = { name = dughlat_dynasty }

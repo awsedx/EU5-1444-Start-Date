@@ -1,5 +1,4 @@
-JOE = {
-    # Joseon
+JOE = { # Joseon
     color = rgb { 26  53  177 }
     culture_definition = korean_culture
     religion_definition = sanjiao
@@ -8,8 +7,7 @@ JOE = {
     difficulty = 2
 }
 
-KHA = {
-    # Khorchin
+KHA = { # Khorchin
     color = rgb { 221  93  170 }
     culture_definition = kharchin_culture
     religion_definition = tengri
@@ -17,7 +15,7 @@ KHA = {
     description_category = military
 }
 
-CRS = { #Choros Oirats
+CRS = { # Choros Oirats
     color = map_OIR
     culture_definition = oirat_culture
     religion_definition = tengri
@@ -25,9 +23,35 @@ CRS = { #Choros Oirats
     description_category = military
 }
 
+DRB = { # Dörbet Oirats
+    color = rgb { 215 205 190 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
 
-HMI = {
-    # Kara Del
+THG = { # Torghut Oirats
+    color = rgb { 198 208 202 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KHI = { # Khoid Oirats
+    color = rgb { 210 195 210 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KHO = { # Khoshut Oirats
+    color = rgb { 220 210 185 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+HMI = { # Kara Del
     color = rgb { 118  193  177 }
 
     culture_definition = mongolian_culture
