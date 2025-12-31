@@ -4461,8 +4461,7 @@ countries = {
                 tuzdysor imakia zhelezin lebyazhye
                 chastoozerye polovinnoye armizonskoye berdyuzhye korkina_sloboda
                 tarankol kyzylzhar presnowka staroye stanitsa_kokchetavskaya
-                altayskoye onguday ust_koksa smolenskoye mayma biysk
-                kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
+                salair kytmanovo
                 tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
                 surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
                 bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
@@ -4479,6 +4478,8 @@ countries = {
 
                 ayagoz tansyk kokpekty shar zyryan
                 shimbay khurgancha qonirat pulzhai
+
+                karnak sawran aktas_kystagy sholakkorgan baba_ata saudakent tamdy akkesene sarvaslyk
             }
 
             capital = chimgi_tura
@@ -30988,6 +30989,8 @@ countries = {
                 pingdi liangcheng erdao xuanning jining weining
 
                 fuzhou zhongdu baochang chagannur shangdu dongliangting huanzhou pingdisonglin yingchang
+
+                tuul manzushir bayan takhilyn gimpil_darjaalan choyrin_datsan gazrin_chuluu ooshiyn_gobi khatanbulag zhavklant_khairkhan ulziit ukhaa_khudag del_khad galbyn_gobi xinhure bayannur urad uraqai aerzhai otog tongwancheng ordos
             }
 
             include = "far_east_asia_monarchy_not_present"
@@ -50144,35 +50147,22 @@ countries = {
             #Chagatai
             type = army
             own_control_core = {
-                tamdy akkesene baba_ata nurlykent saudakent shavgar sholakkorgan
                 almaty boyauli karakastek karamergen kargaly kurty shengeldy talkhir
                 balasagun dzhul harandzuvan kysmyci nuzket sargau soltobe
                 charyn chundzha kegen lavar shelek
                 barskoon balykchy kochkor san_tash
                 dungene lepsy sagabuyen tekeli
                 merki aspara khantau kulan sretenskoe tasuktul tolekskoe
-                talas dzhulsub sarvaslyk tekabket yangi zherkorgan
-                isbijab arsubaniket badam karabulak kazatlyk shymkent
+                dzhulsub tekabket zherkorgan
                 koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
-                turkestan aktas_kystagy baydibek_ata ikan karnak sawran shilik
-                kurchum kandysu
-
-                # Qocho
+                almaliq gulja narat nilka tokkuztara yulduz bortala jing
+                kuytun usu_xinjiang yangjibaliq kutubi ulan_us qanbalik
+                ilanbalyk koktuma
+                ilibalyk koktal kayalyk 
                 qocho turpan lukchun pichan toksun
-                beshbalik dunla guchung mori
                 dashahai
                 kumux
-                yuanhu
                 urumqi
-                manas
-            }
-            own_control_integrated = {
-                almaliq gulja narat nilka tokkuztara yulduz bortala jing
-                kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik
-                hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin
-                ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh
-                burqin jeminay
-                ilibalyk koktal kayalyk 
             }
             our_cores_conquered_by_others = {
                 akhsikath asht karasuu kasan kerben pop_fargana
@@ -50181,6 +50171,10 @@ countries = {
                 sutkent zemukh zhaushikumtobe
                 fergana marghinan osh quva rishton
                 fanakat samarkand
+                yuanhu mori beshbalik dunla guchung gonganbao zhekdeliq manas hoboksar utbulaq
+                urghtbulaq toli targabatay dahra_sasykkol emin kurchum kandysu burqin jeminay
+                atanuul bodonch bulgan chinggil ulungur kara_irtysh
+
             }
             starting_technology_level = 3
             include = "expl_mongols"
@@ -50294,42 +50288,35 @@ countries = {
 
          CRS = {  # Choros
          	own_control_core = {
-                choyrin_datsan bayan gazrin_chuluu takhilyn ulziit
 
-                khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot tsagaan_usun
+                khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot
                 ulaagchiin airag_nuur hunguy khyargas_nuur telmen
                 ulaamgom dzaigil erzin tes turuum
                 uliastai ogomoor teel zavkhan
 
-                del_khad galbyn_gobi khatanbulag oiyin_korken ooshiyn_gobi zhavklant_khairkhan
-                bayankhot alxa bagh bayannurhong urad
-                bayannur uraqai xinhure
+                oiyin_korken
+                bayankhot alxa bagh bayannurhong
                 khara_khoto banzart_khairkhan naraan_chilaun noyon_uul zag_suujiyn_gobi
-
-                ordos aerzhai otog tongwancheng
-
-                bii choigan systyg
-                kaa balyktyg buren_khem busiyn
-                den_terek khemchik ulug usun
 
                 karakorum khar_balgas orkhon tsetserleg
                 baibalyk kharkhul mori_baridag tarvagatai
-                kedun khar_bukhyn kharuukh manzushir tuul
-                zagzuugiin_balgas altan_gadas chuluutyn delger_moron ider
+                kedun khar_bukhyn kharuukh
+                zagzuugiin_balgas altan_gadas chuluutyn ider
 
                 barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
 
                 otegu_qulan bugat chikhan_agui tevsh_uul tsagaan_agui tsogt
 
-                ongiin_khiid gimpil_darjaalan shaazan_khot shaazan_tolgoi suriig
-                ulaan bogd khadat ukhaa_khudag
+                ongiin_khiid shaazan_khot shaazan_tolgoi suriig
+                ulaan bogd khadat
 
                 khalzan_shireg baidrag biger boontsagaan khangal
                 naran orog tuin
 
                 tost_uul gaxun_gobi shargyn_gobi shira_qulusun
+                yuanhu mori guchung beshbalik dunla gonganbao zhekdeliq manas urghtbulaq toli targabatay dahra_sasykkol emin kandysu hoboksar kurchum jeminay utbulaq burqin ulungur kara_irtysh chinggil bulgan bodonch atanuul
          	}
-         	our_cores_conquered_by_others = { }
+
          	starting_technology_level = 3
          	include = "expl_mongols"
          	government = {
@@ -50341,52 +50328,101 @@ countries = {
          	capital = khar_balgas
         }
 
-        # DRB = {  # Dörbet
-        # 	own_control_core = {
-        # 		uliastai ogomoor teel zavkhan
-        # 	}
+        DRB = {  # Dörbet
+         	own_control_core = {
+         		uliastai ogomoor teel zavkhan
+         	}
 
-        # 	starting_technology_level = 3
-        # 	include = "expl_mongols"
-        # 	government = {
-        # 		type = steppe_horde
-        # 		heir_selection = cognatic_primogeniture
-        # 	}
-        # 	country_rank = rank_kingdom
-        # 	court_language = mongolian_language
-        # 	capital = karakorum
-        # }
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+         	}
+         	country_rank = rank_kingdom
+         	court_language = mongolian_language
+         	capital = karakorum
+        }
 
-        # KHO = {  # Khoshut
-        # 	own_control_core = {
+        
+        TVA = {  # Tuva
+         	own_control_core = {
+         		systyg choigan bii ulug usun
+         	}
 
-        # 	}
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = tribe
+         		heir_selection = tribal_oldest_male
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = systyg
+        }
 
-        # 	starting_technology_level = 3
-        # 	include = "expl_mongols"
-        # 	government = {
-        # 		type = steppe_horde
-        # 		heir_selection = cognatic_primogeniture
-        # 	}
-        # 	country_rank = rank_kingdom
-        # 	court_language = mongolian_language
-        # 	capital = karakorum
-        # }
+        YKZ = {  # Yenisei Kyrgyz
+         	own_control_core = {
+         		minusinsk shushenskoye beya askiz abakasnk tatarskaya_tesyu idrinskoye kortuz ust_kabyrza kuznetsk
+         	}
 
-        # THG = {  # Torghut
-        # 	own_control_core = {
-        # 	}
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = tribe
+         		heir_selection = tribal_oldest_male
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = minusinsk
+        }
 
-        # 	starting_technology_level = 3
-        # 	include = "expl_mongols"
-        # 	government = {
-        # 		type = steppe_horde
-        # 		heir_selection = cognatic_primogeniture
-        # 	}
-        # 	country_rank = rank_kingdom
-        # 	court_language = mongolian_language
-        # 	capital = karakorum
-        # }
+        AUK = {  # Altai Uriankhai
+         	own_control_core = {
+         		kaa balyktyg buren_khem busiyn delger_moron den_terek khemchik tsagaan_usun altayskoye onguday ust_koksa smolenskoye mayma biysk
+         	}
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = tribe
+         		heir_selection = tribal_oldest_male
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = tsagaan_usun
+        }
+
+        KHO = {  # Khoshut
+        	own_control_core = {
+
+         	}
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+         	}
+         	country_rank = rank_kingdom
+         	court_language = mongolian_language
+         	capital = karakorum
+        }
+
+        THG = {  # Torghut
+         	own_control_core = {
+         	}
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+         	}
+         	country_rank = rank_kingdom
+         	court_language = mongolian_language
+         	capital = karakorum
+        }
 
         KHA = {
             # Kharchin Mongols
@@ -50560,6 +50596,8 @@ countries = {
                 rishton marghinan fergana quva osh
                 otrar artyk_ata kyr_uzkand mardankuyik
                 altyntobe bogiston burchmullo
+
+                yangi talas nurlykent shavgar kazatlyk isbijab karabulak shymkent badam arsubaniket baydibek_ata shilik ikan turkestan
             }
             our_cores_conquered_by_others = {
                 artyk_ata kyr_uzkand asanas jand barchkend karmakshi jubara yangikent buzikkala
@@ -50833,7 +50871,8 @@ countries = {
         SRY = {
             # Yughur
             own_control_core = {
-                qidaban liyuan qilian
+                qidaban liyuan qilian anding_suzhou dangcheng kuyu_shazhou guazhou jinta shazhou chijin yangguan
+                bailongdui miran loulan
             }
 
             our_cores_conquered_by_others = { }
@@ -50842,28 +50881,11 @@ countries = {
             include = "asia_advanced_no_pagan_tribe"
             government = {
                 heir_selection = tribal_oldest_male
+                centralization_vs_decentralization = -100
             }
             country_rank = rank_county
             court_language = mongolian_language
             capital = liyuan
-        }
-
-        TUO = {
-            # Turmot
-            own_control_core = {
-                anding_suzhou dangcheng kuyu_shazhou guazhou jinta shazhou chijin yangguan
-                bailongdui miran loulan
-            }
-            our_cores_conquered_by_others = { }
-            starting_technology_level = 3
-            include = "expl_mongols"
-            include = "asia_advanced_no_pagan_tribe"
-            government = {
-                heir_selection = tribal_oldest_male
-            }
-            country_rank = rank_county
-            court_language = mongolian_language
-            capital = yangguan
         }
 
         HUI = {

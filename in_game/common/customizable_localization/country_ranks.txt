@@ -299,8 +299,21 @@ country_flavor = {
             government_type = government_type:theocracy
         }
     }
-
     # Horde
+    text = {
+        localization_key = rank_empire_horde_2
+        trigger = {
+
+            country_rank_is_empire = yes
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = UZB
+                tag = NOG
+            }
+        }
+    }
+
+    # Khanate
     text = {
         localization_key = rank_empire_horde
         trigger = {
@@ -906,8 +919,19 @@ country_flavor = {
         }
     }
 
-    # Horde
-
+    #Horde
+    text = {
+        localization_key = rank_kingdom_horde_2
+        trigger = {
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = UZB
+                tag = NOG
+            }
+        }
+    }
+    
+    # Khanate
     text = {
         localization_key = rank_kingdom_horde
         trigger = {
