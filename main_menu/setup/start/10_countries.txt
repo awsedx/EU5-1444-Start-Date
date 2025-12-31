@@ -50288,34 +50288,11 @@ countries = {
 
          CRS = {  # Choros
          	own_control_core = {
-
-                khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot
-                ulaagchiin airag_nuur hunguy khyargas_nuur telmen
-                ulaamgom dzaigil erzin tes turuum
-                uliastai ogomoor teel zavkhan
-
-                oiyin_korken
-                bayankhot alxa bagh bayannurhong
-                khara_khoto banzart_khairkhan naraan_chilaun noyon_uul zag_suujiyn_gobi
-
-                karakorum khar_balgas orkhon tsetserleg
-                baibalyk kharkhul mori_baridag tarvagatai
-                kedun khar_bukhyn kharuukh
-                zagzuugiin_balgas altan_gadas chuluutyn ider
-
-                barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
-
-                otegu_qulan bugat chikhan_agui tevsh_uul tsagaan_agui tsogt
-
-                ongiin_khiid shaazan_khot shaazan_tolgoi suriig
-                ulaan bogd khadat
-
-                khalzan_shireg baidrag biger boontsagaan khangal
-                naran orog tuin
-
-                tost_uul gaxun_gobi shargyn_gobi shira_qulusun
-                yuanhu mori guchung beshbalik dunla gonganbao zhekdeliq manas urghtbulaq toli targabatay dahra_sasykkol emin kandysu hoboksar kurchum jeminay utbulaq burqin ulungur kara_irtysh chinggil bulgan bodonch atanuul
-         	}
+               beshbalik, dunla, gonganbao, zhekdeliq, manas, urghtbulaq, toli, targabatay
+                emin, kandysu, hoboksar, kurchum, jeminay, utbulaq, burqin, ulungur, kara_irtysh
+                barkul, altayn_ovor_gobi, naomao, santokhe, zuun_garyn_gobi
+                karakorum, khar_balgas, orkhon, tsetserleg
+            }
 
          	starting_technology_level = 3
          	include = "expl_mongols"
@@ -50330,7 +50307,9 @@ countries = {
 
         DRB = {  # Dörbet
          	own_control_core = {
-         		uliastai ogomoor teel zavkhan
+         		khovd, achit_nuur, haerhhana, huysiyn, khurgan, tahiltyn_khotgot
+                ulaagchiin, airag_nuur, hunguy, khyargas_nuur, telmen
+                ulaamgom, dzaigil, erzin, tes, turuum
          	}
 
          	starting_technology_level = 3
@@ -50339,9 +50318,9 @@ countries = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
          	}
-         	country_rank = rank_kingdom
+         	country_rank = rank_duchy
          	court_language = mongolian_language
-         	capital = karakorum
+         	capital = khovd
         }
 
         
@@ -50395,7 +50374,11 @@ countries = {
 
         KHO = {  # Khoshut
         	own_control_core = {
-
+                ongiin_khiid, shaazan_khot, shaazan_tolgoi, suriig
+                ulaan, bogd, khadat
+                khalzan_shireg, baidrag, biger, boontsagaan, khangal, naran, orog, tuin
+                tost_uul, gaxun_gobi, shargyn_gobi, shira_qulusun
+                yuanhu, mori, guchung
          	}
 
          	starting_technology_level = 3
@@ -50404,13 +50387,17 @@ countries = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
          	}
-         	country_rank = rank_kingdom
+         	country_rank = rank_duchy
          	court_language = mongolian_language
-         	capital = karakorum
+         	capital = ulaan
         }
 
         THG = {  # Torghut
          	own_control_core = {
+                bayankhot, alxa, bagh, bayannurhong
+                khara_khoto, banzart_khairkhan, naraan_chilaun, noyon_uul, zag_suujiyn_gobi
+                otegu_qulan, bugat, chikhan_agui, tevsh_uul, tsagaan_agui, tsogt
+                dahra_sasykkol, chinggil, bulgan, bodonch, atanuul
          	}
 
          	starting_technology_level = 3
@@ -50419,9 +50406,28 @@ countries = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
          	}
-         	country_rank = rank_kingdom
+         	country_rank = rank_duchy
          	court_language = mongolian_language
-         	capital = karakorum
+         	capital = dahra_sasykkol
+        }
+
+        KHI = {  # Khoid
+         	own_control_core = {
+                uliastai, ogomoor, teel, zavkhan, oiyin_korken
+                baibalyk, kharkhul, mori_baridag, tarvagatai
+                kedun, khar_bukhyn, kharuukh
+                zagzuugiin_balgas, altan_gadas, chuluutyn, ider
+            }
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+         	}
+         	country_rank = rank_duchy
+         	court_language = mongolian_language
+         	capital = uliastai
         }
 
         KHA = {
