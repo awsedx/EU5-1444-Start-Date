@@ -191,7 +191,7 @@ distribution_of_power_law = {
 		}
 	
 		allow = {
-			NOT = { has_reform = government_reform:royal_decree }
+			NOT = { has_reform = government_reform:autocracy }
 		}
 		country_modifier = {
 			global_crown_estate_power = -0.33
