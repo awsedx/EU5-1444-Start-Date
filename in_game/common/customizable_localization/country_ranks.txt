@@ -73,12 +73,50 @@ country_flavor = {
         }
     }
 
-    # MYD Theocracy variant (Dreaming Land) - in the main country_flavor section
+    # MYD Theocracy variant
     text = {
         localization_key = country_dreaming_land
         trigger = {
             tag = MYD
             government_type = government_type:theocracy
+        }
+    }
+
+    # Steppe Clan
+    text = {
+        localization_key = horde_clan
+        trigger = {
+
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = JAA
+                tag = BEU
+                tag = OLK
+                tag = ELJ
+                tag = GOO
+                tag = BAN
+                tag = JAR
+                tag = BAY
+                tag = OJY
+                tag = HAS
+                tag = JAI
+                tag = KDB
+                tag = AKC
+                tag = CRS
+                tag = DRB
+                tag = THG
+                tag = KHI
+                tag = KHO
+            }
+        }
+    }
+
+    # Uriankhai
+    text = {
+        localization_key = uriankhai_clan
+        trigger = {
+            culture = culture:uriankhai_culture
+            }
         }
     }
 
