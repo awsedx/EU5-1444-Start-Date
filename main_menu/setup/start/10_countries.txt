@@ -24553,7 +24553,7 @@ countries = {
         # Shizuzu
         capital = kazuno
 		include = "japanese_clan"
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			kazuno
 		}
 		government = {
@@ -24570,7 +24570,7 @@ countries = {
 		capital = yuri
 		include = "japanese_clan"
 		own_control_core = {
-			yuri
+			yuri yuza
 		}
 		government = {
 			ruler_term = { character = jap_nanbu_shigetoki start_date = 1315.1.1 end_date = 1333.7.4 regnal_number = 1 }
@@ -24585,7 +24585,7 @@ countries = {
         # Sagoshi
 		capital = yuza
 		include = "japanese_clan"
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			yuza
 		}
 		government = {
@@ -24647,10 +24647,10 @@ countries = {
 
 	NIH = {
         # Nihonmatsu
-		capital = adachi
+		capital = asaka
 		include = "japanese_clan"
 		own_control_core = {
-			adachi
+			asaka tamura
 		}
 		government = {
 			ruler_term = { character = jap_nanbu_shigetoki start_date = 1315.1.1 end_date = 1333.7.4 regnal_number = 1 }
@@ -26080,6 +26080,426 @@ countries = {
             country_rank = rank_county
         }
 
+        YU1 = {
+            # Shimosa Yuki
+            capital = katsushika
+            include = "japanese_clan"
+
+            own_control_core = {
+                katsushika
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        YU2 = {
+            # Shirakawa Yuki
+            capital = shirakawa
+            include = "japanese_clan"
+
+            own_control_core = {
+                shirakawa
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        SO1 = {
+            # Shimosa Soma
+            capital = souma
+            include = "japanese_clan"
+
+            own_control_core = {
+                souma
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        KAH = {
+            # Kashima
+            capital = kashima
+            include = "japanese_clan"
+
+            own_control_core = {
+                kashima
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        EDO = {
+            # Edo
+            capital = ibaraki
+            include = "japanese_clan"
+
+            own_control_core = {
+                ibaraki
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HOD = {
+            # Hitachi Oda
+            capital = ibaraki
+            include = "japanese_clan"
+
+            own_control_core = {
+                niihari tsukuba
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HGA = {
+            # Haga
+            capital = haga
+            include = "japanese_clan"
+
+            own_control_core = {
+                haga
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        IWM = {
+            # Iwamatsu
+            capital = nitta
+            include = "japanese_clan"
+
+            own_control_core = {
+                nitta
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NA1 = {
+            # Fuchu Nagao
+            capital = nishikubiki
+            include = "japanese_clan"
+
+            own_control_core = {
+                nishikubiki
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NA2 = {
+            # Koshi Nagao
+            capital = koshi
+            include = "japanese_clan"
+
+            own_control_core = {
+                koshi kariwa
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NA3 = {
+            # Ueda Nagao
+            capital = minamiuonuma
+            include = "japanese_clan"
+
+            own_control_core = {
+                minamiuonuma
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NA4 = {
+            # Shirai Nagao
+            capital = seta
+            include = "japanese_clan"
+
+            own_control_core = {
+                seta
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NUM = {
+            # Numata
+            capital = tone
+            include = "japanese_clan"
+
+            own_control_core = {
+                tone
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        SI1 = {
+            # Kozuke-Saitō
+            capital = agatsuma
+            include = "japanese_clan"
+
+            own_control_core = {
+                agatsuma
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        KWD = {
+            # Kawarada
+            capital = minamiaizu
+            include = "japanese_clan"
+
+            own_control_core = {
+                minamiaizu
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        NAR = {
+            # Naraha
+            capital = naraha
+            include = "japanese_clan"
+
+            own_control_core = {
+                naraha
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        TED = {
+            # Tendō
+            capital = kitamogami
+            include = "japanese_clan"
+
+            own_control_core = {
+                murayama kitamogami
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        AAR = {
+            # Asari
+            capital = hinai
+            include = "japanese_clan"
+
+            own_control_core = {
+                hinai
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        AK1 = {
+            # Minato Andō
+            capital = akita
+            include = "japanese_clan"
+
+            own_control_core = {
+                akita toshima
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        AK2 = {
+            # Hiyama Andō
+            capital = hiyama
+            include = "japanese_clan"
+
+            own_control_core = {
+                hiyama hanawa hiraka_aomori
+            }
+
+            government = {
+
+                ruler = random
+
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
         ########################################### End New Daimyos ####################################
 
         YMT = {
@@ -26584,7 +27004,7 @@ countries = {
             capital = makuda
             include = "japanese_clan"
 
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 makuda ichihara
             }
 
@@ -26599,11 +27019,10 @@ countries = {
 
         SBA = {
 
-            capital = shiwa
+            capital = sakai_echizen
             include = "japanese_clan"
 
             own_control_core = {
-                shiwa
                 sakai_echizen nakaoono imadate nyuu
                 niwa
                 toyoda
@@ -26632,6 +27051,7 @@ countries = {
 
             own_control_core = {
                 katori chiba musa
+                makuda ichihara
             }
 
             government = {
@@ -26663,7 +27083,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                kuji_kanto taga naka ibaraki kashima
+                kuji_kanto taga naka takano
             }
 
             government = {
@@ -26793,11 +27213,11 @@ countries = {
 
         UE1 = {
             # Uesugi - Ōgigayatsu branch
-            capital = koshi
+            capital = higashikubiki
             include = "japanese_clan"
 
             own_control_core = {
-                nishikanbara higashikanbara koshi kariwa minamiuonuma kitauonuma
+                nishikanbara kitauonuma higashikubiki
             }
 
             government = { reforms = { daimyo } }
@@ -26810,7 +27230,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                tone seta nitta kanra agatsuma hanzawa
+                kanra
             }
 
             government = { reforms = { daimyo } }
@@ -26823,7 +27243,20 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                tachibana toshima_kanto adachi_kanto katsushika hiki
+                tachibana toshima_kanto adachi_kanto hiki
+            }
+
+            government = { reforms = { daimyo } }
+            country_rank = rank_county
+        }
+
+        UE4 = {
+            # Uesugi - Fukaya branch
+            capital = hanzawa
+            include = "japanese_clan"
+
+            own_control_core = {
+                hanzawa
             }
 
             government = { reforms = { daimyo } }
@@ -26832,12 +27265,12 @@ countries = {
 
         NAO = {
             # Nagao clan — de facto ruler over Uesugi clan
-            capital = higashikubiki
+            capital = nishikubiki
             include = "japanese_clan"
 
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 # Only the main base of operations; does not legally own all Echigo
-                higashikubiki nishikubiki
+                nishikubiki
             }
 
             government = { reforms = { daimyo } }
@@ -27490,6 +27923,8 @@ countries = {
 
             own_control_core = {
                 kuji iwate kitahei nukanobu
+                shiwa
+                kazuno
             }
 
             government = {
@@ -27503,11 +27938,11 @@ countries = {
 
         NB2 = {
             # Nanbu (Hachinohe)
-            capital = hanawa
+            capital = shimokita
             include = "japanese_clan"
 
             own_control_core = {
-                shimokita hanawa hiraka_aomori kamikita 
+                shimokita kamikita 
             }
 
             government = {
@@ -27570,11 +28005,11 @@ countries = {
         }
         MGM = {
 
-            capital = kitamogami
+            capital = minamimogami
             include = "japanese_clan"
 
             own_control_core = {
-                murayama kitamogami minamimogami
+                minamimogami
             }
 
             government = {
@@ -27624,7 +28059,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                namekata shineha naraha
+                namekata shineha
             }
 
             government = {
@@ -27651,7 +28086,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                date_loc uda_mutsu katta shinobu nishiokitama higashiokitama natori
+                date_loc uda_mutsu katta shinobu higashiokitama natori adachi
             }
 
             government = {
@@ -27679,7 +28114,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                kitaaizu asaka kawanuma oonuma yama_jap minamiaizu
+                kitaaizu kawanuma oonuma yama_jap higashikanbara
             }
 
             government = {
@@ -27711,8 +28146,8 @@ countries = {
             capital = takano #changed
             include = "japanese_clan"
 
-            own_control_core = {
-                takano
+            our_cores_conquered_by_others = {
+                takano shirakawa
             }
 
             government = {
@@ -27785,7 +28220,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                shioya kawachi haga
+                shioya kawachi
             }
 
             government = {
@@ -28308,6 +28743,10 @@ countries = {
             capital = shimohei
             include = "japanese_clan"
 
+            own_control_core = {
+                shimohei
+            }
+
             government = {
                 #Following the line of 閉伊花輪氏, as the main line geneaology has a lot of problems, with too many generations in between
                 ruler_term = { character = jap_hei_yorimoto start_date = 1190.1.1 end_date = 1220.1.1 regnal_number = 1 }
@@ -28333,7 +28772,7 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                shimohei kamihei
+                kamihei
             }
 
             government = {
@@ -28434,8 +28873,12 @@ countries = {
 
         SGE = {
 
-            capital = murayama
+            capital = nishiokitama
             include = "japanese_clan"
+
+            own_control_core = {
+                nishiokitama
+            }
 
             government = {
                 ruler_term = { character = jap_sagae_chikahiro start_date = 1192.1.1 end_date = 1242.1.17 regnal_number = 1 }
@@ -28485,7 +28928,7 @@ countries = {
             capital = iwase
             include = "japanese_clan"
 
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 iwase
             }
 
@@ -28545,11 +28988,11 @@ countries = {
 
         TMR = {
 
-            capital = tamura
+            capital = iwase
             include = "japanese_clan"
 
             own_control_core = {
-                tamura
+                iwase
             }
 
             government = {
@@ -28592,7 +29035,7 @@ countries = {
             capital = shirakawa #Ishikawa gun
             include = "japanese_clan"
 
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 shirakawa
             }
 
@@ -28985,7 +29428,6 @@ countries = {
             include = "japanese_clan"
 
             own_control_core = {
-                niihari tsukuba souma
                 nakajima
             }
 
@@ -29008,7 +29450,6 @@ countries = {
         AKT = {
 
             own_control_core = {
-                hiyama hinai akita toshima
             }
 
             capital = akita
@@ -29099,6 +29540,10 @@ countries = {
             capital = niihari
             include = "japanese_clan"
 
+            our_cores_conquered_by_others = {
+                niihari
+            }
+
             government = {
                 ruler_term = { character = jap_hatta_tomoie start_date = 1170.1.1 end_date = 1225.1.1 regnal_number = 1 }
                 ruler_term = { character = jap_hatta_tomoshige start_date = 1225.1.1 end_date = 1240.1.1 regnal_number = 1 }
@@ -29122,6 +29567,10 @@ countries = {
 
             capital = haga
             include = "japanese_clan"
+
+            our_cores_conquered_by_others = {
+                haga
+            }
 
             government = {
                 ruler_term = { character = jap_mashiko_masataka start_date = 1060.1.1 end_date = 1080.1.1 regnal_number = 1 }
@@ -29224,6 +29673,10 @@ countries = {
 
             capital = nitta
             include = "japanese_clan"
+
+            our_cores_conquered_by_others = {
+                nitta
+            }
 
             government = {
                 ruler_term = { character = jap_nitta_yoshishige start_date = 1157.1.1 end_date = 1160.1.1 regnal_number = 1 }
