@@ -176,7 +176,7 @@ diplomacy_manager = {
     dependency = { first = PRO second = ANJ subject_type = fiefdom }
     dependency = { first = FRA second = ANG subject_type = appanage }
     dependency = { first = FRA second = ORL subject_type = appanage }
-    dependency = { first = ORL second = BLS subject_type = appanage }
+    dependency = { first = ORL second = BLS subject_type = fiefdom }
     dependency = { first = BLS second = DUO subject_type = appanage }
 
     #Vassal, Fief Mouvant of France

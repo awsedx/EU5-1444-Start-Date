@@ -8052,7 +8052,7 @@ character_db={
         religion = orthodox
         adm = 81 dip = 68 mil = 93
         birth_date = 1312.1.1
-        death_date = 1372.9.21
+        death_date = 1355.12.20
         birth = prizren
         father = ser_stefan_decanski
         mother = ser_teodora_smilets
@@ -9240,7 +9240,7 @@ character_db={
         adm = 60 dip = 49 mil = 60
         female = yes
         birth_date = 1312.1.28
-        death_date = 1362.6.14
+        death_date = 1349.10.6
         birth = gisors # Conflans
         father = fra_louis_x_capet
         mother = fra_margarete_burgundian
@@ -9550,7 +9550,7 @@ character_db={
         adm = 66 dip = 51 mil = 35
         female = yes
         birth_date = 1303.4.1
-        death_date = 1357.5.7
+        death_date = 1336.4.5
         birth = siena
         dynasty = valois_dynasty
         father = fra_charles_valois
@@ -10724,7 +10724,7 @@ character_db={
         estate = nobles_estate
         adm = 61 dip = 75 mil = 34
         birth_date = 1276.1.1
-        death_date = 1343.5.27
+        death_date = 1343.1.20
         birth = caserta
         father = nap_carlo_ii_anjou
         mother = nap_maria_arpad
@@ -10932,7 +10932,7 @@ character_db={
         estate = nobles_estate
         adm = 24 dip = 49 mil = 71
         birth_date = 1319.1.1
-        death_date = 1376.12.16
+        death_date = 1364.9.10
         birth = taranto
         father = alb_filippo_i_taranto
         mother = ach_catherine_valois
@@ -11502,7 +11502,7 @@ character_db={
         estate = nobles_estate
         adm = 30 dip = 47 mil = 35
         birth_date = 1286.3.8
-        death_date = 1341.5.25
+        death_date = 1341.4.30
         birth = vannes
         father = bri_arthur_ii_dreux
         mother = bri_marie_limoges
@@ -18639,7 +18639,7 @@ character_db={
         dynasty = chatillon_dynasty # Should be dynasty = chatillon_blois_dynasty
         birth = blois
         birth_date = 1298.1.1
-        death_date = 1370.11.22
+        death_date = 1342.8.12
         father = bls_hugues_ii_chatillon
         mother = bls_beatrice_dampierre
         tag = BLS
@@ -33237,7 +33237,7 @@ character_db={
         estate = nobles_estate
         adm = 32 dip = 82 mil = 81
         birth_date = 1258.1.1
-        death_date = 1318.9.20
+        death_date = 1339.1.1
         birth = venice
         father = ven_giovanni_cane_dandolo
         #mother = Unknown
@@ -47068,7 +47068,7 @@ adm = 31 dip = 34 mil = 24
         religion = sunni
         adm = 27 dip = 71 mil = 86
         birth_date = 1297.1.1
-        death_date = 1363.8.19
+        death_date = 1351.5.24
         birth = fez
         father = mor_abu_said_uthman_ii
         mother = mor_fatima_of_abyssinia
@@ -47315,6 +47315,7 @@ adm = 31 dip = 34 mil = 24
         religion = sunni
         adm = 56 dip = 28 mil = 26
         birth_date = 1334.1.1 #unknown
+        death_date = 1350.3.1
         father = tun_abu_yahya_abu_bakr_ii
         birth = tunis
         dynasty = hafsid_dynasty
@@ -48922,7 +48923,7 @@ adm = 31 dip = 34 mil = 24
         estate = nobles_estate
         adm = 44 dip = 39 mil = 32
         birth_date = 1312.1.1
-        death_date = 1383.9.24
+        death_date = 1383.8.22
         birth = catania
         father = sic_federico_iii_sicily
         mother = sic_eleonora_anjou
@@ -50473,7 +50474,7 @@ adm = 31 dip = 34 mil = 24
         estate = nobles_estate
         adm = 69 dip = 33 mil = 31
         birth_date = 1318.6.29
-        death_date = 1372.5.16
+        death_date = 1354.10.19
         birth = granada
         father = gra_ismail_i_nasrid
         mother = gra_bahar #concubine
@@ -82438,7 +82439,7 @@ adm = 31 dip = 34 mil = 24
         culture = saxon
         religion = catholic
         birth_date = 1290.1.1
-        death_date = 1353.2.15
+        death_date = 1349.11.18
         birth = meissen
         father = mei_friedrich_the_bitten_meissen
         mother = mei_elisabeth_von_lobdeburg_arnshaugk
@@ -109416,7 +109417,7 @@ adm = 31 dip = 34 mil = 24
         death_date = 1435.12.16
         female = yes
         spouse = ara_fernando_i_trastamara
-        dynasty = burgundy_castile_dynasty 
+        dynasty = trastamara_dynasty 
         tag = CAS
     }
 
@@ -109466,9 +109467,8 @@ adm = 31 dip = 34 mil = 24
         ruler_trait = patron_of_arts
     }
 
-    ara_john_ii_trastamara = { #next ARA ruler
+    ara_juan_ii_trastamara = { #next ARA ruler
         first_name = { name = name_john }
-        nickname = { name = nick_the_trickster }
         adm = 37 dip = 42 mil = 28
         culture = castilian
         religion = catholic
@@ -109487,7 +109487,7 @@ adm = 31 dip = 34 mil = 24
         religion = catholic
         birth_date = 1425.6.3
         female = yes
-        spouse = ara_john_ii_trastamara
+        spouse = ara_juan_ii_trastamara
         dynasty = enriquez_castile_dynasty 
         tag = CAS
     }
