@@ -1,10 +1,10 @@
 international_organization_manager = {
     #################################################################
-    # 				Unique International Organizations				#
+    #               Unique International Organizations              #
     #################################################################
 
     #################################################################
-    # 				Holy Roman Empire								#
+    #               Holy Roman Empire                               #
     #################################################################
     add_international_organization = {
         type = hre
@@ -74,8 +74,8 @@ international_organization_manager = {
         emperor = { STY }
         elector = {
             # The 4 secular
-            BOH    #Bohemia
-            # TODO: Saxony-Wittenberg
+            BOH # Bohemia
+            SAX # Saxony
             BRA # Brandenburg
             PAL # Palatinate
         }
@@ -164,7 +164,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Catholic Church									#
+    #               Catholic Church                                 #
     #################################################################
     add_international_organization = {
         type = catholic_church
@@ -196,7 +196,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Middle Kingdom									#
+    #               Middle Kingdom                                  #
     #################################################################
     add_international_organization = {
         type = middle_kingdom
@@ -255,29 +255,29 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Four Oirat Confederation						#
+    #               Four Oirat Confederation                        #
     #################################################################
 
     # add_international_organization = {
-    # 	type = oirat_confederation
-    # 	creation_date = 1399.1.1
+    #   type = oirat_confederation
+    #   creation_date = 1399.1.1
 
-    # 	map_color = rgb { 204 184 177 }
+    #   map_color = rgb { 204 184 177 }
 
-    # 	leader = CRS
+    #   leader = CRS
 
-    # 	members = { CRS DRB KHO THG }
-    # 	regions = { mongolia_region }
-    # 	areas = { }
+    #   members = { CRS DRB KHO THG }
+    #   regions = { mongolia_region }
+    #   areas = { }
 
-    # 	laws = {  }
+    #   laws = {  }
 
-    # 	variables = {
-    # 	}
+    #   variables = {
+    #   }
     # }
 
     #################################################################
-    # 				High Kingship & Lordship of Ireland				#
+    #               High Kingship & Lordship of Ireland             #
     #################################################################
     add_international_organization = {
         type = high_kingship
@@ -340,7 +340,7 @@ international_organization_manager = {
             # bishop
             AMA
             # gaelic
-            #CLA MCM BEA TYR LEI TRY OIL CMA  FMA BFN  THO SLN FLY ARD CNN HYM ANN KEE IVG   FCL 	CVN AMH MTH
+            #CLA MCM BEA TYR LEI TRY OIL CMA  FMA BFN  THO SLN FLY ARD CNN HYM ANN KEE IVG   FCL    CVN AMH MTH
         }
         lord_of_ireland = { PLE }
         lieutenant = { } # was not one of the Earls in 1337
@@ -356,16 +356,17 @@ international_organization_manager = {
         }
 
         ruler_term = { character = eng_john_lackland start_date = 1177.1.1 end_date = 1216.10.19 regnal_number = 1 }  # became Lord of Ireland before being King of England
-        ruler_term = { character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 3 }
-        ruler_term = { character = eng_edward_i start_date = 1272.11.20 end_date = 1307.7.8 regnal_number = 1 }
-        ruler_term = { character = eng_edward_ii start_date = 1307.7.8 end_date = 1327.1.20 regnal_number = 2 }
-        ruler_term = { character = eng_edward_iii start_date = 1327.1.25 regnal_number = 3 }
+        ruler_term = { character = eng_edward_iii start_date = 1327.1.25 end_date = 1377.6.12 regnal_number = 3 }
+        ruler_term = { character = eng_richard_ii start_date = 1327.7.16 end_date = 1399.10.1 regnal_number = 2 }
+        ruler_term = { character = eng_henry_iv start_date = 1399.10.13 end_date = 1413.3.20 regnal_number = 3 }
+        ruler_term = { character = eng_henry_v start_date = 1413.3.12 end_date = 1422.8.31 regnal_number = 3 }
+        ruler_term = { character = eng_henry_vi start_date = 1422.9.1 regnal_number = 0 }
         variables = {
         }
     }
 
     #################################################################
-    # 				Japanese Shogunate								#
+    #               Japanese Shogunate                              #
     #################################################################
     add_international_organization = {
         type = japanese_shogunate
@@ -409,7 +410,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Shinto											#
+    #               Shinto                                          #
     #################################################################
     add_international_organization = {
         type = shinto
@@ -429,7 +430,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Tatar Yoke										#
+    #               Tatar Yoke                                      #
     #################################################################
     add_international_organization = {
         type = tatar_yoke
@@ -465,7 +466,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Swiss Confederation								#
+    #               Swiss Confederation                             #
     #################################################################
     add_international_organization = {
         type = swiss_confederation
@@ -485,7 +486,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Autocephalous Patriarchates						#
+    #               Autocephalous Patriarchates                     #
     #################################################################
     add_international_organization = {
         type = autocephalous_patriarchate
@@ -671,7 +672,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 					Tribal Confederation						#
+    #                   Tribal Confederation                        #
     #################################################################
     add_international_organization = {
         type = tribal_confederation
@@ -690,7 +691,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 					Jurchen Confederations						#
+    #                   Jurchen Confederations                      #
     #################################################################
     add_international_organization = {
         type = jurchen_confederation
@@ -709,7 +710,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 							Sects								#
+    #                           Sects                               #
     #################################################################
 
     add_international_organization = {
@@ -1534,7 +1535,7 @@ international_organization_manager = {
 
 
     #################################################################
-    # 						Hindu Branches							#
+    #                       Hindu Branches                          #
     #################################################################
 
     add_international_organization = {

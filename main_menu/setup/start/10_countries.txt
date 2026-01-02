@@ -3264,10 +3264,39 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = mos_ivan_i_danilovich_kalita_rurikovich
+                ruler = mos_vasily_ii_rurikovich
+                heir = mos_ivan_iii_the_great_rurikovich
                 ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
                 ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
-                ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+                ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 end_date = 1340.3.31 }
+                ruler_term = { character = mos_simeon_ivanovich_gordyy_rurikovich start_date = 1340.3.31 regnal_number = 1 end_date = 1353.4.27 }
+                ruler_term = { character = mos_ivan_ii_ivanovich_rurikovich start_date = 1353.4.27 regnal_number = 1 end_date = 1359.11.13 }
+                ruler_term = { character = mos_dmitry_donskoy_rurikovich start_date = 1359.11.13 regnal_number = 1 end_date = 1389.5.19 }
+                ruler_term = { character = mos_vasily_i_rurikovich start_date = 1389.5.19 regnal_number = 1 end_date = 1425.2.27 }
+                ruler_term = { character = mos_vasily_ii_rurikovich start_date = 1389.5.19 regnal_number = 1 }
+
+                reforms = {
+                    russian_principality
+                }
+                privilege = {
+                    #nobles
+                    nobles_land_rights
+                    noble_marriage_rights
+                    noble_fortification_licenses
+                    noble_serfdom_rights
+
+                    #burghers
+                    market_fairs
+
+                    #clergy
+                    clergy_literacy_rights
+                    clergy_enforced_unity
+                    clergy_land_rights
+
+                    #peasants
+                    peasants_autonomous_villages
+                }
+
             }
 
             liturgical_language = church_slavonic_language
@@ -4631,29 +4660,29 @@ countries = {
             include = "catholic_republic"
         }
 
-        ENG = {
-            # England
+        ENG = { #DONE CHARACTERS
+            #ENGLAND
             own_control_core = {
                 appleby hythe alnwick barnstaple bedford dunstable birmingham boston bosworth shoreham lewes bristol buckingham bury glossop cambridge canterbury carlisle rochester cheltenham chelmsford chesterfield chichester chippenham cockermouth colchester kettering coventry cirencester derby dorchester dover exeter gloucester grimsby guildford reigate harrow hastings hedingham hertford hexham hull huntingdon ipswich kendal grantham penrith kidderminster leeds leicester lincoln london loughborough lowestoft lynn daventry newark newcastle northampton norwich nottingham oxford ely plymouth bideford bampton okehampton poole portsmouth amesbury lymington retford rutland salisbury southampton prittlewell kingston stafford stoke stratford trowbridge taunton wells barking weymouth shaftesbury wight winchester windsor worcester yarmouth york scarborough tamworth bedale richmond whitby bridlington selby pontefract skipton wakefield louth thetford fakenham reading tonbridge minehead portishead bath henley royston aylesbury wycombe lavenham abingdon st_albans banbury walden spalding woking morpeth billingham norton ripon doncaster egremont basingstoke
 
                 # Earldom of Chester
                 #chester macclesfield nantwich
 
-                lancaster blackburn liverpool preston manchester
-
                 # English towns on the Welsh March
                 shrewsbury hereford
-            }
-            own_control_integrated = {
                 # cornwall
                 launceston truro bodmin
                 # channel
                 jersey
-                # france
+
+                # Duchy of Lancaster
+                lancaster blackburn liverpool preston manchester
+            }
+            own_control_integrated = {
+                berwick
                 calais
             }
-            own_control_conquered = {
-                berwick
+            own_control_conquered = {             
             }
 
             include = "catholic_monarchy"
@@ -4662,7 +4691,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = eng_edward_iii
+                ruler = eng_henry_vi_lancaster
 
                 ruler_term = { character = eng_alfred_the_great start_date = 886.1.1 end_date = 899.10.26 regnal_number = 0 }
                 ruler_term = { character = eng_edward_the_elder start_date = 899.10.26 end_date = 924.7.17 regnal_number = 0 }
@@ -4703,11 +4732,16 @@ countries = {
                 ruler_term = { character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 3 }
                 ruler_term = { character = eng_edward_i start_date = 1272.11.20 end_date = 1307.7.8 regnal_number = 1 }
                 ruler_term = { character = eng_edward_ii start_date = 1307.7.8 end_date = 1327.1.20 regnal_number = 2 }
-                ruler_term = { character = eng_edward_iii start_date = 1327.1.25 regnal_number = 3 }
+                #after 1337
+                ruler_term = { character = eng_edward_iii start_date = 1327.1.25 end_date = 1377.6.12 regnal_number = 3 }
+                ruler_term = { character = eng_richard_ii start_date = 1327.7.16 end_date = 1399.10.1 regnal_number = 2 }
+                ruler_term = { character = eng_henry_iv_lancaster start_date = 1399.10.13 end_date = 1413.3.20 regnal_number = 4 }
+                ruler_term = { character = eng_henry_v_lancaster start_date = 1413.3.12 end_date = 1422.8.31 regnal_number = 5 }
+                ruler_term = { character = eng_henry_vi_lancaster start_date = 1422.9.1 regnal_number = 6 }
 
                 regnal_numbers = {
                     name_william = 2
-                    name_henry = 3
+                    name_henry = 6
                     name_stephen = 1
                     name_richard = 2
                     name_john = 1
@@ -4723,11 +4757,12 @@ countries = {
                     nobles_land_rights
                     noble_marriage_rights
                     noble_fortification_licenses
-                    manorial_courts
+                    primacy_of_nobility
 
                     #burghers
                     formal_guilds
                     market_fairs
+                    shipwright_contracts
 
                     #clergy
                     clergy_literacy_rights
@@ -4736,6 +4771,8 @@ countries = {
                     #peasants
                     peasants_yeomanry
                     access_to_royal_and_ecclesiastical_courts
+                    peasants_allowed_weapons_privilege
+                    peasants_no_poll_tax_privilege
                 }
                 laws = {
                     distribution_of_power_law = dop_law_english_parliament
@@ -4745,21 +4782,22 @@ countries = {
                     feudal_de_jure_law = by_tradition
                     marriage_law = monogamous_marriage
                     heir_religion_law = heir_same_religion
+                    eng_order_of_the_garter_law = eng_order_of_the_garter_nobility_policy
                 }
 
-                centralization_vs_decentralization = 30
+                centralization_vs_decentralization = 45
                 aristocracy_vs_plutocracy = -60
-                serfdom_vs_free_subjects = -10
-                traditionalist_vs_innovative = -40
+                serfdom_vs_free_subjects = 90
+                traditionalist_vs_innovative = 20
                 spiritualist_vs_humanist = -50
                 mercantilism_vs_free_trade = -25
-                offensive_vs_defensive = 0
-                land_vs_naval = 0
-                quality_vs_quantity = -20
-                belligerent_vs_conciliatory = -25
+                offensive_vs_defensive = -80
+                land_vs_naval = 50
+                quality_vs_quantity = 25
+                belligerent_vs_conciliatory = -75
 
-                capital_economy_vs_traditional_economy = 30
-                individualism_vs_communalism = -25
+                capital_economy_vs_traditional_economy = 20
+                individualism_vs_communalism = -100
                 outward_vs_inward = -60
 
 
@@ -4772,7 +4810,7 @@ countries = {
 
             court_language = norman_dialect
             country_rank = rank_kingdom
-            capital = london
+            capital = london 
 
             include = "expl_western_europe"
 
@@ -5005,11 +5043,7 @@ countries = {
             include = "expl_western_europe"
 
             government = {
-                regency = overlord_regency
-                active_regent = eng_edward_iii
-                start_regency_date = 1333.3.18
-                end_regency_date = 1340.3.5
-                heir = eng_edward_the_black_prince
+                ruler = eng_henry_vi_lancaster
             }
 
             tolerated_cultures = {
@@ -5184,10 +5218,18 @@ countries = {
                 ayr irvine
             }
             government = {
+                type = monarchy
+                ruler = sco_william_douglas_8th_earl
+
                 ruler_term = { character = gly_alan start_date = 1200.1.1 end_date = 1234.1.1 }
-                ruler = random
+                ruler_term = { character = sco_archibald_douglas_3rd_earl start_date = 1369.1.1 end_date = 1400.12.24 }
+                ruler_term = { character = sco_archibald_douglas_4th_earl start_date = 1400.12.24 end_date = 1424.8.17 }
+                ruler_term = { character = sco_archibald_douglas_5th_earl start_date = 1424.8.17 end_date = 1439.6.26 }
+                ruler_term = { character = sco_william_douglas_6th_earl start_date = 1439.6.26 end_date = 1440.11.24 }
+                ruler_term = { character = sco_james_douglas_7th_earl start_date = 1440.11.24 end_date = 1443.3.24 }
+                ruler_term = { character = sco_william_douglas_8th_earl start_date = 1443.3.24 end_date = }
             }
-            include = "gaelic_tribe_not_present"
+            include = "catholic_monarchy_scottish_earldom"
             include = "expl_northern_europe"
             capital = kirkcudbright
         }
@@ -5324,23 +5366,28 @@ countries = {
                 ruler_term = { character = sco_alexander_iii start_date = 1249.7.7 end_date = 1286.3.19 regnal_number = 3 }
                 ruler_term = { character = sco_john_balliol_of_scotland start_date = 1292.11.17 end_date = 1296.7.10 regnal_number = 1 }
                 ruler_term = { character = sco_robert_the_bruce start_date = 1306.3.25 end_date = 1329.6.7 regnal_number = 1 }
-                ruler_term = { character = sco_david_ii start_date = 1329.6.7 end_date = 1333.5.14 regnal_number = 2 } # exile in france
+                ruler_term = { character = sco_david_ii start_date = 1329.6.7 end_date = 1371.2.22 regnal_number = 2 }
+                ruler_term = { character = sco_robert_ii start_date = 1371.2.22 end_date = 1390.4.19 regnal_number = 2 }
+                ruler_term = { character = sco_robert_iii_stewart start_date = 1390.4.19 end_date = 1406.4.4 regnal_number = 3 }
+                ruler_term = { character = sco_james_i_stewart start_date = 1406.4.4 end_date = 1437.5.21 regnal_number = 1 }
+                ruler_term = { character = sco_james_ii_stewart start_date = 1437.5.21 regnal_number = 2 }
 
-                ruler = sco_robert_ii
+                ruler = sco_james_ii_stewart
 
                 regnal_numbers = {
-                    name_robert = 1
+                    name_robert = 3
                     name_john = 1
                     name_alexander = 3
                     name_william = 1
                     name_malcolm = 4
-                    name_david = 1
+                    name_david = 2
                     name_edgar = 1
                     name_duncan = 2
                     name_donald = 3
                     name_lulach = 1
                     name_kenneth = 3
                     name_constantine = 3
+                    name_james = 2
                 }
                 privilege = {
                     #nobles
@@ -5504,9 +5551,12 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = loi_eoin_mac_aonghais
+                ruler = loi_alasdair_mac_domhnall
                 ruler_term = { character = loi_aonghais start_date = 1310.1.1 end_date = 1330.1.1 }
-                ruler_term = { character = loi_eoin_mac_aonghais start_date = 1336.1.1 }
+                ruler_term = { character = loi_eoin_mac_aonghais start_date = 1336.1.1 end_date = 1386.1.1 }
+                ruler_term = { character = loi_domhnall_mac_eoin start_date = 1386.1.1 end_date = 1423.1.1 }
+                ruler_term = { character = loi_alasdair_mac_domhnall start_date = 1423.1.1 }
+
                 privilege = {
                     #nobles
                     scottish_clans
@@ -5542,8 +5592,10 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ros_william_5th_earl
-                ruler_term = { character = ros_william_5th_earl start_date = 1336.5.17 }
+                ruler = loi_alasdair_mac_domhnall
+                ruler_term = { character = ros_william_5th_earl start_date = 1336.5.17 end_date = 1372.1.1 }
+
+                ruler_term = { character = loi_alasdair_mac_domhnall start_date = 1436.1.1 }
 
                 reforms = {
                     celtic_traditions_reform
@@ -11069,11 +11121,15 @@ countries = {
                 type = monarchy
                 heir_selection = salic_law
 
-                ruler = ara_peter_iv_arago
+                ruler = ara_alfons_v_trastamara
+                heir = ara_ferdinand_i_of_naples
 
                 ruler_term = { character = nap_charles_i_anjou start_date = 1246.1.31 end_date = 1285.1.7 regnal_number = 1 }
                 ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1309.5.5 regnal_number = 2 }
                 ruler_term = { character = nap_robert_i_anjou start_date = 1309.5.5 end_date = 1343.1.20 regnal_number = 1 }
+                ruler_term = { character = nap_giovanna_i_anjou start_date = 1343.1.20 end_date = 1381.8.25 regnal_number = 1 }
+
+                ruler_term = { character = ara_alfons_v_trastamara start_date = 1442.6.2 regnal_number = 1 }
 
                 regnal_numbers = {
                     name_charles = 2
@@ -11254,7 +11310,15 @@ countries = {
                 ruler_term = { character = pap_benedict_xi start_date = 1303.10.22 end_date = 1304.7.7 regnal_number = 11 regnal_name = name_benedict }
                 ruler_term = { character = pap_clement_v start_date = 1305.6.5 end_date = 1314.4.20 regnal_number = 5 regnal_name = name_clement }
                 ruler_term = { character = pap_john_xxii start_date = 1316.8.7 end_date = 1334.12.4 regnal_number = 22 regnal_name = name_john }
-                ruler_term = { character = pap_benedetto_xii start_date = 1334.12.20 regnal_number = 12 regnal_name = name_benedict }
+                ruler_term = { character = pap_benedetto_xii start_date = 1334.12.20 end_date = 1342.4.25 regnal_number = 12 regnal_name = name_benedict }
+
+                ruler_term = { character = pap_clemente_vi start_date = 1342.5.7 end_date = 1352.12.6 regnal_number = 6 regnal_name = name_clement }
+                ruler_term = { character = pap_innocenzo_vi start_date = 1352.12.18 end_date = 1362.9.12 regnal_number = 6 regnal_name = name_innocent }
+                ruler_term = { character = pap_urban_v start_date = 1362.9.28 end_date = 1370.12.19 regnal_number = 5 regnal_name = name_urban }
+                ruler_term = { character = pap_gregorio_xi start_date = 1370.12.30 end_date = 1378.3.27 regnal_number = 11 regnal_name = name_gregory }
+                ruler_term = { character = pap_urbano_vi start_date = 1378.4.8 end_date = 1389.10.15 regnal_number = 6 regnal_name = name_urban }
+
+                ruler_term = { character = pap_gregorio_xii start_date = 1406.11.30 end_date = 1415.7.4 regnal_number = 12 regnal_name = name_gregory }
 
                 regnal_numbers = {
                     name_adrian = 5
@@ -14024,7 +14088,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ara_peter_iv_arago
+                ruler = ara_alfons_v_trastamara
+                heir = ara_john_ii_trastamara
 
                 ruler_term = { character = ara_ramiro_i_aragon start_date = 1035.10.18 end_date = 1063.5.8 regnal_number = 1 }
                 ruler_term = { character = ara_sancho_i_aragon start_date = 1063.5.8 end_date = 1094.6.4 regnal_number = 1 }
@@ -14040,7 +14105,11 @@ countries = {
                 ruler_term = { character = ara_alfons_iii_arago start_date = 1285.11.11 end_date = 1291.6.18 regnal_number = 3 }
                 ruler_term = { character = ara_jaume_ii_arago start_date = 1291.6.18 end_date = 1327.11.2 regnal_number = 2 }
                 ruler_term = { character = ara_alfonso_iv_arago start_date = 1327.11.2 end_date = 1336.1.24 regnal_number = 4 }
-                ruler_term = { character = ara_peter_iv_arago start_date = 1336.1.24 regnal_number = 4 }
+                ruler_term = { character = ara_peter_iv_arago start_date = 1336.1.24 end_date = 1386.1.6 regnal_number = 4 }
+                ruler_term = { character = ara_john_i_barcelona start_date = 1387.1.6 end_date = 1396.5.19 regnal_number = 4 }
+                ruler_term = { character = ara_martin_i_barcelona start_date = 1396.5.19 end_date = 1410.5.31 regnal_number = 4 }
+                ruler_term = { character = ara_fernando_i_trastamara start_date = 1410.5.31 end_date = 1416.4.2 regnal_number = 4 }
+                ruler_term = { character = ara_alfons_v_trastamara start_date = 1416.4.2 regnal_number = 4 }
 
                 regnal_numbers = {
                     name_ramiro = 2
@@ -14187,8 +14256,8 @@ countries = {
             include = "iberian_monarchy_no_auxilium"
 
             government = {
-                ruler = cas_alfonso_xi_burgundy
-                heir = cas_pedro_i_burgundy
+                ruler = cas_juan_ii_trastamara
+                heir = cas_enrique_iv_trastamara
 
                 ruler_term = { character = cas_sancho_ii_jimena start_date = 1065.12.27 end_date = 1072.10.7 regnal_number = 2 }
                 ruler_term = { character = lon_alfonso_vi_jimena start_date = 1072.10.7 end_date = 1109.7.1 regnal_number = 6 }
@@ -14203,7 +14272,12 @@ countries = {
                 ruler_term = { character = cas_alfonso_x_burgundy start_date = 1252.5.30 end_date = 1284.4.4 regnal_number = 10 }
                 ruler_term = { character = cas_sancho_iv_burgundy start_date = 1284.4.4 end_date = 1295.4.25 regnal_number = 4 }
                 ruler_term = { character = cas_fernando_iv_burgundy start_date = 1295.4.25 end_date = 1312.9.7 regnal_number = 4 }
-                ruler_term = { character = cas_alfonso_xi_burgundy start_date = 1312.9.7 regnal_number = 11 }
+                ruler_term = { character = cas_alfonso_xi_burgundy start_date = 1312.9.7 end_date = 1350.3.26 regnal_number = 11 }
+                ruler_term = { character = cas_pedro_i_burgundy start_date = 1350.3.26 end_date = 1369.3.13 regnal_number = 1 }                
+                ruler_term = { character = cas_enrique_ii_trastamara start_date = 1366.3.13 end_date = 1379.5.29 regnal_number = 2 }
+                ruler_term = { character = cas_juan_i_trastamara start_date = 1379.5.29 end_date = 1390.10.9 regnal_number = 1 }
+                ruler_term = { character = cas_enrique_iii_trastamara start_date = 1390.10.9 end_date = 1406.12.25 regnal_number = 3 }
+                ruler_term = { character = cas_juan_ii_trastamara start_date = 1406.12.25 regnal_number = 2 }
 
                 regnal_numbers = {
                     name_pelagius = 1
@@ -14216,8 +14290,10 @@ countries = {
                     name_sancho = 4
                     name_ferdinand = 4
                     name_urraca = 1
-                    name_henry = 1
+                    name_henry = 3
                     name_berengaria = 1
+                    name_john = 2
+                    name_pedro = 1
                 }
 
                 reforms = {
@@ -14249,12 +14325,6 @@ countries = {
                 mercantilism_vs_free_trade = -40
                 belligerent_vs_conciliatory = -15
                 outward_vs_inward = -30
-            }
-
-            discovered_areas = {
-                canary_islands_area
-                madeira_sea_area
-                nw_africa_coast_area
             }
 
             country_rank = rank_kingdom
@@ -14911,15 +14981,15 @@ countries = {
                 centralization_vs_decentralization = 85
                 aristocracy_vs_plutocracy = -75
                 serfdom_vs_free_subjects = -80
-                traditionalist_vs_innovative = -30
+                traditionalist_vs_innovative = 10
                 spiritualist_vs_humanist = -50
                 mercantilism_vs_free_trade = -25
-                offensive_vs_defensive = -20
-                land_vs_naval = -30
-                quality_vs_quantity = -30
+                offensive_vs_defensive = -50
+                land_vs_naval = -50
+                quality_vs_quantity = -80
                 belligerent_vs_conciliatory = -20
                 capital_economy_vs_traditional_economy = 70
-                individualism_vs_communalism = -30
+                individualism_vs_communalism = 50
                 outward_vs_inward = -50
 
                 reforms = {
@@ -18328,8 +18398,9 @@ countries = {
             include = "german_principality"
             government = {
 
-                ruler = hab_albrecht_ii_habsburg
-                consort = frt_johanna_pfirt
+                ruler = hab_ladislaus_posthumous_habsburg
+                active_regent = hab_frederick_iii_kaiser_habsburg
+                start_regency_date = 1440.2.2
 
                 ruler_term = { character = hab_rudolf_i_habsburg start_date = 1276.11.1 end_date = 1282.12.1 regnal_number = 1 }
                 ruler_term = {
@@ -18347,8 +18418,15 @@ countries = {
                     character = hab_leopold_i_habsburg start_date = 1308.5.1 end_date = 1326.2.28 regnal_number = 1 # As Co-Ruler
                 }
                 ruler_term = { character = hab_friedrich_i_habsburg start_date = 1326.2.28 end_date = 1330.1.13 regnal_number = 1 }
-                ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1330.1.13 regnal_number = 2 }
+                ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1330.1.13 end_date = 1358.8.16 regnal_number = 2 }
                 #ruler_term = { character = hab_otto_habsburg start_date = 1330.1.13 regnal_number = 1 } # As Co-Ruler
+                ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1330.1.13 end_date = 1358.8.16 regnal_number = 2 }
+                ruler_term = { character = hab_albrecht_iii_habsburg start_date = 1365.7.27 end_date = 1395.8.29 regnal_number = 2 }
+                ruler_term = { character = hab_albrecht_vi_habsburg start_date = 1395.8.29 end_date = 1404.9.14 regnal_number = 2 } 
+                ruler_term = { character = hab_leopold_iii_just_habsburg start_date = 1365.7.27 end_date = 1424.1.10 regnal_number = 2 }
+                ruler_term = { character = hab_ernest_iron_willed_habsburg start_date = 1406.7.15 end_date = 1424.6.10 regnal_number = 2 }
+                ruler_term = { character = hab_albrecht_ii_crusader_habsburg start_date = 1404.9.14 end_date = 1439.10.27 regnal_number = 2 }
+                ruler_term = { character = hab_ladislaus_posthumous_habsburg start_date = 1440.2.2 regnal_number = 5 } 
 
                 regnal_numbers = {
                     name_rudolf = 3
@@ -18358,12 +18436,41 @@ countries = {
                     name_otto = 1
                 }
 
+                reforms = {
+                    austrian_archduchy_reform
+                    imperator_romanorum
+                }
+                privilege = {
+                    #nobles
+                    auxilium_et_consilium
+                    nobles_land_rights
+                    noble_fortification_licenses
+                    noble_marriage_rights
+
+                    #burghers
+                    formal_guilds
+                    market_fairs
+                    building_rights
+                    magdeburg_rights
+
+                    #clergy
+                    clergy_literacy_rights
+                    clergy_enforced_unity
+                    clergy_powerful_dioceses
+                }
+
                 #societal values
-                serfdom_vs_free_subjects = -60
-                offensive_vs_defensive = -30
+                spiritualist_vs_humanist = -85
+                aristocracy_vs_plutocracy = -100
+                serfdom_vs_free_subjects = -90
+                offensive_vs_defensive = 35
                 land_vs_naval = -80
                 belligerent_vs_conciliatory = -40
                 outward_vs_inward = -50
+                capital_economy_vs_traditional_economy = 50
+                individualism_vs_communalism = 35
+                centralization_vs_decentralization = 100
+                quality_vs_quantity = -35
             }
 
             tolerated_cultures = {
@@ -35046,16 +35153,17 @@ countries = {
                 yalvac
                 kirsehir
                 yenicepazari
-            }
-
-            own_control_integrated = {
                 bayramlu unye mesudiye
                 corlu
                 gallipoli kesan rodoscuk malgara hayrabolu
                 edirne kirklareli luleburgaz
-                kastoria hatera veria edessa kassandreia polygyros thessaloniki
+                hatera veria edessa kassandreia polygyros thessaloniki
                 kilkis giannitsa gynaikokastro serres rentina kavala mount_athos drama xanthia komotini
                 traianopolis demotica
+            }
+
+            own_control_integrated = {
+                kastoria
                 bukelon ustra ormenio
                 demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena servia ostrovo
                 neopatras zetounion bodonitsa salona loidoriki
@@ -35088,29 +35196,47 @@ countries = {
             government = {
 
                 ruler_term = { character = tur_osman start_date = 1299.1.1 end_date = 1324.1.1 regnal_number = 1 }
-                ruler_term = { character = tur_orhan start_date = 1324.1.1 regnal_number = 1 }
+                ruler_term = { character = tur_orhan start_date = 1324.1.1 end_date = 1462.3.9 regnal_number = 1 }
+                ruler_term = { character = tur_murad start_date = 1362.3.8 end_date = 1489.6.15 regnal_number = 1 }
+                ruler_term = { character = tur_bayezid_i_padishah start_date = 1389.6.16 end_date = 1402.7.20 regnal_number = 1 }
+                ruler_term = { character = tur_mehmed_i_padishah start_date = 1413.7.5 end_date = 1421.5.26 regnal_number = 1 }
+                ruler_term = { character = tur_murad_ii_padishah start_date = 1421.5.26 end_date = 1444.8.1 regnal_number = 2 }
+                ruler_term = { character = tur_mehmed_ii_the_conqueror start_date = 1444.8.1 regnal_number = 2 }
 
-                ruler = tur_orhan
+                ruler = tur_mehmed_ii_the_conqueror
 
-                centralization_vs_decentralization = 10
-                aristocracy_vs_plutocracy = -30
-                serfdom_vs_free_subjects = 0
-                traditionalist_vs_innovative = 10
-                spiritualist_vs_humanist = 10
+                regnal_numbers = {
+                    name_osman = 1
+                    name_orhan = 1
+                    name_murad = 1
+                    name_mehmed = 2
+                }
+
+                centralization_vs_decentralization = 35
+                aristocracy_vs_plutocracy = -35
+                serfdom_vs_free_subjects = 10
+                traditionalist_vs_innovative = 65
+                spiritualist_vs_humanist = 35
                 mercantilism_vs_free_trade = -25
-                offensive_vs_defensive = 0
-                land_vs_naval = -20
-                quality_vs_quantity = -30
-                belligerent_vs_conciliatory = -40
-                capital_economy_vs_traditional_economy = 80
-                individualism_vs_communalism = -20
+                offensive_vs_defensive = -100
+                land_vs_naval = -75
+                quality_vs_quantity = 50
+                belligerent_vs_conciliatory = -100
+                capital_economy_vs_traditional_economy = 70
+                individualism_vs_communalism = 30
                 outward_vs_inward = -60
 
+                reforms = {
+                    legacy_of_osman
+                    anatolian_beylik
+                }
                 privilege = {
                     #Nobles
                     elaborate_court_ceremonies
                     noble_sponsored_navy
                     ghazi_privilege
+                    noble_fortification_licenses
+                    primacy_of_nobility
 
                     #Clergy
                     clergy_literacy_rights
@@ -35118,6 +35244,7 @@ countries = {
                     embellish_great_works_of_faith
                     clergy_literacy_rights
                     clergy_land_rights
+                    tax_exemption
 
                     #Burghers
                     formal_guilds
@@ -35129,6 +35256,7 @@ countries = {
                     #Peasants
                     partial_yield
                     peasants_free_peasantry
+                    peasants_autonomous_villages
 
                     #Dhimmi
                     dhimmi_land_rights
@@ -35908,7 +36036,7 @@ countries = {
             include = "german_principality_not_present"
             country_rank = rank_duchy
             government = {
-                ruler = random
+                ruler = hab_frederick_iii_kaiser_habsburg
 
                 ruler_term = { character = hab_rudolf_i_habsburg start_date = 1276.11.1 end_date = 1282.12.1 regnal_number = 1 }
                 ruler_term = {
@@ -36331,7 +36459,7 @@ countries = {
             include = "expl_northern_europe"
             include = "german_principality"
             government = {
-                ruler = tir_margarete_von_tirol
+                ruler = hab_sigismund_archduke_habsburg
                 regnal_numbers = {
                     name_meinhard = 2
                     name_henry = 2

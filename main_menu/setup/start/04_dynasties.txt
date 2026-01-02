@@ -1,6 +1,7 @@
 dynasty_manager = {
     default_dynasty = { name = { name = default_dynasty } home = vattnajokull }                #just for default coat of arms
-
+    
+    ### VANILLA DYNASTIES ###
     bjalbo_atten_dynasty = {
         name = { name = bjalbo_atten_dynasty }
         dynasty_name_type = location
@@ -8924,10 +8925,10 @@ dynasty_manager = {
         home = qiaoxian
     }
 
-    ### Modded Dynasties ###
+    ### MODDED DYNASTIES ###
 
     ### Persia
-
+    
     timurid_dynasty = {
         name = { name = timurid_dynasty }
         home = herat
@@ -8937,6 +8938,32 @@ dynasty_manager = {
         female_names = {
             name_gawhar name_khanzada name_sultan name_aisha name_fatima name_ruqaiya name_zehra
         }
+    }
+
+    ### Russia
+
+    yaroslavl_dynasty = {
+        name = { name = yaroslavl_dynasty }
+        dynasty_name_type = location
+        home = yaroslavl
+    }
+
+    vorotynsky_dynasty = {
+        name = { name = vorotynsky_dynasty }
+        dynasty_name_type = location
+        home = tver
+    }
+
+    shuisky_dynasty = {
+        name = { name = shuisky_dynasty }
+        dynasty_name_type = location
+        home = moscow
+    }
+
+    caracciolo_dynasty = {
+        name = { name = caracciolo_dynasty }
+        dynasty_name_type = location
+        home = naples
     }
 
     ### France
