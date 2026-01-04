@@ -4992,9 +4992,11 @@ countries = {
             include = "expl_western_europe"
 
             government = {
-                ruler_term = { character = dhm_richard_de_bury start_date = 1333.2.1 }
+                ruler_term = { character = dhm_richard_de_bury start_date = 1333.2.1 end_date = 1345.4.14 }
 
-                ruler = dhm_richard_de_bury
+                ruler_term = { character = dhm_robert_neville_durham start_date = 1438.1.27 }
+
+                ruler = dhm_robert_neville_durham
             }
 
             accepted_cultures = {

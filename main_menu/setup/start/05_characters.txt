@@ -106595,8 +106595,8 @@ adm = 31 dip = 34 mil = 24
     #house of Tudor
 
     eng_owen_tudor = {
-        first_name = { name = name_owen }
-        culture = english
+        first_name = { name = name_eugene }
+        culture = welsh
         religion = catholic
         adm = 22 dip = 28 mil = 35
         birth_date = 1400.8.10
@@ -106722,22 +106722,6 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_cecily_neville = {
-        first_name = { name = name_cecile }
-        culture = english
-        religion = catholic
-        estate = nobles_estate
-        adm = 40 dip = 55 mil = 50
-        female = yes
-        birth_date = 1415.5.3
-        birth = durham
-        dynasty = neville_dynasty
-        spouse = eng_richard_of_york_duke
-        father = eng_ralph_neville_westmorland
-        mother = eng_joan_beaufort_neville
-        tag = ENG
-    }
-
     eng_edward_of_york = {
         first_name = { name = name_edward }
         culture = english
@@ -106807,6 +106791,40 @@ adm = 31 dip = 34 mil = 24
         }
 
     #House of Neville
+    eng_john_neville = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        birth_date = 1337.1.1
+        death_date = 1388.10.17
+        father = eng_ralph_neville
+        dynasty = neville_dynasty
+        tag = ENG       
+    }
+
+    eng_ralph_neville_westmorland = {
+        first_name = { name = name_ralph }
+        culture = english
+        religion = catholic
+        birth_date = 1364.1.1
+        death_date = 1425.10.21
+        father = eng_john_neville
+        dynasty = neville_dynasty
+        tag = ENG
+    }
+
+    eng_joan_beaufort_neville = {
+        first_name = { name = name_joanna }
+        culture = english
+        religion = catholic
+        female = yes
+        birth_date = 1379.2.2
+        death_date = 1440.11.13
+        dynasty = beaufort_dynasty
+        spouse = eng_ralph_neville_westmorland
+        tag = ENG
+    }
+
     eng_richard_neville_salisbury = {
         first_name = { name = name_richard }
         culture = english
@@ -106815,6 +106833,19 @@ adm = 31 dip = 34 mil = 24
         adm = 86 dip = 62 mil = 90
         birth_date = 1400.1.1
         birth = richmond
+        dynasty = neville_dynasty
+        father = eng_ralph_neville_westmorland
+        mother = eng_joan_beaufort_neville
+        tag = ENG
+    }
+
+    dhm_robert_neville_durham = {
+        first_name = { name = name_robert }
+        culture = english
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1404.1.1
+        birth = durham
         dynasty = neville_dynasty
         father = eng_ralph_neville_westmorland
         mother = eng_joan_beaufort_neville
@@ -106835,25 +106866,19 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_ralph_neville_westmorland = {
-        first_name = { name = name_ralph }
+    eng_cecily_neville = {
+        first_name = { name = name_cecile }
         culture = english
         religion = catholic
-        birth_date = 1364.1.1
-        death_date = 1425.10.21
-        dynasty = neville_dynasty
-        tag = ENG
-    }
-
-    eng_joan_beaufort_neville = {
-        first_name = { name = name_joanna }
-        culture = english
-        religion = catholic
+        estate = nobles_estate
+        adm = 40 dip = 55 mil = 50
         female = yes
-        birth_date = 1379.2.2
-        death_date = 1440.11.13
-        dynasty = beaufort_dynasty
-        spouse = eng_ralph_neville_westmorland
+        birth_date = 1415.5.3
+        birth = durham
+        dynasty = neville_dynasty
+        spouse = eng_richard_of_york_duke
+        father = eng_ralph_neville_westmorland
+        mother = eng_joan_beaufort_neville
         tag = ENG
     }
 
@@ -107458,7 +107483,7 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_john_fitzalan = {
+    eng_john_fitzalan_ii = {
         first_name = { name = name_john }
         dynasty = fitzalan_dynasty
         culture = english
