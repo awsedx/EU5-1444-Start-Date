@@ -1304,7 +1304,7 @@ character_db={
         father = eng_edward_iii
         mother = eng_philippa_de_hainault       
         birth_date = 1330.6.15
-        death_date = 1401.2.7
+        death_date = 1376.6.8
         birth = oxford  # Woodstock Palace, Oxfordshire
         dynasty = plantagenet_dynasty
         child_trait = child_shrewd
@@ -1455,7 +1455,7 @@ character_db={
         birth = hythe # tunbridge
         female = yes
         birth_date = 1328.9.28
-        death_date = 1380.7.5
+        death_date = 1385.8.1
         dynasty = plantagenet_dynasty
         father = eng_edmund_of_woodstock
         tag = ENG
@@ -3510,8 +3510,8 @@ character_db={
         culture = anglo_irish
         religion = catholic
         female = yes
-        birth_date = 1332.6.6
-        death_date = 1388.4.9
+        birth_date = 1332.7.6
+        death_date = 1363.12.10
         birth = carrickfergus
         father = uls_william_donn_de_burgh_3rd_earl_ulster
         mother = eng_maud_lancaster
@@ -106369,8 +106369,21 @@ adm = 31 dip = 34 mil = 24
         death_date = 1413.3.20
         dynasty = lancaster_dynasty
         father = eng_john_of_gaunt
-        mother = eng_blanche_lancaster
+        mother = eng_blanche_of_lancaster
         tag = ENG
+    }
+
+    eng_constance_burgundy_castile = {
+        first_name = { name = name_constance }
+        culture = castilian
+        religion = catholic
+        birth_date = 1354.1.1
+        death_date = 1394.3.24
+        birth = burgos
+        female = yes
+        father = cas_pedro_i_burgundy
+        dynasty = burgundy_castile_dynasty
+        tag = ENG         
     }
 
     eng_henry_v_lancaster = {
@@ -106475,6 +106488,60 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
+    eng_lionel_plantagenet_clarence = {
+        first_name = { name = name_lionel }
+        culture = english
+        religion = catholic
+        birth_date = 1338.11.29
+        death_date = 1368.10.17
+        birth = antwerp
+        dynasty = plantagenet_dynasty
+        father = eng_edward_iii
+        mother = eng_philippa_de_hainault
+        tag = ENG        
+    }
+
+    eng_philippa_plantagenet_clarence = {
+        first_name = { name = name_philippa }
+        culture = english
+        religion = catholic
+        birth_date = 1355.8.16
+        death_date = 1382.1.5
+        birth = tonbridge
+        female = yes
+        dynasty = plantagenet_dynasty
+        father = eng_lionel_plantagenet_clarence
+        mother = uls_elizabeth_de_burgh_4th_countess_ulster
+        tag = ENG        
+    }
+
+    eng_thomas_plantagenet_woodstock = {
+        first_name = { name = name_thomas }
+        culture = english
+        religion = catholic
+        birth_date = 1355.1.7
+        death_date = 1397.9.8
+        birth = oxford
+        dynasty = plantagenet_dynasty
+        father = eng_edward_iii
+        mother = eng_philippa_de_hainault
+        tag = ENG        
+    }
+
+    eng_eleanor_bohun_woodstock = {
+        first_name = { name = name_eleanor }
+        culture = english
+        religion = catholic
+        birth_date = 1355.1.7
+        death_date = 1397.9.8
+        birth = oxford
+        female = yes
+        dynasty = bohun_dynasty
+        #father = 
+        #mother =
+        tag = ENG        
+    }
+
     eng_john_of_gaunt = {
         first_name = { name = name_john }
         culture = english
@@ -106497,10 +106564,10 @@ adm = 31 dip = 34 mil = 24
         adm = 23 dip = 18 mil = 16
         birth_date = 1367.1.6
         birth = bordeaux
-        death_date = 1400.2.13
+        death_date = 1400.2.14
         dynasty = plantagenet_dynasty
-        father = eng_edward_iii
-        mother = eng_philippa_de_hainault
+        father = eng_edward_the_black_prince
+        mother = eng_joan_of_kent
         ruler_trait = "cruel"
         tag = ENG
     }
@@ -106512,10 +106579,12 @@ adm = 31 dip = 34 mil = 24
         estate = nobles_estate
         adm = 40 dip = 38 mil = 15
         female = yes
-        birth_date = 1345.3.25
-        birth = lancaster
+        birth_date = 1342.3.25
         death_date = 1368.9.12
+        birth = lancaster
         spouse = eng_john_of_gaunt
+        father = eng_henry_grosmont
+        mother = eng_isabel_beaumont
         dynasty = lancaster_dynasty
         tag = ENG
     }
@@ -106566,7 +106635,7 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_catherine_of_lancaster = {
+    cas_catherine_of_lancaster = {
         first_name = { name = name_catherine }
         culture = english
         religion = catholic
@@ -106574,6 +106643,7 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1373.3.31
         death_date = 1418.6.2
         father = eng_john_of_gaunt
+        mother = eng_constance_burgundy_castile
         dynasty = lancaster_dynasty
         tag = ENG
     }
@@ -106818,6 +106888,8 @@ adm = 31 dip = 34 mil = 24
         female = yes
         birth_date = 1379.2.2
         death_date = 1440.11.13
+        father = eng_john_of_gaunt
+        mother = eng_catherine_swynford
         dynasty = beaufort_dynasty
         spouse = eng_ralph_neville_westmorland
         tag = ENG
@@ -106935,6 +107007,46 @@ adm = 31 dip = 34 mil = 24
     }
 
     #House of Beaufort
+    eng_catherine_swynford = {
+        first_name = { name = name_catherine }
+        last_name = { name = Swynford }
+        culture = walloon
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1349.1.1
+        death_date = 1403.5.10
+        female = yes
+        birth = london
+        tag = ENG
+    }
+
+    eng_john_beaufort_founder = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1373.1.1
+        death_date = 1410.3.16
+        birth = london
+        father = eng_john_of_gaunt
+        mother = eng_catherine_swynford
+        dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_margaret_holland_beaufort = {
+        first_name = { name = name_margaret }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1385.1.1
+        death_date = 1439.12.30
+        female = yes
+        birth = london
+        dynasty = holland_dynasty
+        tag = ENG
+    }
+
     eng_edmund_beaufort_somerset = {
         first_name = { name = name_edmond }
         culture = english
@@ -106943,7 +107055,60 @@ adm = 31 dip = 34 mil = 24
         adm = 48 dip = 80 mil = 84
         birth_date = 1406.1.1
         birth = london
+        father = eng_john_beaufort_founder
+        mother = eng_margaret_holland_beaufort
         dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_eleanor_beauchamp = {
+        first_name = { name = name_eleanor }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1408.9.1
+        spouse = eng_edmund_beaufort_somerset
+        dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_henry_beaufort_3rd_duke_somerset = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1436.1.26
+        father = eng_edmund_beaufort_somerset
+        mother = eng_eleanor_beauchamp
+        dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_edmund_beaufort_4th_duke_somerset = {
+        first_name = { name = name_edmond }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1438.1.1
+        father = eng_edmund_beaufort_somerset
+        mother = eng_eleanor_beauchamp
+        dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_john_beaufort_earl_dorset = {
+        first_name = { name = name_john }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1441.1.1
+        father = eng_edmund_beaufort_somerset
+        mother = eng_eleanor_beauchamp
+        dynasty = beauchamp_dynasty
         tag = ENG
     }
 
@@ -106953,7 +107118,21 @@ adm = 31 dip = 34 mil = 24
         religion = catholic
         birth_date = 1404.1.1
         death_date = 1444.5.27
+        father = eng_john_beaufort_founder
+        mother = eng_margaret_holland_beaufort
         dynasty = beaufort_dynasty
+        tag = ENG
+    }
+
+    eng_margaret_beauchamp = {
+        first_name = { name = name_margaret }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1410.1.1
+        spouse = eng_john_beaufort_somerset
+        dynasty = beauchamp_dynasty
         tag = ENG
     }
 
@@ -106964,45 +107143,10 @@ adm = 31 dip = 34 mil = 24
         estate = nobles_estate
         female = yes
         birth_date = 1443.5.31
-        dynasty = beaufort_dynasty
-        tag = ENG
-    }
-
-    eng_margaret_holland = {
-        first_name = { name = name_margaret }
-        last_name = { name = Holland }
-        culture = english
-        religion = catholic
-        estate = nobles_estate
-        female = yes
-        birth_date = 1385.1.1
-        death_date = 1439.12.31
-        spouse = eng_john_beaufort_somerset
-        tag = ENG
-    }
-
-    eng_george_i_beaufort = {
-        first_name = { name = name_george }
-        culture = english
-        religion = catholic
-        estate = nobles_estate
-        birth_date = 1430.1.1
-        dynasty = beaufort_dynasty
         father = eng_john_beaufort_somerset
-        mother = eng_margaret_holland
-        tag = ENG
-    }
-
-    eng_george_gustav_beaufort = {
-        first_name = { name = name_george }
-        last_name = { name = name_gustav }
-        culture = english
-        religion = catholic
-        estate = nobles_estate
-        birth_date = 1438.9.20
+        mother = eng_margaret_beauchamp
+        spouse = eng_edmund_tudor
         dynasty = beaufort_dynasty
-        father = eng_john_beaufort_somerset
-        mother = eng_margaret_holland
         tag = ENG
     }
 
@@ -107149,10 +107293,11 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1383.4.30
         death_date = 1438.10.16
         spouse = eng_edmund_stafford
-        dynasty = lancaster_dynasty
+        father = eng_thomas_plantagenet_woodstock
+        mother = eng_eleanor_bohun_woodstock
+        dynasty = plantagenet_dynasty
         tag = ENG
     }
-
 
     eng_anne_stafford = {
         first_name = { name = name_anna }
@@ -107322,6 +107467,8 @@ adm = 31 dip = 34 mil = 24
         female = yes
         birth_date = 1409.6.1
         birth = london
+        father = eng_john_beaufort_founder
+        mother = eng_margaret_holland_beaufort
         spouse = eng_thomas_courtenay_devon
         dynasty = beaufort_dynasty
         tag = ENG
@@ -107375,6 +107522,8 @@ adm = 31 dip = 34 mil = 24
         estate = clergy_estate
         birth_date = 1375.1.1
         birth = winchester
+        father = eng_john_of_gaunt
+        mother = eng_catherine_swynford
         dynasty = beaufort_dynasty
         tag = ENG
     }
@@ -107617,6 +107766,8 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1404.1.1
         death_date = 1445.7.5
         birth = london
+        father = eng_john_beaufort_founder
+        mother = eng_margaret_holland_beaufort
         spouse = sco_james_i_stewart
         dynasty = beaufort_dynasty
         tag = SCO
@@ -109148,7 +109299,7 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1405.3.6
         birth = valladolid
         father = cas_enrique_iii_trastamara
-        mother = eng_catherine_of_lancaster
+        mother = cas_catherine_of_lancaster
         dynasty = trastamara_dynasty 
         tag = CAS
         ruler_trait = tolerant
@@ -109499,7 +109650,7 @@ adm = 31 dip = 34 mil = 24
         female = yes
         spouse = ara_alfons_v_trastamara
         father = cas_henry_iii_trastamara
-        mother = eng_catherine_of_lancaster
+        mother = cas_catherine_of_lancaster
         dynasty = trastamara_dynasty 
         tag = CAS
     }
@@ -110865,6 +111016,7 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1432.1.1
         birth = jativa
         dynasty = borja_dynasty
+        ruler_trait = sinner
         tag = ARA
     }
 
