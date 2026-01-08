@@ -6483,9 +6483,9 @@ countries = {
                 regnal_numbers = {
                     name_harihara = 2
                     name_bukka_raya = 3
-                    virupaksha_raya = 1
-                    deva_raya = 2
-                    ramachandra_raya = 1
+                    name_virupaksha_raya = 1
+                    name_deva_raya = 2
+                    name_ramachandra_raya = 1
                 }
 
                 reforms = {
@@ -49273,9 +49273,8 @@ countries = {
                     name_mayta = 1
                     name_tarco = 1
                     name_qhapaq = 1
-                    yawar_waqaq = 1
-                    viracocha_inka = 1
-                    pachacuti = 1
+                    name_yawar_waqaq = 1
+                    name_viracocha_inka = 1
                 }
 
                 laws = {
@@ -49303,29 +49302,29 @@ countries = {
             include = "andean_monarchy"
             include = "expl_andean"
             government = {
-                ruler = csu_pachacuti
-                ruler_term = { character = csu_manco_qhapaq start_date = 1197.1.1 end_date = 1230.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_sinchi_ruqa start_date = 1230.1.1 end_date = 1260.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_lluqi_yupanki start_date = 1260.1.1 end_date = 1290.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_mayta_qhapaq start_date = 1290.1.1 end_date = 1320.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_tarco_huaman start_date = 1320.1.1 end_date = 1320.6.1 regnal_number = 1 }
-                ruler_term = { character = csu_qhapaq_yupanki start_date = 1320.6.1 end_date = 1350.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_inka_roqa start_date = 1350.1.1 end_date = 1380.1.1 regnal_number = 1 } # Edited CSU as well incase someone changes tag
-                ruler_term = { character = csu_yawar_waqaq start_date = 1380.1.1 end_date = 1410.1.1 regnal_number = 1 }
-                ruler_term = { character = csu_viracocha_inka start_date = 1410.1.1 end_date = 1438.1.1 regnal_number = 1 }
-                ruler_tern = { character = csu_pachacuti start_date = 1438.1.1 regnal_number = 1 }
+                #ruler = csu_pachacuti
+                #ruler_term = { character = csu_manco_qhapaq start_date = 1197.1.1 end_date = 1230.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_sinchi_ruqa start_date = 1230.1.1 end_date = 1260.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_lluqi_yupanki start_date = 1260.1.1 end_date = 1290.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_mayta_qhapaq start_date = 1290.1.1 end_date = 1320.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_tarco_huaman start_date = 1320.1.1 end_date = 1320.6.1 regnal_number = 1 }
+                #ruler_term = { character = csu_qhapaq_yupanki start_date = 1320.6.1 end_date = 1350.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_inka_roqa start_date = 1350.1.1 end_date = 1380.1.1 regnal_number = 1 } # Edited CSU as well incase someone changes tag
+                #ruler_term = { character = csu_yawar_waqaq start_date = 1380.1.1 end_date = 1410.1.1 regnal_number = 1 }
+                #ruler_term = { character = csu_viracocha_inka start_date = 1410.1.1 end_date = 1438.1.1 regnal_number = 1 }
+                #ruler_tern = { character = csu_pachacuti start_date = 1438.1.1 regnal_number = 1 }
 
-                regnal_numbers = {
-                    name_manco = 1
-                    name_sinchi = 1
-                    name_lluqi = 1
-                    name_mayta = 1
-                    name_tarco = 1
-                    name_qhapaq = 1
-                    yawar_waqaq = 1
-                    viracocha_inka = 1
-                    pachacuti = 1
-                }
+                #regnal_numbers = {
+                #    name_manco = 1
+                #    name_sinchi = 1
+                #    name_lluqi = 1
+                #    name_mayta = 1
+                #    name_tarco = 1
+                #    name_qhapaq = 1
+                #    name_yawar_waqaq = 1
+                #    name_viracocha_inka = 1
+                #    name_pachacuti = 1
+                #}
 
                 laws = {
                     cultural_traditions_law = martial_society

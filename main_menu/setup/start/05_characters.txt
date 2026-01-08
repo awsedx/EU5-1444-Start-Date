@@ -102474,7 +102474,7 @@ character_db={
     }
 
     csu_yawar_waqaq = {
-        first_name = { name = yawar_waqaq }
+        first_name = { name = name_yawar_waqaq }
         nickname = { name = nick_blood_crier } # name translation is so fucking sick, I have to include it
         culture = inka_culture
         religion = inti
@@ -102488,7 +102488,7 @@ character_db={
     }
 
     csu_viracocha_inka = {
-        first_name = { name = viracocha_inka }
+        first_name = { name = name_viracocha_inka }
         culture = inka_culture
         religion = inti
         adm = 72 dip = 73 mil = 13 #first Sapa inca to administer territory, and not just loot, "valiant", abandoed Qusqu
@@ -102501,7 +102501,7 @@ character_db={
     }
 
     csu_pachacuti = {
-        first_name = { name = pachacuti }
+        first_name = { name = name_pachacuti }
         nickname = { name = nick_earthshaker }
         culture = inka_culture
         religion = inti
@@ -102517,7 +102517,7 @@ character_db={
     }
 
     inc_tupac_yupanqui = {
-        first_name = { name = tupac_yupanqui }
+        first_name = { name = name_tupac_yupanqui }
         culture = inka_culture
         religion = inti
         birth_date = 1443.1.1 # just so hes around (dies then historically ~50)
@@ -104097,7 +104097,7 @@ character_db={
     }
 
     vij_virupaksha_raya = {
-        first_name = { name = virupaksha_raya }
+        first_name = { name = name_virupaksha_raya }
         culture = kannadiga
         religion = hindu
         birth = vijayanagar
@@ -104121,7 +104121,7 @@ character_db={
     }
 
     vij_deva_raya_i = {
-        first_name = { name = deva_raya }
+        first_name = { name = name_deva_raya }
         culture = kannadiga
         religion = hindu
         birth = vijayanagar
@@ -104133,7 +104133,7 @@ character_db={
     }
 
     vij_ramachandra_raya = {
-        first_name = { name = ramachandra_raya }
+        first_name = { name = name_ramachandra_raya }
         culture = kannadiga
         religion = hindu
         birth = vijayanagar
@@ -104157,7 +104157,7 @@ character_db={
     }
 
     vij_deva_raya_ii = { #Ruler 1444
-        first_name = { name = deva_raya }
+        first_name = { name = name_deva_raya }
         culture = kannadiga
         religion = hindu
         birth = vijayanagar
@@ -104168,7 +104168,7 @@ character_db={
     }
 
     vij_deva_raya_iii = { #heir
-        first_name = { name = deva_raya }
+        first_name = { name = name_deva_raya }
         culture = kannadiga
         religion = hindu
         birth = vijayanagar
@@ -113244,7 +113244,7 @@ character_db={
 
     #Bahmanis
     bah_ala_ud_din_hasan_bahman = { #Founder of Bahmanis
-		first_name = { name = hasan_bahman }
+		first_name = { name = name_hasan_bahman }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1291.1.1
@@ -113267,7 +113267,7 @@ character_db={
 	}
 
     bah_mujahid_shah = {
-		first_name = { name = mujahid }
+		first_name = { name = name_mujahid }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1355.1.1
@@ -113279,7 +113279,7 @@ character_db={
 	}
 
     bah_dawood_uncle = { # I presume as there is no Info (quick google search)
-        first_name = { name = dawud }
+        first_name = { name = name_dawud }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1327.1.1
@@ -113291,7 +113291,7 @@ character_db={
     }
 
     bah_dawud_shah = {
-		first_name = { name = dawud }
+		first_name = { name = name_dawud }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1350.1.1
@@ -113315,7 +113315,7 @@ character_db={
 	}
 
     bah_ghiyasuddin = { #Throne 1397.1.1
-		first_name = { name = ghiyasuddin }
+		first_name = { name = name_ghiyasuddin }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1380.1.1
@@ -113327,7 +113327,7 @@ character_db={
 	}
 
     bah_shamsuddin = { #Throne 1397.1.1
-		first_name = { name = shamsuddin }
+		first_name = { name = name_shamsuddin }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1380.1.1
@@ -113339,7 +113339,7 @@ character_db={
 	}
 
     bah_firoz_shah = {
-        first_name = { name = firoz }
+        first_name = { name = name_firoz }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1370.1.1
@@ -113374,7 +113374,7 @@ character_db={
     }
 
     bah_humayun_shah = {
-        first_name = { name = humayun }
+        first_name = { name = name_humayun }
 		culture = farsi_culture
 		religion = shia
 		birth_date = 1430.1.1
