@@ -19529,7 +19529,10 @@ countries = {
                 bordj_bou_arreridj jama_TUN
                 el_ksour medjez_el_bab sbikha
                 azeffoun kuku
+            }
 
+            own_control_integrated = {
+                el_kantara maqqara msila
             }
 
             starting_technology_level = 3
@@ -19878,8 +19881,8 @@ countries = {
         #Zab - ZAB
         ZAB = {
             own_control_core = {
-                biskra amdoukal bades el_kantara madila sidi_okba tolga
-                bou_saada maqqara msila
+                biskra amdoukal bades madila sidi_okba tolga
+                bou_saada
                 ouled_djellal
             }
 

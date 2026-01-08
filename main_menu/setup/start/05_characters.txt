@@ -12685,7 +12685,7 @@ character_db={
     # Son & Heir of the King of Portugal
     por_pedro_i_portugal = {    
         first_name = { name = name_peter }
-        nickname = { name = Justicier }
+        nickname = { name = "the Justicier" }
         culture = portuguese
         religion = catholic
         estate = nobles_estate
@@ -109446,6 +109446,16 @@ character_db={
     }
 
     #cas nobles etc.
+    cas_alvaro_luna = {
+        first_name = { name = Álvaro }
+        last_name = { name = "de Luna" }
+        culture = castilian
+        religion = catholic
+        birth_date = 1398.6.19
+        adm = 83 dip = 71 mil = 79
+        tag = CAS
+    }
+
     cas_inigo_lopez_mendoza = {
         first_name = { name = name_inigo }
         estate = nobles_estate
@@ -110283,7 +110293,7 @@ character_db={
 
     por_duarte_i_avis = {
         first_name = { name = name_edward }
-        nickname = { name = Eloquent }
+        nickname = { name = "the Eloquent" }
         culture = portuguese
         religion = catholic
         estate = nobles_estate
@@ -110313,7 +110323,7 @@ character_db={
 
     por_afonso_v_avis = {
         first_name = { name = name_alphonse }
-        nickname = { name = African }
+        nickname = { name = "the African" }
         culture = portuguese
         religion = catholic
         estate = nobles_estate
@@ -110584,7 +110594,6 @@ character_db={
         estate = burghers_estate
         birth_date = 1416.1.1
         birth = lisbon
-        dynasty = avis_dynasty
         tag = POR
     }
 
@@ -111627,7 +111636,7 @@ character_db={
     }
 
     swe_erik_laurensson_aspenas = {
-        first_name = { name = name_erik }
+        first_name = { name = name_eric }
         culture = swedish
         religion = catholic
         estate = nobles_estate
