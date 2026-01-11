@@ -50215,10 +50215,10 @@ countries = {
             }
         }
         IMP = { #Chahar/Imperials/Yuan
-            type = building
+            #type = building
             type = army
              capital = karakorum
-            include = "mongol_court"  # Doesn't matter if this exists or not
+            #include = "mongol_court"  # Doesn't matter if this exists or not
             government = {
                 # ruler/heir setup
                 reforms = {
@@ -50292,8 +50292,8 @@ countries = {
         OLK = { # Olkhonud Khalkha
             type = army
             own_control_core = {
-                bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh ooshiyn_gobi
-                avraga jingzhou_dorbod erenkhot
+                bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh
+                avraga jingzhou_dorbod erenkhot zara_uul
             }
 
             our_cores_conquered_by_others = { }
@@ -50314,7 +50314,7 @@ countries = {
         ELJ = { # Eljigin Khalkha
             type = army
             own_control_core = {
-                tavan_tolgoi matad sharga_uul sumtiin zara_uul avga baganuur
+                tavan_tolgoi matad sharga_uul sumtiin avga baganuur
                 sonod bars_khot bayan_tumen bayantsagaan
             }
 
@@ -50359,7 +50359,7 @@ countries = {
         BAX = { # Baarin Khalkha
             type = army
             own_control_core = {
-                ulziit ukhaa_khudag del_khad galbyn_gobi xinhure
+                ulziit ukhaa_khudag del_khad galbyn_gobi xinhure ooshiyn_gobi
                 muumyangan bathahalak khatanbulag zhavklant_khairkhan
             }
 
@@ -50483,7 +50483,6 @@ countries = {
 
         
         TVA = {  # Tuva
-         	type = army
             own_control_core = {
          		systyg choigan bii ulug usun
          	}
@@ -50501,7 +50500,6 @@ countries = {
         }
 
         YKZ = {  # Yenisei Kyrgyz
-         	type = army
             own_control_core = {
          		minusinsk shushenskoye beya askiz abakasnk tatarskaya_tesyu idrinskoye kortuz ust_kabyrza kuznetsk
          	}
