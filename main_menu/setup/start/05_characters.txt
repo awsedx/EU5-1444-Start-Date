@@ -106383,12 +106383,6 @@ character_db={
         ruler_trait = drunkard
         ruler_trait = naive
         ruler_trait = babbling_buffoon
-        timed_modifier = {
-        modifier = "sickly_character"
-            start_date = 1444.11.11
-            date = 9999.1.1
-            size = 1
-        }
     }
 
     eng_humphrey_lancaster = {
