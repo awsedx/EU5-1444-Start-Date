@@ -443,3 +443,35 @@ PAE = {
     }
 }
 PAE_ADJ = { parent = PAE suffix = "_ADJ" }
+
+KHL = { # Imperial Khalkha
+    type = country
+    text = {
+        localization_key = chahar_khalkha
+        trigger = {
+    		culture = culture:mongolian_culture
+		}
+    }
+    text = {
+        localization_key = KHL
+        fallback = yes
+    }
+}
+KHL_ADJ = { parent = KHL suffix = "_ADJ" }
+
+YUA = { # Northern Yuan
+    type = country
+    text = {
+        localization_key = n_yuan
+        trigger = {
+    		NOT = {
+				owns = location:dadu
+			}
+		}
+    }
+    text = {
+        localization_key = YUA
+        fallback = yes
+    }
+}
+YUA_ADJ = { parent = YUA suffix = "_ADJ" }

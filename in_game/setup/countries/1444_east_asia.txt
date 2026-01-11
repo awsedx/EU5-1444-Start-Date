@@ -71,7 +71,7 @@ BAY = { # Bayaut
 }
 
 KHA = { # Khorchin
-    color = rgb { 221  93  170 }
+    color = map_KHA
     culture_definition = khorchin_culture
     religion_definition = tengri
 

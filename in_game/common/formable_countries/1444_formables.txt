@@ -47,30 +47,3 @@ BAL_f = {
 	form_effect = {
 	}
 }
-
-CHG_f = { #Chagatai formable
-	level = 3
-	required_locations_fraction = 1
-	rule = historical
-
-	potential = {
-		tag = CTK
-	}
-
-	allow = {
-		owns = location:almaliq
-		owns = location:turpan
-	}
-	
-	name = CHG
-	flag = CHG
-	adjective = CHG_ADJ
-	tag = CHG
-	color = map_CHG
-
-	areas = {
-		almaliq_area
-	}
-	form_effect = {
-	}
-}

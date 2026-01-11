@@ -50215,16 +50215,26 @@ countries = {
             }
         }
         IMP = { #Chahar/Imperials/Yuan
-            #type = building
+            
             type = army
-             capital = karakorum
-            #include = "mongol_court"  # Doesn't matter if this exists or not
+            own_control_core = {
+                karakorum
+            }
+            our_cores_conquered_by_others = {
+                khar_balgas orkhon tsetserleg
+            }
+            capital = karakorum
+            starting_technology_level = 3
+            include = "expl_mongols"
             government = {
-                # ruler/heir setup
+                type = steppe_horde
+                heir_selection = cognatic_primogeniture
                 reforms = {
-                    mongol_khagan  # This is what actually matters
+                    legacy_of_genghis
+                    mongol_khagan
                 }
             }
+            court_language = mongolian_language
             country_rank = rank_empire
         }
 
@@ -50238,7 +50248,7 @@ countries = {
             include = "eurasian_horde_not_present"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
             }
             country_rank = rank_empire
             court_language = mongolian_language
@@ -50257,7 +50267,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50279,7 +50289,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50301,7 +50311,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50323,7 +50333,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50346,7 +50356,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50368,7 +50378,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50389,7 +50399,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50411,7 +50421,7 @@ countries = {
             include = "expl_mongols"
             government = {
                 type = steppe_horde
-                heir_selection = tribal_oldest_male
+                heir_selection = cognatic_primogeniture
                 reforms = {
                     legacy_of_genghis
                 }
@@ -50430,7 +50440,7 @@ countries = {
 #            include = "expl_mongols"
 #            government = {
 #                type = steppe_horde
-#                heir_selection = tribal_oldest_male
+#                heir_selection = cognatic_primogeniture
 #            }
 #            country_rank = rank_kingdom
 #            court_language = mongolian_language
@@ -50440,12 +50450,15 @@ countries = {
          CRS = {  # Choros
          	type = army
             own_control_core = {
-               karakorum khar_balgas orkhon tsetserleg
+               khar_balgas orkhon tsetserleg
                 baibalyk kharkhul mori_baridag tarvagatai
                 khar_bukhyn kedun kharuukh
                 ongiin_khiid shaazan_khot shaazan_tolgoi suriig
                 ulaan bogd khadat
                 khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
+            }
+            our_cores_conquered_by_others = {
+                karakorum
             }
 
          	starting_technology_level = 3

@@ -24,4 +24,9 @@ colors = {
 	map_uriankhai = rgb { 34 139 34 }
 	map_kazakh = rgb { 85 160 215 }
 	map_khalkha = rgb { 40 0 100 }
+	map_KHL = rgb  { 100 150 200 }
+	map_KHA =  rgb { 221  93  170 }
+	map_URZ = rgb  { 80 120 140 }
+	map_YUA = rgb { 140 40 40 }
+	map_MGA = rgb { 100 150 200 }
 }
