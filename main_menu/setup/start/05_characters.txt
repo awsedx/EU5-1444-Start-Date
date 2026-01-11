@@ -102456,6 +102456,7 @@ character_db={
         birth_date = 1313.1.1
         death_date = 1371.4.18
         birth = qusqu
+        father = csu_qhapaq_yupanki
         dynasty = hanan_qusqu_dynasty
         tag = CSU
     }
