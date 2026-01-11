@@ -50252,7 +50252,7 @@ countries = {
             #            }
             #        }
             #    }
-            #}
+            }
             country_rank = rank_empire
         }
         MGE = {
