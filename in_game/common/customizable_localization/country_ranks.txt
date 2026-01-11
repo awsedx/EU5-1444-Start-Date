@@ -107,6 +107,9 @@ country_flavor = {
                 tag = THG
                 tag = KHI
                 tag = KHO
+                tag = DOY
+                tag = FUY
+                tag = TIN
             }
         }
     }

@@ -499,12 +499,16 @@ diplomacy_manager = {
     dependency = { first = CHI second = WGG subject_type = tributary }
     dependency = { first = CHI second = YEH subject_type = tributary }
 
-    # Mongolian Tributes
-    dependency = { first = CHI second = KHA subject_type = tributary }
+    # Mongolian Clans
     dependency = { first = CRS second = HMI subject_type = vassal }
     dependency = { first = DRB second = AUK subject_type = vassal }
     dependency = { first = DRB second = YKZ subject_type = vassal }
     dependency = { first = DRB second = TVA subject_type = vassal }
+
+    #Mongol Tributes of China
+    dependency = { first = DOY second = HMI subject_type = tributary }
+    dependency = { first = TIN second = HMI subject_type = tributary }
+    dependency = { first = FUY second = HMI subject_type = tributary }
 
     # Xinjiang Tributes
     dependency = { first = CHI second = HMI subject_type = tributary }

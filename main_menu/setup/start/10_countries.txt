@@ -3973,13 +3973,15 @@ countries = {
             capital = tomsk
         }
 
-        BRT = {
+        BRT = { #Buryat
             type = pop
 
             add_pops_from_locations = {
                 irkutsk slyudyanka cheremkhovo zalari zhigalovo bayanday kachug balagansk
                 osinsky kansk ilansky biryusa nizhneudinsk siberia_kuytun staraya_zima
                 ust_kut irkutsk_kazachinskoye nikolsky_pogost onguren ul_kan
+                
+                selenge khimni ulenkhe
             }
 
             discovered_regions = {
@@ -4029,12 +4031,14 @@ countries = {
             capital = minusinsk
         }
 
-        KMG = {
+        KMG = { #Khamag Mongolians
             type = pop
 
             add_pops_from_locations = {
                 kichera argada ust_barguzin chitkan bayangol karaftit bagdarin bukachacha
                 ziul_zkan telemba isenga narhata
+                sulkhari khilgo khilgoson ung
+                ude_baikal anaa bureen khudan khurbe
             }
 
             discovered_regions = {
@@ -30956,19 +30960,11 @@ countries = {
                 hailar bayan_ula hulun xuguit yimin
 
                 avraga kherlen rahsaan_khad uguumur undurkhaan
-                kyakhta khadanzaa khan_khentii tsokh
-                onon balj baldan_bereeven kyra
+                baldan_bereeven
 
-                selenge khimni ulenkhe zed zelterijin alyanbulag
-                amarbayas_galang bornuur eroo
+                bornuur
 
-                sulkhari khilgo khilgoson ung
-                ude_baikal anaa bureen khudan khurbe
-                khatgal eringiin uur
-
-                nibuchu ingedei
-                qorqonaq_yubur aga boorj unda
-                silkari kara_shilka
+                nibuchu
 
                 tsagaan baruun_tar_nuur lower_ulz upper_ulz yakhi zyyn_tar_nuur
 
@@ -30979,11 +30975,10 @@ countries = {
                 bishreit dalay doloodyn_gobi ikh_narttin_chuluu
                 saikhandulaan ulaanbadrakh
                 urga
-                tura chit uldurga kuenga nurchuu uryum
 
-                enhe_hada jiliu lower_gazimur merelka upper_gazimur urov
+                enhe_hada jiliu merelka
 
-                abagaita gegen hasar khirkhira talman_boorj
+                abagaita gegen hasar khirkhira
 
                 yinshan hebin ningbian yunnei fengzhou dongsheng wuchuan zhenwu
                 pingdi liangcheng erdao xuanning jining weining
@@ -50289,7 +50284,6 @@ countries = {
          CRS = {  # Choros
          	own_control_core = {
                karakorum khar_balgas orkhon tsetserleg
-                bayankhot alxa bagh bayannurhong
                 baibalyk kharkhul mori_baridag tarvagatai
                 khar_bukhyn kedun kharuukh
                 ongiin_khiid shaazan_khot shaazan_tolgoi suriig
@@ -50390,6 +50384,7 @@ countries = {
                 oiyin_korken
                 bugat tsogt chikhan_agui tsagaan_agui otegu_qulan tevsh_uul noyon_uul naraan_chilaun khara_khoto banzart_khairkhan
                 shira_qulusun shargyn_gobi tost_uul gaxun_gobi
+                bagh bayannurhong alxa bayankhot
          	}
 
          	starting_technology_level = 3
@@ -50443,7 +50438,7 @@ countries = {
 
         KUH = {  # Khentii Uriankhai
          	own_control_core = {
-         		
+         		khan_khentii khadanzaa onon balj tsokh ingedei eroo
          	}
 
          	starting_technology_level = 3
@@ -50455,12 +50450,12 @@ countries = {
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
-         	capital = tsagaan_usun
+         	capital = khan_khentii
         }
 
         KVU = {  # Khövsgöl Uriankhai
          	own_control_core = {
-         		
+         		khatgal uur eringiin zed zelterijin alyanbulag amarbayas_galang kyakhta
          	}
 
          	starting_technology_level = 3
@@ -50472,12 +50467,13 @@ countries = {
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
-         	capital = tsagaan_usun
+         	capital = khatgal
         }
 
         TBU = {  # Transbaikal Uriankhai
          	own_control_core = {
-         		
+         		kyra qorqonaq_yubur tura aga boorj unda nibuchu kuenga chit uldurga
+                upper_gazimur talman boorj urov silkari uryum nurchuu lower_gazimur kara
          	}
 
          	starting_technology_level = 3
@@ -50489,31 +50485,81 @@ countries = {
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
-         	capital = tsagaan_usun
+         	capital = kyra
         }
 
-        KHA = {
-            # Kharchin Mongols
-            own_control_core = {
+        FUY = { # Fuyu Guard
+         	own_control_core = {
+                qiqihar
+            }
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+                centralization_vs_decentralization = -100
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = qiqihar
+        }
+
+        TIN = { # Tai’nin Guard
+         	own_control_core = {
+                tongliao
+            }
+
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+                centralization_vs_decentralization = -100
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = tongliao
+        }
+
+        DOY = { # Doyan Guard
+         	own_control_core = {
                 daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou enhua baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying 
-                fuxin yizhou_jinzhou yizhou_jurchen ningchang tongliao
+                fuxin yizhou_jinzhou yizhou_jurchen ningchang
             }
 
-            our_cores_conquered_by_others = { }
-            starting_technology_level = 3
-            include = "expl_mongols"
-            government = {
-                type = steppe_horde
-                heir_selection = tribal_oldest_male
-            }
-            country_rank = rank_duchy
-            court_language = mongolian_language
-            capital = karakorum
-
-            tolerated_cultures = {
-                jurchen_culture
-            }
+         	starting_technology_level = 3
+         	include = "expl_mongols"
+         	government = {
+         		type = steppe_horde
+         		heir_selection = cognatic_primogeniture
+                centralization_vs_decentralization = -100
+         	}
+         	country_rank = rank_county
+         	court_language = mongolian_language
+         	capital = yixingzhou
         }
+
+#        KHA = {
+#            # Kharchin Mongols
+#            own_control_core = {
+#            }
+#
+#            our_cores_conquered_by_others = { }
+#            starting_technology_level = 3
+#            include = "expl_mongols"
+#            government = {
+#                type = steppe_horde
+#                heir_selection = tribal_oldest_male
+#            }
+#            country_rank = rank_duchy
+#            court_language = mongolian_language
+#            capital = karakorum
+#
+#            tolerated_cultures = {
+#                jurchen_culture
+#            }
+#        }
 
         TIM = {
             own_control_core = {
