@@ -50271,7 +50271,7 @@ countries = {
             type = army
             own_control_core = {
                 uguumur undurkhaan baldan_bereeven nibuchu tsagaan baruun_tar_nuur
-                lower_ulz upper_ulz yakhi zyyn_tar_nuur
+                lower_ulz upper_ulz yakhi zyyn_tar_nuur kherlen
             }
 
             our_cores_conquered_by_others = { }
@@ -50292,8 +50292,8 @@ countries = {
         OLK = { # Olkhonud Khalkha
             type = army
             own_control_core = {
-                bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh ooshiyn_gobi khatanbulag zhavklant_khairkhan
-                avraga kherlen
+                bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh ooshiyn_gobi
+                avraga jingzhou_dorbod erenkhot
             }
 
             our_cores_conquered_by_others = { }
@@ -50336,8 +50336,9 @@ countries = {
         GOO = { # Gorlos Khalkha
             type = army
             own_control_core = {
-                jingzhou_dorbod bathahalak chahar muumyangan ulan_hua ulanchab
-                erenkhot khobootsar shuluun_khoboot_tsagaan
+                chahar ulan_hua ulanchab
+                khobootsar shuluun_khoboot_tsagaan
+                fuzhou zhongdu baochang chagannur 
             }
 
             our_cores_conquered_by_others = { }
@@ -50352,13 +50353,14 @@ countries = {
             }
             country_rank = rank_duchy
             court_language = mongolian_language
-            capital = jingzhou_dorbod
+            capital = chahar
         }
 
-        BAN = { # Baarin Khalkha
+        BAX = { # Baarin Khalkha
             type = army
             own_control_core = {
-                fuzhou zhongdu baochang chagannur ulziit ukhaa_khudag del_khad galbyn_gobi xinhure
+                ulziit ukhaa_khudag del_khad galbyn_gobi xinhure
+                muumyangan bathahalak khatanbulag zhavklant_khairkhan
             }
 
             our_cores_conquered_by_others = { }
@@ -50373,13 +50375,13 @@ countries = {
             }
             country_rank = rank_duchy
             court_language = mongolian_language
-            capital = zhongdu
+            capital = del_khad
         }
 
         JAR = { # Jarud Khalkha
             type = army
             own_control_core = {
-                yinshan hebin ningbian yunnei fengzhou dongsheng wuchuan zhenwu pingdi liangcheng
+                fengzhou dongsheng wuchuan zhenwu pingdi liangcheng erdao xuanning jining weining
             }
 
             our_cores_conquered_by_others = { }
@@ -50394,13 +50396,14 @@ countries = {
             }
             country_rank = rank_duchy
             court_language = mongolian_language
-            capital = yinshan
+            capital = fengzhou
         }
 
         BAY = { # Bayaut Khalkha
             type = army
             own_control_core = {
-                erdao xuanning jining weining uraqai aerzhai otog tongwancheng ordos
+                uraqai aerzhai otog tongwancheng ordos
+                hebin yinshan yunnei ningbian
             }
 
             our_cores_conquered_by_others = { }
@@ -50706,7 +50709,7 @@ countries = {
          	capital = yixingzhou
         }
 
-        ADU = { # Asud/Alans
+        ADQ = { # Asud/Alans
          	type = army
             own_control_core = {
                 urad bayannur

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 #Random pockets
  unified_chagatai: "Chagatai"
  unified_chagatai_ADJ: "Chagatai"
@@ -52,8 +52,8 @@ l_english:
  ELJ_ADJ: "Eljigin"
  GOO: "Gorlos"
  GOO_ADJ: "Gorlos"
- BAN: "Baarin"
- BAN_ADJ: "Baarin"
+ BAX: "Baarin"
+ BAX_ADJ: "Baarin"
  JAR: "Jarud"
  JAR_ADJ: "Jarud"
  BAY: "Bayaut"
@@ -88,8 +88,8 @@ l_english:
  YKZ_ADJ: "Yenisei Kirghiz"
  TVA: "Tuva"
  TVA_ADJ: "Tuvan"
- ADU: "Asud"
- ADU_ADJ: "Asud"
+ ADQ: "Asud"
+ ADQ_ADJ: "Asud"
  IMP: "Chahar"
  IMP_ADJ: "Chahar"
  

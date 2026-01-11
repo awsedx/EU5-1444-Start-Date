@@ -94,7 +94,7 @@ country_flavor = {
                 tag = OLK
                 tag = ELJ
                 tag = GOO
-                tag = BAN
+                tag = BAX
                 tag = JAR
                 tag = BAY
                 tag = OJY
@@ -110,7 +110,7 @@ country_flavor = {
                 tag = DOY
                 tag = FUY
                 tag = TIN
-                tag = ADU
+                tag = ADQ
             }
         }
     }
