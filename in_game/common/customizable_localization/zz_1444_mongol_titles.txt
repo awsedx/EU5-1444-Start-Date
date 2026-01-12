@@ -32,9 +32,9 @@ character_title_prefix = {
         trigger = {
             is_ruler = yes
             exists = culture
-            culture ?= culture:kharchin_culture
             owner ?= {
                 has_government_type = government_type:steppe_horde
+                is_subject_of = CHI
             }
         }
     }
