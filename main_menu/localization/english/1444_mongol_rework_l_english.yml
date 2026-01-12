@@ -10,15 +10,18 @@
 
 #Dynamic Names
  rank_empire_horde: "Khaganate"
- rank_kingdom_horde: "Khanate"
+ rank_empire_horde_ruler_suffix_male: "Khāghān"
+ rank_empire_horde_ruler_suffix_female: "Khātūn"
+ rank_kingdom_horde: "Khānate"
  rank_kingdom_horde_2: "Horde"
+ rank_kingdom_horde_2_ruler_suffix_male: "Khāghān"
+ rank_kingdom_horde_2_ruler_suffix_female: "Khātūn"
  horde_clan: "Clan"
- character_title_khatun: "Khatun"
- character_title_chingsang: "Chingsang"
- character_title_taishi: "Taishi"
- character_title_khagan: "Khagan"
- character_title_khan: "Khan"
- character_title_noyan: "Noyan"
+ horde_clan_ruler_suffix_male: "Noyan"
+ horde_clan_ruler_suffix_female: "Begum"
+
+# character_title_chingsang: "Chingsang"
+# character_title_taishi: "Taishi"
 
 #Culture
  khorchin_culture: "Khorchin"

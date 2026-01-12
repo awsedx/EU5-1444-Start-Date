@@ -50439,21 +50439,20 @@ countries = {
             capital = ordos
         }
 
-#        OIR = {
-#            own_control_core = {
-#            }
-#
-#            our_cores_conquered_by_others = { }
-#            starting_technology_level = 3
-#            include = "expl_mongols"
-#            government = {
-#                type = steppe_horde
-#                heir_selection = cognatic_primogeniture
-#            }
-#            country_rank = rank_kingdom
-#            court_language = mongolian_language
-#            capital = khar_balgas
-#        }
+        OIR = {
+            own_control_core = {
+            }
+            our_cores_conquered_by_others = { }
+            starting_technology_level = 3
+            include = "expl_mongols"
+            government = {
+                type = steppe_horde
+                heir_selection = cognatic_primogeniture
+            }
+            country_rank = rank_kingdom
+            court_language = mongolian_language
+            capital = khar_balgas
+        }
 
          CRS = {  # Choros
          	type = army
