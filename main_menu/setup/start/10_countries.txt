@@ -50232,6 +50232,7 @@ countries = {
                 reforms = {
                     mongol_khagan
                 }
+                centralization_vs_decentralization = 100
             }
             court_language = mongolian_language
             country_rank = rank_empire
@@ -50270,6 +50271,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50292,6 +50294,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50314,6 +50317,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50336,6 +50340,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50359,6 +50364,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50381,6 +50387,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50402,6 +50409,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50424,6 +50432,7 @@ countries = {
                 reforms = {
                     legacy_of_genghis
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50465,7 +50474,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_duchy
          	court_language = mongolian_language
@@ -50486,7 +50495,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_duchy
          	court_language = mongolian_language
@@ -50504,7 +50513,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50521,7 +50530,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50543,7 +50552,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_duchy
          	court_language = mongolian_language
@@ -50564,7 +50573,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_duchy
          	court_language = mongolian_language
@@ -50585,7 +50594,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_duchy
          	court_language = mongolian_language
@@ -50602,7 +50611,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50619,7 +50628,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50636,7 +50645,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50654,7 +50663,7 @@ countries = {
          	government = {
          		type = tribe
          		heir_selection = tribal_oldest_male
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50673,7 +50682,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50693,7 +50702,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50712,7 +50721,7 @@ countries = {
          	government = {
          		type = steppe_horde
          		heir_selection = cognatic_primogeniture
-                centralization_vs_decentralization = -100
+                centralization_vs_decentralization = 100
          	}
          	country_rank = rank_county
          	court_language = mongolian_language
@@ -50770,6 +50779,7 @@ countries = {
                 reforms = {
                     legacy_of_khasar
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50791,6 +50801,7 @@ countries = {
                 reforms = {
                     legacy_of_khasar
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50812,6 +50823,7 @@ countries = {
                 reforms = {
                     legacy_of_khasar
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language
@@ -50834,6 +50846,7 @@ countries = {
                 reforms = {
                     legacy_of_khasar
                 }
+                centralization_vs_decentralization = 100
             }
             country_rank = rank_duchy
             court_language = mongolian_language

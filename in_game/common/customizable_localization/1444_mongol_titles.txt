@@ -1,22 +1,28 @@
 character_title_prefix = {
     type = character
-    # Khatun (Female)
+    
+    # Khatun (Female rulers)
     text = {
         localization_key = character_title_khatun
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
             is_female = yes
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+            }
         }
     }
-
+    
     # Taishi (Oirats)
     text = {
-        localization_key = character_title_taishi_khagan
+        localization_key = character_title_taishi
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
-            culture = culture:oirat_culture
+            exists = culture
+            culture ?= culture:oirat_culture
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+            }
         }
     }
     
@@ -25,38 +31,47 @@ character_title_prefix = {
         localization_key = character_title_chingsang
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
-            culture = culture:kharchin_culture
+            exists = culture
+            culture ?= culture:kharchin_culture
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+            }
         }
     }
-
-    # Khagan (Empire)
+    
+    # Khagan (Empire rank)
     text = {
         localization_key = character_title_khagan
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
-            country_rank_level = 4
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+                country_rank >= 4
+            }
         }
     }
     
-    # Khan (Kingdom)
+    # Khan (Kingdom rank)
     text = {
         localization_key = character_title_khan
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
-            country_rank_level = 3
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+                country_rank >= 3
+            }
         }
     }
     
-    # Noyan (Duke)
+    # Noyan (Duchy rank)
     text = {
         localization_key = character_title_noyan
         trigger = {
             is_ruler = yes
-            government_type = government_type:steppe_horde
-            country_rank_level = 2
+            owner ?= {
+                has_government_type = government_type:steppe_horde
+                country_rank >= 2
+            }
         }
     }
 }

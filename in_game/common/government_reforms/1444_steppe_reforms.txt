@@ -78,7 +78,6 @@ mongol_khagan = {
             }
             ruler ?= { dynasty ?= dynasty:borjigin_dynasty }
         }
-        country_type = building
     }
     locked = {
         OR = {
@@ -88,7 +87,6 @@ mongol_khagan = {
             }
             ruler ?= { dynasty = dynasty:borjigin_dynasty }
         }
-        country_type = building
     }
     country_modifier = {
         diplomatic_reputation = diplomatic_reputation_severe_bonus
