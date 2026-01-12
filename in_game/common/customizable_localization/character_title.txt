@@ -199,7 +199,7 @@ character_title_suffix = {
 
 	# Taishi for Oirat clan rulers
 	text = {
-		localization_key = horde_clan_taishi
+		localization_key = character_title_taishi
 		trigger = {
 			is_ruler = yes
 			AND = {
