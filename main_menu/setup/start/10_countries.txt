@@ -10879,7 +10879,7 @@ countries = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
 
-                ruler = random
+                ruler = mlo_filippo_maria_visconti
 
                 ruler_term = { character = mlo_alberto_azzo_ii_este start_date = 1029.1.1 end_date = 1097.8.20 regnal_number = 2 }
                 ruler_term = { character = mlo_folco_i_este start_date = 1097.8.20 end_date = 1136.1.1 regnal_number = 1 }
@@ -10913,6 +10913,14 @@ countries = {
                 ruler_term = { character = mlo_matteo_i_visconti start_date = 1311.1.6 end_date = 1322.6.24 regnal_number = 1 }
                 ruler_term = { character = mlo_galeazzo_i_visconti start_date = 1322.6.24 end_date = 1328.8.6 regnal_number = 1 }
                 ruler_term = { character = mlo_azzone_i_visconti start_date = 1328.8.6 end_date = 1339.8.16 regnal_number = 0 }
+                ruler_term = { character = mlo_luchino_visconti start_date = 1339.8.16 end_date = 1349.1.24 regnal_number = 0 }
+                ruler_term = { character = mlo_giovanni_visconti start_date = 1349.1.24 end_date = 1354.10.5 regnal_number = 0 }
+                ruler_term = { character = mlo_matteo_ii_visconti start_date = 1354.10.5 end_date = 1355.9.29 regnal_number = 2 }
+                ruler_term = { character = mlo_galeazzo_ii_visconti start_date = 1355.9.29 end_date = 1378.8.4 regnal_number = 2 }
+                ruler_term = { character = mlo_bernabo_visconti start_date = 1378.8.4 end_date = 1385.5.6 regnal_number = 0 }
+                ruler_term = { character = mlo_gian_galeazzo_visconti start_date = 1385.5.6 end_date = 1402.9.3 regnal_number = 0 }
+                ruler_term = { character = mlo_giovanni_maria_visconti start_date = 1402.9.3 end_date = 1412.5.16 regnal_number = 0 }
+                ruler_term = { character = mlo_filippo_maria_visconti start_date = 1412.5.16 regnal_number = 0 }
 
                 regnal_numbers = {
                     name_albert = 1
@@ -10921,6 +10929,8 @@ countries = {
                     name_albert.name_azzo = 2
                     name_fulk = 1
                     name_obizzo = 1
+                    name_azzo = 1
+                    name_matthew = 2
                 }
 
                 reforms = { dynastic_signoria_reform }
@@ -11481,7 +11491,7 @@ countries = {
                 reforms = {
                     signoria_reform
                 }
-                ruler = ver_alberto_ii_scala
+                ruler = random
 
                 ruler_term = { character = par_oberto_pallavicini start_date = 1189.1.1 end_date = 1190.1.1 regnal_number = 0 }
 
@@ -11502,7 +11512,7 @@ countries = {
 
                 ruler_term = { character = pav_castellino_beccaria start_date = 1331.1.1 end_date = 1333.1.1 regnal_number = 0 }
 
-                ruler_term = { character = ver_alberto_ii_scala start_date = 1335.6.21 regnal_number = 0 }
+                ruler_term = { character = ver_alberto_ii_scala start_date = 1335.6.21 end_Date = 1352.9.13 regnal_number = 0 }
             }
 
             tolerated_cultures = {

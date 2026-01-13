@@ -31,7 +31,9 @@
  bethencourt_dynasty: "Béthencourt"
 
  # Italy
- caracciolo_dynasty: "caracciolo"
+ sforza_dynasty: "Sforza"
+ farnese_dynasty: "Farnese"
+ caracciolo_dynasty: "Caracciolo"
 
  # Balkans
  dukagjini_dynasty: "Dukagjini"

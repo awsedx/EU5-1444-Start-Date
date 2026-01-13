@@ -25567,7 +25567,6 @@ character_db={
         tag = BRI
     }
 
-
     # Count of Savoy
     sav_aymon_savoy = {
         first_name = { name = name_haimo }
@@ -25586,7 +25585,6 @@ character_db={
         ruler_trait = charismatic_negotiator
     }
 
-
     # Son & Heir of the Count of Savoy
     sav_amedee_vi_savoy = {
         first_name = { name = name_amadeus }
@@ -25604,9 +25602,8 @@ character_db={
         child_trait = child_gallant
     }
 
-
     # Daughter of the Count of Savoy
-    sav_blanche_marie_savoy = {
+    mlo_blanche_marie_savoy = {
         first_name = { name = name_blanche }
         culture = arpitan
         religion = catholic
@@ -25621,7 +25618,6 @@ character_db={
         dynasty = savoy_dynasty
         tag = SAV
     }
-
 
     # Sister of the Count of Savoy
     hab_catherine_savoy = {
@@ -25657,7 +25653,6 @@ character_db={
         tag = SAV
     }
 
-    
     # Mother of the Count of Geneve & Sister of the Count of Savoy
     gnv_agnes_savoy = {
         first_name = { name = name_agnes }
@@ -27931,12 +27926,11 @@ character_db={
         father = sal_federico_del_vasto
         mother = sal_marguerite_de_la_tour
         birth_date = 1304.1.1 
-        death_date = 1365.8.18
+        death_date = 1357.8.18
         birth = saluzzo
         dynasty = del_vasto_dynasty
         tag = SAL
     }
-
         
     # Son & Heir of the Marquis of Saluzzo
     sal_federico_ii_del_vasto = {
@@ -27954,40 +27948,6 @@ character_db={
         child_trait = child_intelligent
         tag = SAL
     }
-
-    
-    #Heir's siblings    
-    sal_eustachio_del_vasto = {
-        first_name = { name = name_eustathius }
-        culture = piedmontese
-        religion = catholic
-        estate = nobles_estate
-        adm = 1 dip = 0 mil = 0
-        father = sal_tommaso_del_vasto
-        mother = sal_ricciarda_visconti
-        birth_date = 1334.1.1 
-        death_date = 1391.9.19
-        birth = saluzzo
-        dynasty = del_vasto_dynasty
-        tag = SAL
-    }
-
-        
-    sal_azzo_del_vasto = {
-        first_name = { name = name_azzo } # Should be alternative: Azzone
-        culture = piedmontese
-        religion = catholic
-        estate = nobles_estate
-        adm = 1 dip = 0 mil = 0
-        father = sal_tommaso_del_vasto
-        mother = sal_ricciarda_visconti
-        birth_date = 1336.1.1
-        death_date = 1393.2.16
-        birth = saluzzo
-        dynasty = del_vasto_dynasty
-        tag = SAL
-    }
-
     
     # Uncle of the Marquis of Saluzzo, Former Marquis & Pretender (will rule 1341-1342) 
     sal_manfredo_del_vasto = {
@@ -28004,7 +27964,6 @@ character_db={
         dynasty = del_vasto_dynasty
         tag = SAL
     }
-
 
     #Ruler's Uncles & Aunts
         
@@ -33634,7 +33593,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1292.1.1
-        death_date = 1344.8.13
+        death_date = 1342.1.1
         birth = genoa
         father = gen_bernabo_doria
         mother = gen_eliana_fieschi
@@ -34908,7 +34867,7 @@ character_db={
         adm = 25 dip = 43 mil = 20
         female = yes
         birth_date = 1315.1.1
-        death_date = 1382.9.20
+        death_date = 1365.1.1
         birth = lavagna
         father = gen_carlo_fieschi
         #mother = Teodora
@@ -43333,8 +43292,7 @@ character_db={
         tag = VER
         ruler_trait = cruel
     }
-
-    
+ 
     # Childs of the Lord of Verona & Lucca
 
     ver_pietro_scala = {
@@ -43352,7 +43310,6 @@ character_db={
         child_trait = child_gregarious
     }
 
-
     ver_fregnano_scala = {
         first_name = { name = name_fregnano }
         culture = venetian
@@ -43369,7 +43326,6 @@ character_db={
         child_trait = child_rowdy
     }
 
-
     ver_cangrande_ii_scala = {
         first_name = { name = name_canius.name_magnus }
         culture = venetian
@@ -43384,23 +43340,20 @@ character_db={
         tag = VER
     }
 
-    
-    ver_beatrice_scala = {
+    mlo_beatrice_scala = {
         first_name = { name = name_beatrix }
         culture = venetian
         religion = catholic
         estate = nobles_estate
         female = yes
-        birth_date = 1333.1.1
-        death_date = 1382.5.24
+        birth_date = 1331.1.1
+        death_date = 1384.6.18
         birth = verona
         father = ver_mastino_ii_scala
         mother = ver_taddea_carrara
         dynasty = scala_dynasty
         tag = VER
-        child_trait = child_ambitious
     }
-
     
     # Uncle of the Lords of Verona, Padua, Lucca & Parma & Former Lord of Verona & Padua
     ver_cangrande_scala = {
@@ -43434,7 +43387,6 @@ character_db={
         birth = treviso
         tag = VER
     }
-
 
     # HOUSE OF SERRA-BAS (Judices of Arborea)
     
@@ -44636,7 +44588,7 @@ character_db={
         estate = nobles_estate
         adm = 60 dip = 25 mil = 64
         birth_date = 1302.12.7
-        death_date = 1356.8.9
+        death_date = 1339.8.16
         birth = ferrara
         father = mlo_galeazzo_i_visconti
         mother = mlo_beatrice_deste
@@ -44654,7 +44606,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1304.1.1
-        death_date = 1363.3.6
+        death_date = 1354.1.1
         birth = ferrara
         father = mlo_galeazzo_i_visconti
         mother = mlo_beatrice_deste
@@ -44671,7 +44623,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1280.1.1
-        death_date = 1347.7.12
+        death_date = 1330.1.1
         birth = fosdinovo
         father = mlo_matteo_i_visconti
         #mother = Bonacossa Borri
@@ -44719,7 +44671,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1318.1.1
-        death_date = 1366.7.7
+        death_date = 1368.1.1
         birth = milano
         father = mlo_stefano_visconti
         mother = mlo_valentina_doria
@@ -44728,21 +44680,19 @@ character_db={
         tag = SIC   
     }
 
-
     mlo_matteo_ii_visconti = {
         first_name = { name = name_matthew }
         culture = lombard
         religion = catholic
         estate = nobles_estate
         birth_date = 1319.1.1
-        death_date = 1391.5.27
+        death_date = 1355.9.29
         birth = milano
         father = mlo_stefano_visconti
         mother = mlo_valentina_doria
         dynasty = visconti_dynasty
         tag = MLO
     }
-
 
     mlo_galeazzo_ii_visconti = {
         first_name = { name = name_galahad }
@@ -44751,14 +44701,13 @@ character_db={
         estate = nobles_estate
         adm = 25 dip = 50 mil = 66
         birth_date = 1320.3.14
-        death_date = 1373.5.26
+        death_date = 1378.8.4
         birth = milano
         father = mlo_stefano_visconti
         mother = mlo_valentina_doria
         dynasty = visconti_dynasty
         tag = MLO
     }
-
 
     mlo_bernabo_visconti = {
         first_name = { name = name_barnabas } 
@@ -44766,16 +44715,14 @@ character_db={
         religion = catholic
         estate = nobles_estate
         adm = 47 dip = 35 mil = 59
-        birth_date = 1322.1.1 # Between 1321 & 1323
-        death_date = 1391.1.22
+        birth_date = 1323.1.1
+        death_date = 1385.12.19
         birth = milano
         father = mlo_stefano_visconti
         mother = mlo_valentina_doria
         dynasty = visconti_dynasty
         tag = MLO
-        child_trait = child_rowdy
     }
-
 
     mlo_marco_i_visconti = {
         first_name = { name = name_mark }
@@ -44801,36 +44748,13 @@ character_db={
         estate = clergy_estate
         adm = 62 dip = 82 mil = 16
         birth_date = 1290.1.1
-        death_date = 1363.8.25
+        death_date = 1354.10.5
         birth = milano
         father = mlo_matteo_i_visconti
         #mother = Bonacossa Borri
         dynasty = visconti_dynasty
         tag = MLO
     }
-
-
-    mlo_leonardo_visconti = {
-        first_name = { name = name_leonard }
-        culture = lombard
-        religion = catholic
-        estate = nobles_estate
-        adm = 28 dip = 52 mil = 30
-        birth_date = 1310.1.1
-        death_date = 1366.2.6
-        birth = milano
-        dynasty = visconti_dynasty
-        father = mlo_giovanni_visconti
-        #mother = A Mistress
-        tag = MLO
-        timed_modifier = {
-            modifier = "bastard"
-            start_date = 1310.1.1
-            date = 9999.1.1
-            size = 1
-        }
-    }
-
 
     mlo_luchino_visconti = {
         first_name = { name = name_lucas }
@@ -44839,14 +44763,13 @@ character_db={
         estate = nobles_estate
         adm = 68 dip = 37 mil = 60
         birth_date = 1292.1.1
-        death_date = 1346.8.12
+        death_date = 1349.1.24
         birth = milano
         father = mlo_matteo_i_visconti
         #mother = Bonacossa Borri
         dynasty = visconti_dynasty
         tag = MLO
     }
-
 
     lca_zaccarina_visconti = {
         first_name = { name = name_zacharine }
@@ -44915,7 +44838,7 @@ character_db={
         estate = nobles_estate
         adm = 25 dip = 37 mil = 79
         birth_date = 1280.1.1
-        death_date = 1341.1.14
+        death_date = 1361.1.1
         birth = milano
         father = mlo_pietro_visconti
         #mother = Antiochia Crivelli
@@ -44924,7 +44847,6 @@ character_db={
         general_trait = glory_seeker
     }
 
-
     mlo_antiochia_visconti = {
         first_name = { name = name_antiochia }
         culture = lombard
@@ -44932,7 +44854,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1286.1.1
-        death_date = 1338.4.16
+        death_date = 1336.1.1
         birth = milano
         father = mlo_pietro_visconti
         #mother = Antiochia Crivelli
@@ -44940,7 +44862,6 @@ character_db={
         dynasty = visconti_dynasty
         tag = MLO
     }
-
 
     # HOUSE ZACCARIA (Princes of Achaea)
     
@@ -50659,7 +50580,7 @@ character_db={
     }
 
     # HOUSE OF VILARAGUT
-    
+
     sic_ramon_vilaragut = {
         first_name = { name = name_raymond }
         culture = catalan
@@ -50667,30 +50588,27 @@ character_db={
         estate = nobles_estate
         adm = 73 dip = 61 mil = 65
         birth_date = 1295.1.1
-        death_date = 1364.5.25
+        death_date = 1346.1.1
         birth = villafranca_del_penedes
         #father = ara_berenguer_vilaragut
         #mother = Geralda de Sarriá
         dynasty = vilaragut_dynasty
         tag = SIC
     }
-
-    
+  
     sic_antoni_vilaragut = {
         first_name = { name = name_anthony }
         culture = catalan
         religion = catholic
         estate = nobles_estate
-        adm = 0 dip = 0 mil = 1
         birth_date = 1336.1.1
-        death_date = 1403.12.7
+        death_date = 1400.1.1
         birth = palermo
         father = sic_ramon_vilaragut
         mother = sic_grandiana_visconti
         dynasty = vilaragut_dynasty
         tag = SIC       
     }
-
 
     # Bishop of Urgell, Co-Ruler of Andorra
 
@@ -50705,7 +50623,6 @@ character_db={
         birth = seu_durgell
         tag = ANR
     }
-
 
     # Future Pope Luna (Antipope Benedict XIII)
 
@@ -108865,6 +108782,7 @@ character_db={
         death_date = 1406.7.15
         birth = vienna
         father = hab_leopold_iii_habsburg
+        mother = hab_verde_visconti
         dynasty = habsburg_dynasty
         tag = HAB
     }
@@ -108878,6 +108796,7 @@ character_db={
         death_date = 1411.6.3
         birth = vienna
         father = hab_leopold_iii_habsburg
+        mother = hab_verde_visconti
         dynasty = habsburg_dynasty
         tag = HAB
     }
@@ -108892,6 +108811,7 @@ character_db={
         death_date = 1424.6.10
         birth = vienna
         father = hab_leopold_iii_habsburg
+        mother = hab_verde_visconti
         dynasty = habsburg_dynasty
         ruler_trait = calm
         tag = HAB
@@ -108935,6 +108855,7 @@ character_db={
         death_date = 1439.6.24
         birth = innsbruck
         father = hab_leopold_iii_habsburg
+        mother = hab_verde_visconti
         dynasty = habsburg_dynasty
         ruler_trait = greedy
         tag = HAB
@@ -111038,6 +110959,7 @@ character_db={
         birth = munich
         spouse = fra_charles_vi_valois
         father = ubv_stephen_iii_wittelsbach
+        mother = bav_taddea_visconti
         dynasty = wittelsbach_dynasty
         tag = FRA
     }
@@ -111721,6 +111643,58 @@ character_db={
         tag = GEN
     }
 
+    # Courtiers
+
+    pap_ranuccio_farnese = {
+        first_name = { name = "Ranuccio" }
+        nickname = { name = nick_the_elder }
+        culture = median
+        religion = catholic
+        estate = nobles_estate
+        adm = 73 dip = 75 mil = 86
+        birth_date = 1390.1.1
+        birth = corneto
+        dynasty = farnese_dynasty
+        tag = PAP
+    }
+
+    pap_gabriele_francesco_farnese = {
+        first_name = { name = name_gabriel.name_francis }
+        culture = median
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1421.1.1
+        birth = corneto
+        father = pap_ranuccio_farnese
+        dynasty = farnese_dynasty
+        tag = PAP
+    }
+
+    pap_angelo_farnese = {
+        first_name = { name = name_angel }
+        culture = median
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1432.1.1
+        birth = corneto
+        father = pap_ranuccio_farnese
+        dynasty = farnese_dynasty
+        tag = PAP
+    }
+
+    pap_pier_luigi_farnese = {
+        first_name = { name = "Pier" }
+        last_name = { name = name_louis }
+        culture = median
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1435.1.1
+        birth = corneto
+        father = pap_ranuccio_farnese
+        dynasty = farnese_dynasty
+        tag = PAP
+    }
+
     ### Denmark
 
     mkl_ingeborg_valdemarsdatter_estridsen = {
@@ -112189,7 +112163,7 @@ character_db={
         female = yes
         birth_date = 1411.1.30
         birth = chambery
-        #spouse = 
+        spouse = mlo_filippo_maria_visconti
         father = sav_amedee_viii_savoy
         mother = sav_marie_valois_burgundy
         dynasty = savoy_dynasty
@@ -112299,7 +112273,7 @@ character_db={
         religion = catholic
         estate = clergy_estate
         birth_date = 1440.2.2
-        birth = geneva
+        birth = geneve
         father = sav_louis_i_savoy
         mother = sav_anne_lusignan
         dynasty = savoy_dynasty
@@ -112312,7 +112286,7 @@ character_db={
         religion = catholic
         estate = nobles_estate
         birth_date = 1440.11.2
-        birth = geneva
+        birth = geneve
         father = sav_louis_i_savoy
         mother = sav_anne_lusignan
         dynasty = savoy_dynasty
@@ -112372,8 +112346,8 @@ character_db={
         birth_date = 1345.1.1
         death_date = 1375.1.1
         birth = pinerolo
-        father = sav_jacques_savoy_achaia #should be savoy_achaia_dynasty
-        dynasty = savoy_dynasty
+        father = sav_jacques_savoy_achaia
+        dynasty = savoy_dynasty #should be savoy_achaia_dynasty
         tag = SAV
     }
 
@@ -112385,8 +112359,8 @@ character_db={
         birth_date = 1363.1.1
         death_date = 1402.5.7
         birth = pinerolo
-        father = sav_jacques_savoy_achaia #should be savoy_achaia_dynasty
-        dynasty = savoy_dynasty
+        father = sav_jacques_savoy_achaia
+        dynasty = savoy_dynasty #should be savoy_achaia_dynasty
         tag = SAV
     }
 
@@ -112398,9 +112372,280 @@ character_db={
         birth_date = 1364.1.1
         death_date = 1418.12.11
         birth = pinerolo
-        father = sav_jacques_savoy_achaia #should be savoy_achaia_dynasty
-        dynasty = savoy_dynasty
+        father = sav_jacques_savoy_achaia
+        dynasty = savoy_dynasty #should be savoy_achaia_dynasty
         tag = SAV
+    }
+
+    ### Milan
+
+    mlo_gian_galeazzo_visconti = {
+        first_name = { name = name_john.name_galahad }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1351.10.16
+        death_date = 1402.9.3
+        birth = pavia
+        father = mlo_galeazzo_ii_visconti
+        mother = mlo_blanche_marie_savoy
+        dynasty = visconti_dynasty
+        tag = MLO       
+    }
+
+    mlo_caterina_visconti = {
+        first_name = { name = name_catherine }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1361.1.1
+        death_date = 1404.10.17
+        birth = pavia
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = MLO       
+    }
+
+    orl_valentina_visconti = {
+        first_name = { name = name_valentina }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1371.1.1
+        death_date = 1408.12.4
+        birth = pavia
+        father = mlo_gian_galeazzo_visconti
+        dynasty = visconti_dynasty
+        tag = ORL       
+    }
+
+    mlo_giovanni_maria_visconti = {
+        first_name = { name = name_john.name_mary }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1388.9.7
+        death_date = 1412.5.16
+        birth = rho
+        father = mlo_gian_galeazzo_visconti
+        mother = mlo_caterina_visconti
+        dynasty = visconti_dynasty
+        tag = MLO       
+    }
+
+    mlo_filippo_maria_visconti = {
+        first_name = { name = name_philip.name_mary }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1392.9.3
+        birth = milano
+        father = mlo_gian_galeazzo_visconti
+        mother = mlo_caterina_visconti
+        dynasty = visconti_dynasty
+        tag = MLO       
+    }
+
+    mlo_bianca_maria_visconti = {
+        first_name = { name = name_blanche.name_mary }
+        culture = lombard
+        religion = catholic
+        female = yes
+        estate = nobles_estate
+        birth_date = 1425.3.31
+        birth = milano
+        spouse = mlo_francesco_i_sforza
+        father = mlo_filippo_maria_visconti
+        dynasty = visconti_dynasty
+        tag = MLO
+        timed_modifier = {
+            modifier = "bastard"
+            start_date = 1317.1.1
+            date = 9999.1.1
+            size = 1
+        }
+    }
+
+    pis_gabriele_maria_visconti = {
+        first_name = { name = name_gabriel }
+        last_name = { name = name_mary }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1385.1.1
+        death_date = 1408.12.15
+        birth = milano
+        father = mlo_gian_galeazzo_visconti
+        dynasty = visconti_dynasty
+        tag = MLO
+        timed_modifier = {
+            modifier = "bastard"
+            start_date = 1317.1.1
+            date = 9999.1.1
+            size = 1
+        }       
+    }
+
+    ing_taddea_visconti = {
+        first_name = { name = "Taddea" }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1351.1.1
+        death_date = 1381.9.28
+        birth = milano
+        spouse = ing_stephen_iii_wittelsbach
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = ING       
+    }
+
+    hab_verde_visconti = {
+        first_name = { name = "Verde" }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1352.1.1
+        death_date = 1414.3.10
+        birth = milano
+        spouse = hab_leopold_iii_habsburg
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = HAB       
+    }
+
+    par_marco_visconti = {
+        first_name = { name = name_mark }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1353.11.1
+        death_date = 1382.1.3
+        birth = milano
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = PAR       
+    }
+
+    wur_antonia_visconti = {
+        first_name = { name = name_antonia }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1354.1.1
+        death_date = 1405.3.26
+        birth = milano
+        spouse = hab_leopold_iii_habsburg
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = HAB       
+    }
+
+    lbv_maddalena_visconti = {
+        first_name = { name = name_madeleine }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1366.1.1
+        death_date = 1404.7.14
+        birth = milano
+        spouse = lbv_friedrich_wittelsbach
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = BAV       
+    }
+
+    ubv_elisabetta_visconti = {
+        first_name = { name = name_elizabeth }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        female = yes
+        birth_date = 1374.1.1
+        death_date = 1432.2.2
+        birth = milano
+        spouse = ubv_ernst_wittelsbach
+        father = mlo_bernabo_visconti
+        mother = mlo_beatrice_scala
+        dynasty = visconti_dynasty
+        tag = BAV       
+    }
+
+    mlo_ettore_visconti = {
+        first_name = { name = "Ettore" }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1346.1.1
+        death_date = 1413.1.7
+        birth = milano
+        father = mlo_bernabo_visconti
+        dynasty = visconti_dynasty
+        tag = MLO       
+    }
+
+    # Courtiers
+
+    mlo_muzio_attendolo_sforza = {
+        first_name = { name = "Muzio" }
+        culture = emilian
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1369.5.28
+        death_date = 1424.1.4
+        birth = imola
+        dynasty = sforza_dynasty
+        tag = MLO
+    }
+
+    mlo_francesco_i_sforza = {
+        first_name = { name = name_francis }
+        culture = emilian
+        religion = catholic
+        estate = nobles_estate
+        adm = 83 dip = 81 mil = 92
+        birth_date = 1401.7.23
+        birth = pontedera
+        father = mlo_muzio_attendolo_sforza
+        dynasty = sforza_dynasty
+        tag = MLO
+    }
+
+    mlo_alessandro_sforza = {
+        first_name = { name = name_alexander }
+        culture = emilian
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1409.10.21
+        birth = imola
+        father = mlo_muzio_attendolo_sforza
+        dynasty = sforza_dynasty
+        tag = MLO
+    }
+
+    mlo_galeazzo_maria_sforza = {
+        first_name = { name = name_galahad.name_mary }
+        culture = lombard
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1444.1.24
+        birth = fermo
+        father = mlo_francesco_i_sforza
+        mother = mlo_bianca_maria_visconti
+        dynasty = sforza_dynasty
+        tag = MLO
     }
 
     ### Albania

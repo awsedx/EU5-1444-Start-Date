@@ -9049,6 +9049,16 @@ dynasty_manager = {
 
     ### Italy
 
+    sforza_dynasty = {
+        name = { name = sforza_dynasty }
+        home = milano
+    }
+
+    farnese_dynasty = {
+        name = { name = farnese_dynasty }
+        home = parma
+    }
+
     caracciolo_dynasty = {
         name = { name = caracciolo_dynasty }
         dynasty_name_type = location
