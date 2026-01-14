@@ -1,3 +1,5 @@
 .idea
 *.iml
 tools/settings.json
+tools/*.png
+tools/*.pdf
