@@ -50174,16 +50174,15 @@ countries = {
                 }
             }
             country_rank = rank_kingdom
-            court_language = karluk_language
+            court_language = mongolian_language
             tolerated_cultures = {
                 kyrgyz_culture
             }
-
+            religious_school = hanafi_school
             capital = almaliq
         }
 
-        YRK = {
-            # Yarkent
+        YRK = { # Yarkent
             own_control_core = {
                 akto kizilsu
                 kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
@@ -50415,6 +50414,10 @@ countries = {
             country_rank = rank_duchy
             court_language = mongolian_language
             capital = fengzhou
+
+            accepted_cultures = {
+                tumed_culture
+            }
         }
 
         BAY = { # Bayaut Khalkha
@@ -50438,6 +50441,10 @@ countries = {
             country_rank = rank_duchy
             court_language = mongolian_language
             capital = ordos
+
+            accepted_cultures = {
+                tumed_culture
+            }
         }
 
         OIR = {
@@ -50479,6 +50486,9 @@ countries = {
          	country_rank = rank_duchy
          	court_language = mongolian_language
          	capital = khar_balgas
+            tolerated_cultures = {
+                khalkha_culture
+            }
         }
 
         DRB = {  # Dörbet
@@ -50578,6 +50588,9 @@ countries = {
          	country_rank = rank_duchy
          	court_language = mongolian_language
          	capital = tsogt
+            accepted_cultures = {
+                tumed_culture
+            }
         }
 
         KHI = {  # Khoid
@@ -50668,6 +50681,9 @@ countries = {
          	country_rank = rank_county
          	court_language = mongolian_language
          	capital = kyra
+            tolerated_cultures = {
+                daur_culture
+            }
         }
 
         FUY = { # Fuyu Guard
@@ -50687,6 +50703,9 @@ countries = {
          	country_rank = rank_county
          	court_language = mongolian_language
          	capital = qiqihar
+            tolerated_cultures = {
+                sibe_culture
+            }
         }
 
         TIN = { # Tai’nin Guard
@@ -50707,6 +50726,12 @@ countries = {
          	country_rank = rank_county
          	court_language = mongolian_language
          	capital = tongliao
+            accepted_cultures = {
+                jurchen_culture
+            }
+            tolerated_cultures = {
+                sibe_culture
+            }
         }
 
         DOY = { # Doyan Guard
@@ -50744,6 +50769,10 @@ countries = {
          	country_rank = rank_county
          	court_language = mongolian_language
          	capital = bayannur
+
+            accepted_cultures = {
+                tumed_culture
+            }
         }
 
 #        KHA = {
@@ -50784,6 +50813,10 @@ countries = {
             country_rank = rank_duchy
             court_language = mongolian_language
             capital = hasar
+
+            tolerated_cultures = {
+                sibe_culture
+            }
         }
 
         JAI = { # Jalaid Khorchin
@@ -51256,18 +51289,17 @@ countries = {
             capital = qocho
         }
 
-        HMI = {
-            # Kara Del Mongols
+        HMI = { # Kara Del Mongols
             own_control_core = {
                 nazhi hami geziyandun niuquanzi
             }
 
-            our_cores_conquered_by_others = { }
             starting_technology_level = 3
             include = "expl_mongols"
             include = "asia_advanced_no_pagan_tribe"
             government = {
-                heir_selection = tribal_oldest_male
+                type = monarchy
+                heir_selection = cognatic_primogeniture
             }
             country_rank = rank_county
             court_language = mongolian_language

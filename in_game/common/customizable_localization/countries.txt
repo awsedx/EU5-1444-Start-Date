@@ -475,3 +475,21 @@ YUA = { # Northern Yuan
     }
 }
 YUA_ADJ = { parent = YUA suffix = "_ADJ" }
+
+UYG = { # Altishahr / Uyghuristan
+    type = country
+
+    Uyghuristan
+    text = {
+        localization_key = UYG
+        trigger = {
+            religion_group = religion_group:muslim
+        }
+    }
+    # Default fallback: Altishahr
+    text = {
+        localization_key = UYG_non_islamic
+        fallback = yes
+    }
+}
+UYG_ADJ = { parent = UYG suffix = "_ADJ" }

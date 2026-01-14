@@ -6,7 +6,8 @@ khorchin_culture = {
 	tags = { east_asian_gfx mongolian_coa_gfx altai_coa_gfx }
 
 	opinions = {
-
+		kharchin_culture = kindred
+		khalkha_culture = kindred
 	}
 	culture_groups = {
 		mongolian_group
@@ -49,9 +50,114 @@ khalkha_culture = {
 	tags = { mongol_gfx central_asian_gfx mongolian_coa_gfx east_asian_gfx }
 
 	opinions = {
+		khorchin_culture = kindred
+        tumed_culture = kindred
+	}
+	culture_groups = {
+		mongolian_group
+	}
+}
+moghul_culture = {
+	language = karluk_language
+
+	color = map_moghul
+	
+	tags = { mongol_gfx central_asian_gfx mongolian_coa_gfx east_asian_gfx turkic_gfx persianate_gfx }
+
+	opinions = {
 		
 	}
 	culture_groups = {
 		mongolian_group
+	}
+}
+
+kashgari_culture = { # Kashgari
+	language = karluk_language
+
+	color = map_kashgar
+	
+	tags = { persianate_gfx  east_asian_gfx turkic_gfx }
+
+	opinions = {
+		yarkandi_culture = kindred
+        khotani_culture = kindred
+        aqsulik_culture = kindred
+        turpanlik_culture = kindred
+	}
+	culture_groups = {
+		turkic_group
+	}
+}
+
+yarkandi_culture = { # Yarkandi
+	language = karluk_language
+
+	color = map_yarkandi
+	
+	tags = { persianate_gfx  east_asian_gfx turkic_gfx }
+
+	opinions = {
+		kashgari_culture = kindred
+        khotani_culture = kindred
+        aqsulik_culture = kindred
+        turpanlik_culture = kindred
+	}
+	culture_groups = {
+		turkic_group
+	}
+}
+
+khotani_culture = { # Khotani
+	language = karluk_language
+
+	color = map_khotan
+	
+	tags = { persianate_gfx  east_asian_gfx turkic_gfx }
+
+	opinions = {
+		kashgari_culture = kindred
+        yarkandi_culture = kindred
+        aqsulik_culture = kindred
+        turpanlik_culture = kindred
+	}
+	culture_groups = {
+		turkic_group
+	}
+}
+
+aqsulik_culture = { # Aqsulik
+	language = karluk_language
+
+	color = map_aqsulik
+	
+	tags = { persianate_gfx  east_asian_gfx turkic_gfx }
+
+	opinions = {
+		kashgari_culture = kindred
+        yarkandi_culture = kindred
+        khotani_culture = kindred
+        turpanlik_culture = kindred
+	}
+	culture_groups = {
+		turkic_group
+	}
+}
+
+turpanlik_culture = { # Turpanlik,Turpan / Hami
+	language = karluk_language
+
+	color = map_turpanlik
+	
+	tags = { persianate_gfx  east_asian_gfx turkic_gfx }
+
+	opinions = {
+		kashgari_culture = kindred
+        yarkandi_culture = kindred
+        khotani_culture = kindred
+        aqsulik_culture = kindred
+	}
+	culture_groups = {
+		turkic_group
 	}
 }

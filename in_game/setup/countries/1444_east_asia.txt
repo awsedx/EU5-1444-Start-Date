@@ -223,8 +223,8 @@ TBU = { # Transbaikal Uriankhai
 HMI = { # Kara Del
     color = rgb { 118  193  177 }
 
-    culture_definition = mongolian_culture
-    religion_definition = mahayana
+    culture_definition = turpanlik_culture
+    religion_definition = tengri
 
     description_category = military
 }
@@ -249,11 +249,21 @@ TUO = {
     description_category = military
 }
 
-YRK = {
-    # Yarkent
+CHG = { # Chagatai
+	color = map_CHG
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = moghul_culture
+	religion_definition = sunni
+
+	description_category = military
+	difficulty = 4
+}
+
+YRK = { # Yarkent
     color = rgb { 255 245 220 }
 
-    culture_definition = uyghur_culture
+    culture_definition = moghul_culture
     religion_definition = sunni
 
     description_category = military

@@ -5,30 +5,29 @@
  mongol_khagan: "Mongol Khagan"
  mongol_khagan_desc: "We are the descendants of Genghis Khan, the great unifier of the steppe."
  seal_of_yuan: "Seal of Great Yuan"
- seal_of_yuan_desc: "The imperial seal used by the emperors of the Yuan Dynasty. A symbol of absolute sovereignty and the unification of the Mongol and Chinese empires."
+ seal_of_yuan_desc: "The imperial seal used by the emperors of the Yuan Dynasty. A symbol of absolute sovereignty of the steppe, and the unification of the Mongol claim to China."
 
 #Dynamic Names
  rank_empire_horde: "Khaganate"
  rank_empire_horde_ruler_suffix_male: "Khāghān"
  rank_empire_horde_ruler_suffix_female: "Khātūn"
  rank_kingdom_horde: "Khānate"
+ rank_kingdom_horde_ruler_suffix_male: "Khān"
+ rank_kingdom_horde_ruler_suffix_female: "Khātūn"
  rank_kingdom_horde_2: "Horde"
  rank_kingdom_horde_2_ruler_suffix_male: "Khāghān"
  rank_kingdom_horde_2_ruler_suffix_female: "Khātūn"
  horde_clan: "Clan"
  horde_clan_ruler_suffix_male: "Noyan"
  horde_clan_ruler_suffix_female: "Noyan"
-
  horde_clan_taishi: "Clan"
  horde_clan_taishi_ruler_suffix_male: "Taishi"
  horde_clan_taishi_ruler_suffix_female: "Taishi"
-
  imp_not_khaganate: ""
  imp_not_khaganate_ruler_suffix_male: "Khāghān"
  imp_not_khaganate_ruler_suffix_female: "Khātūn"
-
  uriankhai_tumen: "Tumen"
- uriankhai_tumen_ruler_suffix_male: "Khāghān"
+ uriankhai_tumen_ruler_suffix_male: "Khān"
  uriankhai_tumen_ruler_suffix_female: "Khātūn"
 
 #Culture
@@ -36,10 +35,16 @@
  uriankhai_culture: "Uriankhai"
  kazakh_culture: "Kazakh"
  khalkha_culture: "Khalkha"
+ moghul_culture: "Moghul"
+ kashgari_culture: "Kashgari"
+ yarkandi_culture: "Yarkandi"
+ khotani_culture: "Khotani"
+ aqsulik_culture: "Aquslik"
+ turpanlik_culture: "Turpanlik"
 
 #Dynasties
  khasar_dynasty: "Khasar"
- chagatayid_dynasty: "Chagataid"
+ chagatayid_dynasty: "Chagatayid"
  uriangkhad_dynasty: "Uriangkhad"
  choros_dynasty: "Choros"
  kerait_dynasty: "Kerait"
@@ -54,8 +59,14 @@
 #Formables
  CHG_f: "Chagatai"
  CHG_f_desc: "We have triumphed! As the sole remaining claimmant to the seat of Chagatai we can claim his mantle as our own. Let us do so in haste."
- unified_chagatai: "Chagatai"
+ unified_chagatai: "Chagatai" #Otherwise it shows Moghulistan/Mogul on the map
  unified_chagatai_ADJ: "Chagatai"
+ UYG: "Uyghuristan"
+ UYG_ADJ: "Uyghur"
+ UYG_non_islamic: "Altishahr"
+ UYG_non_islamic_ADJ: "Altishahri"
+ UYG_f: "UYG"
+ UYG_f_desc: "The Altishahr, the land of the six cities, and Dzungaria, the great steppe to our north, are united under our rule, the yoke of foreign oppression cast off. Finally we are masters of our own destiny!"
  KHL: "Khalkha"
  KHL_ADJ: "Khalkha"
  chahar_khalkha: "Chahar"
@@ -221,6 +232,10 @@
  kyakhta.mongolian_language: "Selenge"
  ulanhua.mongolian_language: "Muumyangan"
  erzin.mongolian_language: "Tes"
+ nazhi.mongolian_language: "Lükchün"
+ hami.mongolian_language: "Qamil"
+ geziyandun.mongolian_language: "Chigin"
+ niuquanzi.mongolian_language: "Ush"
 
 #Russian
  minusinsk.mongolian_language: "Kem-Kemchik"
@@ -264,5 +279,20 @@
  qorqonaq_yubur.mongolian_language: "Korkonagh"
  bodonch.mongolian_language: "Bodonchi"
  guchung.mongolian_language: "Guching"
+ dadu.mandarin_language: "Beijing"
 
- dadu.chinese_language: "Beijing"
+#Altishahr
+ aksu.mongolian_language: "Aqsu"
+ kashgar.mongolian_language: "Qashqer"
+ khotan.mongolian_language: "Hoten"
+ yarkand.mongolian_language: "Yerkent"
+ turpan.mongolian_language: "Turfan"
+ urumqi.mongolian_language: "Beshbaliq"
+ kashgar.mandarin_language: "Kashi"
+ yarkand.mandarin_language: "Shache"
+ khotan.mandarin_language: "Hetian"
+ aksu.mandarin_language: "Akusu"
+ turpan.mandarin_language: "Tulufan"
+ kucha.mandarin_language: "Kuche"
+ urumqi.mandarin_language: "Dihua"
+ almaliq.mandarin_language: "Yining"
