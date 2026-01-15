@@ -211,7 +211,7 @@ KVU = { # Khövsgöl Uriankhai
     description_category = military
 }
 
-TBU = { # Transbaikal Uriankhai
+TBU = { # Amur Uriankhai
     color = rgb { 140 120 80 }
 
     culture_definition = uriankhai_culture

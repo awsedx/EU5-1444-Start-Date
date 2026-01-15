@@ -152,8 +152,8 @@
  KUH_ADJ: "Khentii"
  KVU: "Khövsgöl Uriankhai"
  KVU_ADJ: "Khövsgöl"
- TBU: "Transbaikal Uriankhai"
- TBU_ADJ: "Transbaikal"
+ TBU: "Amur Uriankhai"
+ TBU_ADJ: "Amur"
  AUK: "Altai Uriankhai"
  AUK_ADJ: "Altai"
 #Others
@@ -233,7 +233,7 @@
  ulanhua.mongolian_language: "Muumyangan"
  erzin.mongolian_language: "Tes"
  nazhi.mongolian_language: "Lükchün"
- hami.mongolian_language: "Qamil"
+ hami.turkic_language: "Qamil"
  geziyandun.mongolian_language: "Chigin"
  niuquanzi.mongolian_language: "Ush"
 

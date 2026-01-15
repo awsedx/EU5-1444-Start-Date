@@ -50119,13 +50119,11 @@ countries = {
                 dzhulsub tekabket zherkorgan
                 koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
                 almaliq gulja narat nilka tokkuztara yulduz bortala jing
-                kuytun usu_xinjiang yangjibaliq kutubi ulan_us qanbalik
                 ilanbalyk koktuma
                 ilibalyk koktal kayalyk 
                 qocho turpan lukchun pichan toksun
                 dashahai
                 kumux
-                urumqi
             }
             our_cores_conquered_by_others = {
                 akhsikath asht karasuu kasan kerben pop_fargana
@@ -50137,6 +50135,7 @@ countries = {
                 yuanhu mori beshbalik dunla guchung gonganbao zhekdeliq manas hoboksar utbulaq
                 urghtbulaq toli targabatay dahra_sasykkol emin kurchum burqin jeminay
                 atanuul bodonch bulgan chinggil ulungur kara_irtysh
+                urumqi usu_xinjiang kuytun ulan_us yangjibaliq kutubi qanbalik
 
             }
             starting_technology_level = 3
@@ -50179,7 +50178,7 @@ countries = {
                 kyrgyz_culture
             }
             religious_school = hanafi_school
-            capital = almaliq
+            capital = almaty
         }
 
         YRK = { # Yarkent
@@ -50193,6 +50192,7 @@ countries = {
                 charchan charklik niya qietai tatrang waxxari
                 mazar_tagh tikenliq
                 zarafshan sarikol
+                miran loulan
 
                 # Mangalai
                 aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
@@ -50550,11 +50550,12 @@ countries = {
         KHO = {  # Khoshut
         	type = army
             own_control_core = {
-                beshbalik dunla gonganbao zhekdeliq manas urghtbulaq toli targabatay
-                emin hoboksar
-                barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
+                beshbalik dunla gonganbao zhekdeliq manas urghtbulaq toli
+                hoboksar
+                barkul santokhe
                 yuanhu mori guchung
                 bulgan bodonch atanuul
+                urumqi usu_xinjiang kuytun ulan_us yangjibaliq kutubi qanbalik
          	}
 
          	starting_technology_level = 3
@@ -50576,6 +50577,7 @@ countries = {
                 bugat tsogt chikhan_agui tsagaan_agui otegu_qulan tevsh_uul noyon_uul naraan_chilaun khara_khoto banzart_khairkhan
                 shira_qulusun shargyn_gobi tost_uul gaxun_gobi
                 bagh bayannurhong alxa bayankhot zag_suujiyn_gobi
+                altayn_ovor_gobi naomao zuun_garyn_gobi
          	}
 
          	starting_technology_level = 3
@@ -50600,6 +50602,7 @@ countries = {
                 dahra_sasykkol chinggil
                 khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot
                 kandysu zyryan oskemen shar kokpekty sarybulak arkat ayagoz
+                targabatay emin
             }
 
          	starting_technology_level = 3
@@ -50665,7 +50668,7 @@ countries = {
          	capital = khatgal
         }
 
-        TBU = {  # Transbaikal Uriankhai
+        TBU = {  # Amur Uriankhai
          	own_control_core = {
          		kyra qorqonaq_yubur tura aga boorj unda nibuchu kuenga chit uldurga
                 upper_gazimur talman_boorj urov silkari uryum nurchuu lower_gazimur kara_shilka
@@ -51310,7 +51313,7 @@ countries = {
             # Yughur
             own_control_core = {
                 qidaban liyuan qilian anding_suzhou dangcheng kuyu_shazhou guazhou jinta shazhou chijin yangguan
-                bailongdui miran loulan
+                bailongdui
             }
 
             our_cores_conquered_by_others = { }
