@@ -113594,4 +113594,25 @@ character_db={
         father = jap_takeda_nobushige
         tag = TK2
     }
+
+    jap_matsudaira_nobumitsu = { # 松平信光 (Q11239114)
+        first_name = { name = name_nobumitsu }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1404.1.1
+        death_date = 1488.1.1
+        dynasty = matsudaira_dynasty
+        father = jap_matsudaira_yasuchika
+        tag = MTU
+    }
+
+    jap_matsudaira_chikatada = { # 松平親忠 (Q11239171)
+        first_name = { name = name_chikatada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1431.1.1
+        dynasty = matsudaira_dynasty
+        father = jap_matsudaira_nobumitsu
+        tag = MTU
+    }
 }

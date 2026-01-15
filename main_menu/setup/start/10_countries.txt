@@ -25229,7 +25229,9 @@ countries = {
 			hekikai
 		}
 		government = {
-			ruler_term = { character = jap_nanbu_shigetoki start_date = 1315.1.1 end_date = 1333.7.4 regnal_number = 1 }
+			ruler_term = { character = jap_matsudaira_nobumitsu start_date = 1425.1.1 regnal_number = 1 }
+            ruler = jap_matsudaira_nobumitsu
+            heir = jap_matsudaira_chikatada
 			reforms = {
 				daimyo
 			}
