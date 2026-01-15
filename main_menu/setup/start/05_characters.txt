@@ -73991,14 +73991,13 @@ character_db={
         religion = tibetan_buddhism
         adm = 57 dip = 51 mil = 66
         birth_date = 1320.5.25
-        death_date = 1377.3.11
+        death_date = 1370.5.23
         birth = almaliq
         dynasty = borjigin_dynasty
         father = yua_khutughtu
         mother = yua_mailaiti
         tag = CHI
     }
-
 
     yua_bayan_khutugh = {
         first_name = { name = Bayan_Khutugh}
@@ -74012,7 +74011,6 @@ character_db={
         spouse = yua_togon_temur
         tag = CHI
     }
-
 
     yua_rinchinbal = {
         first_name = { name = Rinchinbal}
@@ -114251,6 +114249,257 @@ character_db={
         dynasty = timurid_dynasty
         tag = TTK
     }
+
+    ### China/Ming
+
+    chi_zhu_yuanzhang = { # Hongwu Emperor
+		first_name = { name = Yuanzhang }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1328.10.21
+        death_date = 1398.6.24
+		birth = zhongli
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_biao = {
+		first_name = { name = Biao }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1355.10.10
+        death_date = 1392.5.17
+		birth = jiangning
+        father = chi_zhu_yuanzhang
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_yunwen = { # Jianwen Emperor
+		first_name = { name = Yunwen }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1377.12.5
+        death_date = 1402.7.13
+		birth = jiangning
+        father = chi_zhu_biao
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_di = { # Yongle Emperor (Live Yongle Reaction)
+		first_name = { name = Di }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1360.5.2
+        death_date = 1424.8.12
+		birth = jiangning
+        father = chi_zhu_yuanzhang
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_gui = {
+		first_name = { name = Gui }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1374.8.25
+		birth = jiangning
+        father = chi_zhu_yuanzhang
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_quan = {
+		first_name = { name = Quan }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1378.1.1
+		birth = jiangning
+        father = chi_zhu_yuanzhang
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_gaochi = { # Hongxi Emperor
+		first_name = { name = Gaochi }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1378.8.16
+        death_date = 1425.5.29
+		birth = jiangning
+        father = chi_zhu_di
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhang_chengxiaozhao = { # Chengxiaozho
+		first_name = { name = Chengxiaozho }
+        last_name = { name = Zhang }
+		culture = zhongyuan_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1379.1.1
+        death_date = 1442.11.20
+		birth = yongcheng
+        spouse = chi_zhu_gaochi
+		tag = CHI       
+    }
+
+    chi_zhu_zhanji = { # Xuande Emperor
+		first_name = { name = Zhanji }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1399.3.16
+        death_date = 1435.1.31
+		birth = dadu
+        father = chi_zhu_gaochi
+        mother = chi_zhang_chengxiaozhao
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhu_zhanshan = {
+		first_name = { name = Zhanshan }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1406.1.1
+		birth = dadu
+        father = chi_zhu_gaochi
+        mother = chi_zhang_chengxiaozhao
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_zhang_gongjingxian = { # Gongjingxian
+		first_name = { name = Gongjingxian }
+        last_name = { name = Li }
+		culture = jianghuai_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1385.1.1
+		birth = yongcheng
+        spouse = chi_zhu_gaochi
+		tag = CHI       
+    }
+
+    chi_zhu_zhanjun = {
+		first_name = { name = Zhanjun }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1404.3.27
+		birth = dadu
+        father = chi_zhu_gaochi
+        mother = chi_zhang_gongjingxian
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_sun_xiaogongzhang = { # Xiaogongzhang
+		first_name = { name = Xiaogongzhang }
+        last_name = { name = Sun }
+		culture = jiaodong_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1399.1.1
+		birth = zouping
+        spouse = chi_zhu_zhanji
+		tag = CHI           
+    }
+
+    chi_zhu_qizhen = { # Yingzong/Zhengtong/Tianshun Emperor
+		first_name = { name = Qizhen }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1427.11.29
+		birth = dadu
+        father = chi_zhu_zhanji
+        mother = chi_sun_xiaogongzhang
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_wu_xiaoyi = { # Rongsixian
+		first_name = { name = Xiaoyi }
+		culture = wu_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1399.1.1
+		birth = dantu
+        spouse = chi_zhu_zhanji
+        dynasty = wu_dynasty
+		tag = CHI          
+    }
+
+    chi_zhu_qiyu = { # Jingtai Emperor
+		first_name = { name = Qiyu }
+		culture = jianghuai_culture
+		religion = sanjiao
+		birth_date = 1428.9.22
+		birth = dadu
+        father = chi_zhu_zhanji
+        mother = chi_wu_xiaoyi
+		dynasty = zhu_dynasty
+		tag = CHI       
+    }
+
+    chi_qian_xiaozhuangrui = { # Xiaozhuangrui
+		first_name = { name = Xiaozhuangrui }
+		culture = jianghuai_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1426.1.1
+		birth = ganyu
+        spouse = chi_zhu_qizhen
+        dynasty = qian_dynasty
+		tag = CHI          
+    }
+
+    chi_zhou_xiaosu = { # Xiaosu
+		first_name = { name = Xiaosu }
+        last_name = { name = Zhou }
+		culture = yan_culture
+		religion = sanjiao
+        female = yes
+		birth_date = 1430.1.1
+		birth = ganyu
+        spouse = chi_zhu_qizhen
+		tag = CHI          
+    }
+
+    # Courtiers
+
+    chi_wang_zhen = {
+		first_name = { name = Wang }
+        last_name = { name = Zheng }
+		culture = jin_culture
+		religion = sanjiao
+        adm = 86 dip = 72 mil = 53
+		birth_date = 1385.1.1 # Unknown
+		birth = pingjin # Unknown
+		tag = CHI       
+    }
+
+    chi_yang_pu = {
+		first_name = { name = Pu }
+        last_name = { name = Yang }
+		culture = qin_culture
+		religion = sanjiao
+		birth_date = 1372.1.1
+		birth = jingchuan
+		tag = CHI       
+    }
+
+    chi_yu_qian = {
+		first_name = { name = Qian }
+        last_name = { name = Yu }
+		culture = wu_culture
+		religion = sanjiao
+		birth_date = 1398.5.13
+		birth = jingchuan
+		tag = CHI       
+    }
+
 
     ### Korea
 

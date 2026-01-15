@@ -31257,7 +31257,7 @@ countries = {
 
         # 		ruler_term = { character = yua_khutughtu start_date = 1329.2.27 end_date = 1329.8.30 }
         # 		ruler_term = { character = yua_rinchinbal start_date = 1332.10.23 end_date = 1332.12.14 }
-        # 		ruler_term = { character = yua_togon_temur start_date = 1333.7.19 }
+        # 		ruler_term = { character = yua_togon_temur start_date = 1333.7.19 end_date = 1368.9.10 }
         # 	}
         # 	court_language = northern_mandarin_dialect
         # 	accepted_cultures = {
@@ -31422,6 +31422,8 @@ countries = {
                 ruler_term = { character = kulug_borjigin start_date = 1307.6.21 end_date = 1311.1.27 }
                 ruler_term = { character = yua_khutughtu start_date = 1329.2.27 end_date = 1329.8.30 }
                 ruler_term = { character = yua_rinchinbal start_date = 1332.10.23 end_date = 1332.12.14 }
+                ruler_term = { character = yua_togon_temur start_date = 1333.7.19 end_date = 1370.9.10 }
+
                 type = steppe_horde
                 heir_selection = tribal_oldest_male
             }
@@ -31617,6 +31619,18 @@ countries = {
             include = "expl_silk_road_center"
             include = "expl_silk_road_east"
             government = {
+                type = monarchy  
+                heir_selection = cognatic_primogeniture
+                ruler = chi_zhu_qizhen
+
+                ruler_term = { character = yua_togon_temur start_date = 1333.7.19 end_date = 1368.9.10 regnal_name = Shun }
+                ruler_term = { character = chi_zhu_yuanzhang start_date = 1368.1.23 end_date = 1398.6.24 regnal_name = Hongwu }
+                ruler_term = { character = chi_zhu_yunwen start_date = 1398.6.30 end_date = 1402.7.13 regnal_name = Jianwen }
+                ruler_term = { character = chi_zhu_di start_date = 1402.7.13 end_date = 1424.8.12 regnal_name = Yongle }
+                ruler_term = { character = chi_zhu_gaochi start_date = 1424.8.12 end_date = 1425.5.29 regnal_name = Hongxi }
+                ruler_term = { character = chi_zhu_zhanji start_date = 1425.5.29 end_date = 1435.1.31 regnal_name = Xuande }
+                ruler_term = { character = chi_zhu_qizhen start_date = 1435.1.31 regnal_name = Yingzong }
+
                 sinicized_vs_unsinicized = 100
 
                 laws = {
