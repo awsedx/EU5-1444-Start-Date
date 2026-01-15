@@ -27249,9 +27249,14 @@ countries = {
             government = {
                 ruler_term = { character = jap_imagawa_kuniuji start_date = 1265.1.1 end_date = 1282.4.3 regnal_number = 1 }
                 ruler_term = { character = jap_imagawa_motouji start_date = 1282.4.3 end_date = 1323.5.13 regnal_number = 1 }
-                ruler_term = { character = jap_imagawa_norikuni start_date = 1323.5.13 regnal_number = 1 }
+                ruler_term = { character = jap_imagawa_norikuni start_date = 1323.5.13 end_date = 1351.10.12 regnal_number = 1 }
+                ruler_term = { character = jap_imagawa_noriuji start_date = 1351.10.12 end_date = 1369.11.24 regnal_number = 1 }
+                ruler_term = { character = jap_imagawa_yasunori start_date = 1369.11.24 end_date = 1391.5.11 regnal_number = 1 }
+                ruler_term = { character = jap_imagawa_norimasa start_date = 1391.5.11 end_date = 1433.6.14 regnal_number = 1 }
+                ruler_term = { character = jap_imagawa_noritada start_date = 1433.6.14 regnal_number = 1 }
 
-                ruler = jap_imagawa_norikuni
+                ruler = jap_imagawa_noritada
+                heir = jap_imagawa_yoshitada
 
                 reforms = {
                     daimyo

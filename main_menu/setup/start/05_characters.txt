@@ -113595,12 +113595,12 @@ character_db={
         tag = TK2
     }
 
+    # Matsudaira Clan
     jap_matsudaira_nobumitsu = { # 松平信光 (Q11239114)
         first_name = { name = name_nobumitsu }
         culture = tougoku_culture
         religion = shinto
         birth_date = 1404.1.1
-        death_date = 1488.1.1
         dynasty = matsudaira_dynasty
         father = jap_matsudaira_yasuchika
         tag = MTU
@@ -113614,5 +113614,37 @@ character_db={
         dynasty = matsudaira_dynasty
         father = jap_matsudaira_nobumitsu
         tag = MTU
+    }
+
+    # Imagawa clan
+    jap_imagawa_norimasa = { # 今川範政 (Q11376939)
+        first_name = { name = name_norimasa }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1364.1.1
+        death_date = 1433.6.14
+        dynasty = matsudaira_dynasty
+        father = jap_imagawa_yasunori
+        tag = IMG
+    }
+
+    jap_imagawa_noritada = { # 今川範忠 (Q11376938)
+        first_name = { name = name_noritada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1408.1.1
+        dynasty = matsudaira_dynasty
+        father = jap_imagawa_norimasa
+        tag = IMG
+    }
+
+    jap_imagawa_yoshitada = { # 今川義忠 (Q3572692)
+        first_name = { name = name_yoshitada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1436.3.6
+        dynasty = matsudaira_dynasty
+        father = jap_imagawa_noritada
+        tag = IMG
     }
 }
