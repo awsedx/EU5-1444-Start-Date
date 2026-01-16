@@ -24908,7 +24908,12 @@ countries = {
                 ruler_term = { character = jap_ashikaga_yoshikatsu start_date = 1441.7.12 end_date = 1443.8.16 regnal_number = 1 }
                 ruler_term = { character = jap_ashikaga_yoshimasa start_date = 1443.8.16 regnal_number = 1 }
 
-                ruler = jap_ashikaga_yoshimasa
+                regency = nobles_estate_regency
+                active_regent = jap_hatakeyama_mochikuni
+                start_regency_date = 1443.8.16 # Death of Yoshikatsu
+                # Hosokawa Katsumoto takes over as Kanrei in 1445 but we cannot model successive regencies
+                end_regency_date = 1449.1.1 # Ascension of Yoshimasa
+                heir = jap_ashikaga_yoshimasa
 
                 reforms = {
                     shogunate
@@ -27085,11 +27090,11 @@ countries = {
 
         HS1 = {
             # Hosokawa (Kanrei Branch)
-            capital = osaka
+            capital = kawabe
             include = "japanese_clan"
 
             own_control_core = {
-                izumi osaka kawabe muko
+                kawabe muko
             }
 
             government = {
@@ -27102,8 +27107,8 @@ countries = {
                 ruler_term = { character = jap_hosokawa_yorimoto start_date = 1392.3.25 end_date = 1397.6.2 regnal_number = 1 }
                 ruler_term = { character = jap_hosokawa_mitsumoto start_date = 1397.6.2 end_date = 1426.11.15 regnal_number = 1 }
                 ruler_term = { character = jap_hosokawa_mochiyuki start_date = 1426.11.15 end_date = 1442.9.8 regnal_number = 1 }
-                ruler = jap_hosokawa_mochiyuki
-                heir = jap_hosokawa_katsumoto
+                ruler_term = { character = jap_hosokawa_katsumoto start_date = 1442.9.8 regnal_number = 1 }
+                ruler = jap_hosokawa_katsumoto
                 reforms = {
                     daimyo
                 }
@@ -27127,8 +27132,16 @@ countries = {
             }
 
             government = {
-                ruler_term = { character = jap_hosokawa_mochitsune start_date = 1430.9.1 regnal_number = 1 }
-                ruler = jap_hosokawa_mochitsune
+                ruler_term = { character = jap_hosokawa_yoshisue start_date = 1230.1.1 end_date = 1260.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_toshiuji start_date = 1260.1.1 end_date = 1320.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_kimiyori start_date = 1320.1.1 end_date = 1335.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_kazuuji start_date = 1335.1.1 end_date = 1355.8.15 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_yoriharu start_date = 1355.8.15 end_date = 1373.12.24 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_mitsuyuki end_date = 1373.12.24 death_date = 1406.1.14 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_mitsuhisa end_date = 1406.1.14 death_date = 1430.10.24 regnal_number = 1 }
+                ruler_term = { character = jap_hosokawa_norisuke end_date = 1430.10.24 regnal_number = 1 }
+                ruler = jap_hosokawa_norisuke
+                heir = jap_hosokawa_shigeyuki
                 reforms = {
                     daimyo
                 }
@@ -28170,6 +28183,8 @@ countries = {
             }
 
             government = {
+                ruler = jap_hatakeyama_mochikuni
+
                 reforms = {
                     daimyo
                 }
@@ -28189,6 +28204,39 @@ countries = {
             }
 
             government = {
+                ruler = jap_hatakeyama_mochikuni
+                
+                reforms = {
+                    daimyo
+                }
+            }
+
+            country_rank = rank_county
+        }
+
+        HT3 = {
+            # Kawachi Hatakeyama
+            capital = osaka
+
+            include = "japanese_clan"
+
+            own_control_core = {
+                izumi osaka
+            }
+
+            government = {
+                ruler_term = { character = jap_hatakeyama_yoshizumi start_date = 1205.1.1 end_date = 1210.10.26 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_yasukuni start_date = 1210.10.26 end_date = 1260.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_tokikuni start_date = 1260.1.1 end_date = 1310.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_sadakuni start_date = 1310.1.1 end_date = 1330.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_iekuni start_date = 1330.1.1 end_date = 1335.1.1 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_yoshifuka start_date = 1335.1.1 end_date = 1398.10.13 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_motokuni start_date = 1398.10.13 end_date = 1406.2.14 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_mitsuie start_date = 1406.2.14 end_date = 1433.11.9 regnal_number = 1 }
+                ruler_term = { character = jap_hatakeyama_mochikuni start_date = 1433.11.9 regnal_number = 1 }
+
+                ruler = jap_hatakeyama_mochikuni
+
                 reforms = {
                     daimyo
                 }

@@ -114500,7 +114500,7 @@ character_db={
 
     ### Japan
 
-    # Imperial family (Nanboku-chō -> unified court)
+    ## Imperial family (Nanboku-chō -> unified court)
     jap_go_kougon_tenno = { #後光厳天皇
         first_name = { name = name_iyahito } #弥仁
         culture = saigoku_culture
@@ -114621,7 +114621,7 @@ character_db={
         tag = STC
     }
 
-    # Ashikaga Clan
+    ## Ashikaga Clan
     jap_ashikaga_motouji = {
         first_name = { name = name_motouji } # 尊氏の息子
         culture = tougoku_culture
@@ -114730,7 +114730,87 @@ character_db={
         tag = JAP
     }
 
-    # Yamana Clan
+    jap_ashikaga_yoshihisa = {
+        first_name = { name = name_yoshihisa } # 義尚
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1465.1.1 # Exact date unknown
+        death_date = 1489.4.26
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshimasa
+        mother = jap_hino_tomiko
+        tag = JAP
+    }
+
+    ## Hatakeyama Clan
+    jap_hatakeyama_motokuni = { # 畠山基国 (Q11578625)
+        first_name = { name = name_motokuni }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1352.1.1
+        death_date = 1406.2.14
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_yoshifuka
+        tag = HT3
+    }
+
+    jap_hatakeyama_mitsuie = { # 畠山満家 (Q11578655)
+        first_name = { name = name_mitsuie }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1372.1.1
+        death_date = 1433.11.9
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_motokuni
+        tag = HT3
+    }
+
+    # Regent for Yoshimasa
+    jap_hatakeyama_mochikuni = { # 義教 (Q11578637)
+        first_name = { name = name_mochikuni } 
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1398.1.1
+        birth = ashikaga_loc
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mitsuie
+        tag = HT3
+    }
+
+    # Prospective Heir
+    jap_hatakeyama_yoshinari = { # 畠山義就 (Q11578676)
+        first_name = { name = name_yoshinari }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1437.1.1
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mochikuni
+        tag = HT3
+    }
+
+    jap_hatakeyama_mochitomi = { # 畠山持富 (Q11578639)
+        first_name = { name = name_mochitomi }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1405.1.1 # Unknown
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mitsuie
+        tag = HT3
+    }
+
+    # Prospective Heir
+    jap_hatakeyama_masanaga = { # 畠山政長 (Q5680891)
+        first_name = { name = name_masanaga }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1442.1.1
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mochitomi
+        tag = HT3
+    
+
+    ## Yamana Clan
     jap_yamana_tokiyoshi = {
         first_name = { name = name_tokiyoshi } #時義
         culture = tougoku_culture
@@ -114756,7 +114836,7 @@ character_db={
     }
 
     jap_yamana_mochitoyo = {
-        first_name = { name = name_mochitoyo } #持豊 (Yamana Sōzen)
+        first_name = { name = name_mochitoyo } #持豊 (Later Yamana Sōzen)
         culture = tougoku_culture
         religion = shinto
         adm = 72 dip = 60 mil = 78
@@ -114767,7 +114847,7 @@ character_db={
         tag = YM1
     }
 
-    # Hosokawa Clan
+    ## Hosokawa Clan
     jap_hosokawa_yorimoto = {
         first_name = { name = name_yorimoto } #頼元
         culture = saigoku_culture
@@ -114816,7 +114896,53 @@ character_db={
         tag = HS1
     }
 
-    # Ouchi Clan
+    ## Awa Hosokawa
+    jap_hosokawa_mitsuyuki = { # 細川満之 (Q11605936)
+        first_name = { name = name_mitsuyuki }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1352.1.1
+        death_date = 1406.1.14
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_yoriharu
+        tag = HS2
+    }
+
+    jap_hosokawa_mitsuhisa = { # 細川満久 (Q17218716)
+        first_name = { name = name_mitsuhisa }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1386.1.1
+        death_date = 1430.10.24
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_mitsuyuki
+        tag = HS2
+    }
+
+    jap_hosokawa_norisuke = { # 細川教祐 (Q104539060)
+        first_name = { name = name_norisuke }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1404.1.1
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_mitsuhisa
+        tag = HS2
+    }
+
+    jap_hosokawa_shigeyuki = { # 細川成之 (Q11605893)
+        first_name = { name = name_shigeyuki }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1434.1.1
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_norisuke
+        tag = HS2
+    }
+
+    ## Ouchi Clan
     jap_oouchi_yoshihiro = { # 大内義弘 (Q4389583)
         first_name = { name = name_yoshihiro }
         culture = saigoku_culture
@@ -114849,7 +114975,7 @@ character_db={
         tag = OUC
     }
 
-    # Takeda Kai Branch
+    ## Takeda Kai Branch
     jap_takeda_nobuharu = { # 武田信春 (Q6640048)
         first_name = { name = name_nobuharu }
         culture = tougoku_culture
@@ -114902,6 +115028,7 @@ character_db={
         tag = TK1
     }
 
+    ## Takeda Aki Branch
     jap_takeda_nobushige = { # 武田信繁 (Q11124802)
         first_name = { name = name_nobushige }
         culture = saigoku_culture
@@ -114933,7 +115060,7 @@ character_db={
         tag = TK2
     }
 
-    # Matsudaira Clan
+    ## Matsudaira Clan
     jap_matsudaira_nobumitsu = { # 松平信光 (Q11239114)
         first_name = { name = name_nobumitsu }
         culture = tougoku_culture
@@ -114954,7 +115081,7 @@ character_db={
         tag = MTU
     }
 
-    # Imagawa clan
+    ## Imagawa clan
     jap_imagawa_norimasa = { # 今川範政 (Q11376939)
         first_name = { name = name_norimasa }
         culture = tougoku_culture
@@ -115146,4 +115273,6 @@ character_db={
         father = bah_alau_d_din_ahmad_shah
 		tag = BAH
     }
+}
+
 }

@@ -427,7 +427,7 @@ international_organization_manager = {
         }
 
         japanese_emperor = {
-            NTC
+            YMT
         }
 
         shugo_daimyo = {
@@ -486,7 +486,7 @@ international_organization_manager = {
         creation_date = 1250.1.1 # Late 13th Century
         members = { NAO UE1 UE2 UE3 }
         # Nagao clan holds the real power over the Uesugi
-        leader = NAO
+        leader = NAO # Nagao
 
         main_branch = UE1
         cadet_branch = {
@@ -499,7 +499,7 @@ international_organization_manager = {
         type = jap_branching_clan
         creation_date = 1100.1.1 # Minamoto no Yoshikiyo
         members = { TK1 TK2 TK3 TK4 }
-        leader = TK1
+        leader = TK1 # Kai
 
         main_branch = TK1
         cadet_branch = {
@@ -512,7 +512,7 @@ international_organization_manager = {
         type = jap_branching_clan
         creation_date = 1336.1.1 # Nanboku-cho period
         members = { YM1 YM2 YM3 }
-        leader = YM1
+        leader = YM1 # Tajima
 
         main_branch = YM1
         cadet_branch = { YM2 YM3 }
@@ -534,7 +534,7 @@ international_organization_manager = {
         type = jap_branching_clan
         creation_date = 1180.1.1 # Kamakura period
         members = { HS1 HS2 HS3 } # HS4 is conquered by 1444
-        leader = HS1
+        leader = HS1 # Kanrei
 
         main_branch = HS1
         cadet_branch = {
@@ -546,12 +546,14 @@ international_organization_manager = {
     add_international_organization = {
         type = jap_branching_clan
         creation_date = 1180.1.1 # Kamakura period
-        members = { HT1 HT2 }
-        leader = HT1
+        members = { HT1 HT2 HT3 }
+        leader = HT3 # Kawachi
 
-        main_branch = HT1
-        cadet_branch = HT2
+        main_branch = HT3
+        cadet_branch = { HT1 HT2 }
     }
+
+    # TODO: Add the remaining ones
 
     #################################################################
     # 				Guelphs & Ghibellines							#

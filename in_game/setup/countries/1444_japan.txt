@@ -435,6 +435,13 @@ HT2 = {
 	religion_definition = shinto
 }
 
+HT3 = {
+	# Hatakeyama (Kawachi)
+	color = rgb { 62 131 43 }
+	culture_definition = saigoku_culture
+	religion_definition = shinto
+}
+
 AMK = {
 	# Amakusa
 	color = rgb { 208 217 100 }
