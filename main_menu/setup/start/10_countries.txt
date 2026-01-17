@@ -50173,7 +50173,7 @@ countries = {
                 }
             }
             country_rank = rank_kingdom
-            court_language = mongolian_language
+            court_language = karluk_language
             tolerated_cultures = {
                 kyrgyz_culture
             }
