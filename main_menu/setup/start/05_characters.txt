@@ -116500,6 +116500,29 @@ character_db={
         birth_date = 1394.1.1 #c.1394 (Wikipedia)
         birth = angkor
         father = khm_soriyoavong
+        spouse = khm_mother_of_noreay_reachea
+        dynasty = trasak_phaem_dynasty
+        tag = KHM
+    }
+
+    khm_mother_of_noreay_reachea = {
+        first_name = random
+        culture = khmer_culture
+        religion = theravada
+        birth_date = 1415.1.1 #c.1394 (Wikipedia)
+        birth = angkor
+        spouse = khm_mother_of_noreay_reachea
+        tag = KHM
+    }
+
+    khm_noreay_reachea = {
+        first_name = { name = Noreay_Reachea }
+        culture = khmer_culture
+        religion = theravada
+        birth_date = 1431.1.1 #Est.
+        birth = phnom_penh # Estimated
+        father = khm_ponhea_yat
+        mother = khm_mother_of_noreay_reachea
         dynasty = trasak_phaem_dynasty
         tag = KHM
     }
@@ -116535,7 +116558,21 @@ character_db={
         birth_date = 1393.4.1
         birth = pegu
         father = peg_razadarit
+        spouse = peg_soe_min_wimala_dewi
         dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_soe_min_wimala_dewi = {
+        first_name = { name = Soe_Min_Wimala_Dewi }
+        culture = mon_culture
+        religion = theravada
+        female = yes
+        birth_date = 1397.1.1 # Estimated
+        birth = martaban
+        mother = peg_sanda_min_hla
+        father = peg_saw_zein
+        spouse = peg_binnya_ran
         tag = PEG
     }
 
@@ -116592,6 +116629,7 @@ character_db={
         birth_date = 1432.1.1
         birth = pegu
         father = peg_binnya_ran
+        mother = peg_soe_min_wimala_dewi
         dynasty = wareru_dynasty
         tag = PEG
     }
