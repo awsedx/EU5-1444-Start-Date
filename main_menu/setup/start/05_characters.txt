@@ -98844,7 +98844,7 @@ character_db={
         religion = theravada
         adm = 58 dip = 81 mil = 42
         birth_date = 1323.11.1
-        death_date = 1377.1.11
+        death_date = 1384.1.11
         birth = martaban
         father = peg_saw_zein
         mother = peg_sanda_min_hla
@@ -116502,5 +116502,97 @@ character_db={
         father = khm_soriyoavong
         dynasty = trasak_phaem_dynasty
         tag = KHM
+    }
+
+    peg_razadarit = {
+        first_name = { name = Razadarit }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1368.1.28
+        death_date = 1421.12.29
+        birth = martaban
+        father = peg_binnya_u
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_binnya_dhammaraza = {
+        first_name = { name = Binnya_Dhammaraza }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1393.1.1
+        death_date = 1424.12.1 # Estimated
+        birth = pegu
+        father = peg_razadarit
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_binnya_ran = {
+        first_name = { name = Binnya_Ran }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1393.4.1
+        birth = pegu
+        father = peg_razadarit
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_shin_sawbu = {
+        first_name = { name = Shin_Sawbu }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1394.2.11
+        birth = pegu
+        spouse = peg_binnya_bye
+        father = peg_razadarit
+        female = yes
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_binnya_bye = {
+        first_name = { name = Binnya_Bye }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1390.1.1 # Estimated
+        birth = pegu
+        spouse = peg_shin_sawbu
+        tag = PEG
+    }
+
+    peg_binnya_waru = {
+        first_name = { name = Binnya_Waru }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1418.1.1
+        birth = pegu
+        father = peg_binnya_bye
+        mother = peg_shin_sawbu
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_binnya_kyan = {
+        first_name = { name = Binnya_Kyan }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1420.1.1
+        birth = pegu
+        father = peg_binnya_dhammaraza
+        dynasty = wareru_dynasty
+        tag = PEG
+    }
+
+    peg_leik_munhtaw = {
+        first_name = { name = Leik_Munhtaw }
+        culture = mon_culture
+        religion = theravada
+        birth_date = 1432.1.1
+        birth = pegu
+        father = peg_binnya_ran
+        dynasty = wareru_dynasty
+        tag = PEG
     }
 }

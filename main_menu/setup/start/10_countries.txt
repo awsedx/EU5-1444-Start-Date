@@ -53339,7 +53339,12 @@ countries = {
 
             include = "south_east_asia_monarchy"
             government = {
-                ruler = peg_binnya_e_law
+                # Maybe add more, but I'm lazy
+                ruler_term = { character = peg_razadarit start_date = 1384.1.4 end_date = 1421.12.1}
+                ruler_term = { character = peg_binnya_dhammaraza start_date = 1421.12.1 end_date = 1424.1.1 regnal_number = 1 }
+                ruler_term = { character = peg_binnya_ran start_date = 1424.1.1 regnal_number = 1 }
+                ruler = peg_binnya_ran
+                heir = peg_binnya_waru
                 laws = {
                     education_masses_law = uneducated_masses_education
                 }
