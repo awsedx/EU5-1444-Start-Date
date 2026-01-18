@@ -613,9 +613,11 @@ diplomacy_manager = {
     dependency = { first = CHI second = MLM subject_type = tributary }
     dependency = { first = AVV second = TNG subject_type = vassal }
     dependency = { first = AVV second = BPR subject_type = vassal }
+    dependency = { first = AVV second = HSI subject_type = vassal }
     dependency = { first = AYU second = SUK subject_type = vassal }
     dependency = { first = AYU second = LIG subject_type = vassal }
     dependency = { first = HSE second = MGT subject_type = vassal }
+    dependency = { first = LNA second = MNI subject_type = vassal }
 
     #------------Indonesia-------------
     dependency = { first = MAJ second = JMB subject_type = vassal }

@@ -32104,9 +32104,12 @@ countries = {
             #Chiang Hung
             own_control_core = {
                 jinglong
-                daolong gengdang mengban_jihong menghai mengla sime yot_ou
-                mong_yang mong_yawng
-                muang_sing
+                daolong gengdang menghai sime
+                mong_yang
+            }
+
+            our_cores_conquered_by_others = {
+                mengla mengban_jihong yot_ou muang_sing mong_yawng
             }
 
             include = "south_east_asia_monarchy_no_mandala_no_coast"
@@ -32270,7 +32273,7 @@ countries = {
 
         NYZ = {
             #Níngyuǎnzhōu
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 phong_tho muong_te
             }
 
@@ -53083,6 +53086,8 @@ countries = {
                 # Cobra
                 thuan_chau muong_cha
                 muong_luan son_la mang_viet lai_chau thuy_vi van_ban quy_hoa
+                # Níngyuǎnzhōu
+                phong_tho muong_te
             }
             own_control_integrated = {
                 dien_ban simhapura
@@ -53134,6 +53139,9 @@ countries = {
             own_control_core = {
                 sukhothai
                 mae_sot mueng_bang_yom sri_satchanalai tak thung_yang
+
+                # Lan Na
+                muang_ngao nan phrae pua
             }
 
             our_cores_conquered_by_others = {
@@ -53168,11 +53176,16 @@ countries = {
             #Lan Na
             own_control_core = {
                 chiang_mai
-                chiang_dao chiang_khong chiang_rai chiang_saen chom_khao_maneerat hot lampang lamphun mae_hong_son muang_jam muang_luang_phukha muang_wang muang_yuam mueng_thoen omkoi sariang vieng_phouka wiang_fang
-                mong_hpayak mong_hsat
+                chiang_dao chiang_rai hot lampang lamphun mae_hong_son muang_jam muang_wang muang_yuam mueng_thoen omkoi sariang wiang_fang
                 phayao
-                muang_ngao
-                nan phrae pua
+            }
+
+            our_cores_conquered_by_others = {
+                # Lan Na
+                muang_luang_phukha vieng_phouka chom_khao_maneerat mong_hpayak mong_hsat chiang_saen chiang_khong
+
+                # Sukhothai
+                muang_ngao nan phrae pua
             }
 
             include = "south_east_asia_monarchy_no_coast"
@@ -53336,8 +53349,8 @@ countries = {
                 karen_culture
             }
 
-            country_rank = rank_duchy
-            capital = martaban
+            country_rank = rank_kingdom
+            capital = pegu
         }
 
         SNG = {
@@ -53693,6 +53706,12 @@ countries = {
                 buriram suwannaphum prathai_saman muang_tam
                 rattanaburi sangkha khukhan prasat_thong_lang vat_phou
                 champasak muang_mang ban_phone tonle_kong idkabue samxay
+
+                # Lan Na
+                muang_luang_phukha vieng_phouka chom_khao_maneerat mong_hpayak mong_hsat chiang_saen chiang_khong
+
+                # Chiang Hung
+                mengla mengban_jihong yot_ou muang_sing mong_yawng
             }
 
             include = "south_east_asia_monarchy_no_coast"
