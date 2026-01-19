@@ -8959,6 +8959,20 @@ dynasty_manager = {
         home = moscow
     }
 
+    ### Lithuania
+
+    kesgaila_dynasty = {
+        name = { name = kesgaila_dynasty }
+        home = trakai         
+    }
+
+    ### Kiev
+
+    olelkovich_dynasty = {
+        name = { name = olelkovich_dynasty }
+        home = kiev        
+    }
+
     ### Sweden
 
     bonde_dynasty = {

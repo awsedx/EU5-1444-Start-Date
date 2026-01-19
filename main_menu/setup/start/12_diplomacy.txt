@@ -344,7 +344,7 @@ diplomacy_manager = {
 
     #Appanages
     dependency = { first = POL second = PLK subject_type = vassal }
-    dependency = { first = POL second = CZK subject_type = vassal }
+    dependency = { first = POL second = MAZ subject_type = vassal }
 
     #Balkans:
     dependency = { first = KAT second = ANT subject_type = tributary }

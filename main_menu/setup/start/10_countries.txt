@@ -13988,14 +13988,6 @@ countries = {
         }
 
         BUL = {
-            own_control_core = {
-                lovech
-            }
-            own_control_conquered = {
-            }
-            own_control_integrated = {
-            }
-
             our_cores_conquered_by_others = {
                 nis glubocica velbuzd
                 burgas sozopol rusokastro anhialo
@@ -14012,6 +14004,7 @@ countries = {
                 dospat bansko krupnik melnik nevrokop
                 tsepina
                 beden haskovo perperek smolyan stanimaka
+                lovech
             }
 
             starting_technology_level = 3
@@ -14079,6 +14072,34 @@ countries = {
 
             country_rank = rank_duchy
             capital = vidin
+            dynasty = sratsimir_dynasty
+        }
+
+        LOV = {
+            own_control_core = {
+                lovech
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "eastern_european_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+
+                regnal_numbers = {
+                }
+            }
+
+            tolerated_cultures = {
+                wallachian
+            }
+
+            liturgical_language = church_slavonic_language
+
+            country_rank = rank_duchy
+            capital = lovech
             dynasty = sratsimir_dynasty
         }
 
@@ -43448,6 +43469,63 @@ countries = {
             dynasty = piast_dynasty
         }
 
+            MAZ = {
+            #https://en.wikipedia.org/wiki/Duchy_of_Masovia
+            own_control_core = {
+                warsaw grojec czersk liw nur kamieniec garwolin tarczyn wizna goniadz zambrow ostroleka zakroczym przasnysz rozan lomza kolno ciechanow tykocin
+            }
+
+            own_control_integrated = {
+                #Halych
+                belz grabowiec sokal lubaczow busk
+            }
+
+            starting_technology_level = 3
+            include = "expl_eastern_europe"
+            include = "eastern_european_catholic_monarchy_no_coast"
+            include = "eastern_european_catholic"
+            government = {
+                type = monarchy
+                heir_selection = semi_salic_law
+
+                ruler = czk_trojden_i_piast
+
+                regnal_numbers = {
+                }
+
+                centralization_vs_decentralization = 80
+                traditionalist_vs_innovative = 20
+                spiritualist_vs_humanist = 10
+                aristocracy_vs_plutocracy = -90
+                serfdom_vs_free_subjects = -70
+                mercantilism_vs_free_trade = -70
+                belligerent_vs_conciliatory = 0
+                quality_vs_quantity = 0
+                offensive_vs_defensive = -70
+                land_vs_naval = -60
+                capital_economy_vs_traditional_economy = 90
+                individualism_vs_communalism = -20
+                outward_vs_inward = 0
+
+                privilege = {
+                    #Burghers
+                    novi_fori
+                    urban_development_grants
+
+                    #Commoners
+                    peasants_free_peasantry
+                }
+            }
+
+            tolerated_cultures = {
+                low_franconian
+            }
+
+            country_rank = rank_duchy
+            capital = warsaw
+            dynasty = piast_dynasty
+        }
+
         #Płock
         PLK = {
             #https://en.wikipedia.org/wiki/Duchy_of_Masovia
@@ -43566,13 +43644,8 @@ countries = {
         #Czersk
         CZK = {
             #https://en.wikipedia.org/wiki/Duchy_of_Masovia
-            own_control_core = {
-                warsaw grojec czersk liw nur kamieniec garwolin tarczyn wizna goniadz zambrow ostroleka zakroczym przasnysz rozan lomza kolno ciechanow tykocin
-            }
-
-            own_control_integrated = {
-                #Halych
-                belz grabowiec sokal lubaczow busk
+            our_cores_conquered_by_others = {
+                warsaw grojec czersk liw nur kamieniec garwolin tarczyn
             }
 
             starting_technology_level = 3
@@ -43880,14 +43953,28 @@ countries = {
 
                 outward_vs_inward = -90
 
-                ruler = lit_gediminas_gediminids
+                ruler = lit_kazimieras_iv_jagiellon
+
                 ruler_term = { character = lit_butigeidis_gediminids start_date = 1285.1.1 end_date = 1291.1.1 regnal_number = 1 }
                 ruler_term = { character = lit_butvydas start_date = 1291.1.1 end_date = 1295.1.1 regnal_number = 1 }
                 ruler_term = { character = lit_vytenis_gediminids start_date = 1295.1.1 end_date = 1316.1.1 regnal_number = 1 }
-                ruler_term = { character = lit_gediminas_gediminids start_date = 1316.1.1 regnal_number = 1 }
+                ruler_term = { character = lit_gediminas_gediminids start_date = 1316.1.1 end_date = 1341.1.1 regnal_number = 1 }
+                ruler_term = { character = lit_jaunutis_gediminds start_date = 1341.1.1 end_date = 1345.1.1 regnal_number = 1 }
+                ruler_term = { character = lit_algirdas_gediminds start_date = 1345.1.1 end_date = 1377.5.30 regnal_number = 1 }
+                ruler_term = { character = lit_jogalia_jagiellon start_date = 1377.5.30 end_date = 1381.8.1 regnal_number = 1 }
+                ruler_term = { character = lit_kestutis_gediminds start_date = 1381.8.1 end_date = 1382.1.1 regnal_number = 1 }
+                ruler_term = { character = lit_jogalia_jagiellon start_date = 1382.1.1 end_date = 1401.1.1 regnal_number = 1 }
+                ruler_term = { character = lit_vytautas_gediminid start_date = 1401.1.1 end_date = 1430.10.27 regnal_number = 1 }
+                ruler_term = { character = lit_svitrigaila_gediminid start_date = 1430.10.27 end_date = 1432.8.31 regnal_number = 1 }
+                ruler_term = { character = lit_zygimantas_gediminid start_date = 1432.8.31 end_date = 1440.3.20 regnal_number = 1 }
+                ruler_term = { character = lit_vladislovas_iii_jagiellon start_date = 1440.6.1 end_date = 1444.11.10 regnal_number = 3 }
+                ruler_term = { character = lit_kazimieras_iv_jagiellon start_date = 1440.11.10 regnal_number = 4 }
+
                 regnal_numbers = {
                     name_vytenis = 1
                     name_gediminas = 1
+                    name_vladislav = 1
+                    name_casimir = 1
                 }
 
                 reforms = {
@@ -43914,7 +44001,7 @@ countries = {
         }
 
         SXM = {
-            #Samogitia - Revolter of LIT
+            #Samogitia - Eldership
             own_control_core = {
                 medininkai palanga rietavas silale skuodas taurage
                 raseiniai jurbarkas kedainiai panemune tendziogala
@@ -43927,7 +44014,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = random
+
+                ruler = sxm_mykolas_kesgaila
             }
             capital = raseiniai
             country_rank = rank_duchy
@@ -44333,7 +44421,7 @@ countries = {
             include = "expl_eastern_europe"
             include = "lithuanian_monarchy"
             government = {
-                ruler = vbk_algirdas_gediminds
+                ruler = lit_algirdas_gediminds
 
                 ruler_term = { character = pok_bryachislav_iziaslavich_rurikovich start_date = 1024.1.1 end_date = 1044.1.1 regnal_number = 1 }
                 ruler_term = { character = pok_vseslav_bryachislavich_rurikovich start_date = 1044.1.1 end_date = 1101.4.24 regnal_number = 1 }
@@ -44360,7 +44448,7 @@ countries = {
                 ruler_term = { character = vbk_yaroslav_vasilkovich_rurikovich start_date = 1297.1.1 end_date = 1320.1.1 regnal_number = 1 }
 
                 ruler_term = {
-                    character = vbk_algirdas_gediminds start_date = 1320.1.1 regnal_number = 1
+                    character = lit_algirdas_gediminds start_date = 1320.1.1 regnal_number = 1
                     #character = vbk_maria_of_vitebsk start_date = 1320.1.1 regnal_number = 1
                 }
 

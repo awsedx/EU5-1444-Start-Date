@@ -6970,7 +6970,6 @@ character_db={
         tag = MFA
     }
 
-    
     # Countess Consort of Savoy & Daughter of the Marquis of Monferrato
     mfa_violante_palaiologos = {
         first_name = { name = name_yolande }
@@ -6988,7 +6987,6 @@ character_db={
         tag = MFA
     }
 
-    
     # Son & Heir of the Marquis of Monferrato
     mfa_giovanni_palaiologos = {
         first_name = { name = name_john }
@@ -7003,7 +7001,6 @@ character_db={
         dynasty = palaiologos_dynasty # Should be dynasty = palaiologos_monferrato_dynasty
         tag = MFA
     }
-
 
     #Ruler's Granduncle
     byz_konstantinos_palaiologos_ii = { #https://en.wikipedia.org/wiki/Constantine_Palaiologos_(son_of_Michael_VIII)
@@ -92135,6 +92132,7 @@ character_db={
         dynasty = rurikovich_dynasty
         tag = MOS
     }
+
     mos_sophia_yuriovna_rurikovich = { 
         first_name = { name = name_sophia }
         last_name = { name = Yuriovna }
@@ -92150,7 +92148,6 @@ character_db={
         tag = TVE
     }
 
-
     mos_ivan_i_danilovich_kalita_rurikovich = { #Ruler
         first_name = { name = name_john }
         last_name = { name = Danilovich_Kalita }
@@ -92164,7 +92161,6 @@ character_db={
         dynasty = rurikovich_dynasty
         tag = MOS
     }
-
 
     mos_helena = {  #Ruler's First Wife
         first_name = { name = name_helen }
@@ -92208,7 +92204,6 @@ character_db={
         dynasty = rurikovich_dynasty
         tag = MOS
     }
-
     
     #Spouse of the Son of Ruler
     mos_augusta_gediminds = { #https://en.wikipedia.org/wiki/Aigusta_Anastasia_of_Lithuania
@@ -92218,14 +92213,13 @@ character_db={
         religion = romuva
         female = yes
         birth_date = 1320.1.1
-        death_date = 1371.11.13
+        death_date = 1345.3.11
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         spouse = mos_simeon_ivanovich_gordyy_rurikovich
         tag = MOS
     }
-
 
     mos_ivan_ii_ivanovich_rurikovich = {    #Son of Ruler
         first_name = { name = name_john }
@@ -92242,7 +92236,6 @@ character_db={
         tag = MOS
     }
 
-
     mos_andrei_ivanovich_rurikovich = { #Son of Ruler
         first_name = { name = name_andrew }
         last_name = { name = Ivanovich }
@@ -92256,7 +92249,6 @@ character_db={
         dynasty = rurikovich_dynasty
         tag = MOS
     }
-
 
     #Vladimir
     vlr_andrey_yaroslavich_rurikovich = {   
@@ -93068,21 +93060,20 @@ character_db={
         tag = PSK
     }
 
-
-    tve_uliana_alexnadrovna_rurikovich = {  #Daughter of Ruler in Exile
+    lit_uliana_alexnadrovna_rurikovich = {  #Daughter of Ruler in Exile
         first_name = { name = name_michael }
         last_name = { name = Alexnadrovna }
         culture = muscovite
         religion = orthodox
         female = yes
         birth_date = 1325.1.1
-        death_date = 1383.5.1
+        death_date = 1391.3.17
         birth = tver
+        spouse = lit_algirdas_gediminds
         father = tve_aleksandr_mikhailovich_rurikovich
         dynasty = rurikovich_dynasty
         tag = PSK
     }
-
 
     tve_mikhail_ii_alexandrovich_rurikovich = { #Son of Ruler in Exile
         first_name = { name = name_michael }
@@ -93997,7 +93988,6 @@ character_db={
         tag = LIT
     }
 
-
     #Spouse of the Ruler
     lit_jaune_polotsk = { #https://en.wikipedia.org/wiki/Jaun%C4%97
         first_name = { name = name_jaune }
@@ -94005,13 +93995,12 @@ character_db={
         religion = orthodox
         female = yes
         birth_date = 1280.1.1 #Unknown
-        death_date = 1333.5.17
+        death_date = 1344.1.1
         spouse = lit_gediminas_gediminids
         birth = polotsk
         dynasty = polotsk_dynasty
         tag = LIT
     }
-
 
     #Spouse of the Ruler
     lit_vida = {
@@ -94020,12 +94009,11 @@ character_db={
         religion = romuva
         female = yes
         birth_date = 1278.1.1 #Unknown
-        death_date = 1333.7.19
+        death_date = 1340.1.1
         spouse = lit_gediminas_gediminids
         birth = kuldiga
         tag = LIT
     }
-
 
     #Son of Ruler
     lit_manvydas_gediminds = { #https://en.wikipedia.org/wiki/Manvydas
@@ -94033,7 +94021,7 @@ character_db={
         culture = aukstaitian
         religion = romuva
         birth_date = 1299.1.1
-        death_date = 1365.6.9
+        death_date = 1348.2.2
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
@@ -94041,21 +94029,19 @@ character_db={
         tag = LIT
     }
 
-
     #Selected Heir / Son of Ruler
     lit_jaunutis_gediminds = { #https://en.wikipedia.org/wiki/Jaunutis
         first_name = { name = name_john }
         culture = aukstaitian
         religion = romuva
         birth_date = 1306.1.1
-        death_date = 1375.6.21
+        death_date = 1367.1.1
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_jaune_polotsk
         tag = LIT
     }
-
 
     #Son of Ruler
     lit_kestutis_gediminds = { #https://en.wikipedia.org/wiki/K%C4%99stutis
@@ -94063,14 +94049,13 @@ character_db={
         culture = aukstaitian
         religion = romuva
         birth_date = 1297.1.1
-        death_date = 1349.11.7
+        death_date = 1382.1.1
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_jaune_polotsk
         tag = LIT
     }
-
 
     #Son of Ruler
     lit_liubartas_gediminds = { #https://en.wikipedia.org/wiki/Liubartas
@@ -94084,7 +94069,6 @@ character_db={
         father = lit_gediminas_gediminids
         tag = LIT
     }
-
 
     #Spouse of Son of Ruler
     lit_euphemia_rurikovich = { #
@@ -94101,7 +94085,6 @@ character_db={
         tag = LIT
     }
 
-
     #Novogrudok
 
     #Ruler
@@ -94111,14 +94094,13 @@ character_db={
         culture = aukstaitian
         religion = romuva
         birth_date = 1305.1.1 #Unknown
-        death_date = 1367.4.26
+        death_date = 1359.1.1
         birth = vilnius #Unknown
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_jaune_polotsk #Unknown
         tag = NRK
     }
-
 
     #Son of Ruler
     nrk_koriatovich_gediminds = { #https://en.wikipedia.org/wiki/George_Koriatovich
@@ -94127,13 +94109,12 @@ character_db={
         culture = aukstaitian
         religion = romuva
         birth_date = 1330.1.1
-        death_date = 1383.2.10
+        death_date = 1375.1.1
         birth = vilnius #Unknown
         dynasty = gediminid_dynasty
         father = nrk_karijotas_gediminds
         tag = NRK
     }
-
 
     #Polotsk
 
@@ -94156,13 +94137,12 @@ character_db={
         culture = aukstaitian
         religion = romuva
         birth_date = 1299.1.1
-        death_date = 1351.10.4
+        death_date = 1342.1.1
         birth = kedainiai
         dynasty = gediminid_dynasty
         father = pok_vainius_gediminids
         tag = POK
     }
-
 
     #Ruler
     pok_narimantas_gediminds = { #https://en.wikipedia.org/wiki/Narimantas
@@ -94171,14 +94151,13 @@ character_db={
         culture = aukstaitian
         religion = orthodox
         birth_date = 1300.1.1
-        death_date = 1365.3.24
+        death_date = 1348.2.2
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_jaune_polotsk
         tag = POK
     }
-
 
     ore_alexander_narimuntovich = {
         first_name = { name = name_alexander }
@@ -94187,87 +94166,81 @@ character_db={
         father = pok_narimantas_gediminds
         adm = 55 dip = 54 mil = 68
         birth_date = 1317.1.1
-        death_date = 1385.8.19
+        death_date = 1387.1.1
         birth = polotsk
         dynasty = gediminid_dynasty
         tag = ORE
     }
-
 
     pok_jurgis_gediminds = { #Son of Ruler
         first_name = { name = name_george }
         culture = aukstaitian
         religion = orthodox
         birth_date = 1326.1.1
-        death_date = 1380.12.1
+        death_date = 1392.1.1
         birth = vilnius
         dynasty = gediminid_dynasty
         father = pok_narimantas_gediminds
         tag = POK
     }
 
-
     #Vitebsk
 
     #Ruler
-    vbk_algirdas_gediminds = { #https://en.wikipedia.org/wiki/Algirdas
+    lit_algirdas_gediminds = { #https://en.wikipedia.org/wiki/Algirdas
         first_name = { name = name_algirdas }
         culture = aukstaitian
         religion = romuva
         birth_date = 1296.1.1
-        death_date = 1360.6.5
+        death_date = 1377.5.30
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_vida
-        tag = VBK
+        tag = LIT
     }
 
-
     #Son of Ruler
-    vbk_andrius_gediminds = { #https://en.wikipedia.org/wiki/Andrei_of_Polotsk
+    lit_andrius_gediminds = { #https://en.wikipedia.org/wiki/Andrei_of_Polotsk
         first_name = { name = name_andrew }
         culture = aukstaitian
         religion = romuva
         birth_date = 1325.1.1
-        death_date = 1395.12.4
+        death_date = 1399.8.12
         birth = vilnius
         dynasty = gediminid_dynasty
-        father = vbk_algirdas_gediminds
-        mother = vbk_maria_of_vitebsk
-        tag = VBK
+        father = lit_algirdas_gediminds
+        mother = lit_maria_of_vitebsk
+        tag = LIT
     }
 
-
     #Son of Ruler
-    vbk_dmitrijus_gediminds = { #https://en.wikipedia.org/wiki/Dmitry_of_Bryansk
+    lit_dmitrijus_gediminds = { #https://en.wikipedia.org/wiki/Dmitry_of_Bryansk
         first_name = { name = name_demetrius }
         culture = aukstaitian
         religion = romuva
         birth_date = 1327.1.1
-        death_date = 1383.9.16
+        death_date = 1399.8.12
         birth = vilnius
         dynasty = gediminid_dynasty
-        father = vbk_algirdas_gediminds
-        mother = vbk_maria_of_vitebsk
-        tag = VBK
+        father = lit_algirdas_gediminds
+        mother = lit_maria_of_vitebsk
+        tag = LIT
     }
 
-
     #Son of Ruler
-    vbk_constantine_gediminds = {
+    lit_constantine_gediminds = {
         first_name = { name = name_constantine }
         culture = aukstaitian
         religion = romuva
         birth_date = 1330.1.1 #Unknown
-        death_date = 1390.1.25
+        death_date = 1389.11.1
         birth = vilnius
         dynasty = gediminid_dynasty
-        father = vbk_algirdas_gediminds
-        mother = vbk_maria_of_vitebsk
-        tag = VBK
+        father = lit_algirdas_gediminds
+        mother = lit_maria_of_vitebsk
+        tag = LIT
     }
-
 
     # HOUSE OF RURIK (Grand Princes of Moscow and other Rus Principalities)
 
@@ -94825,22 +94798,21 @@ character_db={
     }
 
     # Princess of Vitebsk
-    vbk_maria_of_vitebsk = { #https://en.wikipedia.org/wiki/Maria_of_Vitebsk
+    lit_maria_of_vitebsk = { #https://en.wikipedia.org/wiki/Maria_of_Vitebsk
         first_name = { name = name_mary }
         culture = polatskian_culture
         religion = orthodox
         estate = nobles_estate
         female = yes
         birth_date = 1300.1.1
-        death_date = 1357.3.16
+        death_date = 1348.1.1
         birth = vitebsk
         father = vbk_yaroslav_vasilkovich_rurikovich
         #mother = Unknown
-        spouse = vbk_algirdas_gediminds
+        spouse = lit_algirdas_gediminds
         dynasty = rurikovich_dynasty
-        tag = VBK
+        tag = lit
     }
-
 
     vbk_rostislav_sviatoslavich_rurikovich = {
         first_name = { name = name_rostislav }
@@ -96312,20 +96284,20 @@ character_db={
         father = czk_boleslaw_ii_piast
         tag = PLK
     }
+
     plk_elzbieta_gediminds = { #Mother of Ruler
         first_name = { name = name_elizabeth }
         culture = aukstaitian
         religion = catholic
         female = yes
         birth_date = 1300.1.1
-        death_date = 1360.8.6
+        death_date = 1364.6.2
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_jaune_polotsk
         tag = PLK
     }
-
 
     plk_boleslaw_iii_piast = { #Future Ruler
         first_name = { name = name_boleslav }
@@ -96336,9 +96308,9 @@ character_db={
         birth = plock
         dynasty = piast_dynasty
         father = plk_waclaw_piast
+        mother = plk_elzbieta_gediminds
         tag = PLK
     }
-
 
     #Rawa
     raw_siemowit_ii_piast = { #Ruler
@@ -96391,6 +96363,7 @@ character_db={
         father = maz_kazimierz_i_piast
         tag = LCZ
     }
+
     lcz_wladyslaw_i_piast = { #Ruler
         first_name = { name = name_vladislav }
         nickname = { name = Hunchback }
@@ -96403,7 +96376,6 @@ character_db={
         father = lcz_siemowit_i_piast
         tag = LCZ
     }
-
 
     #Piast Galicia–Volhynia
     vol_boleslaw_jerzy_ii_piast = { #Ruler
@@ -96419,7 +96391,6 @@ character_db={
         tag = VOL
     }
 
-
     #Spouse of Ruler, Daugther of LIT Ruler
     vol_eufemija_gediminds = { #https://www.vle.lt/straipsnis/eufemija-gediminaite/
         first_name = { name = name_euphemia }
@@ -96428,14 +96399,13 @@ character_db={
         female = yes
         spouse = vol_boleslaw_jerzy_ii_piast
         birth_date = 1309.1.1
-        death_date = 1369.5.27
+        death_date = 1342.2.5
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
         mother = lit_vida #Unknown
         tag = VOL
     }
-
 
     #General Piasts
     glg_konrad_i_piast = { #Grandfather of Ruler
@@ -97091,7 +97061,7 @@ character_db={
         female = yes
         spouse = pol_casimir_iii_piast
         birth_date = 1309.1.1
-        death_date = 1377.5.3
+        death_date = 1339.5.29
         birth = vilnius
         dynasty = gediminid_dynasty
         father = lit_gediminas_gediminids
@@ -97106,7 +97076,7 @@ character_db={
         religion = catholic
         female = yes
         birth_date = 1326.1.1
-        death_date = 1376.4.11
+        death_date = 1361.1.1
         birth = wloclawek
         father = pol_casimir_iii_piast
         mother = pol_aldona_ona_gediminaite
@@ -97121,7 +97091,7 @@ character_db={
         religion = catholic
         female = yes
         birth_date = 1334.1.1
-        death_date = 1392.5.15
+        death_date = 1357.1.1
         birth = wloclawek
         father = pol_casimir_iii_piast
         mother = pol_aldona_ona_gediminaite
@@ -110115,328 +110085,504 @@ character_db={
         tag = BOH          
     }
 
-    ### Muscovy
+    ### Poland
 
-    mos_dmitry_donskoy_rurikovich = {#Dmitry Donskoy
-        first_name = { name = name_demetrius }
-        last_name = { name = Ivanovich }
-        nickname = { name = nick_the_triumphant }
-        adm = 68 dip = 75 mil = 85
-        culture = muscovite
+    ### Lithuania
+
+    # Sons of Algirdas
+
+    kie_vladimir_olgerdovich_gediminid = {
+        first_name = { name = name_waldemar }
+        culture = aukstaitian
         religion = orthodox
-        birth_date = 1350.10.12
-        death_date = 1389.5.19
-        birth = moscow
-        father = mos_ivan_ii_ivanovich_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
+        birth_date = 1339.1.1
+        death_date = 1399.1.1
+        birth = vitebsk
+        father = lit_algirdas_gediminds
+        mother = lit_maria_of_vitebsk
+        dynasty = gediminid_dynasty
+        tag = KIE
     }
 
-    mos_vasily_i_rurikovich = {#Vasily I
-        first_name = { name = name_basil }
-        last_name = { name = name_demetrius }
-        nickname = { name = nick_the_victorious }
-        adm = 54 dip = 86 mil = 70
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1371.12.30
-        death_date = 1425.2.27
-        birth = moscow
-        father = mos_dmitry_donskoy_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
+    lit_jogalia_jagiellon = { #Jogalia
+        first_name = { name = Jogaila }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1352.1.1
+        death_date = 1434.6.1
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = jagiellon_dynasty
+        tag = LIT
     }
 
-    mos_vasily_ii_rurikovich = {#Ruler
-        first_name = { name = name_basil }
-        nickname = { name = the_blind }
-        adm = 48 dip = 56 mil = 75
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1415.3.10
-        birth = moscow
-        father = mos_vasily_i_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
-        ruler_trait = midas_touched
-        ruler_trait = careful
-    }
-
-    mos_maria_of_borovsk = {#queen Maria of Borovsk
-        first_name = { name = name_mary }
-        dynasty = yaroslavl_dynasty
-        adm = 75 dip = 60 mil = 40
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1420.7.10
-        birth = moscow
+    lit_sofija_olshansky = {
+        first_name = { name = name_sophia }
+        last_name = { name = Alšėniškė }
+        culture = aukstaitian
+        religion = catholic
         female = yes
-        spouse = mos_vasily_ii_rurikovich
-        dynasty = yaroslavl
-        tag = MOS
+        birth_date = 1405.1.1
+        birth = vilnius
+        #father = Andrew Olshansky
+        #mother = Alexandra Drucka
+        tag = LIT        
     }
 
-    mos_ivan_iii_rurikovich = {#Son of Ruler
-        first_name = { name = Iefan }
-        last_name = { name = name_basil }
-        nickname = { name = nick_the_great }
-        adm = 95 dip = 80 mil = 90
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1440.1.22
-        birth = moscow
-        father = mos_vasily_ii_rurikovich
-        mother = mos_maria_of_borovsk
-        dynasty = rurikovich_dynasty
-        tag = MOS
-        child_trait = child_prodigy
-        ruler_trait = lawgiver
-        ruler_trait = conqueror
+    lit_vladislovas_iii_jagiellon = { #Władysław III 
+        first_name = { name = Vladislovas }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1424.10.31
+        death_date = 1444.11.10
+        birth = krakow
+        father = lit_jogalia_jagiellon
+        mother = lit_sofija_olshansky
+        dynasty = jagiellon_dynasty
+        tag = LIT        
     }
 
-    mos_yuri_of_vasily_rurikovich = {# second son of Ruler
-        first_name = { name = Yuriy }
-        last_name = { name = name_basil }
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1441.11.22
-        birth = moscow
-        father = mos_vasily_ii_rurikovich
-        mother = mos_maria_of_borovsk
-        dynasty = rurikovich_dynasty
-        tag = MOS
-        child_trait = child_gallant
+    lit_kazimieras_iv_jagiellon = { #Casimir IV
+        first_name = { name = name_casimir }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1427.11.30
+        birth = krakow
+        father = lit_jogalia_jagiellon
+        mother = lit_sofija_olshansky
+        dynasty = jagiellon_dynasty
+        tag = LIT        
     }
 
-    #sons of yuri
-    mos_yuri_of_zvenigorod_rurikovich = {
-        first_name = { name = Yuriy }
-        last_name = { name = name_demetrius }
-        nickname = { name = nick_the_war_ish }
-        adm = 35 dip = 78 mil = 90
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1374.11.26
-        birth = moscow
-        father = mos_dmitry_donskoy_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
-        ruler_trait = tactical_genius
-        ruler_trait = bold_fighter
+    kie_skirgalia_gediminid = {
+        first_name = { name = name_john }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1354.1.1
+        death_date = 1397.1.8
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = KIE
     }
 
-    mos_vasily_kosoy_rurikovich = {
-        first_name = { name = name_basil }
-        last_name = { name = Kosovic }
-        adm = 60 dip = 47 mil = 52
-        culture = muscovite
-        religion = orthodox
-        birth_date = 1374.11.26
-        birth = moscow
-        father = mos_yuri_of_zvenigorod_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
-        ruler_trait = craven
-    }
-
-    mos_dmitry_shemyaka_rurikovich = {
+    nvs_kaributas_gediminid = {
         first_name = { name = name_demetrius }
-        last_name = { name = name_george }
-        adm = 56 dip = 65 mil = 70
-        culture = muscovite
+        culture = aukstaitian
         religion = orthodox
-        birth_date = 1418.12.9
-        birth = moscow
-        father = mos_yuri_of_zvenigorod_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
+        birth_date = 1356.1.1
+        death_date = 1405.1.1
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = NSV
     }
 
-    mos_dmitry_krasny_rurikovich = {
-        first_name = { name = name_demetrius }
-        last_name = { name = Krasny }
-        adm = 62 dip = 45 mil = 60
-        culture = muscovite
+    msv_karigaila_gediminid = {
+        first_name = { name = name_casimir }
+        culture = aukstaitian
         religion = orthodox
-        birth_date = 1420.7.4
-        birth = moscow
-        father = mos_yuri_of_zvenigorod_rurikovich
-        dynasty = rurikovich_dynasty
-        tag = MOS
+        birth_date = 1359.1.1
+        death_date = 1390.9.26
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = MSV
     }
 
-    #nobles
-    mos_ivan_shuisky = {
-        first_name = { name = Iefan }
-        dynasty = shuisky_dynasty
-        culture = muscovite
+    msv_lengvenis_gediminid = {
+        first_name = { name = name_simeon }
+        culture = aukstaitian
         religion = orthodox
-        estate = nobles_estate
-        father = mos_oldivan_shuisky
-        birth_date = 1415.1.1
-        tag = MOS
+        birth_date = 1360.1.1
+        death_date = 1439.6.20
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = MSV
     }
 
-    mos_andrei_shuisky = {
-        first_name = { name = name_andrew }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_oldivan_shuisky
-        birth_date = 1420.1.1
-        tag = MOS
-    }
-
-    mos_oldivan_shuisky = {
-        first_name = { name = Iefan }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        birth_date = 1395.1.1
-        tag = MOS
-    }
-
-    mos_roman_shuisky = {
-        first_name = { name = name_roman }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_oldivan_shuisky
-        birth_date = 1430.1.1
-        tag = MOS
-    }
-
-    mos_elizabeth_shuisky = {
-        first_name = { name = name_elizabeth }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        female = yes
-        father = mos_ivan_shuisky
-        birth_date = 1437.1.1
-        tag = MOS
-    }
-
-    mos_alexander_shuisky = {
+    lit_vygantas_gediminid = {
         first_name = { name = name_alexander }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_andrei_shuisky
-        birth_date = 1442.1.1
-        tag = MOS
-    }
-
-    mos_elisa_shuisky = {
-        first_name = { name = name_elisa }
-        dynasty = shuisky_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
+        culture = aukstaitian
+        religion = catholic
         female = yes
-        father = mos_oldivan_shuisky
-        birth_date = 1422.1.1
+        birth_date = 1368.1.1
+        death_date = 1392.6.28
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = LIT
+    }
+
+    lit_svitrigaila_gediminid = {
+        first_name = { name = name_boleslav }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1369.1.1
+        birth = vilnius
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = VOL
+    }
+
+    mos_helen_gediminid = {
+        first_name = { name = name_helen }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1352.1.1
+        death_date = 1438.9.15
+        birth = vilnius
+        #spouse = Vladimir the Bold, Prince of Serpukhov
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
         tag = MOS
     }
 
-    mos_alexis_romanov = {
-        first_name = { name = name_alexis }
-        dynasty = romanov_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_nicholas_romanov
-        birth_date = 1423.1.1
-        tag = MOS
+    maz_aleksandra_gediminid = {
+        first_name = { name = name_alexia }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1358.1.1
+        death_date = 1434.6.19
+        birth = vilnius
+        #spouse = Siemowit IV, Duke of Masovia
+        father = lit_algirdas_gediminds
+        mother = lit_uliana_alexnadrovna_rurikovich
+        dynasty = gediminid_dynasty
+        tag = VOL       
     }
 
-    mos_mary_romanov = {
-        first_name = { name = name_mary }
-        last_name = { name = name_waldemar }
-        dynasty = romanov_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_alexis_romanov
-        birth_date = 1444.5.13
-        tag = MOS
+    # Sons of Kęstutis
+
+    nrk_vaidotas_gediminid = {
+        first_name = { name = Vaidotas }
+        culture = aukstaitian
+        religion = romuva
+        birth_date = 1345.1.1
+        death_date = 1414.1.1
+        birth = vilnius
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = LIT        
     }
 
-    mos_demetrius_romanov = {
-        first_name = { name = name_demetrius }
-        last_name = { name = Romanovich }
-        dynasty = romanov_dynasty
-        culture = muscovite
-        religion = orthodox
-        estate = nobles_estate
-        birth_date = 1397.1.1
-        tag = MOS
+    lit_vytautas_gediminid = {
+        first_name = { name = Vytautas }
+        nickname = { name = nick_the_great }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1350.1.1
+        death_date = 1430.10.27
+        birth = trakai
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = LIT        
     }
 
-    mos_mikhail_vorotynsky = {
+    mos_sofija_gediminid = {
+        first_name = { name = name_sophia }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1371.1.1
+        birth = trakai
+        father = lit_vytautas_gediminid
+        dynasty = gediminid_dynasty
+        tag = MOS           
+    }
+
+    lit_tautvilas_gediminid = {
+        first_name = { name = Tautvilas }
+        culture = aukstaitian
+        religion = romuva
+        birth_date = 1351.1.1
+        death_date = 1390.9.1
+        birth = trakai
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = LIT        
+    }
+
+    lit_zygimantas_gediminid = {
+        first_name = { name = Žygimantas }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1365.1.1
+        death_date = 1440.3.20
+        birth = trakai
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = LIT        
+    }
+
+    maz_mykolas_zygimantas_gediminid = {
         first_name = { name = name_michael }
-        dynasty = vorotynsky_dynasty
-        culture = ryazanian
-        religion = orthodox
-        estate = nobles_estate
-        birth_date = 1402.1.1
-        tag = MOS
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1405.1.1
+        birth = trakai
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = MAZ        
     }
 
-    mos_mstislav_vorotynsky = {
-        first_name = { name = name_mstislav }
-        dynasty = vorotynsky_dynasty
-        culture = ryazanian
-        religion = orthodox
-        father = mos_mikhail_vorotynsky
-        estate = nobles_estate
+    maz_danute_gediminid = {
+        first_name = { name = name_anna }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1358.1.1
+        death_date = 1424.11.26
+        birth = trakai
+        father = lit_kestutis_gediminds
+        dynasty = gediminid_dynasty
+        tag = MAZ        
+    }
+
+    # Sons of Narimantas
+
+    pnk_nikolai_gediminid = {
+        first_name = { name = name_nicholas }
+        culture = aukstaitian
+        religion = romuva
+        birth_date = 1338.1.1
+        death_date = 1388.1.1
+        birth = polotsk
+        father = pok_narimantas_gediminds
+        dynasty = gediminid_dynasty
+        tag = PNK          
+    }
+
+    sts_patrikas_gediminid = {
+        first_name = { name = name_patrick }
+        culture = aukstaitian
+        religion = romuva
+        birth_date = 1339.1.1
+        death_date = 1387.1.1
+        birth = polotsk
+        father = pok_narimantas_gediminds
+        dynasty = gediminid_dynasty
+        tag = STS          
+    }
+
+    # Sons of Karijotas
+
+    pod_fedir_gediminid = {
+        first_name = { name = name_theodore }
+        culture = aukstaitian
+        religion = romuva
+        birth_date = 1339.1.1
+        death_date = 1414.1.1
+        birth = novogrudok
+        father = nrk_karijotas_gediminds
+        dynasty = gediminid_dynasty
+        tag = VOL         
+    }
+
+    # Courtiers
+
+    lit_jonas_gostautai = {
+        first_name = { name = Jonas }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1393.1.1
+        birth = vilnius
+        dynasty = gostautai_dynasty
+        tag = LIT         
+    }
+
+    lit_vaitiekus_gostautai = {
+        first_name = { name = Vaitiekus }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1427.1.1
+        birth = vilnius
+        father = lit_jonas_gostautai
+        mother = lit_dorota_kesgaila
+        dynasty = gostautai_dynasty
+        tag = LIT         
+    }
+
+    lit_martynas_gostautai = {
+        first_name = { name = name_martin }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1428.1.1
+        birth = vilnius
+        father = lit_jonas_gostautai
+        mother = lit_dorota_kesgaila
+        dynasty = gostautai_dynasty
+        tag = LIT         
+    }
+
+    lit_jurgis_gostautai = {
+        first_name = { name = name_george }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1429.1.1
+        birth = vilnius
+        father = lit_jonas_gostautai
+        mother = lit_dorota_kesgaila
+        dynasty = gostautai_dynasty
+        tag = LIT         
+    }
+
+    lit_marija_gostautai = {
+        first_name = { name = name_mary }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1431.1.1
+        birth = vilnius
+        father = lit_jonas_gostautai
+        mother = lit_dorota_kesgaila
+        dynasty = gostautai_dynasty
+        tag = LIT         
+    }
+
+    lit_radvila_radziwill = {
+        first_name = { name = name_nicholas }
+        culture = aukstaitian
+        religion = catholic
         birth_date = 1421.1.1
-        tag = MOS
+        birth = vilnius
+        dynasty = radziwill_dynasty
+        tag = LIT        
     }
 
-    mos_ivan_vorotynsky = {
-        first_name = { name = Iefan }
-        dynasty = vorotynsky_dynasty
-        culture = ryazanian
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_mikhail_vorotynsky
+    lit_mykolas_radziwill = {
+        first_name = { name = name_michael }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1444.1.1
+        birth = vilnius
+        father = lit_radvila_radziwill
+        dynasty = radziwill_dynasty
+        tag = LIT        
+    }
+
+    lit_mykolas_nemiraitis = {
+        first_name = { name = name_michael }
+        last_name = { name = Nemiraitis }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1404.1.1
+        birth = vilnius
+        tag = LIT        
+    }
+
+    # Samogitia
+
+    sxm_valimantas_kesgaila = {
+        first_name = { name = Valimantas }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1360.1.1
+        birth = trakai
+        dynasty = kesgaila_dynasty
+        tag = SXM         
+    }
+
+    sxm_mykolas_kesgaila = {
+        first_name = { name = name_michael }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1388.1.1
+        birth = trakai
+        father = sxm_valimantas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
+    }
+
+    lit_mykolas_kesgaila_junior = {
+        first_name = { name = name_michael }
+        culture = aukstaitian
+        religion = catholic
         birth_date = 1410.1.1
-        tag = MOS
+        birth = raseiniai
+        father = sxm_mykolas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = LIT         
     }
 
-    mos_marianne_vorotynsky = {
-        first_name = { name = name_marianne }
-        dynasty = vorotynsky_dynasty
-        culture = ryazanian
-        religion = orthodox
-        estate = nobles_estate
-        father = mos_ivan_vorotynsky
+    sxm_jonas_kesgaila = {
+        first_name = { name = Jonas }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1412.1.1
+        birth = raseiniai
+        father = sxm_mykolas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
+    }
+
+    sxm_mykolas_kesgaila_second_junior = {
+        first_name = { name = name_michael }
+        culture = aukstaitian
+        religion = catholic
+        birth_date = 1442.1.1
+        birth = raseiniai
+        father = sxm_jonas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
+    }
+
+    sxm_stanislovas_kesgaila_ = {
+        first_name = { name = stanislovas }
+        culture = aukstaitian
+        religion = catholic
         birth_date = 1443.1.1
-        tag = MOS
+        birth = raseiniai
+        father = sxm_jonas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
     }
 
-    mos_metropolitan_isidor = {
-        first_name = { name = name_isidore }
-        culture = muscovite
-        religion = orthodox
-        estate = clergy_estate
-        birth_date = 1382.1.1
-        tag = MOS
+    sxm_dobkha_kesgaila = {
+        first_name = { name = Dobkha }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1413.1.1
+        birth = raseiniai
+        father = sxm_mykolas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
     }
 
-    mos_abbot_jonah = {
-        first_name = { name = Yonah }
-        culture = muscovite
-        religion = orthodox
-        estate = clergy_estate
+    lit_dorota_kesgaila = {
+        first_name = { name = Dorota }
+        culture = aukstaitian
+        religion = catholic
+        female = yes
+        birth_date = 1415.1.1
+        birth = raseiniai
+        spouse = lit_jonas_gostautai
+        father = sxm_mykolas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = LIT         
+    }
+
+    sxm_sudovijus_kesgaila = {
+        first_name = { name = Sudovijus }
+        culture = aukstaitian
+        religion = catholic
         birth_date = 1395.1.1
-        tag = MOS
+        birth = trakai
+        father = sxm_valimantas_kesgaila
+        dynasty = kesgaila_dynasty
+        tag = SXM         
     }
 
     #Castile&Aragon
@@ -114495,6 +114641,331 @@ character_db={
         mother = kat_voisava_tripalda
         dynasty = kastrioti_dynasty
         tag = KAT
+    }
+
+    ### Muscovy
+
+    mos_dmitry_donskoy_rurikovich = {#Dmitry Donskoy
+        first_name = { name = name_demetrius }
+        last_name = { name = Ivanovich }
+        nickname = { name = nick_the_triumphant }
+        adm = 68 dip = 75 mil = 85
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1350.10.12
+        death_date = 1389.5.19
+        birth = moscow
+        father = mos_ivan_ii_ivanovich_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+    }
+
+    mos_vasily_i_rurikovich = {#Vasily I
+        first_name = { name = name_basil }
+        last_name = { name = name_demetrius }
+        nickname = { name = nick_the_victorious }
+        adm = 54 dip = 86 mil = 70
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1371.12.30
+        death_date = 1425.2.27
+        birth = moscow
+        father = mos_dmitry_donskoy_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+    }
+
+    mos_vasily_ii_rurikovich = {#Ruler
+        first_name = { name = name_basil }
+        nickname = { name = the_blind }
+        adm = 48 dip = 56 mil = 75
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1415.3.10
+        birth = moscow
+        father = mos_vasily_i_rurikovich
+        mother = mos_sofija_gediminid
+        dynasty = rurikovich_dynasty
+        tag = MOS
+        ruler_trait = midas_touched
+        ruler_trait = careful
+    }
+
+    mos_maria_of_borovsk = {#queen Maria of Borovsk
+        first_name = { name = name_mary }
+        dynasty = yaroslavl_dynasty
+        adm = 75 dip = 60 mil = 40
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1420.7.10
+        birth = moscow
+        female = yes
+        spouse = mos_vasily_ii_rurikovich
+        dynasty = yaroslavl
+        tag = MOS
+    }
+
+    mos_ivan_iii_rurikovich = {#Son of Ruler
+        first_name = { name = Iefan }
+        last_name = { name = name_basil }
+        nickname = { name = nick_the_great }
+        adm = 95 dip = 80 mil = 90
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1440.1.22
+        birth = moscow
+        father = mos_vasily_ii_rurikovich
+        mother = mos_maria_of_borovsk
+        dynasty = rurikovich_dynasty
+        tag = MOS
+        child_trait = child_prodigy
+        ruler_trait = lawgiver
+        ruler_trait = conqueror
+    }
+
+    mos_yuri_of_vasily_rurikovich = {# second son of Ruler
+        first_name = { name = Yuriy }
+        last_name = { name = name_basil }
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1441.11.22
+        birth = moscow
+        father = mos_vasily_ii_rurikovich
+        mother = mos_maria_of_borovsk
+        dynasty = rurikovich_dynasty
+        tag = MOS
+        child_trait = child_gallant
+    }
+
+    #sons of yuri
+    mos_yuri_of_zvenigorod_rurikovich = {
+        first_name = { name = Yuriy }
+        last_name = { name = name_demetrius }
+        nickname = { name = nick_the_war_ish }
+        adm = 35 dip = 78 mil = 90
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1374.11.26
+        birth = moscow
+        father = mos_dmitry_donskoy_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+        ruler_trait = tactical_genius
+        ruler_trait = bold_fighter
+    }
+
+    mos_vasily_kosoy_rurikovich = {
+        first_name = { name = name_basil }
+        last_name = { name = Kosovic }
+        adm = 60 dip = 47 mil = 52
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1374.11.26
+        birth = moscow
+        father = mos_yuri_of_zvenigorod_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+        ruler_trait = craven
+    }
+
+    mos_dmitry_shemyaka_rurikovich = {
+        first_name = { name = name_demetrius }
+        last_name = { name = name_george }
+        adm = 56 dip = 65 mil = 70
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1418.12.9
+        birth = moscow
+        father = mos_yuri_of_zvenigorod_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+    }
+
+    mos_dmitry_krasny_rurikovich = {
+        first_name = { name = name_demetrius }
+        last_name = { name = Krasny }
+        adm = 62 dip = 45 mil = 60
+        culture = muscovite
+        religion = orthodox
+        birth_date = 1420.7.4
+        birth = moscow
+        father = mos_yuri_of_zvenigorod_rurikovich
+        dynasty = rurikovich_dynasty
+        tag = MOS
+    }
+
+    #nobles
+    mos_ivan_shuisky = {
+        first_name = { name = Iefan }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_oldivan_shuisky
+        birth_date = 1415.1.1
+        tag = MOS
+    }
+
+    mos_andrei_shuisky = {
+        first_name = { name = name_andrew }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_oldivan_shuisky
+        birth_date = 1420.1.1
+        tag = MOS
+    }
+
+    mos_oldivan_shuisky = {
+        first_name = { name = Iefan }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1395.1.1
+        tag = MOS
+    }
+
+    mos_roman_shuisky = {
+        first_name = { name = name_roman }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_oldivan_shuisky
+        birth_date = 1430.1.1
+        tag = MOS
+    }
+
+    mos_elizabeth_shuisky = {
+        first_name = { name = name_elizabeth }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        female = yes
+        father = mos_ivan_shuisky
+        birth_date = 1437.1.1
+        tag = MOS
+    }
+
+    mos_alexander_shuisky = {
+        first_name = { name = name_alexander }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_andrei_shuisky
+        birth_date = 1442.1.1
+        tag = MOS
+    }
+
+    mos_elisa_shuisky = {
+        first_name = { name = name_elisa }
+        dynasty = shuisky_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        female = yes
+        father = mos_oldivan_shuisky
+        birth_date = 1422.1.1
+        tag = MOS
+    }
+
+    mos_alexis_romanov = {
+        first_name = { name = name_alexis }
+        dynasty = romanov_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_nicholas_romanov
+        birth_date = 1423.1.1
+        tag = MOS
+    }
+
+    mos_mary_romanov = {
+        first_name = { name = name_mary }
+        last_name = { name = name_waldemar }
+        dynasty = romanov_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_alexis_romanov
+        birth_date = 1444.5.13
+        tag = MOS
+    }
+
+    mos_demetrius_romanov = {
+        first_name = { name = name_demetrius }
+        last_name = { name = Romanovich }
+        dynasty = romanov_dynasty
+        culture = muscovite
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1397.1.1
+        tag = MOS
+    }
+
+    mos_mikhail_vorotynsky = {
+        first_name = { name = name_michael }
+        dynasty = vorotynsky_dynasty
+        culture = ryazanian
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1402.1.1
+        tag = MOS
+    }
+
+    mos_mstislav_vorotynsky = {
+        first_name = { name = name_mstislav }
+        dynasty = vorotynsky_dynasty
+        culture = ryazanian
+        religion = orthodox
+        father = mos_mikhail_vorotynsky
+        estate = nobles_estate
+        birth_date = 1421.1.1
+        tag = MOS
+    }
+
+    mos_ivan_vorotynsky = {
+        first_name = { name = Iefan }
+        dynasty = vorotynsky_dynasty
+        culture = ryazanian
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_mikhail_vorotynsky
+        birth_date = 1410.1.1
+        tag = MOS
+    }
+
+    mos_marianne_vorotynsky = {
+        first_name = { name = name_marianne }
+        dynasty = vorotynsky_dynasty
+        culture = ryazanian
+        religion = orthodox
+        estate = nobles_estate
+        father = mos_ivan_vorotynsky
+        birth_date = 1443.1.1
+        tag = MOS
+    }
+
+    mos_metropolitan_isidor = {
+        first_name = { name = name_isidore }
+        culture = muscovite
+        religion = orthodox
+        estate = clergy_estate
+        birth_date = 1382.1.1
+        tag = MOS
+    }
+
+    mos_abbot_jonah = {
+        first_name = { name = Yonah }
+        culture = muscovite
+        religion = orthodox
+        estate = clergy_estate
+        birth_date = 1395.1.1
+        tag = MOS
     }
 
     ### Byzantine Empire & Morea
