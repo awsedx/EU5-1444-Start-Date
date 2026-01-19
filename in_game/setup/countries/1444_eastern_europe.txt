@@ -6,6 +6,14 @@ MOL = {
     religion_definition = orthodox
 }
 
+MAZ = {
+    #Mazovia
+    color = map_MAZ
+    
+    culture_definition = mazovian
+    religion_definition = catholic    
+}
+
 SNI = {
     #Slavonia
     color = rgb { 66 61 215 }
@@ -60,6 +68,14 @@ GOT = {
 
     culture_definition = gutnish
     religion_definition = catholic
+}
+
+LOV = {
+    #Lovech
+    color = rgb { 163 170 173 }
+
+    culture_definition = bulgarian
+    religion_definition = orthodox
 }
 
 KAT = {

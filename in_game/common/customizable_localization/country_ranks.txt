@@ -871,6 +871,7 @@ country_flavor = {
                 tag = SER
                 tag = EPI
                 tag = ACH
+                tag = LOV
             }
 
             OR = {

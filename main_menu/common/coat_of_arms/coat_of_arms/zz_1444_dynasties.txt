@@ -49,6 +49,7 @@ khasar_dynasty = {
         }
     }
 }
+
 chagataid_dynasty = { # Chagatai
 	pattern = "pattern_solid.dds"
 	color1 = "white"
