@@ -43306,12 +43306,24 @@ countries = {
                 type = monarchy
                 heir_selection = semi_salic_law
 
-                ruler = pol_casimir_iii_piast
+                heir = lit_kazimieras_iv_jagiellon
+                active_regent = pol_zbigniew_olesnicki
+                regency = nobles_estate_regency
+                start_regency_date = 1444.11.10
+                end_regency_date = 1447.6.25
+
                 ruler_term = { character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1 }
-                ruler_term = { character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3 }
+                ruler_term = { character = pol_casimir_iii_piast start_date = 1333.4.25 end_date = 1370.11.5 regnal_number = 3 }
+                ruler_term = { character = hun_lajos_i start_date = 1370.11.17 end_date = 1382.9.10 regnal_number = 1 }
+                ruler_term = { character = pol_jadwiga_anjou start_date = 1384.10.16 end_date = 1399.7.17 regnal_number = 1 }
+                ruler_term = { character = lit_jogalia_jagiellon start_date = 1399.7.17 end_date = 1434.6.1 regnal_number = 1 }
+                ruler_term = { character = lit_vladislovas_iii_jagiellon start_date = 1434.7.25 end_date = 1444.11.10 regnal_number = 3 }
+
                 regnal_numbers = {
-                    name_vladislav = 1
+                    name_vladislav = 3
                     name_casimir = 3
+                    name_louis = 1
+                    name_hedwig = 1
                 }
 
                 centralization_vs_decentralization = 80

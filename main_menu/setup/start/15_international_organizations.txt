@@ -168,7 +168,7 @@ international_organization_manager = {
         ruler_term = { character = ubv_ludwig_iv_wittelsbach start_date = 1322.9.28 end_date = 1347.10.11 regnal_number = 4 }
         #Great Interregnum will continue until Charles IV secures Succession for his son
         ruler_term = { character = boh_charles_iv_luxembourg start_date = 1355.1.1 end_date = 1378.11.29 regnal_number = 4 }
-
+        ruler_term = { character = hun_sigismund_i_luxembourg start_date = 1410.9.10 end_date = 1437.12.9 regnal_number = 1  }
         ruler_term = { character = hab_friedrich_iii_habsburg start_date = 1440.2.2 regnal_number = 3 }
 
         variables = {

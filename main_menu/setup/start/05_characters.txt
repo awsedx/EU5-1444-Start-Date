@@ -110081,6 +110081,7 @@ character_db={
         death_date = 1437.12.9
         birth = nuremburg
         father = boh_charles_iv_luxembourg
+        #mother = Elizabeth of Pomerania
         dynasty = luxembourg_dynasty
         tag = HUN           
     }
@@ -110292,7 +110293,7 @@ character_db={
 
     pol_jadwiga_anjou = {
         first_name = { name = name_hedwig }
-        culture = polish
+        culture = lesser_polish
         religion = catholic
         female = yes
         birth_date = 1373.10.3
@@ -110306,6 +110307,65 @@ character_db={
     }
 
     # Courtiers
+
+    pol_zbigniew_olesnicki = {
+        first_name = { name = Zbigniew }
+        last_name = { name = Oleśnicki }
+        culture = lesser_polish
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1389.12.5
+        birth = stezyca
+        tag = POL
+    }
+
+    pol_jan_tarnowski = {
+        first_name = { name = name_john }
+        culture = lesser_polish
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1367.1.1
+        death_date = 1433.8.17
+        birth = tarnow
+        dynasty = tarnowski_dynasty
+        tag = POL     
+    }
+
+    pol_jan_feliks_tarnowski = {
+        first_name = { name = name_john }
+        culture = lesser_polish
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1420.1.1
+        birth = tarnow
+        father = pol_jan_tarnowski
+        dynasty = tarnowski_dynasty
+        tag = POL     
+    }
+
+    pol_wasyl_czartoryski = {
+        first_name = { name = Wasyl }
+        culture = volhynian_culture
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1370.1.1
+        death_date = 1417.1.1
+        birth = chortolisy
+        dynasty = czartoryski_dynasty
+        tag = POL     
+    }
+
+    pol_michal_czartoryski = {
+        first_name = { name = name_michael }
+        culture = lesser_polish
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1404.1.1
+        birth = chortolisy
+        father = pol_wasyl_czartoryski
+        dynasty = czartoryski_dynasty
+        tag = POL     
+    }
 
     ### Lithuania
 

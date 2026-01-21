@@ -8988,6 +8988,18 @@ dynasty_manager = {
         home = kiev        
     }
 
+    ### Poland
+
+    tarnowski_dynasty = {
+        name = { name = tarnowski_dynasty }
+        home = tarnow        
+    }
+
+    czartoryski_dynasty = {
+        name = { name = czartoryski_dynasty }
+        home = chortolisy           
+    }
+
     ### Hungary
 
     szilagyi_dynasty = {
