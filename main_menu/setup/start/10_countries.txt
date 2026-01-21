@@ -50798,7 +50798,9 @@ countries = {
                 jijial kandia dasu tangir
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_india_hindu"
+            include = "indian_hindu_monarchy_no_coast"
 
             capital = toling
             government = {
@@ -50818,9 +50820,11 @@ countries = {
                 mendong samten selephu
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_india_hindu"
+            include = "indian_hindu_monarchy_no_coast"
 
-            capital = toling
+            capital = tsaparang
             government = {
                 ruler = random
             }
@@ -50840,11 +50844,69 @@ countries = {
                 pome lhari
             }
 
-            include = "east_asia_monarchy_no_coast"
+            country_rank = rank_duchy
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = nedong
             government = {
-                ruler = random
+                ruler_term = { character = pha_tai_situ_changchub_gyaltsen start_date = 1354.1.1 end_date = 1364.1.1 regnal_number = 1 }
+                ruler_term = { character = pha_jamyang_shakya_gyaltsen start_date = 1364.1.1 end_date = 1373.1.1 regnal_number = 1 }
+                ruler_term = { character = pha_drakpa_changchub start_date = 1373.1.1 end_date = 1381.1.1 regnal_number = 1 }
+                ruler_term = { character = pha_sonam_drakpa start_date = 1381.1.1 end_date = 1385.1.1 regnal_number = 1 }
+                ruler_term = { character = pha_gongma_drakpa_gyaltsen start_date = 1385.1.1 end_date = 1432.1.1 regnal_number = 1 }
+                ruler_term = { character = pha_drakpa_jungne start_date = 1432.1.1 regnal_number = 1 }
+                ruler = pha_drakpa_jungne
+                heir = pha_kunga_lekpa
+
+                type = theocracy
+                heir_selection = theocratic_elective
+
+                aristocracy_vs_plutocracy = -60
+                centralization_vs_decentralization = -60
+                traditionalist_vs_innovative = -50
+                spiritualist_vs_humanist = -25
+                serfdom_vs_free_subjects = -40
+                mercantilism_vs_free_trade = -80
+                belligerent_vs_conciliatory = -50
+                quality_vs_quantity = 20
+                offensive_vs_defensive = 10
+                land_vs_naval = -20
+                capital_economy_vs_traditional_economy = 80
+                individualism_vs_communalism = 20
+                outward_vs_inward = -95
+
+                parliament = {
+                    parliament_type = council
+                }
+
+                laws = {
+                    censorship = limited_censorship
+                    education_masses_law = basic_religious_education
+                    administrative_system = feudal_administration
+                    cultural_traditions_law = civil_society
+                    marriage_law = monogamous_marriage
+                    heir_religion_law = heir_special_succession
+                    legal_code_law = traditional_law_policy
+                    distribution_of_power_law = dop_traditional_distribution_of_power
+                }
+                privilege = {
+                    #Clergy
+                    clergy_literacy_rights
+                    clergy_land_rights
+                    embellish_great_works_of_faith
+                    promote_cultural_unity
+                    #Nobles
+                    nobles_land_rights
+                    noble_serfdom_rights
+                    noble_fortification_licenses
+                    elaborate_court_ceremonies
+                }
+            }
+
+            tolerated_cultures = {
+                changpa_culture
+                khampa_culture
             }
         }
 
@@ -50854,13 +50916,69 @@ countries = {
                 shigatse jonang namling tropu tsangdram
                 ganden_delingshar lhadrak ngamring tagmo_lingkha
                 serzhik shantsa zangdan
+                gyantse
             }
 
-            include = "east_asia_monarchy_no_coast"
-
-            capital = nedong
+            country_rank = rank_duchy
+            starting_technology_level = 3
+            include = "expl_china"
+            
+            capital = shigatse
             government = {
-                ruler = random
+                ruler = rin_norzang
+                type = theocracy
+                heir_selection = theocratic_elective
+
+                aristocracy_vs_plutocracy = -60
+                centralization_vs_decentralization = -60
+                traditionalist_vs_innovative = -50
+                spiritualist_vs_humanist = -25
+                serfdom_vs_free_subjects = -40
+                mercantilism_vs_free_trade = -80
+                belligerent_vs_conciliatory = -50
+                quality_vs_quantity = 20
+                offensive_vs_defensive = 10
+                land_vs_naval = -20
+                capital_economy_vs_traditional_economy = 80
+                individualism_vs_communalism = 20
+                outward_vs_inward = -95
+
+                reforms = {
+                    # TODO: This doesn't work, make a custom reform
+                    military_order_reform
+                }
+
+                parliament = {
+                    parliament_type = council
+                }
+
+                laws = {
+                    censorship = limited_censorship
+                    education_masses_law = basic_religious_education
+                    administrative_system = feudal_administration
+                    cultural_traditions_law = civil_society
+                    marriage_law = monogamous_marriage
+                    heir_religion_law = heir_special_succession
+                    legal_code_law = traditional_law_policy
+                    distribution_of_power_law = dop_traditional_distribution_of_power
+                }
+                privilege = {
+                    #Clergy
+                    clergy_literacy_rights
+                    clergy_land_rights
+                    embellish_great_works_of_faith
+                    promote_cultural_unity
+                    #Nobles
+                    nobles_land_rights
+                    noble_serfdom_rights
+                    noble_fortification_licenses
+                    elaborate_court_ceremonies
+                }
+            }
+
+            tolerated_cultures = {
+                changpa_culture
+                khampa_culture
             }
         }
 
@@ -50872,7 +50990,8 @@ countries = {
                 wara_kham jomda sibda
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = chamdo
             government = {
@@ -50887,7 +51006,8 @@ countries = {
                 jyekundo lungsho
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = jyekundo
             government = {
@@ -50901,7 +51021,8 @@ countries = {
                 lhakhang pasho pema
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = pasho
             government = {
@@ -50917,7 +51038,8 @@ countries = {
                 zagya tsedzong
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = namtso_doring
             government = {
@@ -50931,8 +51053,9 @@ countries = {
                 biru pembar riwoche samda shopando sok tengchen yangdzong
             }
 
-            include = "east_asia_monarchy_no_coast"
-
+            starting_technology_level = 3
+            include = "expl_china"
+            
             capital = shopando
             government = {
                 ruler = random
@@ -50945,7 +51068,8 @@ countries = {
                 nenying ralung
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = nenying
             government = {
@@ -50959,7 +51083,8 @@ countries = {
                 sakya gonga_chode chorten_nyima
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = sakya
             government = {
@@ -50973,7 +51098,8 @@ countries = {
                 dingri pelmo nyalam
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = dingri
             government = {
@@ -50987,7 +51113,8 @@ countries = {
                 dargyeling dzongkar
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
 
             capital = dzongkar
             government = {
@@ -51001,7 +51128,9 @@ countries = {
                 purang tokchen
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_china"
+
             government = {
                 ruler = pur_punyamalla
             }
