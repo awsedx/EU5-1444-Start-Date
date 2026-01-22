@@ -116852,7 +116852,6 @@ character_db={
 		tag = JOE
 	}
 
-
     #Bahmanis
     bah_ala_ud_din_hasan_bahman = { #Founder of Bahmanis
 		first_name = { name = name_hasan_bahman }
@@ -117856,5 +117855,19 @@ character_db={
         father = bpr_thinkaya
         dynasty = pagan_dynasty
         tag = BPR
+    }
+
+
+    # Holstein
+    ########## Germany ##########
+
+    HTR_adolf_8 = {
+        first_name = { name = Adolf }
+        culture = holsatian
+        religion = catholic
+        birth_date = 1401.1.1
+        birth = rendsburg
+        dynasty = schauenburg_dynasty
+        tag = HTR
     }
 }
