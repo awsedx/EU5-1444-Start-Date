@@ -1509,11 +1509,9 @@ countries = {
                 offensive_vs_defensive = 10
                 belligerent_vs_conciliatory = 0
                 outward_vs_inward = 0
-
-
             }
 
-            country_rank = rank_county
+            country_rank = rank_duchy
             capital = dresden
             dynasty = wettin_dynasty
             tolerated_cultures = {
@@ -18443,7 +18441,7 @@ countries = {
         BRB = {
             own_control_core = {
                 brussels nivelles leuven mechelen antwerp turnhout eindhoven
-                bergen_zoom breda hertogenbosch helmond
+                hertogenbosch helmond
             }
 
             starting_technology_level = 3
@@ -18478,6 +18476,62 @@ countries = {
             tolerated_cultures = {
                 walloon
             }
+        }
+
+        BDA = { #Lordship of Breda - under Lords of Dillenburg
+            own_control_core = {
+                breda
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+            include = "german_principality"
+            government = {
+                ruler = random
+
+                aristocracy_vs_plutocracy = 20
+                mercantilism_vs_free_trade = 30
+                land_vs_naval = 20
+                capital_economy_vs_traditional_economy = -10
+                individualism_vs_communalism = -20
+                outward_vs_inward = 0
+
+            }
+
+            tolerated_cultures = {
+            }
+
+            country_rank = rank_county
+            capital = breda
+        }
+
+        BOZ = { #Lordship of Bergen op Zoom
+            own_control_core = {
+                bergen_zoom
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+            include = "german_principality"
+            government = {
+                ruler = random
+
+                aristocracy_vs_plutocracy = 20
+                mercantilism_vs_free_trade = 30
+                land_vs_naval = 20
+                capital_economy_vs_traditional_economy = -10
+                individualism_vs_communalism = -20
+                outward_vs_inward = 0
+
+            }
+
+            tolerated_cultures = {
+            }
+
+            country_rank = rank_county
+            capital = bergen_zoom
         }
 
         #Liege
@@ -36433,8 +36487,8 @@ countries = {
         UBV = {
             #Upper Bavaria
             own_control_core = {
-                munich tolz andechs weilheim schongau landsberg indersdorf parsberg
-                pfaffenhofen burglengenfeld
+                munich tolz andechs weilheim schongau landsberg indersdorf
+                pfaffenhofen
                 kelheim straubing bavaria_regen
             }
 
@@ -37444,7 +37498,7 @@ countries = {
             #The Palatinate
             own_control_core = {
                 heidelberg germersheim neustadt_an_der_haardt oppenheim kaiserslautern
-                amberg eschenbach neumarkt roding sulzbach #Oberpfalz
+                amberg sulzbach #Oberpfalz
                 kreuznach
             }
 
@@ -37498,7 +37552,33 @@ countries = {
                 east_franconian
             }
 
+            country_rank = rank_duchy
+        }
+
+        NMK = {
+            #Neumarkt - Palatinate Branch
+            own_control_core = {
+                neumarkt roding eschenbach
+                burglengenfeld parsberg
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            include = "expl_northern_europe"
+            include = "german_principality"
+
+            government = {
+                ruler = dan_christoph_iii_wittelsbach
+            }
+
+            accepted_cultures = {
+                upper_palatine
+            }
+
             country_rank = rank_county
+            capital = neumarkt
+            dynasty = wittelsbach_dynasty
         }
 
         BMS = {
@@ -37612,6 +37692,27 @@ countries = {
             capital = beeskow
         }
 
+            CTB = {
+            # Cottbus
+            own_control_core = {
+                cottbus
+            }
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "expl_northern_europe"
+            include = "catholic_republic"
+            include = "german_principality"
+            government = {
+                type = republic
+                ruler = random
+            }
+            tolerated_cultures = {
+                sorbian
+            }
+            country_rank = rank_county
+            capital = cottbus
+        }
+
         MSO = {
             # Mesocco
             own_control_core = {
@@ -37627,7 +37728,8 @@ countries = {
                 laws = {
                     mining_law = burghers_mining_law
                 }
-            } country_rank = rank_county
+            } 
+            country_rank = rank_county
             capital = mesocco
         }
 
@@ -38716,8 +38818,7 @@ countries = {
         ANS = {
             #Ansbach
             own_control_core = {
-                ansbach wunsiedel bayreuth neustadt schwabach
-                kulmbach
+                ansbach neustadt schwabach
             }
 
             starting_technology_level = 3
@@ -38757,7 +38858,53 @@ countries = {
 
             country_rank = rank_county
             capital = ansbach
-            dynasty = hohenzollern_dynasty
+            dynasty = hohenzollern_nurnberg_dynasty
+        }
+
+            KUL = {
+            #Kulmbach
+            own_control_core = {
+                kulmbach wunsiedel bayreuth    
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            include = "expl_northern_europe"
+            include = "german_principality"
+            government = {
+                ruler = ans_albrecht_iii_hohenzollern_brandenburg
+
+                ruler_term = { character = ans_friedrich_i_von_nurnberg start_date = 1192.1.1 end_date = 1204.1.1 regnal_number = 1 }
+                ruler_term = { character = hoh_friedrich_iv_von_zollern start_date = 1204.1.1 end_date = 1214.1.1 regnal_number = 2 }
+                ruler_term = {
+                    character = hhb_friedrich_iv_von_zollern start_date = 1214.1.1 end_date = 1255.1.1 regnal_number = 2
+                    character = ans_konrad_i_von_nurnberg start_date = 1214.1.1 end_date = 1255.1.1 regnal_number = 1
+                }
+                ruler_term = { character = ans_konrad_i_von_nurnberg start_date = 1255.1.1 end_date = 1262.1.1 regnal_number = 1 }
+                ruler_term = { character = ans_friedrich_iii_von_nurnberg start_date = 1262.1.1 end_date = 1297.8.14 regnal_number = 3 }
+                ruler_term = { character = ans_johann_i_von_nurnberg start_date = 1297.8.14 end_date = 1300.1.1 regnal_number = 1 }
+                ruler_term = { character = ans_friedrich_iv_von_nurnberg start_date = 1300.1.1 end_date = 1332.5.19 regnal_number = 4 }
+                ruler_term = { character = ans_johann_ii_von_nurnberg start_date = 1332.5.19 end_date = 1357.7.31 regnal_number = 2 }
+                ruler_term = { character = ans_friedrich_v_von_nurnberg start_date = 1357.7.31 end_date = 1398.1.21 regnal_number = 5 }
+                ruler_term = { character = bra_friedrich_i_hohenzollern_brandenburg start_date = 1398.1.21 end_date = 1440.9.20 regnal_number = 6 }
+                ruler_term = { character = ans_albrecht_iii_hohenzollern_brandenburg start_date = 1440.9.20 end_date = 1440.9.20 regnal_number = 3 }
+
+                regnal_numbers = {
+                    name_frederick = 6
+                    name_conrad = 1
+                    name_john = 2
+                    name_albert = 1
+                }
+            }
+
+            tolerated_cultures = {
+                upper_palatine
+            }
+
+            country_rank = rank_county
+            capital = kulmbach
+            dynasty = hohenzollern_nurnberg_dynasty
         }
 
         UFF = {
@@ -39660,15 +39807,15 @@ countries = {
         SOR = {
             #Lusatia
             own_control_core = {
-                cottbus guben lubben luckau calau zossen spremberg
+                guben lubben luckau calau zossen spremberg
                 bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern zittau
+                zary
             }
             starting_technology_level = 3
             include = "expl_western_europe"
             include = "catholic_monarchy_no_coast"
             include = "expl_northern_europe"
             include = "german_principality"
-            capital = cottbus
             government = {
                 regency = nobles_estate_regency
                 active_regent = boh_jiri_podebrad
@@ -39689,6 +39836,7 @@ countries = {
                 brandenburgish
             }
             country_rank = rank_county
+            capital = gorlitz
         }
 
         SPB = {
@@ -39873,7 +40021,7 @@ countries = {
         MKL = {
             #Mecklenburg
             own_control_core = {
-                wismar strelitz neubrandenburg grabow hagenow grevesmuhlen doberan ribnitz rostock
+                wismar grabow hagenow grevesmuhlen doberan ribnitz rostock
                 gustrow parchim malchow
                 waren malchin
             }
@@ -40089,10 +40237,34 @@ countries = {
             dynasty = mecklenburg_dynasty
         }
 
+        SAD = {
+            #Stargard
+            own_control_core = {
+                strelitz neubrandenburg
+            }
+
+            starting_technology_level = 3
+            include = "catholic_monarchy_no_coast"
+            include = "expl_northern_europe"
+            include = "german_principality"
+            government = {
+
+                ruler = random
+            }
+
+            tolerated_cultures = {
+                polabian
+            }
+
+            country_rank = rank_county
+            capital = strelitz
+            dynasty = mecklenburg_dynasty
+        }
+
         WOL = {
             #Wolgast
             own_control_core = {
-                wolgast stralsund rugen grimmen swinousjcie
+                wolgast swinousjcie
             }
 
             starting_technology_level = 3
@@ -40123,8 +40295,31 @@ countries = {
             dynasty = gryf_dynasty
         }
 
+        BAT = {
+            #Barth
+            own_control_core = {
+                stralsund grimmen rugen
+            }
+
+            starting_technology_level = 3
+            include = "catholic_monarchy"
+            include = "expl_northern_europe"
+            include = "german_principality"
+            country_rank = rank_duchy
+            government = {
+            }
+
+            tolerated_cultures = {
+                western_pomeranian
+                kashubian
+            }
+
+            capital = stralsund
+            dynasty = gryf_dynasty
+        }
+
         SOP = {
-            #SOP
+            #Stolp
             own_control_core = {
                 miastko szadzko
                 nowoszczecin gryfia_gora bialogard slawno slupsk
@@ -40961,9 +41156,7 @@ countries = {
         ZWE = {
             #Zweibrucken
             own_control_core = {
-                zweibrucken bitche pirmasens
-                lichtenberg_veldenz
-                meisenheim
+                zweibrucken lichtenberg_veldenz meisenheim 
             }
 
             starting_technology_level = 3
@@ -40984,6 +41177,26 @@ countries = {
             }
             country_rank = rank_county
             capital = zweibrucken
+            dynasty = zweibrucken_dynasty
+        }
+
+        BTC = {
+            #Bitsch
+            own_control_core = {
+                bitche pirmasens
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            include = "expl_northern_europe"
+            include = "german_principality"
+            government = {
+
+                ruler = random
+            }
+            country_rank = rank_county
+            capital = bitche
             dynasty = zweibrucken_dynasty
         }
 
@@ -41215,7 +41428,6 @@ countries = {
             #Guelders / Geldern / former EU4 Gelre
             own_control_core = {
                 geldern arnhem roermond venlo nijmegen tiel harderwijk apeldoorn
-                zutphen doetinchem
             }
 
             starting_technology_level = 3
@@ -41248,7 +41460,7 @@ countries = {
 
         ZUT = {
             #Zutphen
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 zutphen doetinchem
             }
 
@@ -42615,7 +42827,7 @@ countries = {
         ZAG = {
             #Zagan
             own_control_core = {
-                zagan krosno_odrzanskie sulechow zary
+                zagan krosno_odrzanskie sulechow
             }
 
             starting_technology_level = 3

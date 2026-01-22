@@ -65,6 +65,70 @@ SOP = {
     religion_definition = catholic
 }
 
+KUL = {
+    #Kulmbach
+    color = rgb { 143 83 60 }
+
+    culture_definition = eastern_franconian
+    religion_definition = catholic    
+}
+
+CTB = {
+    #Cottbus
+    color = rgb { 209 91 71 }
+
+    culture_definition = sorbian
+    religion_definition = catholic    
+}
+
+SAD = {
+    #Stargard
+    color = rgb { 48 154 186 }
+
+    culture_definition = western_pomeranian
+    religion_definition = catholic    
+}
+
+BAT = {
+    #Barth
+    color = rgb { 162 184 114 }
+
+    culture_definition = western_pomeranian
+    religion_definition = catholic    
+}
+
+NMK = {
+    #Neumarkt
+    color = rgb { 87 181 189 }
+
+    culture_definition = upper_palatine
+    religion_definition = catholic    
+}
+
+BTC = {
+    #Bitsch
+    color = rgb { 174 59 217 }
+
+    culture_definition = rhine_franconian
+    religion_definition = catholic    
+}
+
+BDA = {
+    #Breda
+    color = rgb { 101 219 207 }
+
+    culture_definition = low_franconian
+    religion_definition = catholic    
+}
+
+BOZ = {
+    #Bergen op Zoom
+    color = rgb { 136 207 103 }
+
+    culture_definition = low_franconian
+    religion_definition = catholic    
+}
+
 TOI = {
     #Tournai
     color = rgb { 201 24 36 }
@@ -81,7 +145,7 @@ ASU = {
     religion_definition = catholic
 }
 
-LIT = {
+LIT = { #Edited to be Catholic
     #Lithuania
 	color = map_LIT
 	color2 = rgb { 154 69 116 }
