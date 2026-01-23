@@ -271,7 +271,7 @@ kerait_dynasty = { # Kerait Oirats
     color2 = "yellow_mid"
 
     colored_emblem = {
-        texture = "ce_tamgha_mongol_x.dd"
+        texture = "ce_tamgha_mongol_x.dds"
         instance = {
             position = { 0.500 0.500 }
             scale = { 0.750 0.750 }
