@@ -7171,7 +7171,7 @@ countries = {
         #CTR - Chitral
         CTR = {
             #https://en.wikipedia.org/wiki/Chitral_(princely_state)
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 chitral mulkhow yarkhun mastuj
             }
 
@@ -7261,7 +7261,7 @@ countries = {
         #GLI - Gilgit
         GLI = {
             #https://en.wikipedia.org/wiki/Gilgit
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 phander yasin punial
                 gilgit ishkoman bunji
                 astore chilas
@@ -7312,7 +7312,7 @@ countries = {
         #HNZ - Hunza
         HNZ = {
             #https://en.wikipedia.org/wiki/Hunza_(princely_state)
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 altit passu misgar
             }
 
@@ -7354,7 +7354,7 @@ countries = {
         #NAG - Nagar
         NAG = {
             #Nagar
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 nagar
             }
 
@@ -50815,10 +50815,10 @@ countries = {
                 toling dungkar tsaparang
                 gyanema khyunglung purang tokchen
                 rutok drangtse hanle tashigang gartok rala
-                baryang lo_mustang tradun
-                ormogang tsherlung
-                mendong samten selephu
-                dargyeling dzongkar
+                # baryang lo_mustang tradun
+                # ormogang tsherlung
+                # mendong samten selephu
+                # dargyeling dzongkar
             }
 
             starting_technology_level = 3
@@ -50840,11 +50840,11 @@ countries = {
                 nedong densatil gongkar samye
                 # dibang siang siyom subansiri
                 # ziro bomdila kameng kamla kurung 
-                metog rigyal tirkong
-                pome lhari chumdo shukden
-                siang subansiri
+                # metog rigyal tirkong
+                # pome lhari chumdo shukden
+                # siang subansiri
 
-                rima sangacho walong
+                # rima sangacho walong
             }
 
             country_rank = rank_duchy
@@ -50927,6 +50927,12 @@ countries = {
                 dargyeling dzongkar
                 baryang lo_mustang tradun
                 namtso_doring
+
+                nakchu barom rongpo
+                namtso_doring tsedzong ronglung gonkri
+                phari
+                tsherlung ormogang
+                mendong samten selephu
             }
 
             country_rank = rank_duchy
@@ -51034,13 +51040,13 @@ countries = {
                 # Baltistan?
                 skardu khaplu shigar
                 # ????
-                zangla padum phuktal
-                nagar
-                phander yasin punial
-                gilgit ishkoman bunji
-                astore chilas
-                altit passu misgar
-                chitral mulkhow yarkhun mastuj urtsun
+                # zangla padum phuktal
+                # nagar
+                # phander yasin punial
+                # gilgit ishkoman bunji
+                # astore chilas
+                # altit passu misgar
+                # chitral mulkhow yarkhun mastuj urtsun
                 # Yarkent passageway
                 # murgo amtogor raskam sanju
             }
@@ -51060,7 +51066,7 @@ countries = {
 
         ZNK = {
             #Zanskar
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 zangla padum phuktal
             }
 
@@ -51875,7 +51881,7 @@ countries = {
 
         POO = {
             #Powo
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 pome lhari chumdo shukden
                 rigyal metog tirkong
                 rima sangacho walong
@@ -66867,7 +66873,9 @@ countries = {
                 roshtqala qila_panjeh gunt sarhad oksu murghab
             }
 
-            include = "east_asia_monarchy_no_coast"
+            starting_technology_level = 3
+            include = "expl_india_hindu"
+            include = "indian_hindu_monarchy_no_coast"
 
             capital = vamar
             government = {
