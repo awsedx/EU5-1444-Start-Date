@@ -1,6 +1,6 @@
 AMD = {
 	# Amdo
-	color = rgb { 162 24 24 } # EU4 Amdo Colour
+	color = map_AMD
 
 	culture_definition = amdowa_culture
 	religion_definition = tibetan_buddhism
@@ -8,7 +8,7 @@ AMD = {
 
 MAR = {
 	# Maryul
-	color = rgb { 23  110  90 } # EU4 Ladakh colour
+	color = map_MAR
 
 	culture_definition = ladakh_culture
 	religion_definition = tibetan_buddhism
@@ -16,7 +16,7 @@ MAR = {
 
 GUG = { 
 	# Guge
-	color = rgb { 50  37  125 } # EU4 Guge Colour
+	color = map_GUG # EU4 Guge Colour
 
 	culture_definition = utsang_culture
 	religion_definition = tibetan_buddhism
@@ -26,7 +26,7 @@ GUG = {
 
 PHA = {
 	# Phagmodrupa
-	color = rgb { 93  102  151 }
+	color = map_PHA
 
 	culture_definition = utsang_culture
 	religion_definition = tibetan_buddhism
@@ -36,7 +36,7 @@ PHA = {
 
 RIN = {
 	# Rinpungpa
-	color = rgb { 38  101  255 }
+	color = map_RIN
 
 	culture_definition = utsang_culture
 	religion_definition = tibetan_buddhism

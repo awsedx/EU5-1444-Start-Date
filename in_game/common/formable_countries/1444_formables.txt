@@ -78,27 +78,8 @@ AFG_f = {
     }
 }
 
-TIB_f = {
-	level = 3
-	required_locations_fraction = 0.6
-	rule = historical
-	potential = {
-		culture = { has_culture_group = culture_group:tibetan_group }
-	}
-	name = TIB
-	flag = TIB
-	adjective = TIB_ADJ
-	tag = TIB
-	color = map_TIB
-	regions = {
-		tibet_region
-	}
-	form_effect = {
-	}
-}
-
 KHP_f = {
-	level = 2
+	level = 1
 	required_locations_fraction = 0.6
 	rule = historical
 
@@ -117,6 +98,35 @@ KHP_f = {
 
 	areas = {
 		kham_area
+	}
+	form_effect = {
+	}
+}
+
+UTS_f = {
+	level = 1
+	required_locations_fraction = 0.8
+	rule = historical
+
+	potential = {
+		culture = culture:utsang_culture
+	}
+
+	allow = {
+		NOT = {
+			tag = TIB
+		}
+	}
+	
+	name = UTS
+	flag = UTS
+	adjective = UTS_ADJ
+	tag = UTS
+	color = map_UTS
+
+	areas = {
+		u_area
+		tsang_area
 	}
 	form_effect = {
 	}
