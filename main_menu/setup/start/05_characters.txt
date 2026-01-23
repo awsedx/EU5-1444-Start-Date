@@ -31406,7 +31406,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1304.1.1
-        death_date = 1367.10.25
+        death_date = 1351.1.1
         birth = padova
         dynasty = carrara_dynasty
         father = pad_giacomo_carrara
@@ -31414,7 +31414,6 @@ character_db={
         spouse = ver_mastino_ii_scala
         tag = VER
     }
-
 
     pad_marsilio_carrara = {
         first_name = { name = name_marsilius }

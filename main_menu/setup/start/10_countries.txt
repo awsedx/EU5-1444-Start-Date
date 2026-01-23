@@ -4656,7 +4656,6 @@ countries = {
             }
         }
 
-
         FEO = {
             # Theodoro
             own_control_core = {
@@ -4727,8 +4726,6 @@ countries = {
                 shrewsbury hereford
                 # cornwall
                 launceston truro bodmin
-                # channel
-                jersey
 
                 # Duchy of Lancaster
                 lancaster blackburn liverpool preston manchester
@@ -5318,7 +5315,7 @@ countries = {
             # Jersey
             include = "expl_western_europe"
             include = "catholic_monarchy_english_lordship_not_present"
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 jersey
             }
             government = {
@@ -6427,7 +6424,6 @@ countries = {
             tolerated_cultures = {
                 tamil
             }
-
         }
 
         #TNK - Pandya
@@ -9575,7 +9571,7 @@ countries = {
         }
 
         ASC = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 ascolipiceno
             }
 
@@ -9704,7 +9700,7 @@ countries = {
         }
 
         BRS = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 asola brescia palazzolo salo_ita breno nozza
             }
 
@@ -9728,6 +9724,55 @@ countries = {
             }
             country_rank = rank_county
             capital = brescia
+        }
+
+        BGM = {
+            own_control_core = {
+                bergamo cortenuova clusone zogno
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_republic_not_present"
+            government = {
+                type = republic
+                heir_selection = podesta_elective
+
+                reforms = {
+                    signoria_reform
+                }
+                ruler = random
+
+            }
+            country_rank = rank_county
+            capital = bergamo
+        }
+
+        SAR = {
+            own_control_core = {
+                cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania
+                sassari sorgono terralba bosa macomer bitti ozieri ales alghero thiesi
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            country_rank = rank_kingdom
+            capital = cagliari
         }
 
         CAG = {
@@ -10097,8 +10142,12 @@ countries = {
         }
 
         CRM = {
+            own_control_core = {
+                casalmaggiore cremona soncino
+            }
+
             our_cores_conquered_by_others = {
-                casalmaggiore cremona soncino lodi
+                lodi
             }
 
             starting_technology_level = 3
@@ -10446,6 +10495,10 @@ countries = {
         FRM = {
             own_control_core = {
                 fermo
+            }
+
+            own_control_integrated = {
+                macerata ascolipiceno
             }
 
             starting_technology_level = 3
@@ -10895,14 +10948,17 @@ countries = {
                 varallo
             }
 
+            own_control_integrated = {
+                lodi
+            }
+
             our_cores_conquered_by_others = {
                 bergamo cortenuova clusone zogno
             }
 
             own_control_conquered = {
-                bormio chiavenna tresivio arona novara domodossola como
-                casalmaggiore cremona soncino lodi
-                bardi fiorenzuola piacenza lugano
+                chiavenna tresivio arona novara domodossola como
+                bardi fiorenzuola piacenza
                 novi tortona
                 rovegno bobbio
             }
@@ -11021,6 +11077,29 @@ countries = {
             dynasty = visconti_dynasty
         }
 
+        TRR = {
+            own_control_core = {
+                bormio
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+
+                ruler = random
+            }
+
+            country_rank = rank_county
+            capital = bormio
+        }
+
         MND = {
             our_cores_conquered_by_others = {
                 mondovi
@@ -11095,7 +11174,6 @@ countries = {
                 fosdinovo
             }
 
-
             starting_technology_level = 3
             include = "expl_mediterranean"
             include = "expl_silk_road_west"
@@ -11137,7 +11215,7 @@ countries = {
         }
 
         MTA = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 macerata
             }
 
@@ -11369,9 +11447,8 @@ countries = {
         PAP = {
             own_control_core = {
                 anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
-                corneto orte orvietano viterbo assisi narni rieti spoleto todi
+                corneto orte viterbo assisi narni rieti spoleto todi
                 benevento
-                avignon #France
             }
 
             include = "catholic_bishopric"
@@ -11603,12 +11680,34 @@ countries = {
             dynasty = beccaria_dynasty
         }
 
+        ORV = {
+            own_control_core = {
+                orvietano
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_republic_no_coast"
+            government = {
+                type = republic
+                heir_selection = oligarchic_elective #Priors
+                ruler = random
+            }
+
+            tolerated_cultures = {
+                tuscan
+            }
+
+            capital = orvietano
+        }
+
         PEA = {
             own_control_core = {
                 marsciano perugia
-            }
-
-            own_control_conquered = {
             }
 
             starting_technology_level = 3
@@ -11960,7 +12059,6 @@ countries = {
                 bourg_en_bresse belley chambery gex saint_jean_de_maurienne
                 moutiers evian
                 bage thoire
-                puget_theniers nice
                 faucigny sallanches villars
                 biella vercelli
             }
@@ -12020,7 +12118,7 @@ countries = {
         PIE = {
             own_control_core = {
                 pinerolo susa turin lanzo chieri
-                cuneo barcelonnette mondovi alba
+                cuneo mondovi alba
             }
 
             starting_technology_level = 3
@@ -12059,6 +12157,34 @@ countries = {
 
             country_rank = rank_county
             capital = turin
+        }
+
+        #County of Nice - NIC
+        NIC = {
+            own_control_core = {
+                nice puget_theniers
+            }
+
+            own_control_integrated = {
+                barcelonnette
+            }
+
+            our_cores_conquered_by_others = {
+                grasse
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "catholic_monarchy_no_coast"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            dynasty = savoy_dynasty
+            country_rank = rank_county
+            capital = nice
         }
 
         #Saint-Claude Abbey - SCL
@@ -12562,12 +12688,11 @@ countries = {
         VEN = {
             own_control_core = {
                 chioggia venice mestre
-                pola rovinj pag zadar split brac sibenik
+                pag brac
                 este monselice padova
                 legnago peschiera verona
                 # own_control_integrated, but culture accepted
                 bassano schio vicenza
-                asola brescia palazzolo salo_ita breno nozza
                 cividale
                 ceneda conegliano
                 feltre
@@ -12584,7 +12709,6 @@ countries = {
             }
 
             own_control_conquered = {
-                bergamo cortenuova clusone zogno
                 lezha
             }
 
@@ -12763,12 +12887,9 @@ countries = {
             dynasty = zeno_dynasty
         }
 
-
         VER = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 legnago peschiera verona
-                # own_control_integrated, but culture accepted
-                bassano schio vicenza
             }
 
             starting_technology_level = 3
@@ -12787,9 +12908,7 @@ countries = {
                     dynastic_signoria_reform
                 }
 
-                ruler = ver_mastino_ii_scala
-                heir = ver_alberto_ii_scala
-                designated_heir_reason = corruler
+                ruler = random
 
                 ruler_term = { character = ver_redondello_dalle_carceri start_date = 1210.1.1 end_date = 1211.1.1 }
                 ruler_term = { character = ven_reniero_zeno start_date = 1229.1.1 end_date = 1230.1.1 }
@@ -12802,7 +12921,7 @@ countries = {
                     character = ver_cangrande_scala start_date = 1308.1.1 end_date = 1311.11.29 regnal_number = 1
                 }
                 ruler_term = { character = ver_cangrande_scala start_date = 1311.11.29 end_date = 1329.7.22 regnal_number = 1 }
-                ruler_term = { character = ver_mastino_ii_scala start_date = 1329.7.22 regnal_number = 2 }
+                ruler_term = { character = ver_mastino_ii_scala start_date = 1329.7.22 end_date = 1351.1.1 regnal_number = 2 }
                 #ruler_term = { character = ver_alberto_ii_scala start_date = 1329.7.22 regnal_number = 2 } # Co-Ruler until 1351
             }
 
@@ -12812,6 +12931,64 @@ countries = {
 
             country_rank = rank_county
             capital = verona
+        }
+
+        IST = {
+            own_control_core = {
+                rovinj pola
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_republic"
+            government = {
+                type = republic
+                heir_selection = podesta_elective
+
+                reforms = {
+                    signoria_reform
+                }
+                ruler = random
+            }
+
+            tolerated_cultures = {
+                croatian
+            }
+
+            capital = rovinj
+        }
+
+        DAL = {
+            own_control_core = {
+                zadar sibenik split
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_republic"
+            government = {
+                type = republic
+                heir_selection = podesta_elective
+
+                reforms = {
+                    signoria_reform
+                }
+                ruler = random
+            }
+
+            tolerated_cultures = {
+                croatian
+            }
+
+            capital = zadar
         }
 
         VIN = {
@@ -13629,7 +13806,6 @@ countries = {
                 ruler = mtr_pal_mataranga
 
                 ruler_term = { character = mtr_pal_mataranga start_date = 1300.1.1 regnal_number = 1 }
-
             }
 
             capital = kavaje
@@ -13951,7 +14127,7 @@ countries = {
         CRO = {
             own_control_core = {
                 kaseg knin novigrad crikvenica senj
-                bihac krk srb sinj otocac
+                bihac srb sinj otocac
                 slunj
                 rijeka
             }
@@ -14008,6 +14184,27 @@ countries = {
 
             capital = zagreb
             country_rank = rank_duchy
+        }
+
+        KRZ = {
+            own_control_core = {
+                krk
+            }
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            tolerated_cultures = {
+                dalmatian
+            }
+
+            capital = krk
+            country_rank = rank_county
         }
 
         BUL = {
@@ -14225,8 +14422,6 @@ countries = {
             }
 
             own_control_conquered = {
-                cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania
-                sassari sorgono terralba bosa macomer bitti ozieri ales alghero thiesi
                 malta
             }
 
@@ -15030,7 +15225,6 @@ countries = {
                 provins
                 chalancon peyre chateauneuf_de_randon florac st_ambroix
                 mantes
-                etampes monfort_lamaury dreux
                 roucy chateau_porcien
                 alluyes evreux senonches
             }
@@ -15038,9 +15232,9 @@ countries = {
                 #Appanages
 
                 #Poitou (Own by the ruler)
-                poitiers la_roche_sur_yon montaigu thouars parthenay fontenay montmorillon
+                poitiers la_roche_sur_yon montaigu fontenay montmorillon
                 niort chatellerault brosse lusignan aulnay st_jean_dangely
-                talmont beauvoir mauleon_poitou
+                talmont mauleon_poitou
 
                 #C. de Champagne
                 chateau_thierry broyes vertus bar_sur_aube
@@ -15058,15 +15252,12 @@ countries = {
                 benauges
                 saintes jonzac montendre oleron royan rochefort
                 belin la_teste_de_buch
-                mimizan
                 montpellier
                 privas montlaur
 
                 tournon #S. de Tournon
                 lautrec #Vic. de Lautrec
                 castres #S. de Castres
-
-                laval
             }
 
             our_cores_conquered_by_others = {
@@ -15616,7 +15807,7 @@ countries = {
 
         #Ventadour
         VNT = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 ventadour ussel
             }
             starting_technology_level = 3
@@ -16051,6 +16242,40 @@ countries = {
         BRR = {
             own_control_core = {
                 oloron orthez pau #Vic. of Béarn
+            }
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = foi_gaston_ii_foix
+
+                ruler_term = { character = foi_roger_bernard_iii_foix start_date = 1240.4.26 end_date = 1302.3.3 regnal_number = 1 }
+                ruler_term = { character = foi_gaston_i_foix start_date = 1302.3.3 end_date = 1315.12.13 regnal_number = 8 }
+                ruler_term = { character = foi_gaston_ii_foix start_date = 1315.12.13 regnal_number = 9 }
+
+                regnal_numbers = {
+                    name_centule.name_lupus = 1
+                    name_centule = 6
+                    name_gaston = 9
+                    #Guiscarde = 1
+                    name_peter = 1
+                    name_mary = 1
+                    name_william.name_raymond = 1
+                    name_roger.name_bernard = 1
+                }
+
+                reforms = {
+                    french_ducal_vassal_reform
+                }
+            }
+
+            capital = pau
+        }
+
+        BIG = {
+            own_control_core = {
                 tarbes #C. Bigorre
             }
             starting_technology_level = 3
@@ -16199,7 +16424,7 @@ countries = {
 
         #Dreux (Appanage)
         DRE = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 dreux
             }
 
@@ -16209,7 +16434,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = dre_pierre_i_dreux
+                ruler = random
                 reforms = {
                     french_appanage_reform
                 }
@@ -16283,7 +16508,7 @@ countries = {
 
         #Etampes (Appanage)
         ETA = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 etampes #C. de Etampes
             }
             starting_technology_level = 3
@@ -16572,7 +16797,7 @@ countries = {
         ALR = {
             #Albret
             own_control_core = {
-                labrit tartas nerac
+                labrit tartas nerac mimizan
             }
 
             starting_technology_level = 3
@@ -16802,9 +17027,6 @@ countries = {
         PER = {
             own_control_core = {
                 perigueux riberac
-                turenne
-                ventadour ussel
-                limoges nontron segur st_leonard aixe thiviers tulle #Limousin #Vic. Limoges
             }
 
             starting_technology_level = 3
@@ -16869,6 +17091,88 @@ countries = {
             capital = perigueux
         }
 
+        #Limoges
+        LMG = {
+            own_control_core = {
+                limoges nontron segur st_leonard aixe thiviers tulle #Limousin #Vic. Limoges
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = per_charles_i_de_perigord
+
+                regnal_numbers = {
+                    #Émenon = 1
+                    #Vulgrin = 1
+                    name_william = 3
+                    name_bernard = 1
+                    name_arnold = 1
+                    name_ralph = 1
+                    name_richard = 1
+                    name_boson = 4
+                    name_elias = 9
+                    name_albert = 2
+                    name_archibald = 4
+                    name_roger.name_bernard = 1
+                }
+
+                reforms = {
+                    french_ducal_vassal_reform
+                }
+            }
+
+            accepted_cultures = {
+                languedocien
+            }
+
+            capital = limoges
+        }
+
+        #Turenne
+        TUE = {
+            own_control_core = {
+                turenne
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = per_charles_i_de_perigord
+
+                regnal_numbers = {
+                    #Émenon = 1
+                    #Vulgrin = 1
+                    name_william = 3
+                    name_bernard = 1
+                    name_arnold = 1
+                    name_ralph = 1
+                    name_richard = 1
+                    name_boson = 4
+                    name_elias = 9
+                    name_albert = 2
+                    name_archibald = 4
+                    name_roger.name_bernard = 1
+                }
+
+                reforms = {
+                    french_ducal_vassal_reform
+                }
+            }
+
+            accepted_cultures = {
+                languedocien
+            }
+
+            capital = turenne
+        }
+
         #Tonnerre (Vassal, Fief Mouvant)
         TON = {
             own_control_core = {
@@ -16930,7 +17234,7 @@ countries = {
 
         #Montfort (Vassal, Fief Mouvant)
         MON = {
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 monfort_lamaury
             }
 
@@ -17463,7 +17767,7 @@ countries = {
         #Boulogne
         BGN = {
             own_control_core = {
-                boulogne_sur_mer
+                boulogne_sur_mer montreuil
             }
 
             starting_technology_level = 3
@@ -17580,6 +17884,78 @@ countries = {
                 }
             }
             capital = poitiers
+        }
+
+        #Parthenay
+        PRH = {
+            own_control_core = {
+                parthenay
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            capital = parthenay
+        }
+
+        #Thouars
+        TAS = {
+            own_control_core = {
+                thouars
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            capital = thouars
+        }
+
+        #Montaigu
+        MOT = {
+            own_control_core = {
+                montaigu beauvoir
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            capital = montaigu
+        }
+
+        #Laval
+        LVL = {
+            own_control_core = {
+                laval
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_not_present"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+
+            capital = laval
         }
 
         #Anjou
@@ -17988,7 +18364,7 @@ countries = {
         #Picardy (Revolter)
         PIC = {
             own_control_core = {
-                amiens abbeville corbie montreuil peronne saint_quentin breteuil nesle
+                amiens corbie breteuil 
             }
             our_cores_conquered_by_others = {
                 calais guise hirson marle
@@ -18004,6 +18380,43 @@ countries = {
                 ruler = random
             }
             capital = amiens
+        }
+
+        #Ponthieu
+        PON = {
+            own_control_core = {
+                abbeville
+            }
+            our_cores_conquered_by_others = {
+                montreuil
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            capital = abbeville
+        }
+
+        #Vermandois
+        VRM = {
+            own_control_core = {
+                saint_quentin peronne nesle
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+            }
+            capital = saint_quentin
         }
 
         #Toulouse (Revolter)
@@ -18189,6 +18602,32 @@ countries = {
 
             country_rank = rank_county
             capital = orange
+        }
+
+        #Venaissin
+        VNS = {
+            own_control_core = {
+                avignon
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_monarchy_no_coast"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+
+                regnal_numbers = {
+                }
+            }
+
+            tolerated_cultures = {
+                auvergnat
+            }
+
+            country_rank = rank_county
+            capital = avignon
         }
 
 
@@ -37093,10 +37532,10 @@ countries = {
         LCA = {
             # Como, last remnants in defense against Milan
             own_control_core = {
-                bellinzona locarno
+                bellinzona locarno lugano
             }
             our_cores_conquered_by_others = {
-                como lugano
+                como
             }
 
             starting_technology_level = 3
@@ -38864,7 +39303,8 @@ countries = {
             KUL = {
             #Kulmbach
             own_control_core = {
-                kulmbach wunsiedel bayreuth    
+                kulmbach wunsiedel bayreuth
+                hof    
             }
 
             starting_technology_level = 3
@@ -39775,7 +40215,7 @@ countries = {
         PLN = {
             #Plauen
             own_control_core = {
-                plauen hof
+                plauen
             }
 
             starting_technology_level = 3

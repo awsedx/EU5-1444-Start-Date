@@ -9,6 +9,14 @@ SAX = {
     difficulty = 2
 }
 
+SAR = {
+    #Sardinia
+    color = map_SAR
+
+    culture_definition = sardinian
+    religion_definition = catholic
+}
+
 ALR = {
     #Albret
     color = rgb { 218 39 57 }
@@ -31,6 +39,78 @@ NEM = {
 
     culture_definition = french
     religion_definition = catholic
+}
+
+PRH = {
+    #Parthenay
+    color = rgb { 57 57 64 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+TAS = {
+    #Thouars
+    color = rgb { 149 149 232 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+MOT = {
+    #Montaigu
+    color = rgb { 225 225 242 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+LVL = {
+    #Laval
+    color = rgb { 148 157 168 }
+
+    culture_definition = angevin
+    religion_definition = catholic      
+}
+
+LMG = {
+    #Limoges
+    color = rgb { 225 232 237 }
+
+    culture_definition = limousin
+    religion_definition = catholic      
+}
+
+TUE = {
+    #Turenne
+    color = rgb { 184 67 42 }
+
+    culture_definition = limousin
+    religion_definition = catholic      
+}
+
+BIG = {
+    #Bigorre
+    color = rgb { 189 86 45 }
+
+    culture_definition = gascon
+    religion_definition = catholic      
+}
+
+PON = {
+    #Ponthieu
+    color = rgb { 233 252 109 }
+
+    culture_definition = picard
+    religion_definition = catholic   
+}
+
+VRM = {
+    #Vermandois
+    color = rgb { 126 160 224 }
+
+    culture_definition = picard
+    religion_definition = catholic   
 }
 
 CAL = {
@@ -129,6 +209,46 @@ BOZ = {
     religion_definition = catholic    
 }
 
+NIC = {
+    #Nice
+    color = rgb { 222 53 68 }
+
+    culture_definition = provencal
+    religion_definition = catholic       
+}
+
+ORV = {
+    #Orvieto
+    color = rgb { 222 53 68 }
+
+    culture_definition = median
+    religion_definition = catholic       
+}
+
+BGM = {
+    #Bergamo
+    color = rgb { 242 250 95 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+TRR = {
+    #Tirano
+    color = rgb { 230 242 238 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+VNS = {
+    #Venaissin
+    color = rgb { 224 190 119 }
+
+    culture_definition = provencal
+    religion_definition = catholic       
+}
+
 TOI = {
     #Tournai
     color = rgb { 201 24 36 }
@@ -143,18 +263,6 @@ ASU = {
 
     culture_definition = leonese
     religion_definition = catholic
-}
-
-LIT = { #Edited to be Catholic
-    #Lithuania
-	color = map_LIT
-	color2 = rgb { 154 69 116 }
-
-	culture_definition = aukstaitian
-	religion_definition = catholic
-
-	description_category = military
-	difficulty = 3
 }
 
 CNY = {

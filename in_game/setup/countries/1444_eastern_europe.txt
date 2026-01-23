@@ -1,3 +1,15 @@
+LIT = { #Edited to be Catholic
+    #Lithuania
+	color = map_LIT
+	color2 = rgb { 154 69 116 }
+
+	culture_definition = aukstaitian
+	religion_definition = catholic
+
+	description_category = military
+	difficulty = 3
+}
+
 MOL = {
     #Moldavia
     color = rgb { 136 157 23 }
@@ -12,6 +24,30 @@ MAZ = {
     
     culture_definition = mazovian
     religion_definition = catholic    
+}
+
+DAL = {
+    #Dalmatia
+    color = map_DAL
+
+    culture_definition = dalmatian
+    religion_definition = catholic
+}
+
+IST = {
+    #Istria
+    color = rgb { 69 156 209 }
+
+    culture_definition = dalmatian
+    religion_definition = catholic
+}
+
+KRZ = {
+    #Krk
+    color = rgb { 75 222 166 }
+
+    culture_definition = croatian
+    religion_definition = catholic
 }
 
 SNI = {
