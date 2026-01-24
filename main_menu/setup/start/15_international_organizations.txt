@@ -13,14 +13,14 @@ international_organization_manager = {
         map_color = hsv360 { 40 50 70 }
 
         members = {
-            UBV HAB LBV SLZ TIR BRC BAM PSS FRE TNT CLI ORT PAL REG BOH BRA TRI AUG WUR MAG HES MAI LOR HAI ALS TUL VDU MTZ SLM ABA ASD ATI CEV CHX CNV MTB BLL BNT HBG
-            CRR FLO GEN LUC MAN MFA MLO MND MSP PAR PIE PIS SAL SAV GNV SIE PTG HOL BRB LUX LIE CHN LIM NAM VBG HRN CJK BSC SCL MOU ORA BXN
-            UTR DIT HSA LUB LBB THU BRE BRM BRG SAA STE HNB SPY PLN GLA SOR RUP HVB SWR MKL RZB WOL KMM LAU HAM HBS BBG ANH BNB MFE MRB NMB QUB WMA SWZ PRO
-            FLD SHS NHS MLH ERF HSF PDB ZIG HNA BUD WTZ DIE FRN ERB WRM SYE ZWE LNN SPO SYN KOL DUN APR AAC JUL GEL GMK WTG DTM ESS MRS KLE ANB LPP HOX RVB MDN OSN TCK MUN OSW
+            UBV HAB LBV SLZ TIR BRC BAM PSS FRE TNT CLI ORT PAL REG BOH BRA TRI AUG WUR MAG HES MAI LOR HAI ALS TUL VDU MTZ SLM  ASD ATI CEV  CNV MTB BLL BNT HBG
+            CRR FLO GEN LUC MAN MFA MLO  MSP PAR PIE PIS SAL SAV GNV SIE PTG HOL BRB LUX LIE CHN LIM NAM VBG HRN CJK BSC SCL MOU ORA BXN
+            UTR DIT HSA LUB LBB THU BRE BRM BRG SAA STE HNB SPY PLN  SOR RUP HVB SWR MKL RZB WOL KMM LAU HAM HBS BBG ANH  MFE MRB NMB QUB  SWZ PRO
+            FLD SHS NHS MLH ERF HSF PDB ZIG HNA BUD WTZ DIE FRN ERB WRM SYE ZWE LNN  SYN KOL  APR AAC JUL GEL GMK WTG DTM ESS MRS KLE  LPP HOX RVB MDN OSN TCK MUN OSW
             LUN BRU GBH HDH GOS SCB HOY NIE DPH VRD RTB OLD ZAG JAW LGC OEL OPL TES BYM RCB MVA AGC WER MBZ MFK BCH STG ZUR SYZ LCA URI OBW LCU SIT BRN SLT NEU BAS LSA KYB ANS
-            EIC WEI NUR WBG RIE MSB UFF ROT DNB MEM KMP ULM KNZ OET SWH HBR BDE WDB RVA BIB UBL HHB FBG OFB WLD PRZ BRD GOR FCB ALL ZEE CAM STV HTR HPL NWG SWD
-            SCI ZIE BRZ NMS STZ NMD WRC GLO NYS OPV PDK VUD BMS BLB HSP BSK MSO WGO BHL GLN AOS RBG FLK NSI RDL NID MDS LDA TGG GRY VEL PSZ SFC CFC MUR HAG MUL LIC WDE NSH NSS
-            BLM DIS EVS FUR GRK HAC JEV SAW SAB THD WIE ELL HEH HLF HOH KIR NEL TUB KTZ NSW LEU FRI STY MOD PIO SAX SOP ING TRN GLR
+            EIC WEI NUR WBG RIE MSB UFF ROT DNB MEM KMP ULM KNZ OET SWH HBR BDE WDB RVA BIB UBL   OFB WLD PRZ BRD GOR FCB ALL ZEE CAM STV HTR HPL NWG SWD
+            SCI ZIE BRZ NMS STZ NMD WRC GLO NYS OPV PDK VUD BMS BLB HSP BSK MSO WGO BHL  AOS RBG FLK NSI RDL NID MDS LDA TGG GRY  PSZ SFC CFC MUR HAG MUL LIC WDE NSH NSS
+            BLM DIS EVS FUR GRK  JEV SAW SAB  WIE ELL  HLF  KIR NEL  KTZ NSW LEU FRI STY MOD PIO SAX SOP ING TRN GLR
         }
         leader = STY
         regions = { south_german_region }
@@ -100,13 +100,13 @@ international_organization_manager = {
         imperial_prince = {
             HAB LBV TNT CLI ORT WUR HES LOR SLM CEV MTB BNT CRR FLO MFA MSP
             PIE SAL SAV GNV PTG HOL BRB LUX LIE CHN LIM NAM VBG HRN CJK ORA
-            BXN HSA LBB THU BRG SAA STE HNB PLN GLA SOR RUP SWR MKL WOL LAU BBG ANH BNB MFE QUB
-            WMA SWZ PRO SHS ERF ZIG HNA BUD DIE ERB ZWE LNN SPO SYN DUN JUL GEL GMK WTG MRS KLE ANB LPP GLN
+            BXN HSA LBB THU BRG SAA STE HNB PLN  SOR RUP SWR MKL WOL LAU BBG ANH  MFE QUB
+             SWZ PRO SHS ERF ZIG HNA BUD DIE ERB ZWE LNN  SYN  JUL GEL GMK WTG MRS KLE  LPP 
             RVB TCK OSW LUN BRU GBH SCB HOY NIE DPH RTB OLD ZAG JAW LGC OEL OPL TES BYM RCB MVA WER MBZ MFK
-            KYB ANS RIE MSB UFF DNB OET HBR BDE HHB FBG BSK AOS
+            KYB ANS RIE MSB UFF DNB OET HBR BDE   BSK AOS
             PRZ BRD GOR FCB ALL ZEE HTR HPL NWG SWD SCI ZIE BRZ NMS STZ NMD WRC GLO NYS OPV PDK VUD HSP WGO BHL
-            RBG FLK NSI RDL NID MDS TGG GRY VEL PSZ LIC WDE MSO NSH NSS BLM DIS EVS FUR GRK HAC JEV SAW SAB THD WIE
-            ELL HEH HLF HOH KIR NEL TUB LEU
+            RBG FLK NSI RDL NID MDS TGG GRY  PSZ LIC WDE MSO NSH NSS BLM DIS EVS FUR GRK  JEV SAW SAB  WIE
+            ELL  HLF  KIR NEL  LEU
         }
 
         laws = {
@@ -237,11 +237,10 @@ international_organization_manager = {
             MMA CHH CDL LJG
             MLM
             #Tusi
-            GYT TNQ MCI WMO TSK LGZ KHG BIR MHK MHN MTG MGN MHA MWO MGK YNJ NYZ NLU YJI BZH YAN HQG NNN AGN JSI SPG NGZ
+            GYT TNQ MCI WMO TSK LGZ KHG BIR MHK MHN MTG MGN MHA MWO MGK YNJ  NLU YJI BZH YAN HQG NNN AGN JSI SPG NGZ
             LLS CGZ XLG WDG RND DCN WNG MHU YNL ZNX WSA ZYI QJG LXG GGX SXI CLE BZU RNG GNG SZU ZGL TGY
             GLU RGM TNP SGZ DWG YGS YYG PCD SZH SDG PDG PDN PAN
             LIN QYN TNZ ZNN TPG SMG GNN LZI SZI DYN LTU AMD
-            GOL GYE
         }
 
         # If changed, apply changes too to set_up_proper_china_for_middle_kingdom effect
@@ -407,23 +406,24 @@ international_organization_manager = {
         members = {
             JAP
             #Emperors
-            NTC
+            YMT
+        
             #Clans
-            NKI KTB IMG SBA CBA STK KGK TKI OGS OYM TGS YSM KRA MTD
-            SHN OTM SMZ MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
-            SGR KMT SOU ANM TZW WAG HIE DHJ NGM TMR ISW MIU SUW RKK ITO ODA AKT
-            NAS HNM UNN KOK TOY NGN MKT
+            NKI KTB IMG SBA CBA STK KGK TKI  OYM TGS YSM  MTD
+            SHN OTM SMZ MGM KSI SOM DTE ASN  UTN IIX AKJ ISK MSD OUC KKC ASO
+            SGR KMT SOU ANM TZW WAG HIE DHJ  TMR   SUW RKK ITO ODA 
+            NAS HNM UNN  TOY NGN 
             MYH KAG KOZ AKI AHT ARI TMD
             # Branch Clans
-            NAO UE1 UE2 UE3
+             UE1 UE2 UE3
             TK1 TK2 TK3 TK4
             YM1 YM2 YM3
             HS1 HS2 HS3 HS4
             NB1 NB2
             HT1 HT2
             # New Countries
-            KAK NMI SHI NIK SGO ODE OSA RSU NIH IWA SNO HJO NAK JNB TKA SAT OMO OYA YMO ASI MTU KUW
-            OCH TSU KKI EDA AKA AMO KOO SAI ICH MSU UKU KMC ANA NES TNE
+            KAK NMI  NIK  ODE OSA RSU NIH IWA SNO HJO NAK JNB TKA SAT  OYA  ASI MTU 
+            OCH TSU KKI EDA AKA AMO KOO SAI ICH MSU UKU KMC   TNE
         }
 
         japanese_emperor = {
@@ -431,7 +431,7 @@ international_organization_manager = {
         }
 
         shugo_daimyo = {
-            HS1 NKI KTB IMG TK1 SBA CBA STK KGK TKI OGS OYM TGS YSM KRA YM1 MTD HT1
+            HS1 NKI KTB IMG TK1 SBA CBA STK KGK TKI  OYM TGS YSM  YM1 MTD HT1
             SHN OTM SMZ
         }
 
@@ -457,18 +457,19 @@ international_organization_manager = {
         creation_date = 539.12.5
         members = {
             JAP
-            NTC
-            NKI KTB IMG SBA CBA STK KGK TKI OGS OYM TGS YSM KRA MTD
-            SHN OTM SMZ MGM KSI SOM DTE ASN YUK UTN IIX AKJ ISK MSD OUC KKC ASO
-            SGR KMT SOU ANM TZW WAG HIE DHJ NGM TMR ISW MIU SUW RKK ITO ODA AKT
-            NAS HNM UNN KOK TOY NGN MKT
+            YMT
+            
+            NKI KTB IMG SBA CBA STK KGK TKI  OYM TGS YSM  MTD
+            SHN OTM SMZ MGM KSI SOM DTE ASN  UTN IIX AKJ ISK MSD OUC KKC ASO
+            SGR KMT SOU ANM TZW WAG HIE DHJ  TMR   SUW RKK ITO ODA 
+            NAS HNM UNN  TOY NGN 
             MYH KAG KOZ AKI AHT ARI TMD
             # New Countries
-            KAK NMI SHI NIK SGO ODE OSA RSU NIH IWA SNO HJO NAK KYO JNB TKA SAT OMO OYA YMO ASI MTU KUW
-            OCH TSU KKI EDA AKA AMO KOO SAI ICH MUK MSU UKU KMC ANA NES TNE
+            KAK NMI  NIK  ODE OSA RSU NIH IWA SNO HJO NAK KYO JNB TKA SAT  OYA  ASI MTU 
+            OCH TSU KKI EDA AKA AMO KOO SAI ICH MUK MSU UKU KMC   TNE
 
             # Branch Countries
-            NAO UE1 UE2 UE3
+             UE1 UE2 UE3
             TK1 TK2 TK3 TK4
             YM1 YM2 YM3
             HS1 HS2 HS3 HS4
@@ -478,15 +479,15 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Japanese Clans With Cadet Branches              #
+    #                 Japanese Clans With Cadet Branches              #
     #################################################################
     # Uesugi
     add_international_organization = {
         type = jap_branching_clan
         creation_date = 1250.1.1 # Late 13th Century
-        members = { NAO UE1 UE2 UE3 }
+        members = {  UE1 UE2 UE3 }
         # Nagao clan holds the real power over the Uesugi
-        leader = NAO # Nagao
+        leader = UE1 # (Should be Nagao)
 
         main_branch = UE1
         cadet_branch = {
@@ -556,13 +557,13 @@ international_organization_manager = {
     # TODO: Add the remaining ones
 
     #################################################################
-    # 				Guelphs & Ghibellines							#
+    #                 Guelphs & Ghibellines                            #
     #################################################################
     add_international_organization = {
         type = guelphs_io
         creation_date = 1125.5.23
         members = {
-            NAP PAP BLG PEA FLO ASD FER CNV CHX MND IMO RAV FAE RIM ANC CMR PTG SIE MTA PES ATI
+            NAP PAP BLG PEA FLO ASD FER CNV   IMO RAV FAE RIM ANC CMR PTG SIE MTA PES ATI
         }
         leader = NAP
     }
@@ -576,7 +577,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Ilkhanate										#
+    #                 Ilkhanate                                        #
     #################################################################
     add_international_organization = {
         type = ilkhanate
@@ -587,28 +588,28 @@ international_organization_manager = {
             MZN
             BDS #Baduspanids
             #Kartids
-            HLG #Huleguids
+             #Huleguids
 
             #Jalayirid Faction
 
-            JAL ARD ATZ DML ERE HBN HDR HLL HNY IHB KEL KKL KLR KRI KTW MKW RKL SLI SRV SYY ZBR
-            SUT BHT BIN BIT CEM DIL DMB DSN EGL HKK HZN HZR JLM MUS MZJ SOH ZRQ ZZR #Sutayids
+             ARD ATZ DML   HDR  HNY IHB KEL  KLR KRI KTW MKW RKL SLI SRV  ZBR
+             BHT BIN BIT   DMB  EGL HKK HZN HZR    SOH ZRQ  #Sutayids
 
             #Unaligned
 
-            ARM KCN SYU VDZ #Armenia
-            GEO AAI SKI SME #Georgia
+             KCN   #Armenia
+            GEO  SKI SME #Georgia
             #Injuids
             MKR BMP BLA KLW #Makran
             ORM JSK #Ormus
-            ATQ FMN HSN HZP KHN KHZ KLA LCK LHJ MIH RNK RSH TLM
+              HSN HZP KHN KHZ KLA LCK  MIH   
         }
 
         laws = {
         }
 
         ilkhan_claimant = {
-            JAL HLG
+             
         }
         ruler_term = { character = hulegu_khan_borjigin start_date = 1256.1.1 end_date = 1265.2.8 regnal_number = 1 }
         ruler_term = { character = abaqa_khan_borjigin start_date = 1265.2.8 end_date = 1282.4.4 regnal_number = 1 }
@@ -624,7 +625,7 @@ international_organization_manager = {
     }
 
     #################################################################
-    # 				Tatar Yoke										#
+    #                 Tatar Yoke                                        #
     #################################################################
     add_international_organization = {
         type = tatar_yoke
@@ -711,7 +712,7 @@ international_organization_manager = {
     add_international_organization = {
         type = autocephalous_patriarchate
         creation_date = 1235.1.1
-        members = { BUL }
+        members = {  }
         variables = {
             religion = religion:orthodox
             seat = location:tarnovo
@@ -730,7 +731,7 @@ international_organization_manager = {
     add_international_organization = {
         type = autocephalous_patriarchate
         creation_date = 1010.1.1
-        members = { GEO AAI SME ALN SMS }
+        members = { GEO  SME ALN SMS }
         variables = {
             religion = religion:orthodox
             seat = location:tbilisi
@@ -768,7 +769,7 @@ international_organization_manager = {
     add_international_organization = {
         type = autocephalous_patriarchate
         creation_date = 301.1.1
-        members = { ARM ATZ KCN SYU VDZ }
+        members = {  ATZ KCN   }
         variables = {
             religion = religion:miaphysite
             seat = location:sis
@@ -904,15 +905,14 @@ international_organization_manager = {
     }
 
     #################################################################
-    #                           Sects                               #
+    #                             Sects                                #
     #################################################################
 
-    add_international_organization = {
-        #Confucianism
+    add_international_organization = { #Confucianism
         type = sect
         creation_date = 1.1.1
         members = {
-            DAI JOE CHI
+            DAI SSG
         }
         laws = {
             confucianism_policy
@@ -922,7 +922,7 @@ international_organization_manager = {
             sect_favor = 70
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -947,7 +947,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -955,7 +955,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -977,12 +977,11 @@ international_organization_manager = {
 
     }
 
-    add_international_organization = {
-        #Daoism
+    add_international_organization = { #Daoism
         type = sect
         creation_date = 1.1.1
         members = {
-
+            
         }
         laws = {
             daoism_policy
@@ -994,7 +993,7 @@ international_organization_manager = {
         }
 
         regions = { north_china_region }
-        areas = {
+        areas = { 
             #East China except Taiwan
             fujian_area hubei_area hunan_area wuling_area jiangxi_area huaixi_area huaidong_area jiangnan_area zhejiang_area
             #Shouth China except Yunnan
@@ -1015,22 +1014,21 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Pure Land Buddhism
+    add_international_organization = { #Pure Land Buddhism
         type = sect
         creation_date = 1.1.1
         icon = pure_land_school
         members = {
-            DAI JOE
+            DAI SSG
         }
-        laws = {
+        laws = { 
             pure_land_school_policy
         }
         variables = {
             sect_favor = 70
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -1055,7 +1053,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1063,7 +1061,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1084,13 +1082,12 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Tiantai (Lotus School)
+    add_international_organization = { #Tiantai (Lotus School)
         type = sect
         creation_date = 550.1.1
         icon = tiantai_buddhism
         members = {
-
+            
         }
         laws = {
             tiantai_policy
@@ -1099,7 +1096,7 @@ international_organization_manager = {
             sect_favor = 50
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -1122,7 +1119,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1130,7 +1127,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1148,15 +1145,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Tendai
+    add_international_organization = { #Tendai
         type = sect
         creation_date = 800.1.1
         icon = tendai_buddhism
         members = {
-
+            
         }
-        laws = {
+        laws = { 
             tiantai_policy
             vajrayana_policy
         }
@@ -1170,22 +1166,21 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Dharma School (Wéishí/Fǎxiàng/Hossō)
+    add_international_organization = { #Dharma School (Wéishí/Fǎxiàng/Hossō)
         type = sect
         creation_date = 1.1.1
         icon = dharma_school
         members = {
-
+            
         }
-        laws = {
+        laws = { 
             dharma_school_policy
         }
         variables = {
             sect_favor = 50
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -1210,7 +1205,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1218,7 +1213,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1236,15 +1231,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Flower Garland (Huáyán/Kegon)
+    add_international_organization = { #Flower Garland (Huáyán/Kegon)
         type = sect
         creation_date = 620.1.1
         icon = flower_garland_school
         members = {
-            JOE
+            KOR
         }
-        laws = {
+        laws = { 
             flower_garland_school_policy
             vajrayana_policy
         }
@@ -1252,7 +1246,7 @@ international_organization_manager = {
             sect_favor = 60
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -1277,7 +1271,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1285,7 +1279,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1306,15 +1300,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Meditation School (Chán/Zen)
+    add_international_organization = { #Meditation School (Chán/Zen)
         type = sect
         creation_date = 620.1.1
         icon = meditation_school
         members = {
-            JOE DAI
+            KOR DAI
         }
-        laws = {
+        laws = { 
             meditation_school_policy
             vajrayana_policy
         }
@@ -1322,7 +1315,7 @@ international_organization_manager = {
             sect_favor = 70
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #Korea except the northen part
@@ -1347,7 +1340,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1355,7 +1348,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1376,15 +1369,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Mantra School (Zhēnyán/Shingon)
+    add_international_organization = { #Mantra School (Zhēnyán/Shingon)
         type = sect
         creation_date = 716.1.1
         icon = mantra_school
         members = {
-
+            
         }
-        laws = {
+        laws = { 
             mantra_school_policy
             vajrayana_policy
         }
@@ -1392,7 +1384,7 @@ international_organization_manager = {
             sect_favor = 50
             religion = religion:mahayana
         }
-        areas = {
+        areas = { 
             #North China
             henan_area hebei_area shandong_area haiyou_area
             #East China except Taiwan
@@ -1415,7 +1407,7 @@ international_organization_manager = {
             anlu_province baoqing_province changde_province changsha_province chenzhou_province dean_province
             fangzhou_province guiyang_province hanyang_province hengzhou_province
             huangzhou_province jingmen_province jingzhou_province junzhou_province mianyang_province suizhou_province
-            wuchang_province xiangxiang_province xiangyang_province xingguo_province
+            wuchang_province xiangxiang_province xiangyang_province xingguo_province 
             yongzhou_province youzhou_province yuezhou_province
             #Parts of Gansu area
             ganzhou_gansu_province xining_province yongchang_gansu_province
@@ -1423,7 +1415,7 @@ international_organization_manager = {
             baoning_province bazhou_sichuan_province changning_province changzhou_sichuan_province chengdu_province
             chongqing_province dazhou_province fuzhou_sichuan_province guangan_province guangyuan_province hanzhou_province
             hezhou_sichuan_province jianzhou_province jianzhou_west_province kuizhou_province longan_province
-            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province suining_province
+            luzhou_sichuan_province meizhou_province pengzhou_province qiongzhou_sichuan_province shunqing_province    suining_province
             tongchuan_province xuzhou_sichuan_province
             #Parts of Guanxi
             rongzhou_wuzhou_province tengzhou_guangxi_province
@@ -1441,15 +1433,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Shugendō
+    add_international_organization = { #Shugendō
         type = sect
         creation_date = 715.1.1
         icon = shugendo
         members = {
-
+            
         }
-        laws = {
+        laws = { 
             shugendo_policy
             vajrayana_policy
         }
@@ -1463,15 +1454,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Nichiren
+    add_international_organization = { #Nichiren
         type = sect
         creation_date = 1250.1.1
         icon = nichiren
         members = {
-
+            
         }
-        laws = {
+        laws = { 
             nichiren_policy
             tiantai_policy
         }
@@ -1485,15 +1475,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Azhaliism
+    add_international_organization = { #Azhaliism
         type = sect
         creation_date = 821.1.1
         icon = azhaliism
         members = {
             CDL YAN HQG
         }
-        laws = {
+        laws = { 
             azhaliism_policy
             vajrayana_policy
         }
@@ -1504,15 +1493,14 @@ international_organization_manager = {
         provinces = { dali_province }
     }
 
-    add_international_organization = {
-        #Musok
+    add_international_organization = { #Musok
         type = sect
         creation_date = 1.1.1
         icon = musok
         members = {
-            JOE
+            KOR TMN SSG
         }
-        laws = {
+        laws = { 
             musok_policy
         }
         variables = {
@@ -1522,15 +1510,14 @@ international_organization_manager = {
         regions = { korea_region }
     }
 
-    add_international_organization = {
-        #Mūlasarvāstivāda
+    add_international_organization = { #Mūlasarvāstivāda
         type = sect
         creation_date = 1.1.1
         icon = mulasarvastivada
         members = {
-            JMB BUS INR SGT PLB MYI PGS PAH MUA PNI
+            JMB    PLB MYI PGS PAH MUA PNI
         }
-        laws = {
+        laws = { 
             mulasarvastivada_policy
             vajrayana_policy
         }
@@ -1543,14 +1530,12 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Nyingma School
+    add_international_organization = { #Nyingma School
         type = sect
         creation_date = 1.1.1
         members = {
-            DRG
         }
-        laws = {
+        laws = { 
             nyigma_policy
             mulasarvastivada_policy
             vajrayana_policy
@@ -1562,16 +1547,15 @@ international_organization_manager = {
         regions = { tibet_region }
     }
 
-    add_international_organization = {
-        #Kadam School
+    add_international_organization = { #Kadam School
         type = sect
         creation_date = 1030.1.1
         members = {
             #Clear
-            KHS GUG  #Purang capital, Tholing Monastery, is Kadam
-
+             PUR MAR #Purang capital, Tholing Monastery, is Kadam
+            
         }
-        laws = {
+        laws = { 
             kadam_policy
             mulasarvastivada_policy
             vajrayana_policy
@@ -1582,15 +1566,14 @@ international_organization_manager = {
         }
         regions = { tibet_region }
     }
-    add_international_organization = {
-        #Kagyu School
+    add_international_organization = { #Kagyu School
         type = sect
         creation_date = 1050.1.1
         members = {
             #Clear
-            SKK LHL
+            ZNK LMN SKK LHL
         }
-        laws = {
+        laws = { 
             kagyu_policy
             mulasarvastivada_policy
             vajrayana_policy
@@ -1601,19 +1584,18 @@ international_organization_manager = {
         }
         regions = { tibet_region }
     }
-    add_international_organization = {
-        #Sakya School
+    add_international_organization = { #Sakya School
         type = sect
         creation_date = 1073.1.1
         members = {
             #Clear
-            CHI GUG LGT
+            GUG MGG LGT LNG
 
             #Unclear
             KTU #Newar Buddhism
-            GYT GYE
+            POO HOR GNJ NYA GYT GYE CKL
         }
-        laws = {
+        laws = { 
             sakya_policy
             mulasarvastivada_policy
             vajrayana_policy
@@ -1624,15 +1606,32 @@ international_organization_manager = {
         }
         regions = { tibet_region }
     }
-    add_international_organization = {
-        #Jonang School
+    add_international_organization = { #Gelug School
+        type = sect
+        creation_date = 1409.1.1
+        members = {
+            #Clear
+            RIN GAN PHA LTN DRG NCN
+        }
+        laws = { 
+            gelug_policy
+            mulasarvastivada_policy
+            vajrayana_policy
+        }
+        variables = {
+            sect_favor = 70
+            religion = religion:tibetan_buddhism
+        }
+        regions = { tibet_region }
+    }
+    add_international_organization = { #Jonang School
         type = sect
         creation_date = 1120.1.1
         members = {
             #Unclear
-            GOL AMD KHG BIR
+            GOL AMD SNP MNZ TAZ KHG HEZ JIZ BIR
         }
-        laws = {
+        laws = { 
             jonang_policy
             mulasarvastivada_policy
             vajrayana_policy
@@ -1644,15 +1643,14 @@ international_organization_manager = {
         regions = { tibet_region }
     }
 
-    add_international_organization = {
-        #Mahāvihāra
+    add_international_organization = { #Mahāvihāra
         type = sect
         creation_date = 1.1.1
         icon = mahavihara
         members = {
-            DBD PEG ARK
+            DBD PEG ARK TSM
         }
-        laws = {
+        laws = { 
             mahavihara_policy
         }
         variables = {
@@ -1663,19 +1661,18 @@ international_organization_manager = {
             arakhan_area irrawady_delta_area
         }
         provinces = {
-            pihiti dakhina_desa malaya ruhunu
+            pihiti dakhina_desa malaya ruhunu 
         }
     }
 
-    add_international_organization = {
-        #Burmese Buddhism
+    add_international_organization = { #Burmese Buddhism
         type = sect
         creation_date = 1.1.1
         icon = burmese_buddhism
         members = {
-            TNG BPR
+            PIN SAG TNG BPR
         }
-        laws = {
+        laws = { 
             burmese_buddhism_policy
             vajrayana_policy
         }
@@ -1688,15 +1685,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Thai Buddhism
+    add_international_organization = { #Thai Buddhism
         type = sect
         creation_date = 1.1.1
         icon = lankavong
         members = {
-            SUK MMA CHH DDI LNA LIG
+            SUK MMA CHH DDI LNA LAV LIG SPN PHY PUA PTC
         }
-        laws = {
+        laws = { 
             lankavong_policy
         }
         variables = {
@@ -1708,15 +1704,14 @@ international_organization_manager = {
         }
     }
 
-    add_international_organization = {
-        #Khmer Buddhism
+    add_international_organization = { #Khmer Buddhism
         type = sect
         creation_date = 274.1.1
         icon = khmer_buddhism
         members = {
             KHM
         }
-        laws = {
+        laws = { 
             khmer_buddhism_policy
             vajrayana_policy
         }
@@ -1729,7 +1724,7 @@ international_organization_manager = {
 
 
     #################################################################
-    #                       Hindu Branches                          #
+    #                         Hindu Branches                            #
     #################################################################
 
     add_international_organization = {
@@ -1737,14 +1732,14 @@ international_organization_manager = {
         creation_date = 1.1.1
         members = {
             #Clearly vaishnavism
-            BHP KHR
+             
             #Probably vaishnavism
-            KKR GWL KMN HSL VIJ YDR JNG JSL BWL DHU SRG BNA MJU
+            KKR GWL KMN  VIJ  JNG JSL BWL DHU SRG BNA MJU
             #Not clear ones
-            KMA DIM TWI JNT LUR CER ONW DTI SRM JBL LWA CDD ZMR KLT PDU VND KTN KDU KYA ELA TKU VDK KNK BST JPO BGL CHD BGR WRG
-            DRP JWR DGR MEW KLI DRW JHI PNA GWA JJK BND MAU PRT PLA NRP
+            KMA DIM TWI CUT    ONW DTI SRM JBL LWA  ZMR KLT PDU VND    ELA TKU VDK  BST JPO BGL CHD  
+            DRP JWR DGR MEW KLI DRW JHI PNA GWA JJK BND   PLA NAG 
         }
-        laws = {
+        laws = { 
             vaishnavism
         }
         icon = vaishnavism
@@ -1755,14 +1750,14 @@ international_organization_manager = {
         creation_date = 1.1.1
         members = {
             #Clearly shaivism
-            CHA MAJ SUN KRP ALU ORI GOA JFN KSH
+            CHA MAJ SUN KRP  ORI  JFN KSH
             #Probably shaivism
-            SNG SMV TNK RDY KPL BGK GHR BAD PNC CBH
+            SNG   RDY  BGK GHR BAD  
             #Not clear ones
-            LGK BES MNJ TJP MRP KKG SMB BEI SBG SGU LNK SBU SUL CEB TDO MNA BTU SML VLD MSN RCH JLR CMN RJI MRW GDA NRS KJA PTN CRL
-            CAB KLU KSW SKT BSP KTL
+             BES MNJ TJP MRP KKG SMB BEI  SGU LNK SBU SUL CEB TDO MNA BTU SML   RCH  CMN RJI  GDA NRS KJA PTN 
+              KSW   
         }
-        laws = {
+        laws = { 
             shaivism
         }
         icon = shaivism
@@ -1775,9 +1770,9 @@ international_organization_manager = {
             #Clearly shaktism
             KUT PGL KLH
             #Not clear ones
-            UJJ RKS IDR RNP GHL PLT BHD JLW HAD SHR BHA DOG KGR
+             RKS IDR   PLT  JLW HAD SHR BHA DOG KGR
         }
-        laws = {
+        laws = { 
             shaktism
         }
         icon = shaktism
@@ -1792,7 +1787,7 @@ international_organization_manager = {
             #Not clear ones
             SLP BIM DOM NGL TLW #These ones due to the mix with animism, so probably similar case to Bali
         }
-        laws = {
+        laws = { 
             smartism
         }
         icon = smartism

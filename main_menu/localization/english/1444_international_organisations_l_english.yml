@@ -4,7 +4,7 @@
  yamana_clan_name: "Yamana Clan"
  nanbu_clan_name: "Nanbu Clan"
  hosokawa_clan_name: "Hosokawa Clan"
- hatakeyama_clan_name: "Hatakeyama Clan"
+ hatakeyama_clan_name: "Hatkeyama Clan"
  japanese_clan_name: "Clan"
 
  main_branch: "Main Branch"
@@ -18,3 +18,7 @@
 
  jap_branching_clan: "REPLACE_ME"
  jap_branching_clan_desc: "REPLACE_ME"
+
+ SECT_GELUG_NAME: "Gelug School"
+ gelug_policy: "$SECT_GELUG_NAME$"
+ gelug_policy_desc: "The Gelug School, also known as the 'Yellow Hat' sect, emphasizes monastic discipline and scholarly study. Founded by Je Tsongkhapa, it integrates the teachings of the previous schools and is known for its rigorous approach to Buddhist philosophy and practice."
