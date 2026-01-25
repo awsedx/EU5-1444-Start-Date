@@ -1,5 +1,4 @@
-JOE = {
-    # Joseon
+JOE = { # Joseon
     color = rgb { 26  53  177 }
     culture_definition = korean_culture
     religion_definition = sanjiao
@@ -8,21 +7,224 @@ JOE = {
     difficulty = 2
 }
 
-KHA = {
-    # Kharchin (Not Khorchin??)
-    color = rgb { 221  93  170 }
-    culture_definition = kharchin_culture
+IMP = { # Chahar/Yuan
+    color = rgb { 64 62 200 }
+    culture_definition = mongolian_culture
+    religion_definition = mahayana
+    description_category = military
+}
+
+JAA = { # Jalayir
+    color = rgb { 60 140 120 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+BZZ = { # Besud
+    color = rgb { 85 155 110 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+OLK = { # Olkhonud
+    color = rgb { 110 170 100 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+ELJ = { # Eljigin
+    color = rgb { 135 185 90 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+GOO = { # Gorlos
+    color = rgb { 210 100 130 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+BAX = { # Baarin
+    color = rgb { 70 130 180 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+JAR = { # Jarud
+    color = rgb { 100 120 190 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+BAY = { # Bayaut
+    color = rgb { 120 180 160 }
+    culture_definition = khalkha_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KHA = { # Khorchin
+    color = map_KHA
+    culture_definition = khorchin_culture
     religion_definition = tengri
 
     description_category = military
 }
 
-HMI = {
-    # Kara Del
+HAS = { # Hasarid Kharchin
+    color = rgb { 230 110 150 }
+    culture_definition = khorchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+JAI = { # Jalaid Kharchin
+    color = rgb { 210 80 190 }
+    culture_definition = khorchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KDB = { # Dörbed Kharchin
+    color = rgb { 190 100 210 }
+    culture_definition = khorchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+AKK = { # Aru Kharchin
+    color = rgb { 240 130 140 }
+    culture_definition = khorchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+CRS = { # Choros Oirats
+    color = map_OIR
+    culture_definition = oirat_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+DRB = { # Dörbet Oirats
+    color = rgb { 215 205 190 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+THG = { # Torghut Oirats
+    color = rgb { 198 208 202 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KHI = { # Khoid Oirats
+    color = rgb { 210 195 210 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+KHO = { # Khoshut Oirats
+    color = rgb { 220 210 185 }
+    culture_definition = oirat_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+YKZ = { # Yenisei Kyrgyz
+    color = rgb { 45 125 115 }
+
+    culture_definition = khakas_culture
+    religion_definition = tengri
+}
+
+TVA = { # Tuvans
+    color = rgb { 95 155 185 }
+
+    culture_definition = tuvan_culture
+    religion_definition = tengri
+}
+
+FUY = { # Fuyu Guard
+    color = rgb { 180 120 60 }
+    culture_definition = kharchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+TIZ = { # Tai’nin Guard
+    color = rgb { 200 140 80 }
+    culture_definition = kharchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+DOY = { # Doyan Guard
+    color = rgb { 160 100 40 }
+    culture_definition = kharchin_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+ADQ = { # Asud (Alans)
+    color = rgb { 140 140 160 }
+    culture_definition = avar_culture
+    religion_definition = tengri
+    description_category = military
+}
+
+AUK = { # Altai Uriankhai
+    color = rgb { 120 150 110 }
+
+    culture_definition = uriankhai_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+KUH = { # Khentii Uriankhai
+    color = rgb { 210 170 80 }
+
+    culture_definition = uriankhai_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+KVU = { # Khövsgöl Uriankhai
+    color = rgb { 175 110 85 }
+
+    culture_definition = uriankhai_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+TBU = { # Amur Uriankhai
+    color = rgb { 140 120 80 }
+
+    culture_definition = uriankhai_culture
+    religion_definition = tengri
+
+    description_category = military
+}
+
+HMI = { # Kara Del
     color = rgb { 118  193  177 }
 
-    culture_definition = mongolian_culture
-    religion_definition = mahayana
+    culture_definition = moghul_culture
+    religion_definition = tengri
 
     description_category = military
 }
@@ -47,11 +249,21 @@ TUO = {
     description_category = military
 }
 
-YRK = {
-    # Yarkent
+CHG = { # Chagatai
+	color = map_CHG
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = moghul_culture
+	religion_definition = sunni
+
+	description_category = military
+	difficulty = 4
+}
+
+YRK = { # Yarkent
     color = rgb { 255 245 220 }
 
-    culture_definition = uyghur_culture
+    culture_definition = moghul_culture
     religion_definition = sunni
 
     description_category = military
@@ -119,27 +331,3 @@ SFN = {
     culture_definition = jurchen_culture
 	religion_definition = tungusic_shamanism
 }
-
-# DRB = { # Dörbet
-# 	color = { 170  93  221 }
-# 	culture_definition = oirat_culture
-# 	religion_definition = tengri
-# }
-
-# CRS = { # Choros
-# 	color = { 93  170  221 }
-# 	culture_definition = oirat_culture
-# 	religion_definition = tengri
-# }
-
-# KHO = { # Khotgoid
-# 	color = { 93  221  170 }
-# 	culture_definition = oirat_culture
-# 	religion_definition = tengri
-# }
-
-# THG = { # Torguud
-# 	color = { 221  170  93 }
-# 	culture_definition = oirat_culture
-# 	religion_definition = tengri
-# }

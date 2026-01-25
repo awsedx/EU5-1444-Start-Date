@@ -5,6 +5,15 @@ KAZ = {
     culture_definition = uzbek_culture
     religion_definition = sunni
 }
+GLH = {
+	color = map_golden_horde
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mishar
+	religion_definition = sunni
+
+	description_category = military
+}
 
 KZN = {
     #Kazan Khanate
@@ -32,8 +41,8 @@ UZB = {
 
 CTK = { #Turpan Khanate
     color = rgb { 112 128 144 }
-    culture_definition = mongolian_culture
-    religion_definition - sunni
+    culture_definition = turpanlik_culture
+    religion_definition = sunni
 }
 
 # Tungus
@@ -50,4 +59,11 @@ CKC = {
     color2 = rgb { 112 128 144 }
     culture_definition = chukchi_culture
     religion_definition = chukchi_shamanism
+}
+#Kyrgyz
+KYZ = {
+    color = rgb { 255 0 0 }
+    color2 = rgb { 255 255 0 }
+    culture_definition = kyrgyz_culture
+    religion_definition = tengri
 }

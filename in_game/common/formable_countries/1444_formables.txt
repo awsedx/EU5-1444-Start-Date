@@ -1,13 +1,34 @@
 UYG_f = {
 	level = 2
-	required_locations_fraction = 0.6
+	required_locations_fraction = 0.8
 	rule = historical
 
 	potential = {
 		culture = culture:uyghur_culture
+		culture = culture:yugur_culture
+		culture = culture:kashgari_culture
+		culture = culture:yarkandi_culture
+		culture = culture:khotani_culture
+		culture = culture:aqsulik_culture
+		culture = culture:turpanlik_culture
+		AND = {
+			tag = YRK
+			NOT = {
+				is_subject_of = c:CHG
+			}
+		NOT = {
+			tag = CHG
+		}
+		}
 	}
 
 	allow = {
+		owns = location:turpan
+		owns = location:urumqi
+		owns = location:yarkent
+		owns = location:kashgar
+		owns = location:khotan
+		owns = location:aksu
 	}
 	
 	name = UYG
