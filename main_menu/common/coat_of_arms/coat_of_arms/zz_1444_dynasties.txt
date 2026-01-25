@@ -49,6 +49,7 @@ khasar_dynasty = {
         }
     }
 }
+
 chagataid_dynasty = { # Chagatai
 	pattern = "pattern_solid.dds"
 	color1 = "white"
@@ -70,47 +71,95 @@ chagataid_dynasty = { # Chagatai
 
 ### France ###
 
+valois_anjou_dynasty = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow_light"
+	color3 = "red_secondary"
+
+	colored_emblem = {
+		texture = "ce_semis_fleur_lis_shield.dds"
+		color1 = color2
+		color2 = color2
+	}
+	colored_emblem = {
+		texture = "ce_label_03_shield.dds"
+		color1 = color3
+		color2 = color3
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }	
+	}		
+}
+
+valois_orleans_dynasty = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	color3 = "white_secondary"
+
+	colored_emblem = {
+		texture = "ce_semis_fleur_lis_shield.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.51 }  scale = { 0.85 0.85 } }	
+	}
+	colored_emblem = {
+		texture = "ce_label_03_shield.dds"
+		color1 = color3
+		color2 = color3		
+    }
+}
+
+valois_burgundy_dynasty = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	color3 = "white"
+	color4 = "red"
+
+	colored_emblem = {
+		texture = "ce_semis_fleur_lis_shield.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.51 }  scale = { 0.85 0.85 } }			
+	}
+	colored_emblem = {
+		texture = "ce_border_shield_compony.dds"
+		color1 = color4
+		color2 = color3
+	}	
+}
+
 montfort_brittany_dynasty = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "black"
+	color3 = "red"
+	color4 = "yellow"
 
 	colored_emblem = {
-		texture = "ce_ermine_spot.dds"
-		color1 = color2
+		texture = "ce_ermine_shield.dds"
+		color1 = color1
 		color2 = color2
-		instance = { position = { 0.082 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.249 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.416 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.584 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.751 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.918 0.145 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.165 0.322 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.333 0.322 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.500 0.322 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.667 0.322 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.835 0.322 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.082 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.249 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.416 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.584 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.751 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.918 0.500 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.165 0.678 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.333 0.678 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.500 0.678 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.667 0.678 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.835 0.678 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.082 0.855 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.249 0.855 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.416 0.855 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.584 0.855 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.751 0.855 } scale = { 0.2 0.2 } }
-		instance = { position = { 0.918 0.855 } scale = { 0.2 0.2 } }
-    }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
+	}			
 }
 
- ### Balkans ###
+### Germany ###
+
+hohenzollern_brandenburg_dynasty = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+	
+	colored_emblem = {
+		texture = "ce_quarterly_shield.dds"
+		color1 = color1
+		color2 = color2
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }			
+	}	
+}
+
+### Balkans ###
 
 kastrioti_dynasty = { # Red, rather than yellow background
 	pattern = "pattern_solid.dds"
@@ -137,4 +186,161 @@ kastrioti_dynasty = { # Red, rather than yellow background
 		color2 = yellow
 		instance = { position = { 0.5 0.095 } scale = { 0.13 0.13 } }
 	}
+}
+
+# South-East Asia
+le_dynasty = {
+	# Le Dynasty of Dai Viet
+    pattern = "pattern_border_thin.dds"
+    color1 = rgb { 255 204 0 }
+    color2 = rgb { 210 35 44 }
+    colored_emblem = {
+        texture = "ce_circle.dds"
+        color1 = rgb { 255 255 255 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 1.000 1.000 }
+        }
+    }
+    colored_emblem = {
+        texture = "ce_le_dynasty.dds"
+        color1 = rgb { 0 0 0 }
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.400 0.400 }
+        }
+    }
+}
+
+# East Asia
+
+bayad_dynasty = { # Koke Temur
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	200	90	45	}
+	color2 = hsv360 	{	40 	75	85	}
+	color3 = hsv360 	{	08 	78	56	}
+	color4 = hsv360 	{	30 	05	85	}
+
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = color4
+		color2 = color4
+		instance = { position = { 0.5 0.46 } scale = { 0.6 0.6 } }
+	}
+	colored_emblem = {
+		texture = "ce_mena_shield_top_frame_02.dds"
+		color1 = color3
+		color2 = color3
+		instance = { position = { 0.5 0.46 } scale = { 0.8 0.8 } }
+	}
+	colored_emblem = {
+		texture = "ce_tibetan_crescent_moon_flametip_variant.dds"
+		color1 = color3
+		color2 = color3
+		color3 = color3
+		instance = { position = { 0.5 0.46 }  scale = { -0.65 0.65 } }
+	}
+}
+
+che_chen_dynasty = { # Chen
+	pattern = "pattern_solid.dds"
+	color1 = "black_secondary"
+	color2 = hsv360 	{	40	75	88	}
+				
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_chen.dds"
+		color1 = color2
+		color2 = color2			
+		instance = { position = { 0.5 0.41 }  scale = { 0.675 0.675 } }						
+	}		
+} 
+
+guo_dynasty = { # Guo
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	04 	82	66	}	
+	color2 = "white"
+				
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_guo.dds"
+		color1 = color2
+		color2 = color2			
+		instance = { position = { 0.5 0.41 }  scale = { 0.675 0.675 } }					
+	}				
+}
+
+han_dynasty = { # Han
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_han.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.44 }  scale = { 0.85 0.85 } }
+	}
+}
+
+li_dynasty = { # Li
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	40	75	88	}
+	color2 = "black_secondary"
+
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_li.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.405 }  scale = { 0.85 0.85 } }
+	}
+}
+
+zhu_dynasty = { # Ming-Zhu
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	40	75	88	}
+	color2 = hsv360 	{	08 	80	50	}
+				
+	colored_emblem = {
+		texture = "rtr_dynasty_ming_zhu.dds"
+		color1 = color2
+		color2 = color2			
+		instance = { position = { 0.5 0.405 }  scale = { 0.775 0.775 } }						
+	}	
+}
+
+xu_dynasty = { # Xu
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	04 	82	66	}	
+	color2 = "white"
+				
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_xu.dds"
+		color1 = color2
+		color2 = color2			
+		instance = { position = { 0.5 0.41 }  scale = { 0.675 0.675 } }							
+	}			
+} 
+
+zhang_dynasty = { # Wu
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 	{	08 	85	70	}
+	color2 = hsv360 	{	40	75	88	}
+				
+	colored_emblem = {
+		texture = "ce_rtr_dynasty_zhang.dds"
+		color1 = color2
+		color2 = color2			
+		instance = { position = { 0.5 0.40 }  scale = { 0.75 0.75 } }					
+	}		
+}
+
+yi_dynasty = {
+    pattern = "pattern_solid.dds"
+    color1 = rgb { 180 44 59 }
+    textured_emblem = {
+        texture = "te_yi_coa.dds"
+        instance = {
+            position = { 0.500 0.500 }
+            scale = { 0.68 0.68 }
+        }
+    }
 }

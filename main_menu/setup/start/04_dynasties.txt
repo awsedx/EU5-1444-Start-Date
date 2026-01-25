@@ -6000,6 +6000,12 @@ dynasty_manager = {
         home = ikaruga
     }
 
+    nagao_dynasty = {
+        #https://ja.wikipedia.org/wiki/%E9%95%B7%E5%B0%BE%E6%B0%8F
+        name = { name = nagao_dynasty }
+        home = ikaruga
+    }
+
     yamato_dynasty = {
         name = { name = yamato_dynasty }
         home = kyoto
@@ -7502,6 +7508,16 @@ dynasty_manager = {
         home = qocho
     }
 
+    phagmodrupa_dynasty = {
+        name = { name = phagmodrupa_dynasty }
+        home = nedong
+    }
+
+    rinpungpa_dynasty = {
+        name = { name = rinpungpa_dynasty }
+        home = rinpung
+    }
+
     #Yucatan
 
     itza_dynasty = {
@@ -7561,6 +7577,21 @@ dynasty_manager = {
     tran_dynasty = {
         name = { name = tran_dynasty }
         home = thang_long
+    }
+
+    le_dynasty = {
+        name = { name = le_dynasty }
+        home = thang_long
+    }
+
+    ava_dynasty = {
+        name = { name = ava_dynasty }
+        home = pinya
+    }
+
+    mohnyin_dynasty = {
+        name = { name = mohnyin_dynasty }
+        home = pinya
     }
 
     bolkiah_dynasty = {
@@ -8853,7 +8884,7 @@ dynasty_manager = {
         home = dehua_jiujiang
     }
 
-    wu_zhang_dynasty = {
+    zhang_dynasty = {
         #WUU
         name = { name = name_zhang1 }
         home = gaoyou
@@ -8938,20 +8969,55 @@ dynasty_manager = {
 
     yaroslavl_dynasty = {
         name = { name = yaroslavl_dynasty }
-        dynasty_name_type = location
         home = yaroslavl
     }
 
     vorotynsky_dynasty = {
         name = { name = vorotynsky_dynasty }
-        dynasty_name_type = location
         home = tver
     }
 
     shuisky_dynasty = {
         name = { name = shuisky_dynasty }
-        dynasty_name_type = location
         home = moscow
+    }
+
+    ### Lithuania
+
+    kesgaila_dynasty = {
+        name = { name = kesgaila_dynasty }
+        home = trakai         
+    }
+
+    ### Kiev
+
+    olelkovich_dynasty = {
+        name = { name = olelkovich_dynasty }
+        home = kiev        
+    }
+
+    ### Poland
+
+    tarnowski_dynasty = {
+        name = { name = tarnowski_dynasty }
+        home = tarnow        
+    }
+
+    czartoryski_dynasty = {
+        name = { name = czartoryski_dynasty }
+        home = chortolisy           
+    }
+
+    ### Hungary
+
+    szilagyi_dynasty = {
+        name = { name = szilagyi_dynasty }
+        home = zalau         
+    }
+
+    garai_dynasty = {
+        name = { name = garai_dynasty }
+        home = mako        
     }
 
     ### Sweden
@@ -9005,6 +9071,12 @@ dynasty_manager = {
         home = orleans        
     }
 
+    valois_burgundy_dynasty = {
+        name = { name = valois_burgundy_dynasty }
+        dynasty_name_type = location
+        home = dijon        
+    }
+
     valois_alencon_dynasty = {
         name = { name = valois_alencon_dynasty }
         dynasty_name_type = location
@@ -9034,6 +9106,23 @@ dynasty_manager = {
         home = nancy
     }
 
+    bauffremont_dynasty = {
+        name = { name = bauffremont_dynasty }
+        dynasty_name_type = location
+        home = neufchateau_des_vosges
+    }
+
+    lalaing_dynasty = {
+        name = { name = lalaing_dynasty }
+        dynasty_name_type = location
+        home = valenciennes
+    }
+
+    lannoy_dynasty = {
+        name = { name = lannoy_dynasty }
+        dynasty_name_type = location
+        home = lens
+    }
 
     bethencourt_dynasty = {
         name = { name = bethencourt_dynasty }

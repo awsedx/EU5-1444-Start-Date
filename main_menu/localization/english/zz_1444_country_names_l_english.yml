@@ -21,8 +21,6 @@
  AFG_f_desc: "Situated from our strongholds high in the Hindu Kush we have united the regional tribes under our banner. Though our lands are poor and barren, we have the will to endure and prosper."
  timurid_prince: "Timurid Prince"
  timurid_prince_desc: "Descendant of the great conqueror Tamerlane. Our right to succession is contested by our cousins, but we may still prove our right through arms."
- TIX: "Timurid"
- TIX_ADJ: "Timurid"
  rank_kingdom_timurid_prince: "Timurid Sultanate"
  rank_duchy_timurid_prince: "Timurid Emirate"
  rank_empire_timurid_prince: "Timurid Empire"
@@ -35,12 +33,12 @@
  TRO_ADJ: "Hum"
  NSL: "Odoyev"
  NSL_ADJ: "Odoyevian"
- CZK: "Masovia"
- CZK_ADJ: "Masovian"
  UBV: "Munich"
  UBV_ADJ: "Municher"
  LBV: "Landshut"
  LBV_ADJ: "Landshuter"
+ HAL: "Red Ruthenia"
+ HAL_ADJ: "Red Ruthenia"
 
 #Indian Subcontinent
  SIW: "Siwistan"
