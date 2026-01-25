@@ -117150,19 +117150,6 @@ character_db={
         tag = JAP
     }
 
-    jap_ashikaga_yoshihisa = {
-        first_name = { name = name_yoshihisa } # 義尚
-        culture = tougoku_culture
-        religion = shinto
-        birth_date = 1465.1.1 # Exact date unknown
-        death_date = 1489.4.26
-        birth = ashikaga_loc
-        dynasty = ashikaga_dynasty
-        father = jap_ashikaga_yoshimasa
-        mother = jap_hino_tomiko
-        tag = JAP
-    }
-
     ## Hatakeyama Clan
     jap_hatakeyama_motokuni = { # 畠山基国 (Q11578625)
         first_name = { name = name_motokuni }

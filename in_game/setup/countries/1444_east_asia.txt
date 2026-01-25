@@ -86,6 +86,14 @@ YUA = {
     description_category = military
 }
 
+RYU = {
+    #Ryukyu
+    color = map_ryukyu
+
+    culture_definition = ryukyu_culture
+    religion_definition = utaki
+}
+
 OIR = {
     # Oirat
     color = rgb { 204  184  177 }

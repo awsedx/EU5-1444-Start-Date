@@ -233,7 +233,7 @@ international_organization_manager = {
             #Emperor
             CHI
             #Tributaries
-            CHA DAI JOE SIB HDA HOI ULA DNG JEC JUS NEY YAL WGG YEH JEC JUS NEY YAL WGG KHA HMI SRY TUO AYU MUA
+            CHA DAI JOE SIB HDA HOI ULA DNG JEC JUS NEY YAL WGG YEH JEC JUS NEY YAL WGG KHA HMI SRY TUO AYU MUA RYU
             #Vassals
             MMA CHH CDL LJG
             MLM

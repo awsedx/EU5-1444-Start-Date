@@ -33562,8 +33562,21 @@ countries = {
             }
         }
 
-        HKZ = {
+        RYU = {
             own_control_core = {
+                oozato urasoe nakijin
+            }
+
+            include = "east_asia_monarchy"
+            government = {
+                ruler = random
+            }
+
+            capital = oozato
+        }
+
+        HKZ = {
+            our_cores_conquered_by_others = {
                 nakijin
             }
 
@@ -33576,7 +33589,7 @@ countries = {
         }
 
         CHZ = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 urasoe
             }
 
@@ -33593,7 +33606,7 @@ countries = {
         }
 
         NZN = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 oozato
             }
 
