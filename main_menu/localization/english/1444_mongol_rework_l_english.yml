@@ -141,8 +141,8 @@
  JAI_ADJ: "Jalaid"
  KDB: "Dörbed"
  KDB_ADJ: "Dörbed"
- AKC: "Aru"
- AKC_ADJ: "Aru"
+ AKK: "Aru"
+ AKK_ADJ: "Aru"
 #Three Guards
  DOY: "Doyan"
  DOY_ADJ: "Doyan"
@@ -348,7 +348,7 @@
  name_Toghon: "Toghon"
  name_Budasiri: "Budaširi"
  name_khalil: "Khalīl"
- name_sultan2: "sulṭān"
+ name_sultan2: "Sulṭān"
  name_Burege: "Bürege"
 
 # Province Renames

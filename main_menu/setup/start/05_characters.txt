@@ -104414,7 +104414,7 @@ character_db={
 		birth_date = 1401.1.1
 		birth = khan_khentii
 		father = oghul_khorchin
-		tag = AKC
+		tag = AKK
 	}
 
 	# ===== THREE GUARDS =====
@@ -104466,7 +104466,7 @@ character_db={
 
 	gunashiri_karakhoja = {
 		first_name = { name = name_Gunashiri }
-		dynasty = chagataid_dynasty
+		dynasty = chagatayid_dynasty
 		culture = moghul_culture
 		religion = mahayana
 		adm = 78 dip = 72 mil = 65
@@ -104478,7 +104478,7 @@ character_db={
 
 	engke_temur_karakhoja = {
 		first_name = { name = name_Engke.name_temur }
-		dynasty = chagataid_dynasty
+		dynasty = chagatayid_dynasty
 		culture = moghul_culture
 		religion = mahayana
 		adm = 74 dip = 68 mil = 71
@@ -104491,7 +104491,7 @@ character_db={
 	
 	budashiri_karakhoja = {
 		first_name = { name = name_Budasiri }
-		dynasty = chagataid_dynasty
+		dynasty = chagatayid_dynasty
 		culture = moghul_culture
 		religion = mahayana
 		adm = 45 dip = 31 mil = 32
@@ -104503,7 +104503,7 @@ character_db={
 	
 	khalil_sultan_karakhoja = {
 		first_name = { name = name_khalil.name_sultan2 }
-		dynasty = chagataid_dynasty
+		dynasty = chagatayid_dynasty
 		culture = moghul_culture
 		religion = mahayana
 		adm = 31 dip = 47	mil = 35
@@ -104514,7 +104514,7 @@ character_db={
 
 	burege_karakhoja = {
 		first_name = { name = name_Burege }
-		dynasty = chagataid_dynasty
+		dynasty = chagatayid_dynasty
 		culture = moghul_culture
 		religion = mahayana
 		adm = 2	dip = 2	mil = 2

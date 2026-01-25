@@ -51634,7 +51634,7 @@ countries = {
             capital = uzemchin
         }
 
-        AKC = { # Aru Khorchin
+        AKK = { # Aru Khorchin
             type = army
             own_control_core = {
                 khalkh buir_nuur tamsabulag barun_xiabaer taluhe ulgain sangiin_dalai menen chono

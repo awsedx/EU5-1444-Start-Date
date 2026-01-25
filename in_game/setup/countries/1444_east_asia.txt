@@ -99,7 +99,7 @@ KDB = { # Dörbed Kharchin
     description_category = military
 }
 
-AKC = { # Aru Kharchin
+AKK = { # Aru Kharchin
     color = rgb { 240 130 140 }
     culture_definition = khorchin_culture
     religion_definition = tengri
@@ -223,7 +223,7 @@ TBU = { # Amur Uriankhai
 HMI = { # Kara Del
     color = rgb { 118  193  177 }
 
-    culture_definition = turpanlik_culture
+    culture_definition = moghul_culture
     religion_definition = tengri
 
     description_category = military
