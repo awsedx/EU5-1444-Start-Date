@@ -29160,7 +29160,7 @@ countries = {
             country_rank = rank_county
         }
 
-        AAR = {
+        AAS = {
             # Asari
             capital = hinai
             include = "japanese_clan"

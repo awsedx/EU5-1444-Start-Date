@@ -407,7 +407,7 @@ LYO = {
     #Lyon
     color = rgb { 219 20 43 }
 
-    culture_definition = apritan
+    culture_definition = arpitan
     religion_definition = catholic      
 }
 
@@ -415,7 +415,7 @@ VIV = {
     #Viviers
     color = rgb { 95 219 61 }
 
-    culture_definition = auvergant
+    culture_definition = auvergnat
     religion_definition = catholic      
 }
 

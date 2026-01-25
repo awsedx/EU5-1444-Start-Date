@@ -862,7 +862,7 @@ TED = {
 	religion_definition = shinto
 }
 
-AAR = {
+AAS = {
 	#Asari
 	color = rgb { 115 188 222 }
 	culture_definition = touhoku_culture
