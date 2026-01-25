@@ -1,10 +1,16 @@
-﻿l_english:
+l_english:
 
  # Persia
  timurid_dynasty: "Gūrkānī"
 
  # Korea
  yi_dynasty: "Yi"
+
+ # Japan
+
+ nagao_dynasty: "Nagao"
+ hojo_dynasty: "Hōjō"
+ matsudaira_dynasty: "Matsudaira"
 
  # Russia
  yaroslavl_dynasty: "Yaroslavl"
@@ -80,3 +86,7 @@
  # Ava
  ava_dynasty: "Ava"
  mohnyin_dynasty: "Mohnyin"
+
+ # Tibet
+ phagmodrupa_dynasty: "Phagmodrupa"
+ rinpungpa_dynasty: "Rinpungpa"

@@ -53715,8 +53715,8 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         female = yes
-        birth_date = 1270.1.1
-        death_date = 1327.4.5
+        birth_date = 1270.1.1 #Exact date unknown
+        death_date = 1343.1.20
         birth = ikaruga
         father = jap_uesugi_yorishige
         dynasty = uesugi_dynasty
@@ -53731,7 +53731,7 @@ character_db={
         religion = shinto
         adm = 61 dip = 66 mil = 75
         birth_date = 1305.8.18
-        death_date = 1362.6.21
+        death_date = 1358.6.7
         birth = ashikaga_loc
         dynasty = ashikaga_dynasty
         father = jap_ashikaga_sadauji
@@ -53745,8 +53745,8 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         female = yes
-        birth_date = 1306.1.1
-        death_date = 1369.7.17
+        birth_date = 1306.1.1 #Exact date unknown
+        death_date = 1365.5.25
         birth = kamakura
         dynasty = houjou_dynasty
         father = jap_houjou_moritoki
@@ -53761,7 +53761,7 @@ character_db={
         religion = shinto
         adm = 58 dip = 40 mil = 75
         birth_date = 1306.1.1
-        death_date = 1364.4.25
+        death_date = 1352.3.13
         birth = ashikaga_loc
         dynasty = ashikaga_dynasty
         father = jap_ashikaga_sadauji
@@ -53790,7 +53790,7 @@ character_db={
         religion = shinto
         adm = 35 dip = 43 mil = 55
         birth_date = 1330.7.4
-        death_date = 1393.1.1
+        death_date = 1367.12.28
         birth = kamakura
         dynasty = ashikaga_dynasty
         father = jap_ashikaga_takauji
@@ -53805,7 +53805,7 @@ character_db={
         religion = shinto
         female = yes
         birth_date = 1306.1.1 #Exact date unknown
-        death_date = 1361.3.16
+        death_date = 1366.1.1 #Unknown
         birth = kamakura
         spouse = jap_ashikaga_tadayoshi
         tag = JAP
@@ -53816,8 +53816,8 @@ character_db={
         first_name = { name = name_tadafuyu } #直冬
         culture = tougoku_culture
         religion = shinto
-        birth_date = 1327.7.4
-        death_date = 1385.5.9
+        birth_date = 1327.1.1 #Exact date unknown
+        death_date = 1387.8.16 # Uncertain
         birth = kamakura
         dynasty = ashikaga_dynasty
         father = jap_ashikaga_tadayoshi #Actually a bastard son of Ashikaga Takauji, but adopted by his brother
@@ -54575,7 +54575,7 @@ character_db={
         death_date = 1260.1.1 #Unknown
         father = jap_hirosawa_yoshizane
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
     jap_hosokawa_yoshitoshi = {
@@ -54587,7 +54587,7 @@ character_db={
         death_date = 1250.1.1 #Unknown, but it's said he died young
         father = jap_hosokawa_yoshisue
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
     jap_hosokawa_toshiuji = {
@@ -54599,7 +54599,7 @@ character_db={
         death_date = 1320.1.1 #Unknown
         father = jap_hosokawa_yoshitoshi
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
     jap_hosokawa_yorisada = {
@@ -54611,7 +54611,7 @@ character_db={
         death_date = 1335.7.1
         father = jap_hosokawa_toshiuji
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
     jap_hosokawa_akiuji = {
@@ -54624,7 +54624,7 @@ character_db={
         father = jap_hosokawa_yorisada
         dynasty = hosokawa_dynasty
         spouse = "random"
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54635,9 +54635,10 @@ character_db={
         birth_date = 1325.1.1 #Unknown
         death_date = 1386.2.16
         birth = hekikai #nukata
+        father = jap_oouchi_morimi
         father = jap_hosokawa_akiuji
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54651,7 +54652,7 @@ character_db={
         father = jap_hosokawa_yorisada
         dynasty = hosokawa_dynasty
         spouse = "random"
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54664,7 +54665,7 @@ character_db={
         birth = hekikai #nukata
         father = jap_hosokawa_yorisada
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54677,7 +54678,7 @@ character_db={
         birth = hekikai #nukata
         father = jap_hosokawa_yorisada
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54691,7 +54692,7 @@ character_db={
         death_date = 1335.1.1 #Unknown but not mentioned around Ashikaga Takauji, so probably dead by then
         estate = clergy_estate
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
     jap_hosokawa_kazuuji = {
@@ -54704,7 +54705,7 @@ character_db={
         father = jap_hosokawa_kimiyori
         dynasty = hosokawa_dynasty
         spouse = "random"
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54717,7 +54718,7 @@ character_db={
         birth = awa_shikoku
         father = jap_hosokawa_kazuuji
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54730,7 +54731,7 @@ character_db={
         birth = awa_shikoku
         father = jap_hosokawa_kazuuji
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54744,7 +54745,7 @@ character_db={
         father = jap_hosokawa_kimiyori
         dynasty = hosokawa_dynasty
         spouse = "random"
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54753,11 +54754,11 @@ character_db={
         culture = saigoku_culture
         religion = shinto
         birth_date = 1329.1.1
-        death_date = 1381.2.1
+        death_date = 1392.3.25
         birth = awa_shikoku
         father = jap_hosokawa_yoriharu
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54770,7 +54771,7 @@ character_db={
         birth = awa_shikoku
         father = jap_hosokawa_yoriharu
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54783,7 +54784,7 @@ character_db={
         birth = awa_shikoku
         father = jap_hosokawa_yoriharu
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54797,7 +54798,7 @@ character_db={
         father = jap_hosokawa_kimiyori
         dynasty = hosokawa_dynasty
         spouse = "random"
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -54810,7 +54811,7 @@ character_db={
         birth = awa_shikoku
         father = jap_hosokawa_morouji
         dynasty = hosokawa_dynasty
-        tag = HSK
+        tag = HS1
     }
 
 
@@ -56217,7 +56218,7 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         birth_date = 1292.5.22
-        death_date = 1356.7.21
+        death_date = 1362.2.9
         birth = koma_kai
         dynasty = takeda_dynasty
         father = jap_takeda_nobumune
@@ -58669,7 +58670,7 @@ character_db={
         death_date = 1200.1.1 #Unknown but after 1195
         dynasty = yamana_dynasty
         father = jap_nitta_yoshishige
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_yoshisada = {
@@ -58681,7 +58682,7 @@ character_db={
         death_date = 1215.1.1 #Unknown
         dynasty = yamana_dynasty
         father = jap_yamana_yoshinori
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_shigekuni = {
@@ -58693,7 +58694,7 @@ character_db={
         death_date = 1235.1.1 #Unknown
         dynasty = yamana_dynasty
         father = jap_yamana_yoshisada
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_shigemura = {
@@ -58705,7 +58706,7 @@ character_db={
         death_date = 1270.1.1 #Unknown
         dynasty = yamana_dynasty
         father = jap_yamana_shigekuni
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_yoshinaga = {
@@ -58717,7 +58718,7 @@ character_db={
         death_date = 1300.1.1 #Unknown
         dynasty = yamana_dynasty
         father = jap_yamana_shigemura
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_yoshitoshi = {
@@ -58729,7 +58730,7 @@ character_db={
         death_date = 1320.1.1 #Unknown
         dynasty = yamana_dynasty
         father = jap_yamana_yoshinaga
-        tag = YMN
+        tag = YM1
     }
 
     jap_yamana_masauji = {
@@ -58737,12 +58738,12 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         birth_date = 1280.1.1 #Unknown
-        death_date = 1350.2.19
+        death_date = 1340.1.1 #Unknown
         birth = usui
         dynasty = yamana_dynasty
         father = jap_yamana_yoshitoshi
         spouse = jap_uesugi_shigefusa_no_musume
-        tag = YMN
+        tag = YM1
     }
 
 
@@ -58752,12 +58753,12 @@ character_db={
         religion = shinto
         female = yes
         birth_date = 1270.1.1 #Unknown
-        death_date = 1324.6.5
+        death_date = 1350.1.1 #Unknown
         birth = ikaruga
         father = jap_uesugi_shigefusa
         dynasty = uesugi_dynasty
         spouse = jap_yamana_masauji
-        tag = YMN
+        tag = YM1
     }
 
 
@@ -58766,13 +58767,13 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         birth_date = 1303.1.1 #Exact date unknown
-        death_date = 1356.1.17
+        death_date = 1371.4.14
         birth = usui
         dynasty = yamana_dynasty
         father = jap_yamana_masauji
         mother = jap_uesugi_shigefusa_no_musume
         spouse = "random"
-        tag = YMN
+        tag = YM1
     }
 
 
@@ -58781,11 +58782,11 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         birth_date = 1328.1.1 #Exact date unknown
-        death_date = 1393.10.26
+        death_date = 1376.3.31
         birth = usui
         dynasty = yamana_dynasty
         father = jap_yamana_tokiuji
-        tag = YMN
+        tag = YM1
     }
 
 
@@ -58794,11 +58795,11 @@ character_db={
         culture = tougoku_culture
         religion = shinto
         birth_date = 1337.1.1 #Exact date unknown
-        death_date = 1391.6.23
+        death_date = 1397.1.1 #Unknown
         birth = usui
         dynasty = yamana_dynasty
         father = jap_yamana_tokiuji
-        tag = YMN
+        tag = YM1
     }
 
 
@@ -59534,7 +59535,7 @@ character_db={
         culture = saigoku_culture
         religion = shinto
         birth_date = 1305.1.1 #Unknown
-        death_date = 1359.9.23
+        death_date = 1352.4.20
         birth = yoshiki_suou
         dynasty = oouchi_dynasty
         father = jap_oouchi_shigehiro
@@ -116807,7 +116808,7 @@ character_db={
 		first_name = { name = name_seong_gye }
 		culture = korean_culture
 		religion = sanjiao
-		adm = 80 dip = 70 mil = 90
+		adm = 80 dip = 70 mil = 80
 		birth_date = 1335.11.4
 		death_date = 1408.6.27
 		birth = hwaju
@@ -116832,7 +116833,7 @@ character_db={
 		first_name = { name = name_bang_won }
 		culture = korean_culture
 		religion = sanjiao
-		adm = 60 dip = 40 mil = 70
+		adm = 90 dip = 40 mil = 90
 		birth_date = 1367.5.13
 		death_date = 1422.5.10
 		father = joe_taejo
@@ -116843,6 +116844,7 @@ character_db={
 
 	joe_sejong = { # https://en.wikipedia.org/wiki/Sejong_the_Great
 		first_name = { name = name_do }
+        nickname = { name = "nick_the_great" }
 		culture = korean_culture
 		religion = sanjiao
 		adm = 80 dip = 90 mil = 70
@@ -116850,8 +116852,705 @@ character_db={
 		father = joe_taejong
 		birth = hanyang
 		dynasty = yi_dynasty
-		tag = JOE
+        tag = JOE
 	}
+
+    joe_soheon = { # Queen Soheon (consort of Sejong)
+        first_name = { name = name_soheon }
+        culture = korean_culture
+        religion = sanjiao
+        birth_date = 1395.1.1
+        birth = hanyang
+        tag = JOE
+        female = yes
+        estate = nobles_estate
+        spouse = joe_sejong
+    }
+
+    joe_munjong = { # Crown Prince Munjong (Yi Hyang)
+        first_name = { name = name_hyang }
+        culture = korean_culture
+        religion = sanjiao
+        adm = 40 dip = 50 mil = 30
+        birth_date = 1414.1.1
+        father = joe_sejong
+        mother = joe_soheon
+        birth = hanyang
+        dynasty = yi_dynasty
+        tag = JOE
+    }
+
+    joe_sejo = { # Grand Prince Suyang (later Sejo)
+        first_name = { name = name_suyang }
+        culture = korean_culture
+        religion = sanjiao
+        adm = 30 dip = 30 mil = 70
+        birth_date = 1417.1.1
+        father = joe_sejong
+        mother = joe_soheon
+        birth = hanyang
+        dynasty = yi_dynasty
+        tag = JOE
+    }
+
+    joe_anpyeong = { # Grand Prince Anpyeong
+        first_name = { name = name_yong_kor }
+        culture = korean_culture
+        religion = sanjiao
+        adm = 50 dip = 60 mil = 40
+        birth_date = 1418.1.1
+        father = joe_sejong
+        mother = joe_soheon
+        birth = hanyang
+        dynasty = yi_dynasty
+        tag = JOE
+    }
+
+    joe_gwangpyeong = { # Grand Prince Gwangpyeong
+        first_name = { name = name_yeo }
+        culture = korean_culture
+        religion = sanjiao
+        adm = 20 dip = 30 mil = 40
+        birth_date = 1420.1.1
+        father = joe_sejong
+        mother = joe_soheon
+        birth = hanyang
+        dynasty = yi_dynasty
+        tag = JOE
+    }
+    ### Japan
+
+    ## Imperial family (Nanboku-chō -> unified court)
+    jap_go_kougon_tenno = { #後光厳天皇
+        first_name = { name = name_iyahito } #弥仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1338.3.23
+        death_date = 1374.3.12
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_kougon_tenno
+        mother = jap_oogimachisanjou_hideko
+        tag = NTC
+    }
+
+    jap_go_enyu_tenno = { #後円融天皇
+        first_name = { name = name_ohito } #緒仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1359.1.11
+        death_date = 1393.6.6
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_kougon_tenno
+        tag = NTC
+    }
+
+    jap_go_komatsu_tenno = { #後小松天皇
+        first_name = { name = name_motohito } #幹仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1377.8.1
+        death_date = 1433.12.1
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_enyu_tenno
+        tag = JAP
+    }
+
+    jap_shoukou_tenno = { #称光天皇
+        first_name = { name = name_mihito } #躬仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1401.5.12
+        death_date = 1428.8.30
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_komatsu_tenno
+        tag = JAP
+    }
+
+    jap_fushimi_yoshihito_shinno = { #伏見宮栄仁親王
+        first_name = { name = name_yoshihito } #栄仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1351.1.1
+        death_date = 1416.12.9
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_sukou_tenno
+        tag = NTC
+    }
+
+    jap_fushimi_sadafusa_shinno = { #伏見宮貞成親王
+        first_name = { name = name_sadafusa } #貞成
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1372.4.9
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_fushimi_yoshihito_shinno
+        tag = JAP
+    }
+
+    # Current emperor in 1444
+    jap_go_hanazono_tenno = { #後花園天皇
+        first_name = { name = name_hikohito } #彦仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1419.7.10
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_fushimi_sadafusa_shinno
+        tag = JAP
+    }
+
+    jap_go_tsuchimikado_tenno = { #後土御門天皇
+        first_name = { name = name_fusahito } #房仁
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1442.7.3
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_hanazono_tenno
+        tag = JAP
+    }
+
+    # Southern court continuation
+    jap_choukei_tenno = { #長慶天皇
+        first_name = { name = name_yutanari } #寛成
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1343.1.1
+        death_date = 1394.8.27
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_murakami_tenno
+        tag = STC
+    }
+
+    jap_go_kameyama_tenno = { #後亀山天皇
+        first_name = { name = name_hironari } #弘成
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1347.1.1
+        death_date = 1424.5.10
+        birth = kyoto
+        dynasty = yamato_dynasty
+        father = jap_go_murakami_tenno
+        tag = STC
+    }
+
+    ## Ashikaga Clan
+    jap_ashikaga_motouji = {
+        first_name = { name = name_motouji } # 尊氏の息子
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1340.1.1
+        death_date = 1367.4.11
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_takauji
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshimitsu = {
+        first_name = { name = name_yoshimitsu } # 義満
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1358.9.25
+        death_date = 1408.5.31
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshiakira
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshimochi = {
+        first_name = { name = name_yoshimochi } # 義持
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1386.3.12
+        death_date = 1428.2.3
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshimitsu
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshikazu = {
+        first_name = { name = name_yoshikazu } # 義量
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1407.8.27
+        death_date = 1425.3.17
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshimochi
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshinori = {
+        first_name = { name = name_yoshinori } # 義教
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1394.7.12
+        death_date = 1441.7.12
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshimitsu
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshimasa = {
+        first_name = { name = name_yoshimasa } # 義政
+        culture = tougoku_culture
+        religion = shinto
+        adm = 68 dip = 70 mil = 65
+        birth_date = 1436.1.20
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshinori
+        tag = JAP
+    }
+
+    jap_hino_tomiko = {
+        first_name = { name = name_tomiko } # 富子
+        culture = saigoku_culture
+        religion = shinto
+        female = yes
+        birth_date = 1440.1.1 #Unknown exact date
+        birth = kyoto
+        dynasty = hino_dynasty
+        spouse = jap_ashikaga_yoshimasa
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshikatsu = {
+        first_name = { name = name_yoshikatsu } # 義勝 
+        culture = tougoku_culture
+        religion = shinto
+        adm = 50 dip = 55 mil = 60
+        birth_date = 1434.3.19
+        death_date = 1443.8.16
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshinori
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshimi = {
+        first_name = { name = name_yoshimi } # 義視
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1439.3.3
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshinori
+        tag = JAP
+    }
+
+    jap_ashikaga_yoshihisa = {
+        first_name = { name = name_yoshihisa } # 義尚
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1465.1.1 # Exact date unknown
+        death_date = 1489.4.26
+        birth = ashikaga_loc
+        dynasty = ashikaga_dynasty
+        father = jap_ashikaga_yoshimasa
+        mother = jap_hino_tomiko
+        tag = JAP
+    }
+
+    ## Hatakeyama Clan
+    jap_hatakeyama_motokuni = { # 畠山基国 (Q11578625)
+        first_name = { name = name_motokuni }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1352.1.1
+        death_date = 1406.2.14
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_yoshifuka
+        tag = HT3
+    }
+
+    jap_hatakeyama_mitsuie = { # 畠山満家 (Q11578655)
+        first_name = { name = name_mitsuie }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1372.1.1
+        death_date = 1433.11.9
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_motokuni
+        tag = HT3
+    }
+
+    # Regent for Yoshimasa
+    jap_hatakeyama_mochikuni = { # 義教 (Q11578637)
+        first_name = { name = name_mochikuni } 
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1398.1.1
+        birth = ashikaga_loc
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mitsuie
+        tag = HT3
+    }
+
+    # Prospective Heir
+    jap_hatakeyama_yoshinari = { # 畠山義就 (Q11578676)
+        first_name = { name = name_yoshinari }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1437.1.1
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mochikuni
+        tag = HT3
+    }
+
+    jap_hatakeyama_mochitomi = { # 畠山持富 (Q11578639)
+        first_name = { name = name_mochitomi }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1405.1.1 # Unknown
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mitsuie
+        tag = HT3
+    }
+
+    # Prospective Heir
+    jap_hatakeyama_masanaga = { # 畠山政長 (Q5680891)
+        first_name = { name = name_masanaga }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1442.1.1
+        dynasty = hatakeyama_dynasty
+        father = jap_hatakeyama_mochitomi
+        tag = HT3
+    }
+
+    ## Yamana Clan
+    jap_yamana_tokiyoshi = {
+        first_name = { name = name_tokiyoshi } #時義
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1346.1.1 #Unknown exact date
+        death_date = 1389.5.29
+        birth = keta_tajima
+        father = jap_yamana_tokiuji
+        dynasty = yamana_dynasty
+        tag = YM1
+    }
+
+    jap_yamana_tokihiro = {
+        first_name = { name = name_tokihiro } #時熙
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1367.1.1 #Unknown exact date
+        death_date = 1435.7.29
+        birth = keta_tajima
+        father = jap_yamana_tokiyoshi
+        dynasty = yamana_dynasty
+        tag = YM1
+    }
+
+    jap_yamana_mochitoyo = {
+        first_name = { name = name_mochitoyo } #持豊 (Later Yamana Sōzen)
+        culture = tougoku_culture
+        religion = shinto
+        adm = 72 dip = 60 mil = 78
+        birth_date = 1404.7.6
+        birth = keta_tajima
+        dynasty = yamana_dynasty
+        father = jap_yamana_tokihiro
+        tag = YM1
+    }
+
+    ## Hosokawa Clan
+    jap_hosokawa_yorimoto = {
+        first_name = { name = name_yorimoto } #頼元
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1343.1.1 #Unknown exact date
+        death_date = 1397.6.2
+        birth = awa_shikoku
+        father = jap_hosokawa_yoriyuki
+        dynasty = hosokawa_dynasty
+        tag = HS1
+    }
+
+    jap_hosokawa_mitsumoto = {
+        first_name = { name = name_mitsumoto } #満元
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1378.1.1 #Unknown exact date
+        death_date = 1426.11.15
+        birth = awa_shikoku
+        father = jap_hosokawa_yorimoto
+        dynasty = hosokawa_dynasty
+        tag = HS1
+    }
+
+    jap_hosokawa_mochiyuki = {
+        first_name = { name = name_mochiyuki } #持之
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1400.1.1 #Unknown exact date
+        death_date = 1442.9.8
+        birth = awa_shikoku
+        father = jap_hosokawa_mitsumoto
+        dynasty = hosokawa_dynasty
+        tag = HS1
+    }
+
+    jap_hosokawa_katsumoto = {
+        first_name = { name = name_katsumoto } #勝元
+        culture = saigoku_culture
+        religion = shinto
+        adm = 70 dip = 75 mil = 72
+        birth_date = 1430.1.1 #Unknown exact date
+        birth = awa_shikoku
+        father = jap_hosokawa_mochiyuki
+        dynasty = hosokawa_dynasty
+        tag = HS1
+    }
+
+    ## Awa Hosokawa
+    jap_hosokawa_mitsuyuki = { # 細川満之 (Q11605936)
+        first_name = { name = name_mitsuyuki }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1352.1.1
+        death_date = 1406.1.14
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_yoriharu
+        tag = HS2
+    }
+
+    jap_hosokawa_mitsuhisa = { # 細川満久 (Q17218716)
+        first_name = { name = name_mitsuhisa }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1386.1.1
+        death_date = 1430.10.24
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_mitsuyuki
+        tag = HS2
+    }
+
+    jap_hosokawa_norisuke = { # 細川教祐 (Q104539060)
+        first_name = { name = name_norisuke }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1404.1.1
+        birth = awa_shikoku
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_mitsuhisa
+        tag = HS2
+    }
+
+    jap_hosokawa_shigeyuki = { # 細川成之 (Q11605893)
+        first_name = { name = name_shigeyuki }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1434.1.1
+        dynasty = hosokawa_dynasty
+        father = jap_hosokawa_norisuke
+        tag = HS2
+    }
+
+    ## Ouchi Clan
+    jap_oouchi_yoshihiro = { # 大内義弘 (Q4389583)
+        first_name = { name = name_yoshihiro }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1356.1.1
+        death_date = 1400.1.25
+        dynasty = oouchi_dynasty
+        father = jap_oouchi_hiroyo
+        tag = OUC
+    }
+
+    jap_oouchi_mochimori = { # 大内持盛 (Q11432526)
+        first_name = { name = name_mochimori }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1394.1.1
+        death_date = 1433.5.6
+        dynasty = oouchi_dynasty
+        father = jap_oouchi_yoshihiro
+        tag = OUC
+    }
+
+    jap_oouchi_norihiro = { # 大内教弘 (Q11432532)
+        first_name = { name = name_norihiro }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1420.5.11
+        dynasty = oouchi_dynasty
+        father = jap_oouchi_mochimori
+        tag = OUC
+    }
+
+    ## Takeda Kai Branch
+    jap_takeda_nobuharu = { # 武田信春 (Q6640048)
+        first_name = { name = name_nobuharu }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1330.1.1 # Estimated
+        death_date = 1413.11.25
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobunari
+        tag = TK1
+    }
+
+    jap_takeda_nobumitsu_kai = { # 武田信満 (Q11546103)
+        first_name = { name = name_nobumitsu }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1350.1.1 # Estimated
+        death_date = 1417.3.3
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobuharu
+        tag = TK1
+    }
+
+    jap_takeda_nobushige_kai = { # 武田信満 (Q11546103)
+        first_name = { name = name_nobushige }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1368.1.1
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobumitsu_kai
+        tag = TK1
+    }
+
+    jap_nobumori_takeda = { # 武田信守 (Q26814219)
+        first_name = { name = name_nobumori }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1407.1.1 # Estimated
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobushige_kai
+        tag = TK1
+    }
+
+    jap_takeda_nobuari = { # 武田信在 (Q11546094)
+        first_name = { name = name_nobuari }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1352.1.1
+        dynasty = takeda_dynasty
+        father = jap_takeda_ujinobu
+        tag = TK1
+    }
+
+    ## Takeda Aki Branch
+    jap_takeda_nobushige = { # 武田信繁 (Q11124802)
+        first_name = { name = name_nobushige }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1390.1.1
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobuari
+        tag = TK2
+    }
+
+    jap_takeda_nobuhide = { # 武田信栄 (Q11546102)
+        first_name = { name = name_nobuhide }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1413.1.1
+        death_date = 1440.8.29
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobushige
+        tag = TK3
+    }
+
+    jap_takeda_nobukata = { # 武田信賢 (Q11546114)
+        first_name = { name = name_nobukata }
+        culture = saigoku_culture
+        religion = shinto
+        birth_date = 1420.1.1
+        dynasty = takeda_dynasty
+        father = jap_takeda_nobushige
+        tag = TK2
+    }
+
+    ## Matsudaira Clan
+    jap_matsudaira_nobumitsu = { # 松平信光 (Q11239114)
+        first_name = { name = name_nobumitsu }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1404.1.1
+        dynasty = matsudaira_dynasty
+        father = jap_matsudaira_yasuchika
+        tag = MTU
+    }
+
+    jap_matsudaira_chikatada = { # 松平親忠 (Q11239171)
+        first_name = { name = name_chikatada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1431.1.1
+        dynasty = matsudaira_dynasty
+        father = jap_matsudaira_nobumitsu
+        tag = MTU
+    }
+
+    ## Imagawa clan
+    jap_imagawa_norimasa = { # 今川範政 (Q11376939)
+        first_name = { name = name_norimasa }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1364.1.1
+        death_date = 1433.6.14
+        dynasty = imagawa_dynasty
+        father = jap_imagawa_yasunori
+        tag = IMG
+    }
+
+    jap_imagawa_noritada = { # 今川範忠 (Q11376938)
+        first_name = { name = name_noritada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1408.1.1
+        dynasty = imagawa_dynasty
+        father = jap_imagawa_norimasa
+        tag = IMG
+    }
+
+    jap_imagawa_yoshitada = { # 今川義忠 (Q3572692)
+        first_name = { name = name_yoshitada }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1436.3.6
+        dynasty = imagawa_dynasty
+        father = jap_imagawa_noritada
+        tag = IMG
+    }
+
+    jap_oda_josho = { # 織田常松 (Q11608367)
+        first_name = { name = name_josho }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1380.1.1 # Unknown, estimated
+        dynasty = oda_dynasty
+        tag = ODA
+    }
+
+    jap_oda_hirochika = { # 織田広近 (Q11608371)
+        first_name = { name = name_hirochika }
+        culture = tougoku_culture
+        religion = shinto
+        birth_date = 1420.1.1 # Unknown, estimated
+        dynasty = oda_dynasty
+        father = jap_oda_josho
+        tag = ODA
+    }
 
     #Bahmanis
     bah_ala_ud_din_hasan_bahman = { #Founder of Bahmanis
@@ -117034,6 +117733,7 @@ character_db={
         last_name = { name = Trinh }
         culture = vietnamese_culture
         religion = mahayana
+        estate = nobles_estate
         birth_date = 1403.1.1
         tag = DAI
     }
@@ -117856,5 +118556,212 @@ character_db={
         father = bpr_thinkaya
         dynasty = pagan_dynasty
         tag = BPR
+    }
+
+    ### Tibet
+    # Phagmodrupa dynasty
+    pha_rinchen_kyab = {
+        first_name = { name = Rinchen_Kyab }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1270.1.1 # Estimated
+        death_date = 1340.1.1 # Estimated
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_tai_situ_changchub_gyaltsen = {
+        first_name = { name = Tai_Situ_Changchub_Gyaltsen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1302.1.1
+        death_date = 1364.11.21
+        father = pha_rinchen_kyab
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+    
+    pha_drakpa_changchub = {
+        first_name = { name = Drakpa_Changchub }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1356.1.1
+        death_date = 1386.1.1
+        father = pha_rinchen_dorje
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+    
+    pha_sonam_zangpo = {
+        first_name = { name = Sonam_Zangpo }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1310.1.1 # Estimated
+        death_date = 1375.1.1 # Estimated
+        father = pha_rinchen_kyab
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_rinchen_dorje = {
+        first_name = { name = Rinchen_Dorje }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1325.1.1 # Estimated
+        death_date = 1385.1.1 # Estimated
+        father = pha_sonam_zangpo
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_sonam_drakpa = {
+        first_name = { name = Sonam_Drakpa }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1359.1.1
+        death_date = 1408.1.1
+        father = pha_rinchen_dorje
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_shakya_rinchen = {
+        first_name = { name = Shakya_Rinchen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1345.1.1 # Estimated
+        death_date = 1405.1.1 # Estimated
+        father = pha_sonam_zangpo
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_jamyang_shakya_gyaltsen = {
+        first_name = { name = Jamyang_Shakya_Gyaltsen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1340.1.1
+        death_date = 1373.1.1
+        father = pha_sonam_zangpo
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+    
+    pha_gongma_drakpa_gyaltsen = {
+        first_name = { name = Gongma_Drakpa_Gyaltsen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1374.1.1
+        death_date = 1432.1.1
+        father = pha_shakya_rinchen
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_sister_of_drakpa_gyaltsen = {
+        first_name = random
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1365.1.1 # Estimated
+        death_date = 1425.1.1 # Estimated
+        female = yes
+        father = pha_shakya_rinchen
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+    
+    pha_sangye_gyaltsen = {
+        first_name = { name = Sangye_Gyaltsen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1390.1.1
+        death_date = 1432.1.1
+        father = pha_shakya_rinchen
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_drakpa_jungne = {
+        first_name = { name = Drakpa_Jungne }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1414.1.1
+        father = pha_sangye_gyaltsen
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    pha_kunga_lekpa = {
+        first_name = { name = Kunga_Lekpa }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1431.12.30 # Should be 1433 but ??
+        father = pha_sangye_gyaltsen
+        dynasty = phagmodrupa_dynasty
+        tag = PHA
+    }
+
+    # Rinpungpa dynasty
+    rin_namkha_gyaltsen = {
+        first_name = { name = Namkha_Gyaltsen }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1365.1.1 # Estimated
+        death_date = 1420.1.1 # Estimated
+        spouse = pha_sister_of_drakpa_gyaltsen
+        dynasty = rinpungpa_dynasty
+        tag = RIN
+    }
+
+    rin_namkha_gyalpo = {
+        first_name = { name = Namkha_Gyalpo }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1380.1.1 # Estimated
+        death_date = 1415.1.1 # Estimated
+        father = rin_namkha_gyaltsen
+        mother = pha_sister_of_drakpa_gyaltsen
+        dynasty = rinpungpa_dynasty
+        tag = RIN
+    }
+    
+    rin_norzang = {
+        first_name = { name = Norzang }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1403.1.1
+        father = rin_namkha_gyalpo
+        dynasty = rinpungpa_dynasty
+        tag = RIN
+    }
+
+    # Ganden Monastery
+    gph_gedun_drupa = {
+        first_name = { name = Gedun_Drupa } # 1st Dalai Lama
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1391.1.1
+        estate = clergy_estate
+        tag = GPH
+    }
+
+    gph_thang_tong_gyalpo = {
+        first_name = { name = Thang_Tong_Gyalpo }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1385.1.1
+        estate = clergy_estate
+        tag = GPH
+    }
+
+    gph_chokyi_dronma = {
+        first_name = { name = Chökyi_Drönma }
+        culture = utsang_culture
+        religion = tibetan_buddhism
+        birth_date = 1422.1.1
+        spouse = gph_thang_tong_gyalpo
+        female = yes
+        estate = clergy_estate
+        tag = GPH
     }
 }
