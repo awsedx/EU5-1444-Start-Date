@@ -9,6 +9,32 @@ SAX = {
     difficulty = 2
 }
 
+SAR = {
+    #Sardinia
+    color = map_SAR
+
+    culture_definition = sardinian
+    religion_definition = catholic
+}
+
+SGL = {
+    #Grey League
+    color = rgb { 170 170 170 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic   
+}
+
+# New tags
+
+YOR = {
+    #York
+    color = rgb { 43 45 112 }
+
+    culture_definition = northumbrian
+    religion_definition = catholic
+}
+
 ALR = {
     #Albret
     color = rgb { 218 39 57 }
@@ -31,6 +57,414 @@ NEM = {
 
     culture_definition = french
     religion_definition = catholic
+}
+
+PRH = {
+    #Parthenay
+    color = rgb { 57 57 64 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+TAS = {
+    #Thouars
+    color = rgb { 149 149 232 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+MOT = {
+    #Montaigu
+    color = rgb { 225 225 242 }
+
+    culture_definition = poitevin
+    religion_definition = catholic   
+}
+
+LVL = {
+    #Laval
+    color = rgb { 148 157 168 }
+
+    culture_definition = angevin
+    religion_definition = catholic      
+}
+
+LMG = {
+    #Limoges
+    color = rgb { 225 232 237 }
+
+    culture_definition = limousin
+    religion_definition = catholic      
+}
+
+TUE = {
+    #Turenne
+    color = rgb { 184 67 42 }
+
+    culture_definition = limousin
+    religion_definition = catholic      
+}
+
+BIG = {
+    #Bigorre
+    color = rgb { 189 86 45 }
+
+    culture_definition = gascon
+    religion_definition = catholic      
+}
+
+VRT = {
+    #Vertus
+    color = rgb { 221 227 102 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+CLO = {
+    #Châlons
+    color = rgb { 56 177 242 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+REI = {
+    #Reims
+    color = rgb { 242 58 24 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+BNN = {
+    #Brienne
+    color = rgb { 233 240 125 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+LAO = {
+    #Laon
+    color = rgb { 38 38 34 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+COU = {
+    #Coucy
+    color = rgb { 215 221 222 }
+
+    culture_definition = picard
+    religion_definition = catholic      
+}
+
+MRL = {
+    #MRL
+    color = rgb { 148 227 205 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+GUS = {
+    #Guise
+    color = rgb { 219 48 48 }
+
+    culture_definition = picard
+    religion_definition = catholic      
+}
+
+JON = {
+    #Joinville
+    color = rgb { 217 80 65 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+LGR = {
+    #Langres
+    color = rgb { 33 73 219 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+GPE = {
+    #Grandpré
+    color = rgb { 217 157 39 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+BAN = {
+    #Braine
+    color = rgb { 159 107 232 }
+
+    culture_definition = champenais
+    religion_definition = catholic      
+}
+
+BEU = {
+    #Beauvais
+    color = rgb { 107 161 232 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+SOI = {
+    #Soissons
+    color = rgb { 240 240 70 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+CBU = {
+    #Clermont-en-Beauvaisis
+    color = rgb { 195 230 156 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+NOY = {
+    #Noyon
+    color = rgb { 242 242 233 }
+
+    culture_definition = picard
+    religion_definition = catholic      
+}
+
+PRG = {
+    #Perche-Gouët
+    color = rgb { 195 230 156 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+GIN = {
+    #Gien
+    color = rgb { 214 175 99 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+CLU = {
+    #Châtellerault
+    color = rgb { 51 51 46 }
+
+    culture_definition = poitevin
+    religion_definition = catholic      
+}
+
+JOI = {
+    #Joigny
+    color = rgb { 203 214 210 }
+
+    culture_definition = french
+    religion_definition = catholic      
+}
+
+BUC = {
+    #Buch
+    color = rgb { 59 22 224 }
+
+    culture_definition = gascon
+    religion_definition = catholic      
+}
+
+CST = {
+    #Castres
+    color = rgb { 196 84 43 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+COE = {
+    #Couserans
+    color = rgb { 149 201 52 }
+
+    culture_definition = gascon
+    religion_definition = catholic      
+}
+
+MPX = {
+    #Mirepoix
+    color = rgb { 92 84 76 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+LOG = {
+    #Lomagne
+    color = rgb { 214 111 96 }
+
+    culture_definition = gascon
+    religion_definition = catholic      
+}
+
+CSS = {
+    #Carcassonne
+    color = rgb { 217 61 37 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+AGD = {
+    #Agde
+    color = rgb { 232 219 81 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+MEL = {
+    #Melgueil
+    color = rgb { 237 71 33 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+LOD = {
+    #Lodève
+    color = rgb { 101 165 224 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+MLU = {
+    #Millau
+    color = rgb { 202 224 101 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+AES = {
+    #Alès
+    color = rgb { 220 232 242 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+RDZ = {
+    #Rodez
+    color = rgb { 117 42 34 }
+
+    culture_definition = languedocien
+    religion_definition = catholic      
+}
+
+GEV = {
+    #Gévaudan
+    color = rgb { 138 69 59 }
+
+    culture_definition = auvergnat
+    religion_definition = catholic      
+}
+
+VLY = {
+    #Velay
+    color = rgb { 97 85 85 }
+
+    culture_definition = auvergnat
+    religion_definition = catholic      
+}
+
+CMB = {
+    #Combraille
+    color = rgb { 86 94 110 }
+
+    culture_definition = limousin
+    religion_definition = catholic      
+}
+
+BJU = {
+    #Beaujeu
+    color = rgb { 86 94 110 }
+
+    culture_definition = arpitan
+    religion_definition = catholic      
+}
+
+LYO = {
+    #Lyon
+    color = rgb { 219 20 43 }
+
+    culture_definition = apritan
+    religion_definition = catholic      
+}
+
+VIV = {
+    #Viviers
+    color = rgb { 95 219 61 }
+
+    culture_definition = auvergant
+    religion_definition = catholic      
+}
+
+DEI = {
+    #Die
+    color = rgb { 209 40 40 }
+
+    culture_definition = vivaro_alpine
+    religion_definition = catholic      
+}
+
+ESC = {
+    #Republic of the Escartons
+    color = rgb { 61 128 66 }
+
+    culture_definition = vivaro_alpine
+    religion_definition = catholic      
+}
+
+LGV = {
+    #Longueville
+    color = rgb { 183 186 164 }
+
+    culture_definition = norman
+    religion_definition = catholic      
+}
+
+RTZ = {
+    #Retz
+    color = rgb { 218 237 57 }
+
+    culture_definition = gallo
+    religion_definition = catholic      
+}
+
+PON = {
+    #Ponthieu
+    color = rgb { 233 252 109 }
+
+    culture_definition = picard
+    religion_definition = catholic   
+}
+
+VRM = {
+    #Vermandois
+    color = rgb { 126 160 224 }
+
+    culture_definition = picard
+    religion_definition = catholic   
 }
 
 CAL = {
@@ -113,6 +547,46 @@ BTC = {
     religion_definition = catholic    
 }
 
+STT = {
+    #Stuttgart
+    color = rgb { 164 186 123 }
+
+    culture_definition = swabian
+    religion_definition = catholic    
+}
+
+URA = {
+    #Urach
+    color = rgb { 192 217 143 }
+
+    culture_definition = swabian
+    religion_definition = catholic    
+}
+
+INT = {
+    #Interlaken
+    color = rgb { 204 219 219 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic    
+}
+
+AAR = {
+    #Aargau
+    color = rgb { 222 122 106 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic    
+}
+
+DUI = {
+    #Duino
+    color = rgb { 152 54 207 }
+
+    culture_definition = slovene
+    religion_definition = catholic    
+}
+
 BDA = {
     #Breda
     color = rgb { 101 219 207 }
@@ -127,6 +601,222 @@ BOZ = {
 
     culture_definition = low_franconian
     religion_definition = catholic    
+}
+
+NIC = {
+    #Nice
+    color = rgb { 222 53 68 }
+
+    culture_definition = provencal
+    religion_definition = catholic       
+}
+
+COH = {
+    #Cortinchi
+    color = rgb { 122 227 100 }
+
+    culture_definition = corsican
+    religion_definition = catholic    
+}
+
+ADI = {
+    #Amondaschi
+    color = rgb { 133 224 114 }
+
+    culture_definition = corsican
+    religion_definition = catholic    
+}
+
+ROC = {
+    #Rocca
+    color = rgb { 143 201 131 }
+
+    culture_definition = corsican
+    religion_definition = catholic    
+}
+
+NUL = {
+    #Nuova Leca
+    color = rgb { 127 150 122 }
+
+    culture_definition = corsican
+    religion_definition = catholic  
+}
+
+VCL = {
+    #Vecchia Leca
+    color = rgb { 141 173 134 }
+
+    culture_definition = corsican
+    religion_definition = catholic  
+}
+
+ORV = {
+    #Orvieto
+    color = rgb { 222 53 68 }
+
+    culture_definition = median
+    religion_definition = catholic       
+}
+
+TTO = {
+    #Taranto
+    color = rgb { 71 222 222 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic       
+}
+
+LEC = {
+    #Lecce
+    color = rgb { 201 240 240 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic       
+}
+
+OTR = {
+    #Otranto
+    color = rgb { 81 167 224 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic       
+}
+
+BBR = {
+    #Bari
+    color = rgb { 217 76 76 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic  
+}
+
+MTE = {
+    #Matera
+    color = rgb { 87 235 188 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic  
+}
+
+AIA = {
+    #Andria
+    color = rgb { 176 35 42 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic  
+}
+
+SRR = {
+    #Sora
+    color = rgb { 87 94 110 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic  
+}
+
+RSA = {
+    #Rossano
+    color = rgb { 240 252 76 }
+
+    culture_definition = neapolitan
+    religion_definition = catholic  
+}
+
+MCA = {
+    #Modica
+    color = rgb { 54 143 69 }
+
+    culture_definition = sicilian
+    religion_definition = catholic  
+}
+
+GCI = {
+    #Geraci
+    color = rgb { 196 173 96 }
+
+    culture_definition = sicilian
+    religion_definition = catholic  
+}
+
+BGM = {
+    #Bergamo
+    color = rgb { 242 250 95 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+TRR = {
+    #Tirano
+    color = rgb { 230 242 238 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+SRO = {
+    #Sondrio
+    color = rgb { 121 177 232 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+AGE = {
+    #Angera
+    color = rgb { 238 247 77 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+TIC = {
+    #Ticino
+    color = rgb { 176 25 25 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+NVR = {
+    #Novara
+    color = rgb { 230 48 48 }
+
+    culture_definition = lombard
+    religion_definition = catholic       
+}
+
+VLA = {
+    #Valais
+    color = rgb { 224 96 96 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic   
+}
+
+ZEH = {
+    #League of the Ten Jurisdictions (Zehngerichtenbund)
+    color = rgb { 88 186 245 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic   
+}
+
+GHB = {
+    #League of God's House (Gotteshausbund)
+    color = rgb { 86 90 94 }
+
+    culture_definition = high_alemannic
+    religion_definition = catholic   
+}
+
+VNS = {
+    #Venaissin
+    color = rgb { 224 190 119 }
+
+    culture_definition = provencal
+    religion_definition = catholic       
 }
 
 TOI = {
@@ -145,16 +835,28 @@ ASU = {
     religion_definition = catholic
 }
 
-LIT = { #Edited to be Catholic
-    #Lithuania
-	color = map_LIT
-	color2 = rgb { 154 69 116 }
+BGZ = {
+    #Braganza
+    color = rgb { 21 74 22 }
 
-	culture_definition = aukstaitian
-	religion_definition = catholic
+    culture_definition = portuguese
+    religion_definition = catholic
+}
 
-	description_category = military
-	difficulty = 3
+COB = {
+    #Coimbra
+    color = rgb { 73 158 74 }
+
+    culture_definition = portuguese
+    religion_definition = catholic
+}
+
+VIZ = {
+    #Vizcaya
+    color = rgb { 104 173 230 }
+
+    culture_definition = basque
+    religion_definition = catholic
 }
 
 CNY = {
