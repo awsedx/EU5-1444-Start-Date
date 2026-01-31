@@ -253,7 +253,7 @@ diplomacy_manager = {
     dependency = { first = AMG second = CLT subject_type = fiefdom }
     dependency = { first = AMG second = RDZ subject_type = fiefdom }
     dependency = { first = ALR second = DRE subject_type = fiefdom }
-    dependency = { first = TAS second = MOT subject_type = fiefdom }
+    dependency = { first = TAS second = MOI subject_type = fiefdom }
     dependency = { first = BRR second = BIG subject_type = fiefdom }
     dependency = { first = LMG second = PER subject_type = fiefdom }
     dependency = { first = BOU second = CMB subject_type = fiefdom }

@@ -19545,7 +19545,7 @@ countries = {
         }
 
         #Montaigu
-        MOT = {
+        MOI = {
             own_control_core = {
                 montaigu beauvoir
             }

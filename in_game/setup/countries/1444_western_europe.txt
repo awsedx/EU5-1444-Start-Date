@@ -75,7 +75,7 @@ TAS = {
     religion_definition = catholic   
 }
 
-MOT = {
+MOI = {
     #Montaigu
     color = rgb { 225 225 242 }
 
