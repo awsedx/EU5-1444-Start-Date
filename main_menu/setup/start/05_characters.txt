@@ -91619,6 +91619,7 @@ character_db={
         religion = nahuatl
         adm = 59 dip = 40 mil = 30
         tag = TNC
+        ruler_trait = zealot #he was a clergyman
     }
 
 
@@ -91652,7 +91653,6 @@ character_db={
     }
 
 
-    #Heir (Elected succesor in 1366)
     azt_acamapichtli_tenochcatl = {
         first_name = { name = name_acamapichtli }
         nickname = { name = tenochcatl }
@@ -91662,10 +91662,82 @@ character_db={
         mother = azt_atotoztli
         birth_date = 1336.1.1
         death_date = 1394.4.15
-        culture = nahua_culture
+        culture = toltec_culture #born outside tenochitilan (TNTL)
         religion = nahuatl
         adm = 44 dip = 79 mil = 80
         tag = TNC
+    }
+
+    azt_huitzilihuitl = {
+        first_name = { name = huitzilihuitl }
+        dynasty = tenochcatl_dynasty
+        birth = tenochtitlan
+        father = azt_acamapichtli_tenochcatl
+        birth_date = 1379.1.1
+        death_date = 1415.1.1 #eariler death date
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 67 dip = 84 mil = 71
+        tag = TNC
+    }
+
+    azt_chimalpopoca = {
+        first_name = { name = chimalpopoca }
+        dynasty = tenochcatl_dynasty
+        birth = tenochtitlan
+        father = azt_huitzilihuitl
+        birth_date = 1397.1.1
+        death_date = 1427.1.1 #eariler death date
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 25 dip = 50 mil = 33 #conquered lots and began the Aztec blood-craze
+        tag = TNC
+    }
+    
+    azt_xihuitl_itzacoalt = { #60 day Shah
+        first_name = { name = itzacoalt }
+        dynasty = tenochcatl_dynasty
+        birth = tenochtitlan
+        father = azt_chimalpopoca
+        birth_date = 1412.1.1
+        death_date = 1427.1.1 #eariler death date
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 14 dip = 16 mil = 25
+        tag = TNC
+    }
+
+    ##### AZTEC EMPIRE #####
+
+    azt_itzacoalt = { #creaeted triple allaince
+        first_name = { name = itzacoalt }
+        dynasty = tenochcatl_dynasty
+        birth = tenochtitlan
+        father = azt_acamapichtli_tenochcatl
+        birth_date = 1380.1.1
+        death_date = 1440.1.1 #eariler death date
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 72 dip = 47 mil = 74
+        tag = TNC
+    }
+
+    azt_moctezuma = {
+        first_name = { name = moctezuma }
+        dynasty = tenochcatl_dynasty
+        birth = tenochtitlan
+        father = azt_itzacoalt
+        birth_date = 1398.1.1
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 72 dip = 47 mil = 74
+        tag = TNC
+        timed_modifier = {
+            modifier = "healthy_character"
+            start_date = 1398.1.1
+            date = 9999.1.1
+            size = 2
+        }
     }
 
     
