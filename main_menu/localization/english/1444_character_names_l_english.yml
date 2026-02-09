@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  #Timurid/Turkic Names
  name_timur: "Timur"
  name_shahrukh: "Shah Rukh"
@@ -157,123 +157,7 @@ l_english:
  name_ghiyasuddin: "Ghiyasuddin"
  name_shamsuddin: "Shamsuddin"
  name_firoz: "Taj-ud-Din Firoz"
-<<<<<<< HEAD
  name_humayun: "Humayun"
-=======
- name_humayun: "Humayun"
-
- # Ayutthaya
- name_intharachathirat: "Intharachathirat"
- name_thong_lan: "Thong Lan"
- name_ramesuan: "Ramesuan"
- name_ramrachathirat: "Ramrachathirat"
- name_borommatrailokkanat: "Borommatrailokkanat"
-
- # Lan Na
- name_kue_na: "Kue Na"
- name_saenmueangma: "Saenmueangma"
- name_samfangkaen: "Samfangkaen"
- name_tilokaraj: "Tilokaraj"
-
- # Khmer
- Lompong_Reachea: "Lompong Reachea"
- Borom_Nipeanbot: "Borom Nipeanbot"
- Soriyoavong: "Soriyoavong"
- Soriyotei: "Soriyoteï"
- Damkhat: "Damkhat"
- Kaeo_Fa: "Kaeo Fa"
- Ponhea_Yat: "Ponhea Yat"
- Noreay_Reachea: "Noreay Reachea"
-
- # Champa
- Po_Binasuor: "Po Binasuor"
- Maha_Vijaya: "Maha Vijaya"
-
- # Dai Viet
- Bang_Co: "Băng Cơ"
- Thi_Anh: "Thị Anh"
- Nguyen_viet: "Nguyễn"
- Kha: "Khả"
- Trinh: "Trịnh"
- Nguyen_Long: "Nguyên Long"
- Nghi_Dan: "Nghi Dân"
- Tu_Thanh: "Tư Thành"
- Thi_Ngoc_Dao: "Thị Ngọc Dao"
- Ngo_viet: "Ngô"
- Loi: "Lợi"
- Thi_Bi: "Thị Bí"
- Duong_viet: "Dương"
-
- # Lan Xang
- Panya_Khamphong: "Panya Khamphong"
- Phi_Fa: "Phi Fa"
- Fa_Ngum: "Fa Ngum"
- Samsenethai: "Samsenethai"
- Lan_Kham_Deng: "Lan Kham Deng"
- Phommathat: "Phommathat"
- Yukhon: "Yukhon"
- Khon_Kham: "Khon Kham"
- Kham_Tam_Sa: "Kham Tam Sa"
- Lusai: "Lusai"
- Khai_Bua_Ban: "Khai Bua Ban"
- Kham_Keut: "Kham Keut"
- Nang_Keo_Phimpha: "Nang Keo Phimpha"
- Chakkaphat_Phaen_Phaeo: "Chakkaphat Phaen Phaeo"
- Maha_Devi: "Maha Devi"
- 
- # Pegu/Hanthawaddy
- Razadarit: "Razadarit"
- Binnya_Dhammaraza: "Binnya Dhammaraza"
- Binnya_Ran: "Binnya Ran"
- Binnya_Waru: "Binnya Waru"
- Shin_Sawbu: "Shin Sawbu"
- Binnya_Bye: "Binnya Bye"
- Binnya_Kyan: "Binnya Kyan"
- Leik_Munhtaw: "Leik Munhtaw"
- Soe_Min_Wimala_Dewi: "Soe Min Wimala Dewi"
-
- # Ava
- Thado_Minbya: "Thado Minbya"
- Minkhaung: "Minkhaung"
- Min_Hla: "Min Hla"
- Kale_Kyetaungnyo: "Kale Kyetaungnyo"
- Min_Pale: "Min Pale"
- Shwe_Einthe: "Shwe Einthe"
- Saw_Diga: "Saw Diga"
- Thado: "Thado"
- Minye_Kyawswa: "Minye Kyawswa"
- Narapati: "Narapati"
- Thihathura: "Thihathura" 
- Atula_Thiri_Maha_Yaza_Dewi: "Atula Thiri Maha Yaza Dewi"
-
- # Prome
- Saw_Shwe_Khet: "Saw Shwe Khet"
- Thinkaya: "Thinkaya"
-
- # Phagmodrupa
- Tai_Situ_Changchub_Gyaltsen: "Tai Situ Changchub Gyaltsen"
- Sangye_Gyaltsen: "Sangye Gyaltsen"
- Drakpa_Jungne: "Drakpa Jungne"
- Kunga_Lekpa: "Kunga Lekpa"
- Gongma_Drakpa_Gyaltsen: "Gongma Drakpa Gyaltsen"
- Sonam_Drakpa: "Sonam Drakpa"
- Drakpa_Changchub: "Drakpa Changchub"
- Sonam_Zangpo: "Sonam Zangpo"
- Shakya_Rinchen: "Shakya Rinchen"
- Rinchen_Dorje: "Rinchen Dorje"
- Jamyang_Shakya_Gyaltsen: "Jamyang Shakya Gyaltsen"
-
- # Rinpungpa
- Namkha_Gyaltsen: "Namkha Gyaltsen"
- Namkha_Gyalpo: "Namkha Gyalpo"
- Norzang: "Norzang"
- 
- # Ganden Monastery
- Gedun_Drupa: "Gedun Drupa"
- Thang_Tong_Gyalpo: "Thang Tong Gyalpo"
- Chökyi_Drönma: "Chökyi Drönma"
->>>>>>> origin/main
-
 
  # Ayutthaya
  name_intharachathirat: "Intharachathirat"
