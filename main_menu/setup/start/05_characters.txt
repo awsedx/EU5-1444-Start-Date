@@ -91617,12 +91617,12 @@ character_db={
         tag = TAR
     }
 
-    tar_ahtziri_fictional = {
-        first_name = { name = ahtziri }
+    tar_hiquingaje_uanacaze_sister_1_fictional = {
+        first_name = random
         dynasty = uanacaze_dynasty
         birth = patzcuaro
         father = tar_tariacuri_uanacaze
-        birth_date = 1320.1.1 
+        birth_date = 1350.1.1 
         death_date = 1400.1.1
         culture = purepecha_culture
         religion = mesoamerican
@@ -91634,7 +91634,7 @@ character_db={
         first_name = { name = hiripan }
         dynasty = uanacaze_dynasty
         birth = patzcuaro
-        mother = tar_ahtziri_fictional
+        mother = tar_hiquingaje_uanacaze_sister_1_fictional
         birth_date = 1360.1.1 #unknown
         death_date = 1435.1.1
         culture = purepecha_culture
@@ -91643,8 +91643,8 @@ character_db={
         tag = TAR
     }
 
-    tar_tsitsiki_fictional = {
-        first_name = { name = tsitsiki }
+    tar_hiquingaje_uanacaze_sister_2_fictional = {
+        first_name = random
         dynasty = uanacaze_dynasty
         birth = patzcuaro
         father = tar_tariacuri_uanacaze
@@ -91660,8 +91660,8 @@ character_db={
         first_name = { name = tangáxuan }
         dynasty = uanacaze_dynasty
         birth = patzcuaro
-        mother = tar_tsitsiki_fictional
-        birth_date = 1400.1.1 #unknown
+        mother = tar_hiquingaje_uanacaze_sister_2_fictional
+        birth_date = 1400.1.1
         culture = purepecha_culture
         religion = mesoamerican
         adm = 67 dip = 68 mil = 69
@@ -91673,11 +91673,10 @@ character_db={
         dynasty = uanacaze_dynasty
         birth = patzcuaro
         father = tar_tangáxuan_uanacaze
-        birth_date = 1430.1.1 #unknown
-        death_date = 1420.1.1
+        birth_date = 1430.1.1
         culture = purepecha_culture
         religion = mesoamerican
-        adm = 67 dip = 68 mil = 69
+        adm = 47 dip = 35 mil = 60
         tag = TAR
     }
 
