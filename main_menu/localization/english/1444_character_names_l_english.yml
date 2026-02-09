@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  #Timurid/Turkic Names
  name_timur: "Timur"
  name_shahrukh: "Shah Rukh"
@@ -10,11 +10,71 @@
  name_sultan: "Sultan"
 
  #Korean Names
- name_seong_gye: "Seong-gye"
- name_bang_gwa: "Bang-gwa"
+ name_bang_gwa: "Bang-Gwa"
  name_bang_won: "Bang-Won"
  name_do: "Do"
+ name_hyang: "Hyang"
+ name_suyang: "Suyang"
+ name_anpyeong: "Anpyeong"
+ name_yong_kor: "Yong"
+ name_gwangpyeong: "Gwangpyeong"
+ name_yeo: "Yeo"
+ name_soheon: "Soheon"
  
+
+ # Korean Regnal Names
+ name_taejo: "Taejo"
+ name_taejong: "Taejong"
+ name_jeongjong: "Jeongjong"
+ name_sejong: "Sejong"
+
+ #Japanese Imperial Names
+ name_iyahito: "Iyahito"
+ name_ohito: "Ohito"
+ name_motohito: "Motohito"
+ name_mihito: "Mihito"
+ name_hikohito: "Hikohito"
+ name_yutanari: "Yutanari"
+ name_yoshihito: "Yoshihito"
+ name_sadafusa: "Sadafusa"
+ name_fusahito: "Fusahito"
+
+ #Ashikaga Names
+ name_yoshimochi: "Yoshimochi"
+ name_yoshikazu: "Yoshikazu"
+ name_yoshimi: "Yoshimi"
+ name_tomiko: "Tomiko"
+
+# Clan names
+ name_sozen: "Sōzen"
+ name_mochitoyo: "Mochitoyo"
+ name_tokiyoshi: "Tokiyoshi"
+ name_katsumoto: "Katsumoto"
+ name_mochiyuki: "Mochiyuki"
+ name_mochiyo: "Mochiyo"
+ name_mitsumoto: "Mitsumoto"
+ name_tokiyoshi: "Tokiyoshi"
+ name_mochimori: "Mochimori"
+ name_nobumori: "Nobumori"
+ name_nobukata: "Nobukata"
+ name_nobushige: "Nobushige"
+ name_nobuari: "Nobuari"
+ name_chikatada: "Chikatada"
+ name_noritada: "Noritada"
+ name_hirochika: "Hirochika"
+ name_josho: "Jōshō"
+ name_mochikuni: "Mochikuni"
+ name_mochitomi: "Mochitomi"
+ name_motokuni: "Motokuni"
+
+ #Japanese Imperial Regnal Names
+ name_sukou: "Sukō" #崇光
+ name_go_kougon: "Go-Kōgon" #後光厳
+ name_go_enyu: "Go-En'yū" #後円融
+ name_go_komatsu: "Go-Komatsu" #後小松
+ name_shoukou: "Shōkō" #称光
+ name_go_hanazono: "Go-Hanazono" #後花園
+
  #Mongol Names
  Tumbinai: "Tumbinai"
  Khabul: "Khabul"
@@ -97,4 +157,231 @@
  name_ghiyasuddin: "Ghiyasuddin"
  name_shamsuddin: "Shamsuddin"
  name_firoz: "Taj-ud-Din Firoz"
+<<<<<<< HEAD
  name_humayun: "Humayun"
+=======
+ name_humayun: "Humayun"
+
+ # Ayutthaya
+ name_intharachathirat: "Intharachathirat"
+ name_thong_lan: "Thong Lan"
+ name_ramesuan: "Ramesuan"
+ name_ramrachathirat: "Ramrachathirat"
+ name_borommatrailokkanat: "Borommatrailokkanat"
+
+ # Lan Na
+ name_kue_na: "Kue Na"
+ name_saenmueangma: "Saenmueangma"
+ name_samfangkaen: "Samfangkaen"
+ name_tilokaraj: "Tilokaraj"
+
+ # Khmer
+ Lompong_Reachea: "Lompong Reachea"
+ Borom_Nipeanbot: "Borom Nipeanbot"
+ Soriyoavong: "Soriyoavong"
+ Soriyotei: "Soriyoteï"
+ Damkhat: "Damkhat"
+ Kaeo_Fa: "Kaeo Fa"
+ Ponhea_Yat: "Ponhea Yat"
+ Noreay_Reachea: "Noreay Reachea"
+
+ # Champa
+ Po_Binasuor: "Po Binasuor"
+ Maha_Vijaya: "Maha Vijaya"
+
+ # Dai Viet
+ Bang_Co: "Băng Cơ"
+ Thi_Anh: "Thị Anh"
+ Nguyen_viet: "Nguyễn"
+ Kha: "Khả"
+ Trinh: "Trịnh"
+ Nguyen_Long: "Nguyên Long"
+ Nghi_Dan: "Nghi Dân"
+ Tu_Thanh: "Tư Thành"
+ Thi_Ngoc_Dao: "Thị Ngọc Dao"
+ Ngo_viet: "Ngô"
+ Loi: "Lợi"
+ Thi_Bi: "Thị Bí"
+ Duong_viet: "Dương"
+
+ # Lan Xang
+ Panya_Khamphong: "Panya Khamphong"
+ Phi_Fa: "Phi Fa"
+ Fa_Ngum: "Fa Ngum"
+ Samsenethai: "Samsenethai"
+ Lan_Kham_Deng: "Lan Kham Deng"
+ Phommathat: "Phommathat"
+ Yukhon: "Yukhon"
+ Khon_Kham: "Khon Kham"
+ Kham_Tam_Sa: "Kham Tam Sa"
+ Lusai: "Lusai"
+ Khai_Bua_Ban: "Khai Bua Ban"
+ Kham_Keut: "Kham Keut"
+ Nang_Keo_Phimpha: "Nang Keo Phimpha"
+ Chakkaphat_Phaen_Phaeo: "Chakkaphat Phaen Phaeo"
+ Maha_Devi: "Maha Devi"
+ 
+ # Pegu/Hanthawaddy
+ Razadarit: "Razadarit"
+ Binnya_Dhammaraza: "Binnya Dhammaraza"
+ Binnya_Ran: "Binnya Ran"
+ Binnya_Waru: "Binnya Waru"
+ Shin_Sawbu: "Shin Sawbu"
+ Binnya_Bye: "Binnya Bye"
+ Binnya_Kyan: "Binnya Kyan"
+ Leik_Munhtaw: "Leik Munhtaw"
+ Soe_Min_Wimala_Dewi: "Soe Min Wimala Dewi"
+
+ # Ava
+ Thado_Minbya: "Thado Minbya"
+ Minkhaung: "Minkhaung"
+ Min_Hla: "Min Hla"
+ Kale_Kyetaungnyo: "Kale Kyetaungnyo"
+ Min_Pale: "Min Pale"
+ Shwe_Einthe: "Shwe Einthe"
+ Saw_Diga: "Saw Diga"
+ Thado: "Thado"
+ Minye_Kyawswa: "Minye Kyawswa"
+ Narapati: "Narapati"
+ Thihathura: "Thihathura" 
+ Atula_Thiri_Maha_Yaza_Dewi: "Atula Thiri Maha Yaza Dewi"
+
+ # Prome
+ Saw_Shwe_Khet: "Saw Shwe Khet"
+ Thinkaya: "Thinkaya"
+
+ # Phagmodrupa
+ Tai_Situ_Changchub_Gyaltsen: "Tai Situ Changchub Gyaltsen"
+ Sangye_Gyaltsen: "Sangye Gyaltsen"
+ Drakpa_Jungne: "Drakpa Jungne"
+ Kunga_Lekpa: "Kunga Lekpa"
+ Gongma_Drakpa_Gyaltsen: "Gongma Drakpa Gyaltsen"
+ Sonam_Drakpa: "Sonam Drakpa"
+ Drakpa_Changchub: "Drakpa Changchub"
+ Sonam_Zangpo: "Sonam Zangpo"
+ Shakya_Rinchen: "Shakya Rinchen"
+ Rinchen_Dorje: "Rinchen Dorje"
+ Jamyang_Shakya_Gyaltsen: "Jamyang Shakya Gyaltsen"
+
+ # Rinpungpa
+ Namkha_Gyaltsen: "Namkha Gyaltsen"
+ Namkha_Gyalpo: "Namkha Gyalpo"
+ Norzang: "Norzang"
+ 
+ # Ganden Monastery
+ Gedun_Drupa: "Gedun Drupa"
+ Thang_Tong_Gyalpo: "Thang Tong Gyalpo"
+ Chökyi_Drönma: "Chökyi Drönma"
+>>>>>>> origin/main
+
+
+ # Ayutthaya
+ name_intharachathirat: "Intharachathirat"
+ name_thong_lan: "Thong Lan"
+ name_ramesuan: "Ramesuan"
+ name_ramrachathirat: "Ramrachathirat"
+ name_borommatrailokkanat: "Borommatrailokkanat"
+
+ # Lan Na
+ name_kue_na: "Kue Na"
+ name_saenmueangma: "Saenmueangma"
+ name_samfangkaen: "Samfangkaen"
+ name_tilokaraj: "Tilokaraj"
+
+ # Khmer
+ Lompong_Reachea: "Lompong Reachea"
+ Borom_Nipeanbot: "Borom Nipeanbot"
+ Soriyoavong: "Soriyoavong"
+ Soriyotei: "Soriyoteï"
+ Damkhat: "Damkhat"
+ Kaeo_Fa: "Kaeo Fa"
+ Ponhea_Yat: "Ponhea Yat"
+ Noreay_Reachea: "Noreay Reachea"
+
+ # Champa
+ Po_Binasuor: "Po Binasuor"
+ Maha_Vijaya: "Maha Vijaya"
+
+ # Dai Viet
+ Bang_Co: "Băng Cơ"
+ Thi_Anh: "Thị Anh"
+ Nguyen_viet: "Nguyễn"
+ Kha: "Khả"
+ Trinh: "Trịnh"
+ Nguyen_Long: "Nguyên Long"
+ Nghi_Dan: "Nghi Dân"
+ Tu_Thanh: "Tư Thành"
+ Thi_Ngoc_Dao: "Thị Ngọc Dao"
+ Ngo_viet: "Ngô"
+ Loi: "Lợi"
+ Thi_Bi: "Thị Bí"
+ Duong_viet: "Dương"
+
+ # Lan Xang
+ Panya_Khamphong: "Panya Khamphong"
+ Phi_Fa: "Phi Fa"
+ Fa_Ngum: "Fa Ngum"
+ Samsenethai: "Samsenethai"
+ Lan_Kham_Deng: "Lan Kham Deng"
+ Phommathat: "Phommathat"
+ Yukhon: "Yukhon"
+ Khon_Kham: "Khon Kham"
+ Kham_Tam_Sa: "Kham Tam Sa"
+ Lusai: "Lusai"
+ Khai_Bua_Ban: "Khai Bua Ban"
+ Kham_Keut: "Kham Keut"
+ Nang_Keo_Phimpha: "Nang Keo Phimpha"
+ Chakkaphat_Phaen_Phaeo: "Chakkaphat Phaen Phaeo"
+ Maha_Devi: "Maha Devi"
+ 
+ # Pegu/Hanthawaddy
+ Razadarit: "Razadarit"
+ Binnya_Dhammaraza: "Binnya Dhammaraza"
+ Binnya_Ran: "Binnya Ran"
+ Binnya_Waru: "Binnya Waru"
+ Shin_Sawbu: "Shin Sawbu"
+ Binnya_Bye: "Binnya Bye"
+ Binnya_Kyan: "Binnya Kyan"
+ Leik_Munhtaw: "Leik Munhtaw"
+ Soe_Min_Wimala_Dewi: "Soe Min Wimala Dewi"
+
+ # Ava
+ Thado_Minbya: "Thado Minbya"
+ Minkhaung: "Minkhaung"
+ Min_Hla: "Min Hla"
+ Kale_Kyetaungnyo: "Kale Kyetaungnyo"
+ Min_Pale: "Min Pale"
+ Shwe_Einthe: "Shwe Einthe"
+ Saw_Diga: "Saw Diga"
+ Thado: "Thado"
+ Minye_Kyawswa: "Minye Kyawswa"
+ Narapati: "Narapati"
+ Thihathura: "Thihathura" 
+ Atula_Thiri_Maha_Yaza_Dewi: "Atula Thiri Maha Yaza Dewi"
+
+ # Prome
+ Saw_Shwe_Khet: "Saw Shwe Khet"
+ Thinkaya: "Thinkaya"
+
+ # Phagmodrupa
+ Tai_Situ_Changchub_Gyaltsen: "Tai Situ Changchub Gyaltsen"
+ Sangye_Gyaltsen: "Sangye Gyaltsen"
+ Drakpa_Jungne: "Drakpa Jungne"
+ Kunga_Lekpa: "Kunga Lekpa"
+ Gongma_Drakpa_Gyaltsen: "Gongma Drakpa Gyaltsen"
+ Sonam_Drakpa: "Sonam Drakpa"
+ Drakpa_Changchub: "Drakpa Changchub"
+ Sonam_Zangpo: "Sonam Zangpo"
+ Shakya_Rinchen: "Shakya Rinchen"
+ Rinchen_Dorje: "Rinchen Dorje"
+ Jamyang_Shakya_Gyaltsen: "Jamyang Shakya Gyaltsen"
+
+ # Rinpungpa
+ Namkha_Gyaltsen: "Namkha Gyaltsen"
+ Namkha_Gyalpo: "Namkha Gyalpo"
+ Norzang: "Norzang"
+ 
+ # Ganden Monastery
+ Gedun_Drupa: "Gedun Drupa"
+ Thang_Tong_Gyalpo: "Thang Tong Gyalpo"
+ Chökyi_Drönma: "Chökyi Drönma"

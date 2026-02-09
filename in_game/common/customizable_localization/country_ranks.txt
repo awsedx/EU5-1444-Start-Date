@@ -73,12 +73,77 @@ country_flavor = {
         }
     }
 
-    # MYD Theocracy variant (Dreaming Land) - in the main country_flavor section
+    # MYD Theocracy variant
     text = {
         localization_key = country_dreaming_land
         trigger = {
             tag = MYD
             government_type = government_type:theocracy
+        }
+    }
+    #Yuan not being Imperial Yuan Khaganate
+    text = {
+        localization_key = imp_not_khaganate
+        trigger = {
+            government_type = government_type:steppe_horde
+            or = {
+                tag = IMP
+                tag = YUA
+            }
+        }
+    }
+    # Uriankhai Tumen
+    text = {
+        localization_key = uriankhai_tumen
+        trigger = {
+            government_type = government_type:steppe_horde
+            tag = URZ
+        }
+    }
+
+    # Steppe Clan
+    text = {
+        localization_key = horde_clan
+        trigger = {
+
+            government_type = government_type:steppe_horde
+            or = { 
+                country_rank_is_duchy = yes
+                country_rank_is_county = yes
+            }
+            OR = {
+                tag = JAA
+                tag = BZZ
+                tag = OLK
+                tag = ELJ
+                tag = GOO
+                tag = BAX
+                tag = JAR
+                tag = BAY
+                tag = OJY
+                tag = HAS
+                tag = JAI
+                tag = KDB
+                tag = AKK
+                tag = DOY
+                tag = FUY
+                tag = TIZ
+                tag = ADQ
+            }
+        }
+    }
+    text = {
+    localization_key = horde_clan_taishi
+    trigger = {
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = OIR
+                tag = CRS
+                tag = DRB
+                tag = KHO
+                tag = THG
+                tag = KHI
+            }
         }
     }
 
@@ -335,6 +400,20 @@ country_flavor = {
 
     # Horde
     text = {
+        localization_key = rank_empire_horde_2
+        trigger = {
+
+            country_rank_is_empire = yes
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = GLH
+                tag = NOG
+            }
+        }
+    }
+
+    # Khanate
+    text = {
         localization_key = rank_empire_horde
         trigger = {
 
@@ -549,6 +628,17 @@ country_flavor = {
 
             country_rank_is_empire = yes
             culture.language = language:vietnamese_language
+        }
+    }
+
+    text = {
+        localization_key = rank_tibetan_monastery
+        trigger = {
+            culture = { has_culture_group = culture_group:tibetan_group }
+            OR = {
+                has_reform = government_reform:gelugpa_institution
+                tag = GPH
+            }
         }
     }
 
@@ -871,6 +961,7 @@ country_flavor = {
                 tag = SER
                 tag = EPI
                 tag = ACH
+                tag = LOV
             }
 
             OR = {
@@ -941,8 +1032,19 @@ country_flavor = {
         }
     }
 
-    # Horde
-
+    #Horde
+    text = {
+        localization_key = rank_kingdom_horde_2
+        trigger = {
+            government_type = government_type:steppe_horde
+            OR = {
+                tag = GLH
+                tag = NOG
+            }
+        }
+    }
+    
+    # Khanate
     text = {
         localization_key = rank_kingdom_horde
         trigger = {

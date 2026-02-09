@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
  # Persia
  timurid_dynasty: "Gūrkānī"
@@ -6,7 +6,30 @@
  # Korea
  yi_dynasty: "Yi"
 
+ # Japan
+
+ nagao_dynasty: "Nagao"
+ hojo_dynasty: "Hōjō"
+ matsudaira_dynasty: "Matsudaira"
+
  # Russia
+ yaroslavl_dynasty: "Yaroslavl"
+ vorotynsky_dynasty: "Vorotynskiy"
+ shuisky_dynasty: "Shuiskiy"
+
+ # Lithuania
+ kesgaila_dynasty: "Kęsgaila"
+
+ # Kiev
+ olelkovich_dynasty: "Olelkovich"
+
+ # Poland
+ tarnowski_dynasty: "Tarnowski"
+ czartoryski_dynasty: "Czartoryski"
+
+ # Hungary
+ szilagyi_dynasty: "Szilágyi"
+ garai_dynasty: "Garai"
 
  # Sweden
  bonde_dynasty: "Bonde"
@@ -22,16 +45,28 @@
  # France
  valois_anjou_dynasty: "Valois-Anjou"
  valois_orleans_dynasty: "Valois-Orléans"
+ valois_burgundy_dynasty: "Valois-Bourgogne"
  valois_alencon_dynasty: "Valois-Alençon"
  montfort_brittany_dynasty: "Montfort-Bretagne"
  coeur_dynasty: "Cœur"
  chabannes_dynasty: "Chabannes"
  lorraine_dynasty: "Lorraine"
 
+ bauffremont_dynasty: "Bauffremont"
+ lalaing_dynasty: "Lalaing"
+ lannoy_dynasty: "Lannoy"
+
  bethencourt_dynasty: "Béthencourt"
 
+ # Germany
+ hohenzollern_brandenburg_dynasty: "Hohenzollern-Brandenburg"
+ hohenzollern_nurnberg_dynasty: "Hohenzollern-Nürnberg"
+
  # Italy
- caracciolo_dynasty: "caracciolo"
+ sforza_dynasty: "Sforza"
+ farnese_dynasty: "Farnese"
+ colonna_dynasty: "Colonna"
+ caracciolo_dynasty: "Caracciolo"
 
  # Balkans
  dukagjini_dynasty: "Dukagjini"
@@ -43,4 +78,31 @@
  burji_dynasty: "Burjiya"
 
  #India 
+<<<<<<< HEAD
  bahmani_dynasty: "Bahmani"
+=======
+ bahmani_dynasty: "Bahmani"
+
+ #Dai Viet
+ le_dynasty: "Lê"
+
+ # Ava
+ ava_dynasty: "Ava"
+ mohnyin_dynasty: "Mohnyin"
+
+ # Tibet
+ phagmodrupa_dynasty: "Phagmodrupa"
+ rinpungpa_dynasty: "Rinpungpa"
+>>>>>>> origin/main
+
+
+ #Dai Viet
+ le_dynasty: "Lê"
+
+ # Ava
+ ava_dynasty: "Ava"
+ mohnyin_dynasty: "Mohnyin"
+
+ # Tibet
+ phagmodrupa_dynasty: "Phagmodrupa"
+ rinpungpa_dynasty: "Rinpungpa"
