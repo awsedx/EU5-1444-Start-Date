@@ -48250,21 +48250,7 @@ countries = {
             capital = ixtlan
         }
 
-        #Yodzocahi - YDZ https://arqueologiamexicana.mx/mexico-antiguo/un-palacio-real-en-la-mixteca-oaxaquena
-        YDZ = {
-            own_control_core = {
-                yodzocahi
-            }
-
-            include = "amerindian_monarchy"
-            include = "expl_mesoamerica"
-            starting_technology_level = 1
-            government = {
-                ruler = random
-            }
-            court_language = otopamean_language
-            capital = yodzocahi
-        }
+        #Yodzocahi - YDZ 
 
         #Yautepec - YAU https://es.wikipedia.org/wiki/Municipio_de_Yautepec
         YAU = {
@@ -48361,7 +48347,7 @@ countries = {
         #Teozacoalco - TZL https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-62212019000200011
         TZL = {
             own_control_core = {
-                nochixtlan jaltepec teozacualco
+                jaltepec teozacualco
             }
 
             include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -48449,7 +48435,7 @@ countries = {
         #Yodzocoo - COI
         COI = {
             own_control_core = {
-                coixtlahuacan yucundeq
+                coixtlahuacan yucundeq nochixtlan yodzocahi
             }
 
 
@@ -48602,40 +48588,8 @@ countries = {
         }
 
         #Teayotlan - HST
-        HST = {
-            own_control_core = {
-                teayotlan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = teayotlan
-        }
 
         #Tetzapotitlan - TZP
-        TZP = {
-            own_control_core = {
-                tetzapotitlan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = tetzapotitlan
-        }
 
         #Tziuhcoac - TZH
         TZH = {
@@ -48673,10 +48627,10 @@ countries = {
             capital = oxtlipan
         }
 
-        #Ozuluama - OZL
-        OZL = {
+        #Ozuluama - OZL - chosen so the Huastec are more untied
+        OZL = { 
             own_control_core = {
-                ozuluama
+                ozuluama tuxpan teayotlan tetzapotitlan
             }
 
 
@@ -48691,23 +48645,7 @@ countries = {
             capital = ozuluama
         }
 
-        #Tuxpan - TXP
-        TXP = {
-            own_control_core = {
-                tuxpan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = tuxpan
-        }
+        #Tuxpan
 
         #Michuachapanco - MCC
         MCC = {
@@ -49248,25 +49186,11 @@ countries = {
         }
 
         #Tecpantepec - TPT
-        TPT = {
-            own_control_core = {
-                tecpan
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = tecpan
-        }
 
         #Cihuatlan - CIH
         CIH = {
             own_control_core = {
-                cihuatlan
+                cihuatlan tecpan ixtapan
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -50272,20 +50196,6 @@ countries = {
         }
 
         #Ixtapan - IXA
-        IXA = {
-            own_control_core = {
-                ixtapan
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = ixtapan
-        }
 
         #Cutzamala - CUZ
         CUZ = {
