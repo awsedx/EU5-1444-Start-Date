@@ -48612,7 +48612,7 @@ countries = {
         #Oxtlipan - OXT
         OXT = {
             own_control_core = {
-                oxtlipan
+                oxtlipan jalpan
             }
 
 
