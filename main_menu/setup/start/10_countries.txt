@@ -47950,7 +47950,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = azt_tenoch
+                ruler = azt_moctezuma
 
                 ruler_term = { character = azt_tenoch start_date = 1325.1.1 end_date = 1375.1.1 regnal_number = 1 }
                 ruler_term = { character = azt_acamapichtli_tenochcatl start_date = 1375.1.1 end_date = 1390.1.1 regnal_number = 1 }
@@ -48444,7 +48444,9 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = random
+                ruler = coi_atonaltzin
+
+                ruler_term = { character = coi_atonaltzin start_date = 1425.1.1 regnal_number = 1 }
             }
             court_language = otopamean_language
             capital = coixtlahuacan

@@ -91680,6 +91680,19 @@ character_db={
         tag = TAR
     }
 
+    # Yodzo Coo / Coixtlahuaca
+
+    coi_atonaltzin = {
+        first_name = { name = atonaltzin }
+        dynasty = coixtlahuaca_dynasty
+        birth = coixtlahuacan
+        birth_date = 1410.1.1
+        culture = nahua_culture
+        religion = nahuatl
+        adm = 56 dip = 60 mil = 30
+        tag = coi
+    }
+
 
     #Tenōchtitlan (Aztec Empire) - TNC
     #Ruler
