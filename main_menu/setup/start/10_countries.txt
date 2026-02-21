@@ -47803,7 +47803,11 @@ countries = {
                 ruler_term = { character = tar_uapeani_uanacaze start_date = 1270.1.1 end_date = 1300.1.1 regnal_number = 1 }
                 ruler_term = { character = tar_curatame_uanacaze start_date = 1300.1.1 end_date = 1320.1.1 regnal_number = 1 }
                 ruler_term = { character = tar_pauacume_ii_uanacaze start_date = 1320.1.1 regnal_number = 2 }
-                ruler = tar_pauacume_ii_uanacaze
+                ruler_term = { character = tar_tariacuri_uanacaze start_date = 1350.1.1 end_date = 1390.1.1 regnal_number = 1 }
+                ruler_term = { character = tar_hiquingaje_uanacaze start_date = 1390.1.1 end_date = 1420.1.1 regnal_number = 1 }
+                ruler_term = { character = tar_hiripan_uanacaze start_date = 1420.1.1 end_date = 1435.1.1 regnal_number = 1 }
+                ruler_term = { character = tar_tangáxuan_uanacaze start_date = 1435.1.1 regnal_number = 1 }
+                ruler = tar_tangáxuan_uanacaze
             }
             court_language = purepecha_language
             capital = tzintzuntzan
@@ -47891,7 +47895,7 @@ countries = {
 
         #Tenōchtitlan (Aztec Empire) - TNC - Vassal of Azcapozalco
         TNC = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 tenochtitlan
             }
 
@@ -47902,7 +47906,12 @@ countries = {
                 heir_selection = cognatic_primogeniture
                 ruler = azt_tenoch
 
-                ruler_term = { character = azt_tenoch start_date = 1325.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_tenoch start_date = 1325.1.1 end_date = 1375.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_acamapichtli_tenochcatl start_date = 1375.1.1 end_date = 1390.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_huitzilihuitl start_date = 1391.1.1 end_date = 1414.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_chimalpopoca start_date = 1415.1.1 end_date = 1427.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_xihuitl_itzacoalt start_date = 1427.1.1 end_date = 1427.3.1 regnal_number = 1 }
+                
 
                 privilege = {
                     peasant_owns_their_food
@@ -47926,10 +47935,58 @@ countries = {
             capital = tenochtitlan
         }
 
+        AZT = {
+            own_control_core = {
+                tenochtitlan
+                chalco
+                xochimilco
+                axochiapan cuauhnahuac quauhquechollan huaxtepec itzocan amaticoztitlan
+                malinalco
+                tlachco temascaltepec
+            }
+
+            include = "amerindian_advanced_monarchy_no_coast"
+            include = "expl_mesoamerica"
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = azt_moctezuma
+
+                ruler_term = { character = azt_tenoch start_date = 1325.1.1 end_date = 1375.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_acamapichtli_tenochcatl start_date = 1375.1.1 end_date = 1390.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_huitzilihuitl start_date = 1391.1.1 end_date = 1414.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_chimalpopoca start_date = 1415.1.1 end_date = 1427.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_xihuitl_itzacoalt start_date = 1427.1.1 end_date = 1427.3.1 regnal_number = 1 }
+                ruler_term = { character = azt_itzacoalt start_date = 1427.3.1 end_date = 1440.1.1 regnal_number = 1 }
+                ruler_term = { character = azt_moctezuma start_date = 1440.1.1 regnal_number = 1 }
+                
+
+                privilege = {
+                    peasant_owns_their_food
+                    peasants_allowed_weapons_privilege
+                    warrior_tribunal
+                }
+
+                centralization_vs_decentralization = 90
+                spiritualist_vs_humanist = -80
+                offensive_vs_defensive = -75
+                land_vs_naval = -100
+                quality_vs_quantity = -15
+                belligerent_vs_conciliatory = -100
+
+            }
+
+            country_rank = rank_empire
+            court_language = nahuatl_language
+            capital = tenochtitlan
+        }
+        
+
         #Acolhuacan (Tetzcoco) - TTZ
         TTZ = {
             own_control_core = {
                 tetzcoco tehotihuacan zempoala apan
+                xaltocan pachyohcan
             }
 
 
@@ -47965,32 +48022,13 @@ countries = {
             capital = culhuacan
         }
 
-        #Tepanecapan (Azcapotzalco) - TEP
-        TEP = {
-            own_control_core = {
-                azcapotzalco cuauhtitlan tollan
-            }
-
-
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = tep_acolnahuacatl_tepanecatl
-            }
-
-            tolerated_cultures = {
-                toltec_culture
-            }
-            court_language = nahuatl_language
-            capital = azcapotzalco
-        }
+        #Tepanecapan (Azcapotzalco) - TEP - Deleted (Conquered by Triple Allaince)
 
         #Tlacopan - TCP https://es.wikipedia.org/wiki/Tacuba
         TCP = {
             own_control_core = {
                 tlacopan
+                azcapotzalco cuauhtitlan tollan
             }
 
             include = "amerindian_advanced_monarchy_no_coast"
@@ -48005,23 +48043,7 @@ countries = {
             capital = tlacopan
         }
 
-        #Xaltocan - OTO
-        OTO = {
-            own_control_core = {
-                xaltocan pachyohcan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = oto_pantictzin
-            }
-            court_language = otopamean_language
-            capital = xaltocan
-        }
+        #Xaltocan - OTO - Deleted (Conquered by Triple Allaince)
 
         #Axocopan - AXO
         AXO = {
@@ -48060,22 +48082,7 @@ countries = {
             capital = tollohcan
         }
 
-        #Malinalco - MLN
-        MLN = {
-            #https://es.wikipedia.org/wiki/Malinalco
-            own_control_core = {
-                malinalco
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = otopamean_language
-            capital = malinalco
-        }
+        #Malinalco - MLN - Deleted (Conquered by Triple Allaince)
 
         #Tixtla - TLA
         TLA = {
@@ -48188,26 +48195,7 @@ countries = {
             capital = huexotzinco
         }
 
-        #Quauhquechollan - QLL
-        QLL = {
-            own_control_core = {
-                quauhquechollan
-            }
-
-            discovered_regions = {
-                mesoamerica_region
-                aridoamerica_region
-            }
-
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            capital = quauhquechollan
-        }
+        #Quauhquechollan - QLL - Deleted (Conquered by Triple Allaince)
 
         #Zaachila - ZAP https://es.wikipedia.org/wiki/Zaachila
         ZAP = {
@@ -48262,21 +48250,7 @@ countries = {
             capital = ixtlan
         }
 
-        #Yodzocahi - YDZ https://arqueologiamexicana.mx/mexico-antiguo/un-palacio-real-en-la-mixteca-oaxaquena
-        YDZ = {
-            own_control_core = {
-                yodzocahi
-            }
-
-            include = "amerindian_monarchy"
-            include = "expl_mesoamerica"
-            starting_technology_level = 1
-            government = {
-                ruler = random
-            }
-            court_language = otopamean_language
-            capital = yodzocahi
-        }
+        #Yodzocahi - YDZ 
 
         #Yautepec - YAU https://es.wikipedia.org/wiki/Municipio_de_Yautepec
         YAU = {
@@ -48373,7 +48347,7 @@ countries = {
         #Teozacoalco - TZL https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-62212019000200011
         TZL = {
             own_control_core = {
-                nochixtlan jaltepec teozacualco
+                jaltepec teozacualco
             }
 
             include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
@@ -48461,7 +48435,7 @@ countries = {
         #Yodzocoo - COI
         COI = {
             own_control_core = {
-                coixtlahuacan yucundeq
+                coixtlahuacan yucundeq nochixtlan yodzocahi
             }
 
 
@@ -48470,7 +48444,9 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = random
+                ruler = coi_atonaltzin
+
+                ruler_term = { character = coi_atonaltzin start_date = 1425.1.1 regnal_number = 1 }
             }
             court_language = otopamean_language
             capital = coixtlahuacan
@@ -48614,40 +48590,8 @@ countries = {
         }
 
         #Teayotlan - HST
-        HST = {
-            own_control_core = {
-                teayotlan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = teayotlan
-        }
 
         #Tetzapotitlan - TZP
-        TZP = {
-            own_control_core = {
-                tetzapotitlan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = tetzapotitlan
-        }
 
         #Tziuhcoac - TZH
         TZH = {
@@ -48670,7 +48614,7 @@ countries = {
         #Oxtlipan - OXT
         OXT = {
             own_control_core = {
-                oxtlipan
+                oxtlipan jalpan
             }
 
 
@@ -48685,10 +48629,10 @@ countries = {
             capital = oxtlipan
         }
 
-        #Ozuluama - OZL
-        OZL = {
+        #Ozuluama - OZL - chosen so the Huastec are more untied
+        OZL = { 
             own_control_core = {
-                ozuluama
+                ozuluama tuxpan teayotlan tetzapotitlan
             }
 
 
@@ -48703,23 +48647,7 @@ countries = {
             capital = ozuluama
         }
 
-        #Tuxpan - TXP
-        TXP = {
-            own_control_core = {
-                tuxpan
-            }
-
-
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = maya_language
-            capital = tuxpan
-        }
+        #Tuxpan
 
         #Michuachapanco - MCC
         MCC = {
@@ -49118,69 +49046,13 @@ countries = {
         }
         #Extra Nahuatl Tags
 
-        #Chalco - CLC
-        CLC = {
-            own_control_core = {
-                chalco
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = chalco
-        }
+        #Chalco - CLC - Deleted (Conquered by Triple Allaince)
 
-        #Huaxtepec - HUX
-        HUX = {
-            own_control_core = {
-                huaxtepec
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = huaxtepec
-        }
+        #Huaxtepec - HUX - Deleted (Conquered by Triple Allaince)
 
-        #Cuauhnahuac - CUU
-        CUU = {
-            own_control_core = {
-                cuauhnahuac
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = cuauhnahuac
-        }
+        #Cuauhnahuac - CUU - Deleted (Conquered by Triple Allaince)
 
-        #Tlachco - TCH
-        TCH = {
-            own_control_core = {
-                tlachco
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = tlachco
-        }
+        #Tlachco - TCH - Deleted (Conquered by Triple Allaince)
 
         #Oztoman - OZT
         OZT = {
@@ -49198,21 +49070,7 @@ countries = {
             capital = oztoman
         }
 
-        #Temascaltepec - TMS
-        TMS = {
-            own_control_core = {
-                temascaltepec
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = temascaltepec
-        }
+        #Temascaltepec - TMS - Deleted (Conquered by Triple Allaince)
 
         #Tepecoacuilco - TCC
         TCC = {
@@ -49330,25 +49188,11 @@ countries = {
         }
 
         #Tecpantepec - TPT
-        TPT = {
-            own_control_core = {
-                tecpan
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = tecpan
-        }
 
         #Cihuatlan - CIH
         CIH = {
             own_control_core = {
-                cihuatlan
+                cihuatlan tecpan ixtapan
             }
             include = "amerindian_advanced_monarchy_not_nahuatl"
             include = "expl_mesoamerica"
@@ -49525,21 +49369,7 @@ countries = {
             capital = cholollan
         }
 
-        #Xochimilco - XCH
-        XCH = {
-            own_control_core = {
-                xochimilco
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = xochimilco
-        }
+        #Xochimilco - XCH - Deleted (Conquered by Triple Allaince)
 
         #Atocpan - ATO
         ATO = {
@@ -50368,20 +50198,6 @@ countries = {
         }
 
         #Ixtapan - IXA
-        IXA = {
-            own_control_core = {
-                ixtapan
-            }
-            include = "amerindian_advanced_monarchy_not_nahuatl"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = ixtapan
-        }
 
         #Cutzamala - CUZ
         CUZ = {
@@ -50421,53 +50237,11 @@ countries = {
             capital = teloloapan
         }
 
-        #Amaticoztitlan - AMT
-        AMT = {
-            own_control_core = {
-                amaticoztitlan
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = amaticoztitlan
-        }
+        #Amaticoztitlan - AMT - Deleted (Conquered by Triple Allaince)
 
-        #Itzocan - IZO
-        IZO = {
-            own_control_core = {
-                itzocan
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = itzocan
-        }
+        #Itzocan - IZO - Deleted (Conquered by Triple Allaince)
 
-        #Axochiapan - AXC
-        AXC = {
-            own_control_core = {
-                axochiapan
-            }
-            include = "amerindian_advanced_monarchy_no_coast"
-            include = "expl_mesoamerica"
-            government = {
-                type = monarchy
-                heir_selection = cognatic_primogeniture
-                ruler = random
-            }
-            court_language = nahuatl_language
-            capital = axochiapan
-        }
+        #Axochiapan - AXC - Deleted (Conquered by Triple Allaince)
 
         #Tepexi - TPX
         TPX = {

@@ -76,3 +76,12 @@ CUH = { #Cochuah
 	culture_definition = yucatec_culture
 	religion_definition = mayan  
 }
+
+### Aztec / Upper Mesoamerica
+
+AZT = {
+	color = rgb { 16 41 202 }
+
+	culture_definition = nahua_culture
+	religion_definition = nahuatl
+}

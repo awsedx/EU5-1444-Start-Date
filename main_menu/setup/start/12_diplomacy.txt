@@ -562,14 +562,6 @@ diplomacy_manager = {
     dependency = { first = KTS second = DAA subject_type = vassal }
 
     #-------------Mesoamerica------------
-    dependency = { first = TNC second = TEP subject_type = vassal }
-    dependency = { first = TNC second = CUL subject_type = vassal }
-    dependency = { first = TNC second = XCH subject_type = vassal }
-    dependency = { first = TNC second = CLC subject_type = vassal }
-    dependency = { first = TNC second = CUU subject_type = vassal }
-    dependency = { first = TNC second = HUX subject_type = vassal }
-    dependency = { first = TNC second = AMT subject_type = vassal }
-    dependency = { first = TNC second = TZC subject_type = vassal }
 
     dependency = { first = TAR second = ZIN subject_type = vassal }
     dependency = { first = TAR second = TAX subject_type = vassal }
@@ -578,8 +570,50 @@ diplomacy_manager = {
     dependency = { first = TAR second = CRK subject_type = vassal }
     dependency = { first = TAR second = CTE subject_type = vassal }
 
-    scripted_mutual = { first = TNC second = TCP type = alliance }
-    scripted_mutual = { first = TNC second = TTZ type = alliance }
+    scripted_mutual = { first = AZT second = TCP type = alliance } #Aztec
+    scripted_mutual = { first = AZT second = TTZ type = alliance }
+    scripted_mutual = { first = TCP second = TTZ type = alliance }
+    dependency = { first = AZT second = CUL subject_type = vassal }
+    dependency = { first = AZT second = CTL subject_type = vassal }
+    dependency = { first = AZT second = TPX subject_type = vassal }
+    dependency = { first = AZT second = HJZ subject_type = tributary }
+    dependency = { first = AZT second = CLL subject_type = tributary }
+    dependency = { first = AZT second = TCC subject_type = tributary }
+    dependency = { first = AZT second = TLZ subject_type = tributary }
+    dependency = { first = AZT second = TPY subject_type = tributary }
+
+    dependency = { first = OZL second = MCC subject_type = vassal } #Huastec
+    dependency = { first = OZL second = TZH subject_type = vassal }
+    dependency = { first = OZL second = HYC subject_type = vassal }
+    dependency = { first = OZL second = TTC subject_type = tributary }
+    dependency = { first = OZL second = OXT subject_type = tributary }
+    dependency = { first = OZL second = TUT subject_type = tributary }
+    dependency = { first = OZL second = PPT subject_type = tributary }
+    dependency = { first = OZL second = TYL subject_type = tributary }
+
+    dependency = { first = COI second = TPL subject_type = vassal } #Coiztlahuacan
+    dependency = { first = COI second = CCN subject_type = vassal }
+    dependency = { first = COI second = IXL subject_type = vassal }
+    dependency = { first = COI second = TZL subject_type = tributary }
+    dependency = { first = COI second = TOH subject_type = tributary }
+    dependency = { first = COI second = OZU subject_type = tributary }
+
+    dependency = { first = CIH second = YPZ subject_type = tributary } #Other Centralisations
+    dependency = { first = CIH second = IXA subject_type = vassal }
+    dependency = { first = CIH second = AYO subject_type = tributary }
+
+    dependency = { first = XAL second = AZL subject_type = vassal }
+    dependency = { first = XAL second = SNT subject_type = vassal }
+    dependency = { first = XAL second = TZZ subject_type = tributary }
+    dependency = { first = XAL second = TAA subject_type = tributary }
+    dependency = { first = XAL second = GCH subject_type = tributary }
+
+    dependency = { first = MIX second = MHT subject_type = tributary }
+    dependency = { first = MIX second = YCH subject_type = tributary }
+    dependency = { first = MIX second = QIG subject_type = tributary }
+    dependency = { first = MIX second = YAU subject_type = vassal }
+
+
 
     #-------------South America------------
     dependency = { first = INC second = KNA subject_type = vassal }
@@ -771,6 +805,7 @@ diplomacy_manager = {
     #------------Maya--------------
     dependency = { first = XIU second = CMU subject_type = vassal }
 
+    #-----------British Isles--------------
     dependency = { first = CNN second = SLN subject_type = vassal }
     dependency = { first = CNN second = HYM subject_type = vassal }
     dependency = { first = CNN second = BFN subject_type = vassal }
@@ -780,6 +815,7 @@ diplomacy_manager = {
 
     dependency = { first = ENG second = MNN subject_type = vassal }
 
+    #------------Scandinavia--------------
     dependency = { first = DAN second = HTR subject_type = vassal }
     dependency = { first = DAN second = HPL subject_type = vassal }
 
@@ -787,6 +823,7 @@ diplomacy_manager = {
 
     dependency = { first = MUN second = OSN subject_type = vassal }
 
+    #------------Burgandy and Lowlands--------------
     dependency = { first = BUR second = FLA subject_type = fiefdom }
     dependency = { first = BUR second = HAI subject_type = fiefdom }
     dependency = { first = BUR second = BRB subject_type = fiefdom }
@@ -820,7 +857,7 @@ diplomacy_manager = {
     dependency = { first = KLE second = GMK subject_type = vassal }
     dependency = { first = KOL second = PDB subject_type = vassal }
 
-
+    #------------Balkans--------------
     dependency = { first = BYZ second = ATH subject_type = vassal }
     dependency = { first = BYZ second = ACH subject_type = vassal }
 
